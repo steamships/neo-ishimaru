@@ -29,24 +29,35 @@ $enable-gradients: false;
 $enable-shadows: true;
 
 // Customize some defaults
-$body-color: #333;
-$body-bg: #fff;
+$body-color: #000;
+$body-bg: #EAE3CC;
 $border-radius: .4rem;
-$success: #7952b3;
+$link-color: #000;
+$link-hover-color: #645844;
 
 @import "bootstrap/scss/bootstrap"; // Required
 
 //
 // Custom styles
 //
-
+@import "font";
 @import "icon-list";
+@import "header";
 
-body {
-  padding: 3rem 1.5rem;
+*{
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	word-break: break-word;
 }
-
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p,
+ section, header, footer, nav, form, input, div {
+	margin: 0;
+	padding: 0;
+}
+.c-section__heading--title span{
+  @include NotoSerifSB();
+}
 // Style Bootstrap icons
 .bi {
-  fill: currentColor;
+	fill: currentColor;
 }
