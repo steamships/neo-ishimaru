@@ -23,7 +23,8 @@
     "server": "serve --listen 3000",
     "start": "npm-run-all --parallel watch server",
     "watch": "nodemon -e html,scss -x \"npm run css\"",
-    "test": "npm run css-lint && npm run css"
+    "test": "npm run css-lint && npm run css",
+	"webpack": "webpack --watch"
   },
   "keywords": [
     "bootstrap",
@@ -49,6 +50,8 @@
     "purgecss": "^4.0.2",
     "serve": "^11.3.2",
     "stylelint": "^13.12.0",
-    "stylelint-config-twbs-bootstrap": "^2.1.0"
+    "stylelint-config-twbs-bootstrap": "^2.1.0",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
   }
 }
