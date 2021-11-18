@@ -21,7 +21,7 @@
     "css-purge": "purgecss --keyframes --css assets/css/starter.css --content index.html \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output assets/css/",
     "css": "npm-run-all css-compile css-prefix",
     "server": "serve --listen 3000",
-    "start": "npm-run-all --parallel watch server webpack",
+    "start": "npm-run-all --parallel watch webpack",
     "watch": "nodemon -e html,scss -x \"npm run css\"",
     "test": "npm run css-lint && npm run css",
     "webpack": "webpack --watch"
