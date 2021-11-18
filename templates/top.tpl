@@ -23,3 +23,5 @@
 	<li><{$animal[i]}>
 <{/section}>
 </ul>
+
+<a href="./?p=cate">商品一覧</a>
