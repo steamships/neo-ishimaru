@@ -7,30 +7,48 @@
 	font-weight: 200;
 	font-style: normal;
 }
+.TrajanEL {
+	@include TrajanEL();
+}
 @mixin TrajanL {
 	font-family: "trajan-pro-3", serif;
 	font-weight: 300;
 	font-style: normal;
+}
+.TrajanL {
+	@include TrajanL();
 }
 @mixin TrajanR {
 	font-family: "trajan-pro-3", serif;
 	font-weight: 400;
 	font-style: normal;
 }
+.TrajanR {
+	@include TrajanR();
+}
 @mixin TrajanSB {
 	font-family: "trajan-pro-3", serif;
 	font-weight: 600;
 	font-style: normal;
+}
+.TrajanSB {
+	@include TrajanSB();
 }
 @mixin TrajanB {
 	font-family: "trajan-pro-3", serif;
 	font-weight: 700;
 	font-style: normal;
 }
+.TrajanB {
+	@include TrajanB();
+}
 @mixin TrajanBlack {
 	font-family: "trajan-pro-3", serif;
 	font-weight: 900;
 	font-style: normal;
+}
+.TrajanBlack {
+	@include TrajanBlack();
 }
 
 //Noto Serif JP
@@ -40,8 +58,14 @@
 	font-weight: 300;
 	font-style: normal;
 }
+.NotoSerifL {
+	@include NotoSerifL();
+}
 @mixin NotoSerifSB {
 	font-family: 'Noto Serif JP', serif;
 	font-weight: 600;
 	font-style: normal;
+}
+.NotoSerifSB {
+	@include NotoSerifSB();
 }

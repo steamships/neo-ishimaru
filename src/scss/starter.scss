@@ -29,11 +29,21 @@ $enable-gradients: false;
 $enable-shadows: true;
 
 // Customize some defaults
+$main-color: #000;
+$secondar-color: #645844;
+$third-color: #EAE3CC;
+$forth-color: #CAC2AC;
 $body-color: #000;
-$body-bg: #EAE3CC;
+$body-bg: $third-color;
 $border-radius: .4rem;
-$link-color: #000;
-$link-hover-color: #645844;
+$primary: $main-color;
+$secondary: $secondar-color;
+$success: $third-color;
+$info: #fff;
+$link-color: $main-color;
+$link-hover-color: $secondar-color;
+$navbar-nav-link-padding-x: 0rem;
+$navbar-brand-margin-end: 0rem;
 
 @import "bootstrap/scss/bootstrap"; // Required
 
@@ -44,6 +54,8 @@ $link-hover-color: #645844;
 @import "icon-list";
 @import "header";
 
+$sp: 768px;//ブレークポイント
+
 *{
 	box-sizing: border-box;
 	-webkit-appearance: none;
@@ -53,6 +65,9 @@ html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p,
  section, header, footer, nav, form, input, div {
 	margin: 0;
 	padding: 0;
+}
+body {
+	padding-top: 9.375vw;
 }
 .c-section__heading--title span{
   @include NotoSerifSB();

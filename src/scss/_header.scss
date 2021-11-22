@@ -1,2 +1,39 @@
 //ヘッダー箇所
 
+.header-nav{
+	padding: 2.083vw 2.969vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	.main-logo {
+		width: 10.885vw;
+		margin-right: 7.552vw;
+	}
+}
+.main-nav {
+	margin-top: 0.625vw;
+	li {
+		margin-right: 4.688vw;
+		&:last-child {
+			margin-right: 0;
+		}
+		a {
+			padding: 0;
+			font-size: 0.938vw;
+			span {
+				font-size: 0.729vw;
+			}
+		}
+	}
+}
+.navbar-icons {
+	margin-top: 0.625vw;
+	.header-icon-list {
+		margin: 0 0.833vw;
+		.header-icon {
+			width: auto;
+			height: 1.302vw;
+		}
+	}
+}
