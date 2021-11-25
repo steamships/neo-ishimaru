@@ -45,6 +45,8 @@ $link-hover-color: $secondar-color;
 $navbar-nav-link-padding-x: 0rem;
 $navbar-brand-margin-end: 0rem;
 
+$sp: 768px;//ブレークポイント
+
 @import "bootstrap/scss/bootstrap"; // Required
 
 //
@@ -54,7 +56,7 @@ $navbar-brand-margin-end: 0rem;
 @import "icon-list";
 @import "header";
 
-$sp: 768px;//ブレークポイント
+
 
 *{
 	box-sizing: border-box;
@@ -65,9 +67,6 @@ html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p,
  section, header, footer, nav, form, input, div {
 	margin: 0;
 	padding: 0;
-}
-body {
-	padding-top: 9.375vw;
 }
 .c-section__heading--title span{
   @include NotoSerifSB();
