@@ -1,22 +1,12 @@
 <{*共通テンプレート*}>
-<script>
-// headタグの中にviewportのmetaタグを入れる
-(function () {
-	var jsScript = document.createElement('script');
-	jsScript.setAttribute('type', 'module');
-	jsScript.setAttribute('src', "assets/js/bundle.js?ver=<{$smarty.now|date_format:'%Y%m%d%H%M%S'}>");
-	document.getElementsByTagName('head')[0].appendChild(jsScript);
 
-	var cssLink = document.createElement('link');
-	cssLink.setAttribute('rel', 'stylesheet');
-	cssLink.setAttribute('type', 'text/css');
-	cssLink.setAttribute('href', "assets/css/starter.css?ver=<{$smarty.now|date_format:'%Y%m%d%H%M%S'}>");
-	document.getElementsByTagName('head')[0].appendChild(cssLink);
+<{* assetsの存在でローカルと本番のURLを切り替える *}>
+<{if !$assets}>
+<{assign "assets" "https://cdn.jsdelivr.net/gh/steamships/neo-ishimaru@main/assets"}>
+<{/if}>
 
-	var viewport = document.createElement('meta');
-	viewport.setAttribute('name', 'viewport');
-	viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
-	document.getElementsByTagName('head')[0].appendChild(viewport);
-}());
-</script>
+<script src="<{$assets}>/js/bundle.js?ver=<{$smarty.now|date_format:'%Y%m%d%H%M%S'}>" type="module"></script>
+<link rel="stylesheet" href="<{$assets}>/css/starter.css?ver=<{$smarty.now|date_format:'%Y%m%d%H%M%S'}>" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
 <{include file=$file_name}>
