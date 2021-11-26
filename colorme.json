@@ -1,4 +1,5 @@
 {
+	"assets": "./assets",
 	"hello": "Hello, Smarty!!",
 	"today": "2021/11/18",
 	"animal": [
