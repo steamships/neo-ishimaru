@@ -4,6 +4,16 @@ require_once 'vendor/autoload.php';
 ini_set('date.timezone', 'Asia/Tokyo');
 define('MY_TITLE', 'TEST');
 
+// componentを結合して.tpl生成
+$components = parse_ini_file('components.ini');
+foreach( $components as $name => $data ) {
+	$str = '';
+	foreach( $data as $file ) {
+		$str .= file_get_contents( "./templates/component/{$file}.tpl" );
+	}
+	file_put_contents( "./templates/{$name}.tpl", $str );
+}
+
 $smarty = new Smarty();
 $smarty->setTemplateDir('./templates/');
 
