@@ -9,7 +9,7 @@ $components = parse_ini_file('components.ini');
 foreach( $components as $name => $data ) {
 	$str = '';
 	foreach( $data as $file ) {
-		$str .= file_get_contents( "./templates/component/{$file}.tpl" );
+		$str .= file_get_contents( "./component/{$file}.tpl" );
 	}
 	file_put_contents( "./templates/{$name}.tpl", $str );
 }
