@@ -16,6 +16,26 @@
 
 	<dt>Smarty version
 	<dd><{$smarty.version}>
+
+	<{foreach from=$category item=big_cate name=key}>
+	<{if $sub_category[$big_cate.bid] != ""}>
+	<li>
+		<a class="gnav_open"><{$big_cate.name}></a>
+		<ul class="nav_hidden">
+		<{foreach from=$sub_category[$big_cate.bid] item=sub_cate name=key}>
+			<li>
+				<a href="<{$sub_cate.link_url}>"><{$sub_cate.name}></a>
+			</li>
+		<{/foreach}>
+		</ul>
+	</li>
+	<{else}>
+	<li>
+		<a href="<{$big_cate.link_url}>"><{$big_cate.name}></a>
+	</li>
+	<{/if}>
+	<{/foreach}>
+
 <dl>
 
 <{* 配列を逆順でループ(step=-1だから) *}>

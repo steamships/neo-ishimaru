@@ -16,7 +16,7 @@
   \***************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"header\": function() { return /* binding */ header; }\n/* harmony export */ });\nconst header = () => {\n\tconsole.log('header');\n\n\t//ハンバーガーメニューの処理\n\t$(\".openbtn\").click(function () {\n\t\t$(this).toggleClass('active');\n\t});\n\n\t//ヘッダーの高さを取得→bodyのpadding-topへ設定\n\tconst headerHight = $('.header-nav').outerHeight();\n\t$('body').css('padding-top', headerHight+10);\n}\n\n\n//# sourceURL=webpack://bootstrap-npm-starter/./src/js/_header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"header\": function() { return /* binding */ header; }\n/* harmony export */ });\nconst header = () => {\n\tconsole.log('header');\n\n\t//ヘッダーの高さを取得→bodyのpadding-topへ設定\n\tconst headerHight = $('.header-nav').outerHeight();\n\t$('body').css('padding-top', headerHight + 10 + \"px\");\n\n\t//ハンバーガーメニューの処理\n\t$(\".openbtn\").click(function () {\n\t\t$(this).toggleClass('active');\n\t});\n\n\t//\n\t$('.main-nav .nav-item').hover(\n\t\tfunction(){\n\t\t\t$(this).find('.sub-nav').toggleClass('show');\n\t\t}\n\t);\n}\n\n\n//# sourceURL=webpack://bootstrap-npm-starter/./src/js/_header.js?");
 
 /***/ }),
 
