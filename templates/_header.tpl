@@ -13,6 +13,7 @@
 <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 <body>
+<<<<<<< HEAD
 <!-- Header Start -->
 <header id="header">
 	<nav class="navbar navbar-expand-md primary navbar-light fixed-top mb-3 header-nav flex-wrap">
@@ -76,3 +77,5 @@
 	</nav>
 </header>
 <!-- Header End -->
+=======
+>>>>>>> main
