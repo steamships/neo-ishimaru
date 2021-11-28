@@ -35,7 +35,7 @@ $third-color: #EAE3CC;
 $forth-color: #CAC2AC;
 $body-color: #000;
 $body-bg: $third-color;
-$border-radius: .4rem;
+$border-radius: 0;
 $primary: $main-color;
 $secondary: $secondar-color;
 $success: $third-color;
@@ -75,9 +75,18 @@ $sp: 768px;//ブレークポイント
 //
 // Custom styles
 //
+// 画面幅を1920pxとしてem, vwに変換
+$baseWidth : 1920;
+@function rem($pixels) {
+    @return $pixels / $baseWidth * 100rem;
+}
+@function vw($pixels) {
+    @return $pixels / $baseWidth * 100vw;
+}
 @import "font";
 @import "icon-list";
 @import "header";
+@import "footer";
 
 
 
