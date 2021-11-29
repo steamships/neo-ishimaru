@@ -68,6 +68,14 @@ $spacers: (
 	20: $spacer * 19,
 );
 
+// カルーセル
+$carousel-indicator-width: 8rem;
+$carousel-indicator-height: 4px;
+$carousel-indicator-spacer: 13px;
+$carousel-indicator-opacity: .8;
+$carousel-indicator-hit-area-height: 0;
+$box-shadow: 0 0 8px #000;
+
 $sp: 768px;//ブレークポイント
 
 @import "bootstrap/scss/bootstrap"; // Required
@@ -83,10 +91,12 @@ $baseWidth : 1920;
 @function vw($pixels) {
     @return $pixels / $baseWidth * 100vw;
 }
+
 @import "font";
 @import "icon-list";
 @import "header";
 @import "footer";
+@import "top";
 
 
 
