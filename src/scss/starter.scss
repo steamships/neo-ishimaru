@@ -92,12 +92,13 @@ $baseWidth : 1920;
     @return $pixels / $baseWidth * 100vw;
 }
 
+@import "mixin-bsicon";
 @import "font";
 @import "icon-list";
 @import "header";
 @import "footer";
 @import "top";
-
+@import "sidebar";
 
 
 *{

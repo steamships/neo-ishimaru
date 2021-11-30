@@ -1,0 +1,35 @@
+#sidebar {
+	width: vw(321);
+	margin-left: vw(200);
+	.nav-item {
+		height: vw(31);
+		background: radial-gradient(white 50%, transparent);
+	}
+	.chevron::after {
+		@include bsicon("chevron-right");
+		margin-right: 1.5rem;
+	}
+	.bb-1 {
+		width: 95%;
+		border-bottom: solid thin;
+	}
+	.bb-d {
+		border-bottom: dashed thin;
+	}
+	.gift {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.instagram::after {
+		@include bsicon("instagram");
+	}
+	.facebook::after {
+		@include bsicon("facebook");
+	}
+	.mb-10px {
+		margin-bottom: rem(10);
+	}
+	.h-55px {
+		height: vw(55);
+	}
+}
