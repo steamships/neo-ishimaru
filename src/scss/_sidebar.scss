@@ -1,10 +1,8 @@
 #sidebar {
 	width: vw(321);
-	margin-left: vw(200);
 
 	@media screen and (max-width:$sp) {
 		width: 100%;
-		margin-left: 0;
 	}
 
 	.nav-item {
@@ -15,13 +13,12 @@
 
 	.chevron-right {
 		position: relative;
-	}
-
-	.chevron-right::after {
-		@include bsicon("chevron-right");
-		position: absolute;
-		margin-right: 1.5rem;
-		right: .5rem;
+		&::after {
+			@include bsicon("chevron-right");
+			position: absolute;
+			margin-right: 1.5rem;
+			right: .5rem;
+		}
 	}
 
 	.bb-1 {

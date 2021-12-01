@@ -23,22 +23,19 @@ footer {
 			margin-top: rem(60);
 			margin-bottom: rem(30);
 		}
-	}
-
-	h2::before,
-	h2::after {
-		content: '';
-		flex-grow: 1;
-		height: 1px;
-		background: #000;
-	}
-
-	h2::before {
-		margin-right: 2rem;
-	}
-
-	h2::after {
-		margin-left: 2rem;
+		&::before,
+		&::after {
+			content: '';
+			flex-grow: 1;
+			height: 1px;
+			background: #000;
+		}
+		&::before {
+			margin-right: 2rem;
+		}
+		&::after {
+			margin-left: 2rem;
+		}
 	}
 
 	h3 {

@@ -90,6 +90,12 @@
 </header>
 <!-- Header End -->
 <{include file=$file_name}>
+	</main>
+	<{* // メイン *}>
+
+</div>
+<{* // wrapper *}>
+
 <{* Footer *}>
 <footer>
 	<{* 最近チェックした商品 *}>

@@ -1,7 +1,7 @@
 <{* サイドバー *}>
-<div id="sidebar">
+<nav id="sidebar">
 	<{* PC *}>
-	<div class="d-none d-md-block mt-8">
+	<div class="d-none d-md-block">
 		<ul class="nav nav-pills flex-column mb-auto">
 			<{* お届け目安 *}>
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
@@ -281,5 +281,5 @@
 			</div>
 		</div>
 	</div>
-</div>
+</nav>
 <{* // サイドバー *}>

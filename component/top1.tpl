@@ -1,4 +1,6 @@
-<div class="carousel-width">
+<{* wrapper *}>
+<div class="wrapper">
+	<{* スライド *}>
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="shadow active"></li>
@@ -20,7 +22,10 @@
 			</div>
 		</div>
 	</div>
-</div>
+	<{* // スライド *}>
+
+	<{* メイン *}>
+	<main class="d-flex justify-content-between mt-8">
 <!-- <{* 普通の変数 *}>
 	<p>
 		<{$hello}>
