@@ -74,12 +74,13 @@
 															<li>
 																<{$animal[i]}>
 																	<{/section}> </ul> <a href="./?p=cate">商品一覧</a> -->
-<!-- サイドバー -->
-<section id="sidebar" class="d-none d-sm-block mt-8">
-	<div class="d-flex flex-column flex-shrink-0">
+<{* サイドバー *}>
+<div id="sidebar">
+	<{* PC *}>
+	<div class="d-none d-md-block mt-8">
 		<ul class="nav nav-pills flex-column mb-auto">
-			<!-- お届け目安 -->
-			<li class="nav-item mb-1 NotoSerifSB fs-16px">
+			<{* お届け目安 *}>
+			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				お届け目安
 			</li>
 			<li class="NotoSerifL fs-16px">
@@ -91,10 +92,10 @@
 				</span><span class="NotoSerifL fs-16px">
 					<{$smarty.now|date_format:'(%a)'}>
 				</span></li>
-			<li class="nav-item mb-1 NotoSerifSB fs-16px">
+			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				お電話でのお問い合わせ・ご注文
 			</li>
-			<!-- TEL -->
+			<{* TEL *}>
 			<li>
 				<a href="tel:0956-85-7777" class="nav-link TrajanB fs-26px p-0">
 					<img src="https://img07.shop-pro.jp/PA01437/442/etc/neo-tel.png?cmsp_timestamp=20211129193648"
@@ -103,8 +104,8 @@
 				</a>
 			</li>
 			<li class="NotoSerifL fs-16px ms-2 mb-2">受付 9:00～18：00 (木曜定休)</li>
-			<!-- FAX -->
-			<li class="nav-item mb-1 NotoSerifSB fs-16px">
+			<{* FAX *}>
+			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				FAXでのお問い合わせ・ご注文
 			</li>
 			<li>
@@ -116,19 +117,19 @@
 			</li>
 			<li class="NotoSerifL fs-18px mt-1 mb-2">
 				<a class="w-100 px-0 py-1 btn btn-outline-secondary" href="#" role="button">
-					<div class="d-flex justify-content-between align-items-center ps-2 ls-1 chevron">
+					<div class="d-flex justify-content-between align-items-center ps-2 ls-1 chevron-right">
 						FAX用紙ダウンロード
 					</div>
 				</a>
 			</li>
-			<!-- MAIL -->
-			<li class="nav-item mb-1 NotoSerifSB fs-16px">
+			<{* MAIL *}>
+			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				メールでのお問い合わせ・ご注文
 			</li>
 			<li>
-				<a class="text-decoration-none"
+				<a class=""
 					href="https://ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.102523969.1504273749.1638167996-747911806.1637750824">
-					<div class="d-flex justify-content-start align-items-center chevron">
+					<div class="d-flex justify-content-start align-items-center chevron-right">
 						<div>
 							<img class="pe-1"
 								src="https://img07.shop-pro.jp/PA01437/442/etc/neo-mail.png?cmsp_timestamp=20211129201304"
@@ -141,7 +142,7 @@
 					</div>
 				</a>
 			</li>
-			<!-- プレゼント -->
+			<{* プレゼント *}>
 			<li>
 				<a href="">
 					<img class="pt-2"
@@ -149,12 +150,12 @@
 						alt="" width="321">
 				</a>
 			</li>
-			<!-- お役様の声 -->
+			<{* お役様の声 *}>
 			<li class="mt-2">
 				<div class="bb-1 mx-auto pb-1">
-					<a class="text-decoration-none"
+					<a class=""
 						href="https://ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.102523969.1504273749.1638167996-747911806.1637750824">
-						<div class="d-flex justify-content-start align-items-center chevron">
+						<div class="d-flex justify-content-start align-items-center chevron-right">
 							<div class="me-auto NotoSerifSB fs-20px ls-1">
 								お役様の声
 							</div>
@@ -162,12 +163,11 @@
 					</a>
 				</div>
 			</li>
-			<!-- 会員登録 -->
+			<{* 会員登録 *}>
 			<li>
 				<div class="bb-1 mx-auto pb-1">
-					<a class="text-decoration-none"
-						href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
-						<div class="d-flex justify-content-start align-items-center chevron">
+					<a class="" href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
+						<div class="d-flex justify-content-start align-items-center chevron-right">
 							<div class="me-auto NotoSerifSB fs-20px ls-1">
 								ISHIMARU会員登録
 							</div>
@@ -175,12 +175,11 @@
 					</a>
 				</div>
 			</li>
-			<!-- メルマガ -->
+			<{* メルマガ *}>
 			<li>
 				<div class="bb-1 mx-auto pb-1">
-					<a class="text-decoration-none"
-						href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
-						<div class="d-flex justify-content-start align-items-center chevron">
+					<a class="" href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
+						<div class="d-flex justify-content-start align-items-center chevron-right">
 							<div class="me-auto NotoSerifSB fs-20px ls-1">
 								<div class="NotoSerifL fs-16px ls-1">\お得な情報がいっぱい！/</div>
 								メルマガ会員募集中
@@ -189,11 +188,11 @@
 					</a>
 				</div>
 			</li>
-			<!-- ご利用ガイド -->
+			<{* ご利用ガイド *}>
 			<li>
-				<div class="mx-auto pb-2">
-					<a class="text-decoration-none" href="https://www.saga-ishimaru.co.jp/?mode=sk">
-						<div class="d-flex justify-content-start align-items-center chevron">
+				<div class="w-95 mx-auto pb-1">
+					<a class="" href="https://www.saga-ishimaru.co.jp/?mode=sk">
+						<div class="d-flex justify-content-start align-items-center chevron-right">
 							<div class="me-auto NotoSerifSB fs-20px ls-1">
 								ご利用ガイド
 							</div>
@@ -201,8 +200,8 @@
 					</a>
 				</div>
 			</li>
-			<!-- ギフト -->
-			<li class="nav-item mb-1 NotoSerifSB fs-16px">
+			<{* ギフト *}>
+			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				<span class="TrajanB fs-18px ls-1">GIFT SERVICE</span> ギフトについて
 			</li>
 			<li class="NotoSerifSB ls-1">
@@ -222,27 +221,23 @@
 					</div>
 				</div>
 			</li>
-			<!-- about -->
+			<{* about *}>
 			<li>
 				<a href="">
 					<img src="https://img07.shop-pro.jp/PA01437/442/etc/neo-about-pc.png?cmsp_timestamp=20211130183540"
 						alt="">
 				</a>
 			</li>
-			<!-- SNS -->
+			<{* SNS *}>
 			<li>
 				<div class="d-flex justify-content-end pt-2">
-					<button type="button" class="btn btn-link pe-0 instagram fs-5">
-						<a href="">
-						</a>
-					</button>
-					<button type="button" class="btn btn-link pe-0 facebook fs-5">
-						<a href="">
-						</a>
-					</button>
+					<a href="https://www.instagram.com/suguru_ishimaru/" target="_blank" class="btn btn-link pe-0 instagram fs-5">
+					</a>
+					<a href="https://www.facebook.com/ishimaru.meet/" target="_blank" class="btn btn-link pe-0 facebook fs-5">
+					</a>
 				</div>
 			</li>
-			<!-- ポータル -->
+			<{* ポータル *}>
 			<li class="mt-2 mb-1 h-55px">
 				<div class="d-flex justify-content-center align-items-center text-center NotoSerifSB fs-20px ls-1">
 					<div class="pe-2">\</div>
@@ -251,27 +246,116 @@
 				</div>
 			</li>
 			<li class="NotoSerifL fs-18px">
-				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary" href="https://www.rakuten.ne.jp/gold/f413275-yoshinogari/#/" role="button">
-					<div class="d-flex justify-content-between align-items-center ps-2 ls-1 chevron">
+				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
+					href="https://www.rakuten.ne.jp/gold/f413275-yoshinogari/#/" role="button">
+					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						楽天ふるさと納税
 					</div>
 				</a>
 			</li>
 			<li class="NotoSerifL fs-18px">
-				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary" href="https://www.furusato-tax.jp/city/product/41327" role="button">
-					<div class="d-flex justify-content-between align-items-center ps-2 ls-1 chevron">
+				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
+					href="https://www.furusato-tax.jp/city/product/41327" role="button">
+					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						ふるさとチョイス
 					</div>
 				</a>
 			</li>
 			<li class="NotoSerifL fs-18px">
-				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary" href="https://furunavi.jp/Municipal/Product/Search?municipalid=1539" role="button">
-					<div class="d-flex justify-content-between align-items-center ps-2 ls-1 chevron">
+				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
+					href="https://furunavi.jp/Municipal/Product/Search?municipalid=1539" role="button">
+					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						ふるなび
 					</div>
 				</a>
 			</li>
 		</ul>
 	</div>
-</section>
-<!-- // サイドバー -->
+	<{* // PC *}>
+
+	<{* SP *}>
+	<div class="d-md-none">
+		<{* about *}>
+		<a href="">
+			<img class="mx-auto d-block mt-4 mb-2"
+				src="https://img07.shop-pro.jp/PA01437/442/etc/neo-about-pc.png?cmsp_timestamp=20211130183540" alt=""
+				width="335">
+		</a>
+		<{* プレゼント *}>
+		<a href="">
+			<img class="w-100 d-block mt-4 mb-2"
+				src="https://img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20211129202928" alt="">
+		</a>
+		<{* 3列*}>
+		<div class="NotoSerifSB fs-20px ls-1 text-center">
+			<{* 会員登録 *}>
+			<div class="bb-1 mx-auto py-2">
+				<a class="" href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
+					<div class="me-auto chevron-right">
+						ISHIMARU会員登録
+					</div>
+				</a>
+			</div>
+			<{* メルマガ *}>
+			<div class="bb-1 mx-auto py-1">
+				<a class="" href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
+					<div class="me-auto chevron-right">
+						<div class="NotoSerifL fs-16px">\お得な情報がいっぱい！/</div>
+						メルマガ会員募集中
+					</div>
+				</a>
+			</div>
+			<{* ご利用ガイド *}>
+			<div class="bb-1 mx-auto py-2">
+				<a class="" href="https://www.saga-ishimaru.co.jp/?mode=sk">
+					<div class="me-auto chevron-right"></div>
+					ご利用ガイド
+				</a>
+			</div>
+		</div>
+		<{* // 3列*}>
+		<{* ポータル *}>
+		<div class="mt-3 mb-1">
+			<div class="d-flex justify-content-center align-items-center text-center NotoSerifSB fs-20px ls-1">
+				<div class="pe-2">\</div>
+				<div>ふるさと納税からも<br>お申し込みいただけます</div>
+				<div class="ps-2">/</div>
+			</div>
+		</div>
+		<div class="w-75 mx-auto NotoSerifL fs-18px">
+			<a class="d-block mb-10px px-0 py-1 btn btn-secondary"
+				href="https://www.rakuten.ne.jp/gold/f413275-yoshinogari/#/" role="button">
+				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
+					楽天ふるさと納税
+				</div>
+			</a>
+			<a class="d-block mb-10px px-0 py-1 btn btn-secondary" href="https://www.furusato-tax.jp/city/product/41327"
+				role="button">
+				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
+					ふるさとチョイス
+				</div>
+			</a>
+			<a class="d-block mb-10px px-0 py-1 btn btn-secondary"
+				href="https://furunavi.jp/Municipal/Product/Search?municipalid=1539" role="button">
+				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
+					ふるなび
+				</div>
+			</a>
+		</div>
+		<{* ギフト *}>
+		<div class="NotoSerifSB fs-18px ls-1 text-center mt-2 gift-sp">
+			想いを寄せて、大切な人に。
+		</div>
+		<div class="d-flex justify-content-evenly align-items-center ls-1 pt-1 px-4">
+			<div>
+				<img src="https://img07.shop-pro.jp/PA01437/442/etc/neo-gift-pc.png?cmsp_timestamp=20211130182417"
+					alt="">
+			</div>
+			<div class="NotoSerifL fs-31px ls-1">
+				<div class="">熨斗</div>
+				<div class="">無料対応◎</div>
+			</div>
+		</div>
+	</div>
+</div>
+<{* // サイドバー *}>

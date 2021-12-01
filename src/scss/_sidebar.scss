@@ -1,35 +1,72 @@
 #sidebar {
 	width: vw(321);
 	margin-left: vw(200);
+
+	@media screen and (max-width:$sp) {
+		width: 100%;
+		margin-left: 0;
+	}
+
 	.nav-item {
-		height: vw(31);
-		background: radial-gradient(white 50%, transparent);
+		padding-top: rem(6);
+		padding-bottom: rem(6);
+		background: radial-gradient(circle, white 85%, transparent);
 	}
-	.chevron::after {
+
+	.chevron-right {
+		position: relative;
+	}
+
+	.chevron-right::after {
 		@include bsicon("chevron-right");
+		position: absolute;
 		margin-right: 1.5rem;
+		right: .5rem;
 	}
+
 	.bb-1 {
 		width: 95%;
 		border-bottom: solid thin;
+
+		@media screen and (max-width:$sp) {
+			width: 100%;
+		}
 	}
+
+	.w-95 {
+		width: 95%;
+	}
+
 	.bb-d {
 		border-bottom: dashed thin;
 	}
+
 	.gift {
 		width: 90%;
 		margin: 0 auto;
 	}
+
+	.gift-sp {
+		background: radial-gradient(circle, white 85%, transparent);
+	}
+
 	.instagram::after {
 		@include bsicon("instagram");
 	}
+
 	.facebook::after {
 		@include bsicon("facebook");
 	}
+
 	.mb-10px {
 		margin-bottom: rem(10);
 	}
+
 	.h-55px {
 		height: vw(55);
+	}
+
+	a {
+		text-decoration: none;
 	}
 }
