@@ -1,0 +1,17 @@
+.wrapper {
+	width: vw(1520);
+	@media screen and (max-width:$sp) {
+		width: 100%;
+	}
+	margin: 0 auto;
+}
+.carousel-width {
+	.carousel-indicators {
+		margin-bottom: rem(53);
+	}
+	.carousel-indicators {
+		.active {
+			background-color: #000;
+		}
+	}
+}

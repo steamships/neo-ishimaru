@@ -1,0 +1,1808 @@
+{
+	"assets": "./assets",
+	"hello": "Hello, Smarty!!",
+	"today": "2021/11/18",
+	"animal": [
+		"うさぎ",
+		"ねこ",
+		"いぬ"
+	],
+	"shop_name": "ショップのタイトル",
+	"home_url": "./",
+	"logo": "https://img21.shop-pro.jp/PA01437/442/etc/Logo_Black.png",
+	"e_copyright": "コピーライト",
+	"cart_url": "カートに入れるのURL",
+	"view_cart_url": "「カートを見る」のURL",
+	"view_inq_url": "「お問合せ」のURL",
+	"view_myaccount_url": "「マイアカウント」のURL",
+	"mailmaga_url": "「メルマガ登録・解除」のURL",
+	"members_login_url": "「会員専用ページログイン・ログアウト」のURL",
+	"members_regi_url": "「新規会員登録」のURL",
+	"product_search_url": "「商品検索」のURL",
+	"product_search_mode": "「商品検索」のモード",
+	"rss_url": "「RSS」のURL",
+	"atom_url": "「ATOM」のURL",
+	"sk_url": "「特定商取引法」のURL",
+	"delivery_url": "「配送方法」のURL",
+	"payment_url": "「お支払方法」のURL",
+	"privacy_url": "「プライバシーポリシー」のURL",
+	"shop_stop_flg": false,
+	"members_register_flg": true,
+	"members_use_flg": true,
+	"members_login_flg": true,
+	"members_login_name": "大野洋平",
+	"members_id": "123456789",
+	"shoppoint_use_flg": false,
+	"manager_img": "店長画像URL",
+	"manager_name": "店長の名前",
+	"manager_url": "店長ブログURL",
+	"manager_memo": "店長からのコメント",
+	"twitter_url": "Twitterアカウント",
+	"instagram_url": "Instagramアカウント",
+	"facebook_url": "Facebookアカウント",
+	"youtube_url": "Youtubeアカウント",
+	"free_area_flg": true,
+	"current_freepage_title": "表示されているフリーページの名前",
+	"free1_link": "フリーページ１のURL",
+	"free1_title": "フリーページ１のタイトル",
+	"free2_link": "フリーページ２のURL",
+	"free2_title": "フリーページ２のタイトル",
+	"free3_link": "フリーページ３のURL",
+	"free3_title": "フリーページ３のタイトル",
+	"free4_link": "フリーページ４のURL",
+	"free4_title": "フリーページ４のタイトル",
+	"free5_link": "フリーページ５のURL",
+	"free5_title": "フリーページ５のタイトル",
+	"free6_link": "フリーページ６のURL",
+	"free6_title": "フリーページ６のタイトル",
+	"free7_link": "フリーページ７のURL",
+	"free7_title": "フリーページ７のタイトル",
+	"free8_link": "フリーページ８のURL",
+	"free8_title": "フリーページ８のタイトル",
+	"free9_link": "フリーページ９のURL",
+	"free9_title": "フリーページ９のタイトル",
+	"free10_link": "フリーページ１０のURL",
+	"free10_title": "フリーページ１０のタイトル",
+	"freepage": [
+		{
+			"link_url": "フリーページ１のURL",
+			"page_title": "フリーページ１のタイトル"
+		},
+		{
+			"link_url": "フリーページ2のURL",
+			"page_title": "フリーページ2のタイトル"
+		},
+		{
+			"link_url": "フリーページ3のURL",
+			"page_title": "フリーページ3のタイトル"
+		},
+		{
+			"link_url": "フリーページ4のURL",
+			"page_title": "フリーページ4のタイトル"
+		},
+		{
+			"link_url": "フリーページ5のURL",
+			"page_title": "フリーページ5のタイトル"
+		},
+		{
+			"link_url": "フリーページ6のURL",
+			"page_title": "フリーページ6のタイトル"
+		},
+		{
+			"link_url": "フリーページ7のURL",
+			"page_title": "フリーページ7のタイトル"
+		},
+		{
+			"link_url": "フリーページ8のURL",
+			"page_title": "フリーページ8のタイトル"
+		},
+		{
+			"link_url": "フリーページ9のURL",
+			"page_title": "フリーページ9のタイトル"
+		},
+		{
+			"link_url": "フリーページ10のURL",
+			"page_title": "フリーページ10のタイトル"
+		}
+	],
+	"bid_link": "大カテゴリーURL、またはグループURL（グループ別商品一覧ページ表示時）",
+	"bid_name": "大カテゴリー名称、またはグループ名称（グループ別商品一覧ページ表示時）",
+	"sid_link": "小カテゴリーURL",
+	"sid_name": "小カテゴリー名称",
+	"product_link": "商品URL",
+	"product_name": "商品名称",
+	"category": [
+		{
+			"bid": 0,
+			"link_url": "カテゴリー1別商品一覧のURL",
+			"img_url": "カテゴリー1画像のURL",
+			"name": "カテゴリー1名称"
+		},
+		{
+			"bid": 1,
+			"link_url": "カテゴリー2別商品一覧のURL",
+			"img_url": "カテゴリー2画像のURL",
+			"name": "カテゴリー2名称"
+		},
+		{
+			"bid": 2,
+			"link_url": "カテゴリー3別商品一覧のURL",
+			"img_url": "カテゴリー3画像のURL",
+			"name": "カテゴリー3名称"
+		},
+		{
+			"bid": 3,
+			"link_url": "カテゴリー4別商品一覧のURL",
+			"img_url": "カテゴリー4画像のURL",
+			"name": "カテゴリー4名称"
+		}
+	],
+	"group": [
+		{
+			"id": "グループ1ID",
+			"link_url": "グループ1別商品一覧のURL",
+			"img_url": "グループ1画像のURL",
+			"name": "グループ1名称"
+		},
+		{
+			"id": "グループ2ID",
+			"link_url": "グループ2別商品一覧のURL",
+			"img_url": "グループ2画像のURL",
+			"name": "グループ2名称"
+		},
+		{
+			"id": "グループ3ID",
+			"link_url": "グループ3別商品一覧のURL",
+			"img_url": "グループ3画像のURL",
+			"name": "グループ3名称"
+		},
+		{
+			"id": "グループ4ID",
+			"link_url": "グループ4別商品一覧のURL",
+			"img_url": "グループ4画像のURL",
+			"name": "グループ4名称"
+		}
+	],
+	"incart": [
+		{
+			"id": "商品1ID",
+			"name": "商品1名",
+			"link_url": "商品1詳細ページのURL",
+			"product_num": "数量"
+		},
+		{
+			"id": "商品2ID",
+			"name": "商品2名",
+			"link_url": "商品2詳細ページのURL",
+			"product_num": "数量"
+		},
+		{
+			"id": "商品3ID",
+			"name": "商品3名",
+			"link_url": "商品3詳細ページのURL",
+			"product_num": "数量"
+		}
+	],
+	"recommend_num": "おすすめ商品個数",
+	"recommend": [
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		}
+	],
+	"seller_num": "売れ筋商品個数",
+	"seller": [
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		}
+	],
+	"shop": {
+		"shop_name": "販売業者",
+		"manager_name": "運営統括責任者名",
+		"postal": "郵便番号",
+		"address": "住所",
+		"price": "商品代金以外の料金の説明",
+		"apply_limit": "申込有効期限",
+		"bad_product": "不良品",
+		"sales_num": "販売数量",
+		"delivery_time": "引渡し時期",
+		"payment_way": "お支払方法",
+		"payment_limit": "お支払期限",
+		"return_limit": "返品期限",
+		"return_price": "返品送料",
+		"license": "資格･免許",
+		"service_name": "屋号またはサービス名",
+		"tel": "電話番号",
+		"email": "公開メールアドレス",
+		"hp_address": "ホームページアドレス"
+	},
+	"sk_payment": [
+		{
+			"name": "決済名称",
+			"img_url": "画像URL",
+			"card_img": "カードイメージ",
+			"fee_str": "（未使用）",
+			"other": "備考"
+		},
+		{
+			"name": "決済名称",
+			"img_url": "画像URL",
+			"card_img": "カードイメージ",
+			"fee_str": "（未使用）",
+			"other": "備考"
+		},
+		{
+			"name": "決済名称",
+			"img_url": "画像URL",
+			"card_img": "カードイメージ",
+			"fee_str": "（未使用）",
+			"other": "備考"
+		}
+	],
+	"sk_delivery": [
+		{
+			"name": "配送方法名称",
+			"img_url": "画像URL",
+			"other": "備考"
+		},
+		{
+			"name": "配送方法名称",
+			"img_url": "画像URL",
+			"other": "備考"
+		},
+		{
+			"name": "配送方法名称",
+			"img_url": "画像URL",
+			"other": "備考"
+		}
+	],
+	"paperboy_url": "弊社HPのURL",
+	"paperboy_name": "弊社の社名",
+	"paperboy_privacy_url": "弊社プライバシーポリシーへのリンクURL",
+	"cmsp_url": "「カラーミーショップ」HPへのリンク",
+	"cmsp_name": "「カラーミーショップ」のサービス名",
+	"view_smartphone_url": "スマートフォンショップへのリンクURL　※2011/05/19追加",
+	"PC_IMAGES_PATH": "PC版テンプレートで使用されている画像ディレクトリのURL※2012/04/25追加",
+	"SMART_IMAGES_PATH": "スマートフォン版テンプレートで使用されている画像ディレクトリのURL※2012/04/25追加",
+	"MOBILE_IMAGES_PATH": "携帯版テンプレートで使用されている画像ディレクトリのURL※2012/04/25追加",
+	"history_num": "新着商品個数",
+	"history": [
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		}
+	],
+	"favorite_button_attribute": "お気に入りボタン",
+	"favorite_num": "お気に入り商品個数",
+	"favorite": [
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		}
+	],
+	"info": "インフォメーション",
+	"free_space": "フリースペース",
+	"eyecatch": "トップページバナー",
+	"calendar": "営業日カレンダー",
+	"calendar_memo": "注意書き",
+	"news": [
+		{
+			"date": "公開日付",
+			"link_url": "設定しているURL",
+			"message": "お知らせの内容"
+		},
+		{
+			"date": "公開日付",
+			"link_url": "設定しているURL",
+			"message": "お知らせの内容"
+		},
+		{
+			"date": "公開日付",
+			"link_url": "設定しているURL",
+			"message": "お知らせの内容"
+		},
+		{
+			"date": "公開日付",
+			"link_url": "設定しているURL",
+			"message": "お知らせの内容"
+		}
+	],
+	"new_item_num": "新着商品個数",
+	"new_item": [
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		}
+	],
+	"push_num": "新着商品個数",
+	"push": [
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		}
+	],
+	"prod_inq_url": "お問合せリンクURL",
+	"prod_teach_url": "この商品を友達に教えるリンクURL",
+	"keep_shopping_url": "買い物を続けるのリンクURL",
+	"num_button": "数量UP・DOWNボタン",
+	"num_up_url": "数量UPボタンのURL",
+	"num_dw_url": "数量DOWNボタンのURL",
+	"num_up_img_url": "数量UPボタンの画像",
+	"num_dw_img_url": "数量DOWNボタンの画像",
+	"opt_url": "オプションの在庫・値段表へのリンクURL",
+	"easy_order_flg": "クイック購入利用フラグ（クイック購入が利用可能な場合TRUE、それ以外はFALSE）",
+	"easy_order_url": "クイック購入URL",
+	"product": {
+		"id": "146272783",
+		"model": "",
+		"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+		"price": "",
+		"price_disp": false,
+		"sales": "18,800円(税込)",
+		"regular_price": "18,800円(税込)",
+		"members_price": "18,800円(税込)",
+		"discount_flg": false,
+		"discount_rate": "",
+		"shoppoint": "100",
+		"unit": "",
+		"weight": "重量（重量の単位である「g」は出力されません）",
+		"stock_disp": "在庫表示フラグ",
+		"stock_str": "在庫表示文字",
+		"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+		"ot1_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_o1.jpg",
+		"ot2_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_o2.jpg",
+		"simple_explain": "",
+		"explain": "商品詳細説明",
+		"init_num": "1",
+		"soldout_flg": "",
+		"hide_flg": false,
+		"login_sale_flg": false,
+		"info": "カートに入れるための情報",
+		"gift_ng_status": null,
+		"postage": "個別送料",
+		"password_field": ""
+	},
+	"otherimg_num": "その他画像数",
+	"otherimg": [
+		{
+			"url": "画像のURL"
+		},
+		{
+			"url": "画像のURL"
+		},
+		{
+			"url": "画像のURL"
+		},
+		{
+			"url": "画像のURL"
+		},
+		{
+			"url": "画像のURL"
+		}
+	],
+	"option": [
+		{
+			"id": "オプションID",
+			"name": "オプション名",
+			"select_name": "セレクトボックスの名称　　例）赤、青、黄"
+		},
+		{
+			"id": "オプションID",
+			"name": "オプション名",
+			"select_name": "セレクトボックスの名称　　例）赤、青、黄"
+		}
+	],
+	"option_value": [
+		{
+			"id": "オプション詳細ID",
+			"name": "各オプションの名称",
+			"bid": "オプションID（オプションのリストのid）",
+			"sid": "各オプション値のID"
+		},
+		{
+			"id": "オプション詳細ID",
+			"name": "各オプションの名称",
+			"bid": "オプションID（オプションのリストのid）",
+			"sid": "各オプション値のID"
+		},
+		{
+			"id": "オプション詳細ID",
+			"name": "各オプションの名称",
+			"bid": "オプションID（オプションのリストのid）",
+			"sid": "各オプション値のID"
+		},
+		{
+			"id": "オプション詳細ID",
+			"name": "各オプションの名称",
+			"bid": "オプションID（オプションのリストのid）",
+			"sid": "各オプション値のID"
+		},
+		{
+			"id": "オプション詳細ID",
+			"name": "各オプションの名称",
+			"bid": "オプションID（オプションのリストのid）",
+			"sid": "各オプション値のID"
+		}
+	],
+	"option_price": {
+		"max": "オプションの最大の販売価格（ログインなし：販売価格の値を出力、ログインあり：会員価格の値を出力）",
+		"min": "オプションの最小の販売価格（ログインなし：販売価格の値を出力、ログインあり：会員価格の値を出力）",
+		"max_regular": "オプションの最大の通常販売価格（割引前の販売価格）",
+		"min_regular": "オプションの最小の通常販売価格（割引前の販売価格）",
+		"max_members": "オプションの最大の会員価格",
+		"min_members": "オプションの最小の会員価格"
+	},
+	"together_product_num": "商品個数",
+	"together_product": [
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		}
+	],
+	"option_table": "オプション表を表示※2012/07/03追加※PCテンプレートでのオプション表示に使用しています。",
+	"option_view_data": "オプション表を表示※2011/05/10追加※スマートフォンテンプレートでのオプション表示に使用しています。",
+	"review_use_flg": "レビュー機能の使用フラグ",
+	"review_lst_url": "レビュー閲覧画面へのリンク",
+	"review_send_url": "レビュー投稿画面へのリンク",
+	"review_item_num": "投稿されたレビューの数",
+	"reviewlist": [
+		{
+			"id": "レビューID",
+			"nickname": "投稿者ニックネーム",
+			"sex": "性別",
+			"nendai": "年代",
+			"star": "評価数（星の画像ではなく数値が出力されます。）",
+			"title": "レビュータイトル",
+			"comment": "レビュー内容",
+			"img_url": "投稿画像URL",
+			"date": "投稿日時",
+			"res_comment": "ショップからの返信（返信がある場合のみ出力されます。）",
+			"res_date": "ショップからの返信日時（返信がある場合のみ出力されます。）"
+		},
+		{
+			"id": "レビューID",
+			"nickname": "投稿者ニックネーム",
+			"sex": "性別",
+			"nendai": "年代",
+			"star": "評価数（星の画像ではなく数値が出力されます。）",
+			"title": "レビュータイトル",
+			"comment": "レビュー内容",
+			"img_url": "投稿画像URL",
+			"date": "投稿日時",
+			"res_comment": "ショップからの返信（返信がある場合のみ出力されます。）",
+			"res_date": "ショップからの返信日時（返信がある場合のみ出力されます。）"
+		},
+		{
+			"id": "レビューID",
+			"nickname": "投稿者ニックネーム",
+			"sex": "性別",
+			"nendai": "年代",
+			"star": "評価数（星の画像ではなく数値が出力されます。）",
+			"title": "レビュータイトル",
+			"comment": "レビュー内容",
+			"img_url": "投稿画像URL",
+			"date": "投稿日時",
+			"res_comment": "ショップからの返信（返信がある場合のみ出力されます。）",
+			"res_date": "ショップからの返信日時（返信がある場合のみ出力されます。）"
+		},
+		{
+			"id": "レビューID",
+			"nickname": "投稿者ニックネーム",
+			"sex": "性別",
+			"nendai": "年代",
+			"star": "評価数（星の画像ではなく数値が出力されます。）",
+			"title": "レビュータイトル",
+			"comment": "レビュー内容",
+			"img_url": "投稿画像URL",
+			"date": "投稿日時",
+			"res_comment": "ショップからの返信（返信がある場合のみ出力されます。）",
+			"res_date": "ショップからの返信日時（返信がある場合のみ出力されます。）"
+		}
+	],
+	"review_star_num": "評価数の上限値",
+	"group_breadcrumb_list": "パンくずのリスト",
+	"group_breadcrumb": [
+		{
+			"link_url": "グループURL",
+			"name": "グループ名称"
+		},
+		{
+			"link_url": "グループURL",
+			"name": "グループ名称"
+		},
+		{
+			"link_url": "グループURL",
+			"name": "グループ名称"
+		}
+	],
+	"subcategory_num": "サブカテゴリー数",
+	"sub_category": {
+		"0": [
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称1"
+			},
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称2"
+			},
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称3"
+			}
+		],
+		"1": [
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称1"
+			},
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称2"
+			},
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称3"
+			}
+		],
+		"2": [
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称1"
+			},
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称2"
+			},
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称3"
+			}
+		],
+		"3": [
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称1"
+			},
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称2"
+			},
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称3"
+			}
+		]
+	},
+	"subgroup_num": "下位グループ数",
+	"sub_group": [
+		{
+			"link_url": "下位グループ別商品一覧のURL",
+			"img_url": "下位グループ画像のURL",
+			"name": "下位グループ名称"
+		},
+		{
+			"link_url": "下位グループ別商品一覧のURL",
+			"img_url": "下位グループ画像のURL",
+			"name": "下位グループ名称"
+		},
+		{
+			"link_url": "下位グループ別商品一覧のURL",
+			"img_url": "下位グループ画像のURL",
+			"name": "下位グループ名称"
+		}
+	],
+	"category_desc_1": "大カテゴリー一覧ページのフリースペース１ ※2012/11/09追加",
+	"category_desc_2": "大カテゴリー一覧ページのフリースペース２ ※2012/11/09追加",
+	"subcategory_desc_1": "小カテゴリー一覧ページのフリースペース１ ※2012/11/09追加",
+	"subcategory_desc_2": "小カテゴリー一覧ページのフリースペース２ ※2012/11/09追加",
+	"group_desc_1": "グループページのフリースペース１ ※2012/11/09追加",
+	"group_desc_2": "グループページのフリースペース２ ※2012/11/09追加",
+	"search_category": "検索カテゴリー名称",
+	"search_keyword": "検索文字",
+	"productlist_num": "該当する商品の総個数",
+	"productlist_snum": "表示されている商品の始まり",
+	"productlist_enum": "表示されている商品の終わり",
+	"productlist": [
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		},
+		{
+			"id": "146272783",
+			"model": "",
+			"name": "【九州産黒毛和牛】 ヒレステーキ600g(120g×5枚)",
+			"cut_name": "【九州産黒毛和牛】 ヒレステー",
+			"teika": "",
+			"teika_disp": false,
+			"price": 18800,
+			"regular_price": 18800,
+			"members_price": 18800,
+			"discount_flg": false,
+			"discount_rate": "",
+			"shoppoint": "100",
+			"link_url": "./?p=detail",
+			"img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783_th.jpg",
+			"large_img_url": "https://img07.shop-pro.jp/PA01437/442/product/146272783.jpg",
+			"soldout_flg": "",
+			"s_expl": "商品簡易説明",
+			"option_price": {
+				"max": 19300,
+				"min": 18800,
+				"max_regular": 19300,
+				"min_regular": 18800,
+				"max_members": 19300,
+				"min_members": 18800
+			}
+		}
+	],
+	"productlist_prev_page": "前ページへのリンクURL",
+	"productlist_next_page": "次ページへのリンクURL",
+	"productlist_sort_def": "おすすめ順のリンクURL（初期選択）",
+	"productlist_sort_price": "価格順へのリンクURL",
+	"productlist_sort_new": "新着順へのリンクURL",
+	"productlist_sort_now": "現在選択中のソート（空：おすすめ、\"p\"：価格、\"n\"：新着）",
+	"option_num": "オプションの個数",
+	"option_item": [
+		{
+			"name": "名称",
+			"d_flg": "在庫表示フラグ",
+			"d_stk": "在庫表示文字",
+			"price": "販売価格（ログインなし：販売価格の値を出力、ログインあり：会員価格の値を出力）",
+			"regular_price": "通常販売価格（割引前の販売価格）",
+			"members_price": "会員価格",
+			"discount_flg": "割引フラグ（ログイン中の場合、販売価格より会員価格の方が価格が低い場合はTRUE、それ以外はFALSE）",
+			"discount_rate": "割引率（○○%の形式で出力されます。割引フラグ[discount_flg]がTRUEの場合のみ出力されます。）"
+		},
+		{
+			"name": "名称",
+			"d_flg": "在庫表示フラグ",
+			"d_stk": "在庫表示文字",
+			"price": "販売価格（ログインなし：販売価格の値を出力、ログインあり：会員価格の値を出力）",
+			"regular_price": "通常販売価格（割引前の販売価格）",
+			"members_price": "会員価格",
+			"discount_flg": "割引フラグ（ログイン中の場合、販売価格より会員価格の方が価格が低い場合はTRUE、それ以外はFALSE）",
+			"discount_rate": "割引率（○○%の形式で出力されます。割引フラグ[discount_flg]がTRUEの場合のみ出力されます。）"
+		},
+		{
+			"name": "名称",
+			"d_flg": "在庫表示フラグ",
+			"d_stk": "在庫表示文字",
+			"price": "販売価格（ログインなし：販売価格の値を出力、ログインあり：会員価格の値を出力）",
+			"regular_price": "通常販売価格（割引前の販売価格）",
+			"members_price": "会員価格",
+			"discount_flg": "割引フラグ（ログイン中の場合、販売価格より会員価格の方が価格が低い場合はTRUE、それ以外はFALSE）",
+			"discount_rate": "割引率（○○%の形式で出力されます。割引フラグ[discount_flg]がTRUEの場合のみ出力されます。）"
+		},
+		{
+			"name": "名称",
+			"d_flg": "在庫表示フラグ",
+			"d_stk": "在庫表示文字",
+			"price": "販売価格（ログインなし：販売価格の値を出力、ログインあり：会員価格の値を出力）",
+			"regular_price": "通常販売価格（割引前の販売価格）",
+			"members_price": "会員価格",
+			"discount_flg": "割引フラグ（ログイン中の場合、販売価格より会員価格の方が価格が低い場合はTRUE、それ以外はFALSE）",
+			"discount_rate": "割引率（○○%の形式で出力されます。割引フラグ[discount_flg]がTRUEの場合のみ出力されます。）"
+		},
+		{
+			"name": "名称",
+			"d_flg": "在庫表示フラグ",
+			"d_stk": "在庫表示文字",
+			"price": "販売価格（ログインなし：販売価格の値を出力、ログインあり：会員価格の値を出力）",
+			"regular_price": "通常販売価格（割引前の販売価格）",
+			"members_price": "会員価格",
+			"discount_flg": "割引フラグ（ログイン中の場合、販売価格より会員価格の方が価格が低い場合はTRUE、それ以外はFALSE）",
+			"discount_rate": "割引率（○○%の形式で出力されます。割引フラグ[discount_flg]がTRUEの場合のみ出力されます。）"
+		}
+	],
+	"privacy": [
+		{
+			"title": "タイトル",
+			"note": "内容"
+		},
+		{
+			"title": "タイトル",
+			"note": "内容"
+		},
+		{
+			"title": "タイトル",
+			"note": "内容"
+		},
+		{
+			"title": "タイトル",
+			"note": "内容"
+		},
+		{
+			"title": "タイトル",
+			"note": "内容"
+		}
+	]
+}
