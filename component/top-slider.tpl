@@ -1,6 +1,6 @@
 <{if $tpl_name == "top"}>
 	<{* スライド *}>
-	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	<div id="carouselExampleIndicators" class="carousel slide mb-4" data-bs-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="shadow active"></li>
 			<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="shadow"></li>
