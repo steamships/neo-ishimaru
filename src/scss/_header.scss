@@ -5,6 +5,13 @@
 		to {opacity: 1;}
 	}
 	.header-nav{
+		@media screen and (max-width:$sp) {
+			&.navScroll {
+				overflow-y: auto;
+				height: 100%;
+				align-content: flex-start;
+			}
+		}
 		padding: 2.083vw 2.969vw;
 		background: linear-gradient(to bottom, #fff, #fff, #fff, #fff, #fff, transparent);
 		@media screen and (max-width:$sp) {
@@ -57,6 +64,7 @@
 						color: $primary!important;
 						transition: .3s;
 						@media screen and (max-width:$sp) {
+							color: $secondary!important;
 							font-size: 20px;
 							&::after {
 								@include bsicon('chevron-right');
@@ -81,6 +89,7 @@
 							font-size: 0.729vw;
 							transition: .3s;
 							@media screen and (max-width:$sp) {
+								color: $primary;
 								font-size: 16px;
 								margin-left: 12px;
 							}
@@ -125,6 +134,26 @@
 								padding-bottom: 8px;
 								border-bottom: 1px $primary solid;
 								font-size: 0.938vw;
+								@media screen and (max-width:$sp) {
+									font-size: 15px;
+									padding: 4px 8px;
+									border-bottom: none;
+								}
+							}
+							&:nth-child(1) {
+								@media screen and (max-width:$sp) {
+									.c-sub-nav-blists-link {
+										background-color: $third-color;
+									}
+								}
+							}
+							&:nth-child(2) {
+								@media screen and (max-width:$sp) {
+									.c-sub-nav-blists-link {
+										background-color: $primary;
+										color: #fff;
+									}
+								}
 							}
 							.c-sub-nav-slists {
 								.c-sub-nav-slist{
@@ -135,12 +164,18 @@
 												@include bsicon('caret-right-fill');
 												margin-right: 5px;
 											}
+											@media screen and (max-width:$sp) {
+												font-size: 14px;
+											}
 										}
 									}
 								}
 							}
 						}
 						.g-sub-nav-blists {
+							@media screen and (max-width:$sp) {
+								width: 50%;
+							}
 							&-link {
 								padding-bottom: 8px;
 								font-size: 0.938vw;
@@ -149,10 +184,13 @@
 										@include bsicon('caret-right-fill');
 										margin-right: 5px;
 									}
+									@media screen and (max-width:$sp) {
+										font-size: 14px;
+									}
 								}
 							}
 							&-img {
-								width: 13.542vw;
+								width: 120px;
 								max-width: 260px;
 								transition: .3s;
 								&:hover {
