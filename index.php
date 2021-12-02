@@ -23,8 +23,9 @@ $smarty->left_delimiter = '<{';
 $smarty->right_delimiter = '}>';
 
 // 変数名をカラーミーに合わせる
-$tpl = isset($_GET['p']) ? "{$_GET['p']}.tpl": 'top.tpl';
-$smarty->assign('file_name', $tpl);
+$tpl = isset($_GET['p']) ? $_GET['p']: 'top';
+$smarty->assign('tpl_name', $tpl);
+$smarty->assign('file_name', "{$tpl}.tpl");
 $colorme = json_decode(file_get_contents('colorme.json'), true);
 foreach ( $colorme as $key=>$val ) {
 	$smarty->assign($key, $val);

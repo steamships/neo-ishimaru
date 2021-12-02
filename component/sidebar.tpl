@@ -1,5 +1,7 @@
+
+
 <{* サイドバー *}>
-<nav id="sidebar">
+<nav id="sidebar" class="col-3">
 	<{* PC *}>
 	<div class="d-none d-md-block">
 		<ul class="nav nav-pills flex-column mb-auto">

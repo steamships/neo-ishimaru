@@ -1,3 +1,4 @@
+<{if $tpl_name == "top"}>
 <{* wrapper *}>
 <div class="wrapper">
 	<{* スライド *}>
@@ -79,3 +80,4 @@
 															<li>
 																<{$animal[i]}>
 																	<{/section}> </ul> <a href="./?p=cate">商品一覧</a> -->
+<{/if}>

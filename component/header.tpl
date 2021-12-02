@@ -196,3 +196,5 @@
 	<!-- 検索オーバーレイ End -->
 </header>
 <!-- Header End -->
+<div class="container">
+	<div class="row justify-content-between">
