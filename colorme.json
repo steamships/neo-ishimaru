@@ -7,6 +7,9 @@
 		"ねこ",
 		"いぬ"
 	],
+	"is_enable_async_cart_in_pc": true,
+	"view_cart_with_async_info": "view_cart_with_async_info",
+	"incart_total_count": 10,
 	"shop_name": "ショップのタイトル",
 	"home_url": "./",
 	"logo": "https://img21.shop-pro.jp/PA01437/442/etc/Logo_Black.png",
