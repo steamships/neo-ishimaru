@@ -5,6 +5,5 @@ assets
 templates/cate.tpl
 templates/common.tpl
 templates/detail.tpl
-templates/index.tpl
 templates/search.tpl
 templates/top.tpl
