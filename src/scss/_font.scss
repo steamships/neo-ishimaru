@@ -1,0 +1,133 @@
+//fontの指定
+
+//Tajan
+@import url("https://use.typekit.net/sgf7vuu.css");
+
+@mixin TrajanEL {
+	font-family: "trajan-pro-3", serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.TrajanEL {
+	@include TrajanEL();
+}
+
+@mixin TrajanL {
+	font-family: "trajan-pro-3", serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.TrajanL {
+	@include TrajanL();
+}
+
+@mixin TrajanR {
+	font-family: "trajan-pro-3", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.TrajanR {
+	@include TrajanR();
+}
+
+@mixin TrajanSB {
+	font-family: "trajan-pro-3", serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.TrajanSB {
+	@include TrajanSB();
+}
+
+@mixin TrajanB {
+	font-family: "trajan-pro-3", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.TrajanB {
+	@include TrajanB();
+}
+
+@mixin TrajanBlack {
+	font-family: "trajan-pro-3", serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.TrajanBlack {
+	@include TrajanBlack();
+}
+
+//Noto Serif JP
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;600&display=swap');
+
+@mixin NotoSerifL {
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.NotoSerifL {
+	@include NotoSerifL();
+}
+
+@mixin NotoSerifSB {
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.NotoSerifSB {
+	@include NotoSerifSB();
+}
+
+
+// font-size
+.fs-14px {
+	font-size: rem(14);
+}
+
+.fs-16px {
+	font-size: rem(16);
+}
+
+.fs-17px {
+	font-size: rem(17);
+}
+
+.fs-18px {
+	font-size: rem(18);
+}
+
+.fs-20px {
+	font-size: rem(20);
+}
+
+.fs-22px {
+	font-size: rem(22);
+}
+
+.fs-24px {
+	font-size: rem(24);
+}
+
+.fs-26px {
+	font-size: rem(26);
+}
+
+.fs-28px {
+	font-size: rem(28);
+}
+
+.fs-31px {
+	font-size: rem(31);
+}
+
+.ls-1 {
+	letter-spacing: .1rem;
+}
