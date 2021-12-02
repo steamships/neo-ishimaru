@@ -4,7 +4,7 @@
 
 
 <{* Footer *}>
-<footer>
+<footer id="footer">
 	<{* 最近チェックした商品 *}>
 	<div class="checked mx-auto">
 		<{if $history_num != 0}>
