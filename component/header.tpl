@@ -197,4 +197,6 @@
 </header>
 <!-- Header End -->
 <div class="container">
-	<div class="row justify-content-between">
+	<div class="row justify-content-between flex-row-reverse">
+
+<!-- header.tpl ▲ -->

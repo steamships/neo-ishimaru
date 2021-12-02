@@ -1,10 +1,7 @@
-			</div>
-		</div>
-	</main>
-	<{* // メイン *}>
-
+<!-- footer.tpl ▼ -->
+	</div>
 </div>
-<{* // wrapper *}>
+
 
 <{* Footer *}>
 <footer>
