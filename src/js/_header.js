@@ -21,8 +21,13 @@ export const header = () => {
 			//ハンバーガーメニューの処理
 			$(".openbtn").click(function () {
 				$(this).toggleClass('active');
-				$('#navbarNav').toggleClass('navScroll');
+				$('.header-nav').toggleClass('navScroll');
+				if($('body').css('position') == 'inherit') {
+					$('body').css('position','fixed');
+				}
+				$('body').css('position','inherit');
 			});
+			$('body').css('position','inherit');
 		}
 		else {
 			//ホバーアクションでサブメニュー表示

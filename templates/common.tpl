@@ -37,8 +37,8 @@
 					<ul class="c-sub-nav sub-nav d-flex list-unstyled justify-content-md-center justify-content-evenly  TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
 						<{foreach from=$category item=big_cate name=key}>
 						<{if $sub_category[$big_cate.bid] != ""}>
-						<li class="c-sub-nav-blists mx-2">
-							<a class="c-sub-nav-blists-link mb-1 text-decoration-none d-inline-block"><{$big_cate.name}></a>
+						<li class="c-sub-nav-blists mx-md-2">
+							<a class="c-sub-nav-blists-link mb-1 text-decoration-none d-block"><{$big_cate.name}></a>
 							<ul class="c-sub-nav-slists nav_hidden list-unstyled">
 							<{foreach from=$sub_category[$big_cate.bid] item=sub_cate name=key}>
 								<li class="c-sub-nav-slist TrajanL mb-1">
@@ -48,8 +48,8 @@
 							</ul>
 						</li>
 						<{else}>
-						<li class="c-sub-nav-blists mx-2">
-							<a class="c-sub-nav-blists-link text-decoration-none d-inline-block" href="<{$big_cate.link_url}>"><span class="d-block"><{$big_cate.name}></span></a>
+						<li class="c-sub-nav-blists mx-2 d-none d-md-block">
+							<a class="c-sub-nav-blists-link text-decoration-none d-block" href="<{$big_cate.link_url}>"><span class="d-block"><{$big_cate.name}></span></a>
 						</li>
 						<{/if}>
 						<{/foreach}>
@@ -66,11 +66,11 @@
 						<ul class="g-sub-nav dish-group sub-nav d-flex flex-wrap list-unstyled justify-content-md-center justify-content-evenly  TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
 						<{/if}>
 							<{if $group[num].img_url != ""}>
-							<li class="g-sub-nav-blists d-none mx-2 group-<{$group[num].id}>">
+							<li class="g-sub-nav-blists d-none mx-md-2 text-center group-<{$group[num].id}>">
 								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img mb-1" src="<{$group[num].img_url}>"><span class="d-block text-center"><{$group[num].name}></span></a>
 							</li>
 							<{else}>
-							<li class="g-sub-nav-blists d-none mx-2 group-<{$group[num].id}>">
+							<li class="g-sub-nav-blists d-none mx-md-2 text-center group-<{$group[num].id}>">
 								<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-center"><{$group[num].name}></span></a>
 							</li>
 							<{/if}>
@@ -85,15 +85,15 @@
 					<!-- 部位で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
-						<ul class="g-sub-nav budget-group sub-nav d-flex flex-wrap list-unstyled justify-content-md-center justify-content-evenly  TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
+						<ul class="g-sub-nav budget-group sub-nav d-flex flex-wrap list-unstyled justify-content-start justify-content-md-center TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
 						<{/if}>
 							<{if $group[num].img_url != ""}>
-							<li class="g-sub-nav-blists d-none mx-2 group-<{$group[num].id}>">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img" src="<{$group[num].img_url}>"><span class="d-block text-center"><{$group[num].name}></span></a>
+							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-md-0 mx-md-2 group-<{$group[num].id}>">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img" src="<{$group[num].img_url}>"><span class="d-block text-left text-md-center"><{$group[num].name}></span></a>
 							</li>
 							<{else}>
-							<li class="g-sub-nav-blists d-none mx-2 group-<{$group[num].id}>">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-center"><{$group[num].name}></span></a>
+							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-md-0 mx-md-2 group-<{$group[num].id}>">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-left text-md-center"><{$group[num].name}></span></a>
 							</li>
 							<{/if}>
 						<{if $smarty.section.num.last }>
@@ -107,15 +107,15 @@
 					<!-- 価格帯で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
-						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-md-center justify-content-evenly  TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
+						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-md-center justify-content-start TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
 						<{/if}>
 							<{if $group[num].img_url != ""}>
-							<li class="g-sub-nav-blists d-none mx-2 group-<{$group[num].id}>">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img" src="<{$group[num].img_url}>"><span class="d-block text-center"><{$group[num].name}></span></a>
+							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-md-0 mx-md-2 group-<{$group[num].id}>">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img" src="<{$group[num].img_url}>"><span class="d-block text-left text-md-center"><{$group[num].name}></span></a>
 							</li>
 							<{else}>
-							<li class="g-sub-nav-blists d-none mx-2 group-<{$group[num].id}>">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-center"><{$group[num].name}></span></a>
+							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-md-0 mx-md-2 group-<{$group[num].id}>">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-left text-md-center"><{$group[num].name}></span></a>
 							</li>
 							<{/if}>
 						<{if $smarty.section.num.last }>
@@ -128,20 +128,20 @@
 					<a class="nav-link TrajanSB" href="#">SERVICE<span class="d-md-block NotoSerifL">サービス</span></a>
 					<!-- サービスグループリスト -->
 						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-md-center justify-content-evenly  TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
-							<li class="g-sub-nav-blists mx-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href=""><span class="d-block text-center">ポイントについて(予定)</span></a>
+							<!-- <li class="g-sub-nav-blists mx-0 mx-md-2">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href=""><span class="d-block text-left text-md-center">ポイントについて(予定)</span></a>
+							</li> -->
+							<li class="g-sub-nav-blists mx-0 mx-md-2">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442"><span class="d-block text-left text-md-center">新規会員登録</span></a>
 							</li>
-							<li class="g-sub-nav-blists mx-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442"><span class="d-block text-center">新規会員登録</span></a>
+							<li class="g-sub-nav-blists mx-0 mx-md-2">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/?mode=sk"><span class="d-block text-left text-md-center">ご利用ガイド</span></a>
 							</li>
-							<li class="g-sub-nav-blists mx-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/?mode=sk"><span class="d-block text-center">ご利用ガイド</span></a>
+							<li class="g-sub-nav-blists mx-0 mx-md-2">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.23778426.1193864833.1638167008-503689517.1589418692"><span class="d-block text-left text-md-center">お問い合わせ</span></a>
 							</li>
-							<li class="g-sub-nav-blists mx-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.23778426.1193864833.1638167008-503689517.1589418692"><span class="d-block text-center">お問い合わせ</span></a>
-							</li>
-							<li class="g-sub-nav-blists mx-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/secure/?mode=mailmaga&shop_id=PA01437442"><span class="d-block text-center">メルマガ登録・解除</span></a>
+							<li class="g-sub-nav-blists mx-0 mx-md-2">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/secure/?mode=mailmaga&shop_id=PA01437442"><span class="d-block text-left text-md-center">メルマガ登録・解除</span></a>
 							</li>
 						</ul>
 					<!-- // サービスグループリスト -->
