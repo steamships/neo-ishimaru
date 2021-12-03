@@ -1,0 +1,8 @@
+// スクロールバー非表示
+@mixin hide-scrollbar {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}

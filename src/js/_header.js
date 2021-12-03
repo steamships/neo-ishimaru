@@ -2,9 +2,13 @@ export const header = () => {
 	if ($('#header').length) {
 		console.log('header');
 
-		//ヘッダーの高さを取得→bodyのpadding-topへ設定
-		const headerHight = $('.header-nav').outerHeight();
-		$('body').css('padding-top', headerHight + 10 + "px");
+		//右に溢れ出す固定ナビを強制スクロールさせる
+		$(window).on("scroll", function(){
+			$("#header-nav").css("left", -$(window).scrollLeft());
+		});
+
+
+
 
 		//デバイスサイズでアクション分岐
 		const windowWidth = $(window).width();
@@ -18,16 +22,7 @@ export const header = () => {
 				$this.find('.sub-nav').toggleClass('show');
 				$this.find('.nav-link').toggleClass('rotate');
 			});
-			//ハンバーガーメニューの処理
-			$(".openbtn").click(function () {
-				$(this).toggleClass('active');
-				$('.header-nav').toggleClass('navScroll');
-				if($('body').css('position') == 'inherit') {
-					$('body').css('position','fixed');
-				}
-				$('body').css('position','inherit');
-			});
-			$('body').css('position','inherit');
+
 		}
 		else {
 			//ホバーアクションでサブメニュー表示

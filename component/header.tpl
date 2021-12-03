@@ -1,30 +1,34 @@
 <!-- Header Start -->
-<header id="header">
-	<nav class="navbar navbar-expand-lg primary navbar-light fixed-top mb-3 header-nav flex-wrap">
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<div class="openbtn"><span></span><span></span></div>
+<header id="header" class="mb-3 mb-lg-8">
+	<nav id="header-nav" class="navbar navbar-expand-lg fixed-top">
+		<button id="header-nav-sp-toggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav-main">
+			<!-- SPメニュー -->
 		</button>
-		<a class="navbar-brand pb-1" href="#"><img class="main-logo" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501" alt="石丸ショップロゴ"></a>
-		<ul class="d-lg-none d-flex list-unstyled sp-navbar-icons">
-			<li class="nav-item">
-				<a class="nav-link" href="https://www.saga-ishimaru.co.jp/cart/proxy/basket?shop_id=PA01437442&shop_domain=saga-ishimaru.co.jp"><img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-cart-pc.png?cmsp_timestamp=20211122144648" alt="カートアイコン"></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#"><img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-account-pc.png?cmsp_timestamp=20211122144722" alt="アカウントアイコン"></a>
-			</li>
-		</ul>
-		<div class="collapse navbar-collapse justify-content-between flex-wrap pb-12 pb-lg-2 px-1 px-lg-0" id="navbarNav">
-			<ul class="navbar-nav main-nav">
+		<div id="header-nav-container" class="px-1 py-lg-2 row align-items-center justify-content-between">
+
+			<h1 id="header-nav-logo" class="navbar-brand col-lg-2 p-0 pe-lg-3">
+				<a href="<{$home_url}>" class="d-block" title="<{$shop_name}>">
+					<img class="main-logo" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501" alt="<{$shop_name}>">
+				</a>
+			</h1>
+
+			<!-- ヘッダーメインナビ -->
+			<ul id="header-nav-main" class="collapse navbar-collapse navbar-nav main-nav col-lg-auto">
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">ABOUT<span class="d-lg-block NotoSerifL">ISHIMARUのこと</span></a>
+					<a class="nav-link TrajanSB" href="#">
+						ABOUT
+						<span class="d-lg-block NotoSerifL">ISHIMARUのこと</span>
+					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB">BRAND<span class="d-lg-block NotoSerifL">ブランド牛で選ぶ</span>
+					<a class="nav-link TrajanSB">
+						BRAND
+						<span class="d-lg-block NotoSerifL">ブランド牛で選ぶ</span>
 					</a>
 					<!-- カテゴリーリスト -->
 					<{section name=num loop=$category}>
 					<{if $smarty.section.num.first }>
-					<ul class="c-sub-nav sub-nav d-flex list-unstyled justify-content-lg-center justify-content-evenly  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
+					<ul class="c-sub-nav sub-nav d-flex list-unstyled justify-content-lg-center justify-content-between  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 						<{foreach from=$category item=big_cate name=key}>
 						<{if $sub_category[$big_cate.bid] != ""}>
 						<li class="c-sub-nav-blists mx-lg-2">
@@ -137,26 +141,33 @@
 					<!-- // サービスグループリスト -->
 				</li>
 			</ul>
-			<ul class="navbar-nav navbar-icons d-none d-lg-inline-flex">
+
+			<!-- アイコン -->
+			<ul id="header-nav-icons" class="navbar-icons d-flex col-lg-auto">
 				<li id="open-btn" class="nav-item header-icon-list search-account-icon">
-					<span class="nav-link"><img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-find.png?cmsp_timestamp=20211122153310" alt="検索アイコン">
-					</span>
+					<img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-find.png?cmsp_timestamp=20211122153310" alt="検索アイコン">
 				</li>
 				<li class="nav-item header-icon-list favaorite-account-icon">
-					<span class="nav-link"><img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-favarite_.png?cmsp_timestamp=20211125153455" alt="お気に入りアイコン"></span>
+					<img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-favarite_.png?cmsp_timestamp=20211125153455" alt="お気に入りアイコン">
 				</li>
 				<li class="nav-item header-icon-list cart-account-icon">
 					<{if $is_enable_async_cart_in_pc}>
 					<form name="cart_view_with_async" method="POST" action="<{$view_cart_url}>">
-						<{$view_cart_with_async_info}>
+						<!-- <{$view_cart_with_async_info}> -->
 					</form>
-					<span class="nav-link"><a href="javascript:void(0)" class="cart_view_with_async"><img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-cart-pc.png?cmsp_timestamp=20211122144648" alt="カートアイコン">(<span class="cart_count"><{$incart_total_count}></span>)</span></a></span>
+					<a href="javascript:void(0)" class="cart_view_with_async">
+						<img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-cart-pc.png" alt="カートアイコン">
+						<span class="cart_count"><{$incart_total_count}></span>
+					</a>
 					<{else}>
-					<span class="nav-link"><a href="<{$view_cart_url}>"><img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-cart-pc.png?cmsp_timestamp=20211122144648" alt="カートアイコン"><!--(<{$incart_total_count}>)--></span></a></span>
+					<a href="<{$view_cart_url}>">
+						<img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-cart-pc.png?cmsp_timestamp=20211122144648" alt="カートアイコン">
+						<!--(<{$incart_total_count}>)-->
+					</a>
 					<{/if}>
 				</li>
 				<li class="nav-item header-icon-list header-account-icon">
-					<span class="nav-link"><img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-account-pc.png?cmsp_timestamp=20211122144722" alt="アカウントアイコン"></span>
+					<img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-account-pc.png?cmsp_timestamp=20211122144722" alt="アカウントアイコン">
 					<ul class="header-account-lists TrajanL position-absolute list-unstyled border zindex-dropdown">
 						<li>
 							<a href="<{$view_myaccount_url}>">マイアカウント</a>
@@ -180,6 +191,8 @@
 					</ul>
 				</li>
 			</ul>
+			<!-- / アイコン -->
+
 		</div>
 	</nav>
 	<!-- 検索オーバーレイ Start -->
