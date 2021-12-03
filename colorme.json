@@ -1415,7 +1415,7 @@
 			"name": "グループ名称"
 		}
 	],
-	"subcategory_num": "サブカテゴリー数",
+	"subcategory_num": "4",
 	"sub_category": {
 		"2543763": [
 			{
@@ -1509,24 +1509,46 @@
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "サブカテゴリー名称3"
 			}
+		],
+		"4": [
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称1"
+			},
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称2"
+			},
+			{
+				"link_url": "サブカテゴリー別商品一覧のURL",
+				"img_url": "サブカテゴリー画像のURL",
+				"name": "サブカテゴリー名称3"
+			}
 		]
 	},
-	"subgroup_num": "下位グループ数",
+	"subgroup_num": "6",
 	"sub_group": [
 		{
 			"link_url": "下位グループ別商品一覧のURL",
 			"img_url": "下位グループ画像のURL",
-			"name": "下位グループ名称"
+			"name": "ヒレ"
 		},
 		{
 			"link_url": "下位グループ別商品一覧のURL",
 			"img_url": "下位グループ画像のURL",
-			"name": "下位グループ名称"
+			"name": "ロース"
 		},
 		{
 			"link_url": "下位グループ別商品一覧のURL",
 			"img_url": "下位グループ画像のURL",
-			"name": "下位グループ名称"
+			"name": "ウデ"
+		},
+		{
+			"link_url": "下位グループ別商品一覧のURL",
+			"img_url": "下位グループ画像のURL",
+			"name": "モモ"
 		}
 	],
 	"category_desc_1": "大カテゴリー一覧ページのフリースペース１ ※2012/11/09追加",
@@ -1537,7 +1559,7 @@
 	"group_desc_2": "グループページのフリースペース２ ※2012/11/09追加",
 	"search_category": "検索カテゴリー名称",
 	"search_keyword": "検索文字",
-	"productlist_num": "該当する商品の総個数",
+	"productlist_num": "10",
 	"productlist_snum": "表示されている商品の始まり",
 	"productlist_enum": "表示されている商品の終わり",
 	"productlist": [
