@@ -81,9 +81,10 @@ $grid-breakpoints: (
 	lg: 768px,
 );
 $container-max-widths: (
-	lg: 1140px
+	lg: 1200px
 );
-
+$container-gap-width: 150px;
+$body-min-width-lg: map-get($container-max-widths, lg) + $container-gap-width;
 @import "bootstrap/scss/bootstrap"; // Required
 
 //
@@ -99,6 +100,7 @@ $baseWidth : 1920;
 }
 
 @import "mixin-bsicon";
+@import "mixins";
 @import "font";
 @import "icon-list";
 @import "mixin-bsicon";
@@ -123,12 +125,18 @@ html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p,
 // ブレークポイントを１つに変更
 @include media-breakpoint-up(lg) {
 	body{
-		min-width: map-get($container-max-widths, lg) + 60px;
+		min-width: $body-min-width-lg;
 	}
 	.container{
 		min-width: map-get($container-max-widths, lg);
 	}
 }
+@include media-breakpoint-down(lg) {
+	html,body{
+		overflow-x: hidden;
+	}
+}
+
 img{
 	@extend .img-fluid;
 }
