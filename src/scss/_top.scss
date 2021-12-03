@@ -1,3 +1,4 @@
+// カルーセル
 .carousel-indicators {
 	margin-bottom: rem(53);
 }
@@ -7,3 +8,20 @@
 		background-color: #000;
 	}
 }
+
+// 矢印
+.chevron-right {
+	position: relative;
+}
+
+.chevron-right::after {
+	@include bsicon("chevron-right");
+	position: absolute;
+	top: 33%;
+	right: .5rem;
+}
+.dish::after {
+	top: 18%;
+}
+
+// インフォメーション

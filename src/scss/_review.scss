@@ -16,6 +16,7 @@
 	.chevron-right::after {
 		@include bsicon("chevron-right");
 		position: absolute;
+		top: 37%;
 		right: .5rem;
 	}
 

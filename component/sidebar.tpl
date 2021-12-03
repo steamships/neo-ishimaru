@@ -16,7 +16,7 @@
 			<li class="mt-1 mb-2"><span class="TrajanB fs-26px">
 					<{$smarty.now|date_format:'%Y-%m-%d'}>
 				</span><span class="NotoSerifL fs-16px">
-					<{$smarty.now|date_format:'(%a)'}>
+					<{$smarty.now|date_format:'(%a)'|replace:'Sun':'日'|replace:'Mon':'月'|replace:'Tue':'火'|replace:'Wed':'水'|replace:'Thu':'木'|replace:'Fri':'金'|replace:'Sat':'土'}>
 				</span></li>
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				お電話でのお問い合わせ・ご注文
@@ -166,9 +166,9 @@
 			<{* ポータル *}>
 			<li class="mt-2 mb-1 h-55px">
 				<div class="d-flex justify-content-center align-items-center text-center NotoSerifSB fs-20px ls-1">
-					<div class="pe-2">\</div>
+					<div class="pe-1">\</div>
 					<div>ふるさと納税からも<br>お申し込みいただけます</div>
-					<div class="ps-2">/</div>
+					<div class="ps-1">/</div>
 				</div>
 			</li>
 			<li class="NotoSerifL fs-18px">

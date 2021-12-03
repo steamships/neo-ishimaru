@@ -3,10 +3,10 @@
 </div>
 
 
-<{* Footer *}>
+<!-- Footer -->
 <footer id="footer">
 	<div class="container">
-		<{* 最近チェックした商品 *}>
+		<!-- 最近チェックした商品 -->
 		<div class="checked mx-auto">
 			<{if $history_num != 0}>
 				<h2 class="d-flex align-items-center NotoSerifL fs-18px">最近チェックした商品</h2>
@@ -21,48 +21,48 @@
 				</div>
 			<{/if}>
 		</div>
-		<{* // 最近チェックした商品 *}>
+		<!-- / 最近チェックした商品 -->
 	</div>
 
-	<{*グラデーション *}>
+	<!--グラデーション -->
 	<div class="gradient">
 		<div class="container">
 
-			<{* PC *}>
+			<!-- PC -->
 			<div class="footer d-none d-lg-block mx-auto pt-15">
-				<{* Grid row *}>
+				<!-- Grid row -->
 				<div class="row">
 
-					<{* ISHIMARUについて *}>
+					<!-- ISHIMARUについて -->
 					<div class="col-2 me-4 pe-0">
 
 						<h3 class="pb-20px badge bg-secondary NotoSerifL fs-20px ls-1">ISHIMARUについて</h3>
 						<a class="nav-link TrajanR ps-0 pt-0 pb-1 fs-18px lh-lg" href="#">- ABOUT</a>
 
-						<{* SNS *}>
+						<!-- SNS -->
 						<div class="py-2">
 							<a href="https://www.instagram.com/suguru_ishimaru/" target="_blank" class="btn btn-link pe-0 instagram">
 							</a>
 							<a href="https://www.facebook.com/ishimaru.meet/" target="_blank" class="btn btn-link pe-0 facebook">
 							</a>
 						</div>
-						<{* // SNS *}>
+						<!-- / SNS -->
 
-						<{* ロゴ *}>
+						<!-- ロゴ -->
 						<div class="mt-1">
 							<a href="#"><img
 									src="https://img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501"
 									alt="石丸ショップロゴ"></a>
 						</div>
-						<{* // ロゴ *}>
+						<!-- / ロゴ -->
 
 					</div>
-					<{* // ISHIMARUについて *}>
+					<!-- / ISHIMARUについて -->
 
-					<{* 商品のご案内 *}>
+					<!-- 商品のご案内 -->
 					<div class="col NotoSerifL fs-18px ps-0">
 						<h3 class="pb-20px badge bg-secondary NotoSerifL fs-20px">商品のご案内</h3>
-						<{* ブランド牛で選ぶ *}>
+						<!-- ブランド牛で選ぶ -->
 						<p class="NotoSerifSB lh-lg">ブランド牛で選ぶ</p>
 						<p>
 							<a href="#collapseSagagyu" class="lh-lg chevron-down" data-bs-toggle="collapse" role="button"
@@ -83,9 +83,9 @@
 							</div>
 						</div>
 					</div>
-					<{* // ブランド牛で選ぶ *}>
+					<!-- / ブランド牛で選ぶ -->
 
-					<{* その他 *}>
+					<!-- その他 -->
 					<div class="col mt-56px NotoSerifL fs-18px">
 						<p class="NotoSerifSB lh-lg">その他</p>
 						<p>
@@ -98,9 +98,9 @@
 							<a href="#!" class="lh-lg">- 黒毛和牛</a>
 						</p>
 					</div>
-					<{* // その他 *}>
+					<!-- / その他 -->
 
-					<{* 料理で選ぶ *}>
+					<!-- 料理で選ぶ -->
 					<div class="col mt-56px NotoSerifL fs-18px">
 						<p class="NotoSerifSB lh-lg">料理で選ぶ</p>
 						<p>
@@ -116,9 +116,9 @@
 							<a href="#!" class="">- ハンバーグ</a>
 						</p>
 					</div>
-					<{* // 料理で選ぶ *}>
+					<!-- / 料理で選ぶ -->
 
-					<{* 部位で選ぶ *}>
+					<!-- 部位で選ぶ -->
 					<div class="col mt-56px NotoSerifL fs-18px">
 						<p class="NotoSerifSB lh-lg">部位で選ぶ</p>
 						<p>
@@ -140,9 +140,9 @@
 							<a href="#!" class="lh-lg">- モモスライス</a>
 						</p>
 					</div>
-					<{* // 部位で選ぶ *}>
+					<!-- / 部位で選ぶ -->
 
-					<{* 予算で選ぶ *}>
+					<!-- 予算で選ぶ -->
 					<div class="col mt-56px NotoSerifL fs-18px">
 						<p class="NotoSerifSB lh-lg">予算で選ぶ</p>
 						<p>
@@ -155,10 +155,10 @@
 							<a href="#!" class="lh-lg">- ￥10,000～</a>
 						</p>
 					</div>
-					<{* // 予算で選ぶ *}>
-					<{* // 商品のご案内 *}>
+					<!-- / 予算で選ぶ -->
+					<!-- / 商品のご案内 -->
 
-					<{* サービス *}>
+					<!-- サービス -->
 					<div class="col NotoSerifL fs-18px pe-0">
 						<h3 class="pb-20px badge bg-secondary NotoSerifL fs-20px">サービス</h3>
 						<p>
@@ -177,51 +177,51 @@
 							<a href="#!" class="lh-lg">メルマガ登録・解約</a>
 						</p>
 					</div>
-					<{* // サービス *}>
+					<!-- / サービス -->
 
 				</div>
-				<{* Grid row *}>
+				<!-- Grid row -->
 
-				<{* Copyright *}>
+				<!-- Copyright -->
 				<div class="text-center fs-16px pt-5 pb-70px ls-1">
 					<span class="NotoSerifL">© 黒毛和牛専門店</span><span class="TrajanR"> ISHIMARU.</span>
 				</div>
-				<{* // Copyright *}>
+				<!-- / Copyright -->
 			</div>
-			<{* // PC *}>
+			<!-- / PC -->
 
-			<{* SP *}>
+			<!-- SP -->
 			<div class="footer d-lg-none mx-auto pt-4 pb-2">
-				<{* Grid row 1 *}>
+				<!-- Grid row 1 -->
 				<div class="row py-2 text-center align-items-center">
 
-					<{* ロゴ *}>
+					<!-- ロゴ -->
 					<div class="col-4 align-middle">
 						<a href="#"><img
 								src="https://img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501"
 								width="100" alt="石丸ショップロゴ"></a>
 					</div>
-					<{* // ロゴ *}>
+					<!-- / ロゴ -->
 
-					<{* SNS *}>
+					<!-- SNS -->
 					<div class="col-3 p-0">
 						<a href="https://www.instagram.com/suguru_ishimaru/" target="_blank" class="btn btn-link pe-0 instagram">
 						</a>
 						<a href="https://www.facebook.com/ishimaru.meet/" target="_blank" class="btn btn-link pe-0 facebook">
 						</a>
 					</div>
-					<{* // SNS *}>
+					<!-- / SNS -->
 
-					<{* 戻るボタン*}>
+					<!-- 戻るボタン-->
 					<div class="col-5">
 						<a href="#" class="btn btn-dark rounded-pill TrajanB fs-14px ls-1 chevron-up">PAGE TOP</a>
 					</div>
-					<{* // 戻るボタン*}>
+					<!-- / 戻るボタン-->
 
 				</div>
-				<{* Grid row 1 *}>
+				<!-- Grid row 1 -->
 
-				<{* Grid row 2 *}>
+				<!-- Grid row 2 -->
 				<div class="row px-1 pb-2 fs-14px">
 					<div class="col-6 NotoSerifL">
 						<p>
@@ -251,16 +251,16 @@
 					</div>
 				</div>
 
-				<{* Copyright *}>
+				<!-- Copyright -->
 				<div class="text-center fs-16px ls-1 copy">
 					<span class="NotoSerifL">© 黒毛和牛専門店</span><span class="TrajanR"> ISHIMARU.</span>
 				</div>
-				<{* // Copyright *}>
+				<!-- / Copyright -->
 
 			</div>
-			<{* // SP *}>
+			<!-- / SP -->
 		</div>
 	</div>
-	<{* // グラデーション *}>
+	<!-- / グラデーション -->
 </footer>
-<{* // Footer *}>
+<!-- / Footer -->
