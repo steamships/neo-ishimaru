@@ -1,11 +1,11 @@
 <!-- Header Start -->
 <header id="header">
-	<nav class="navbar navbar-expand-md primary navbar-light fixed-top mb-3 header-nav flex-wrap">
+	<nav class="navbar navbar-expand-lg primary navbar-light fixed-top mb-3 header-nav flex-wrap">
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<div class="openbtn"><span></span><span></span></div>
 		</button>
 		<a class="navbar-brand pb-1" href="#"><img class="main-logo" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501" alt="石丸ショップロゴ"></a>
-		<ul class="d-md-none d-flex list-unstyled sp-navbar-icons">
+		<ul class="d-lg-none d-flex list-unstyled sp-navbar-icons">
 			<li class="nav-item">
 				<a class="nav-link" href="https://www.saga-ishimaru.co.jp/cart/proxy/basket?shop_id=PA01437442&shop_domain=saga-ishimaru.co.jp"><img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-cart-pc.png?cmsp_timestamp=20211122144648" alt="カートアイコン"></a>
 			</li>
@@ -13,21 +13,21 @@
 				<a class="nav-link" href="#"><img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-account-pc.png?cmsp_timestamp=20211122144722" alt="アカウントアイコン"></a>
 			</li>
 		</ul>
-		<div class="collapse navbar-collapse justify-content-between flex-wrap pb-12 pb-md-2 px-1 px-md-0" id="navbarNav">
+		<div class="collapse navbar-collapse justify-content-between flex-wrap pb-12 pb-lg-2 px-1 px-lg-0" id="navbarNav">
 			<ul class="navbar-nav main-nav">
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">ABOUT<span class="d-md-block NotoSerifL">ISHIMARUのこと</span></a>
+					<a class="nav-link TrajanSB" href="#">ABOUT<span class="d-lg-block NotoSerifL">ISHIMARUのこと</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB">BRAND<span class="d-md-block NotoSerifL">ブランド牛で選ぶ</span>
+					<a class="nav-link TrajanSB">BRAND<span class="d-lg-block NotoSerifL">ブランド牛で選ぶ</span>
 					</a>
 					<!-- カテゴリーリスト -->
 					<{section name=num loop=$category}>
 					<{if $smarty.section.num.first }>
-					<ul class="c-sub-nav sub-nav d-flex list-unstyled justify-content-md-center justify-content-evenly  TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
+					<ul class="c-sub-nav sub-nav d-flex list-unstyled justify-content-lg-center justify-content-evenly  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 						<{foreach from=$category item=big_cate name=key}>
 						<{if $sub_category[$big_cate.bid] != ""}>
-						<li class="c-sub-nav-blists mx-md-2">
+						<li class="c-sub-nav-blists mx-lg-2">
 							<a class="c-sub-nav-blists-link mb-1 text-decoration-none d-block"><{$big_cate.name}></a>
 							<ul class="c-sub-nav-slists nav_hidden list-unstyled">
 							<{foreach from=$sub_category[$big_cate.bid] item=sub_cate name=key}>
@@ -38,7 +38,7 @@
 							</ul>
 						</li>
 						<{else}>
-						<li class="c-sub-nav-blists mx-2 d-none d-md-block">
+						<li class="c-sub-nav-blists mx-2 d-none d-lg-block">
 							<a class="c-sub-nav-blists-link text-decoration-none d-block" href="<{$big_cate.link_url}>"><span class="d-block"><{$big_cate.name}></span></a>
 						</li>
 						<{/if}>
@@ -49,18 +49,18 @@
 					<!-- // カテゴリーリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">DISH<span class="d-md-block NotoSerifL">料理で選ぶ</span></a>
+					<a class="nav-link TrajanSB" href="#">DISH<span class="d-lg-block NotoSerifL">料理で選ぶ</span></a>
 					<!-- 料理で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
-						<ul class="g-sub-nav dish-group sub-nav d-flex flex-wrap list-unstyled justify-content-md-center justify-content-evenly  TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
+						<ul class="g-sub-nav dish-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-evenly  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 						<{/if}>
 							<{if $group[num].img_url != ""}>
-							<li class="g-sub-nav-blists d-none mx-md-2 text-center group-<{$group[num].id}>">
+							<li class="g-sub-nav-blists d-none mx-lg-2 text-center group-<{$group[num].id}>">
 								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img mb-1" src="<{$group[num].img_url}>"><span class="d-block text-center"><{$group[num].name}></span></a>
 							</li>
 							<{else}>
-							<li class="g-sub-nav-blists d-none mx-md-2 text-center group-<{$group[num].id}>">
+							<li class="g-sub-nav-blists d-none mx-lg-2 text-center group-<{$group[num].id}>">
 								<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-center"><{$group[num].name}></span></a>
 							</li>
 							<{/if}>
@@ -71,19 +71,19 @@
 					<!-- // 料理で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">BUDGET<span class="d-md-block NotoSerifL">部位で選ぶ</span></a>
+					<a class="nav-link TrajanSB" href="#">BUDGET<span class="d-lg-block NotoSerifL">部位で選ぶ</span></a>
 					<!-- 部位で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
-						<ul class="g-sub-nav budget-group sub-nav d-flex flex-wrap list-unstyled justify-content-start justify-content-md-center TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
+						<ul class="g-sub-nav budget-group sub-nav d-flex flex-wrap list-unstyled justify-content-start justify-content-lg-center TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 						<{/if}>
 							<{if $group[num].img_url != ""}>
-							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-md-0 mx-md-2 group-<{$group[num].id}>">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img" src="<{$group[num].img_url}>"><span class="d-block text-left text-md-center"><{$group[num].name}></span></a>
+							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-lg-0 mx-lg-2 group-<{$group[num].id}>">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img" src="<{$group[num].img_url}>"><span class="d-block text-left text-lg-center"><{$group[num].name}></span></a>
 							</li>
 							<{else}>
-							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-md-0 mx-md-2 group-<{$group[num].id}>">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-left text-md-center"><{$group[num].name}></span></a>
+							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-lg-0 mx-lg-2 group-<{$group[num].id}>">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-left text-lg-center"><{$group[num].name}></span></a>
 							</li>
 							<{/if}>
 						<{if $smarty.section.num.last }>
@@ -93,19 +93,19 @@
 					<!-- // 部位で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">PRICE<span class="d-md-block NotoSerifL">価格帯で選ぶ</span></a>
+					<a class="nav-link TrajanSB" href="#">PRICE<span class="d-lg-block NotoSerifL">価格帯で選ぶ</span></a>
 					<!-- 価格帯で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
-						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-md-center justify-content-start TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
+						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-start TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 						<{/if}>
 							<{if $group[num].img_url != ""}>
-							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-md-0 mx-md-2 group-<{$group[num].id}>">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img" src="<{$group[num].img_url}>"><span class="d-block text-left text-md-center"><{$group[num].name}></span></a>
+							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-lg-0 mx-lg-2 group-<{$group[num].id}>">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img" src="<{$group[num].img_url}>"><span class="d-block text-left text-lg-center"><{$group[num].name}></span></a>
 							</li>
 							<{else}>
-							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-md-0 mx-md-2 group-<{$group[num].id}>">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-left text-md-center"><{$group[num].name}></span></a>
+							<li class="g-sub-nav-blists d-none mx-0 mb-2 mb-lg-0 mx-lg-2 group-<{$group[num].id}>">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-left text-lg-center"><{$group[num].name}></span></a>
 							</li>
 							<{/if}>
 						<{if $smarty.section.num.last }>
@@ -115,29 +115,29 @@
 					<!-- // 価格帯で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">SERVICE<span class="d-md-block NotoSerifL">サービス</span></a>
+					<a class="nav-link TrajanSB" href="#">SERVICE<span class="d-lg-block NotoSerifL">サービス</span></a>
 					<!-- サービスグループリスト -->
-						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-md-center justify-content-evenly  TrajanSB w-100 py-1 pt-md-3 pb-md-10 my-1">
-							<!-- <li class="g-sub-nav-blists mx-0 mx-md-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href=""><span class="d-block text-left text-md-center">ポイントについて(予定)</span></a>
+						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-evenly  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
+							<!-- <li class="g-sub-nav-blists mx-0 mx-lg-2">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href=""><span class="d-block text-left text-lg-center">ポイントについて(予定)</span></a>
 							</li> -->
-							<li class="g-sub-nav-blists mx-0 mx-md-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442"><span class="d-block text-left text-md-center">新規会員登録</span></a>
+							<li class="g-sub-nav-blists mx-0 mx-lg-2">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442"><span class="d-block text-left text-lg-center">新規会員登録</span></a>
 							</li>
-							<li class="g-sub-nav-blists mx-0 mx-md-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/?mode=sk"><span class="d-block text-left text-md-center">ご利用ガイド</span></a>
+							<li class="g-sub-nav-blists mx-0 mx-lg-2">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/?mode=sk"><span class="d-block text-left text-lg-center">ご利用ガイド</span></a>
 							</li>
-							<li class="g-sub-nav-blists mx-0 mx-md-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.23778426.1193864833.1638167008-503689517.1589418692"><span class="d-block text-left text-md-center">お問い合わせ</span></a>
+							<li class="g-sub-nav-blists mx-0 mx-lg-2">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.23778426.1193864833.1638167008-503689517.1589418692"><span class="d-block text-left text-lg-center">お問い合わせ</span></a>
 							</li>
-							<li class="g-sub-nav-blists mx-0 mx-md-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/secure/?mode=mailmaga&shop_id=PA01437442"><span class="d-block text-left text-md-center">メルマガ登録・解除</span></a>
+							<li class="g-sub-nav-blists mx-0 mx-lg-2">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/secure/?mode=mailmaga&shop_id=PA01437442"><span class="d-block text-left text-lg-center">メルマガ登録・解除</span></a>
 							</li>
 						</ul>
 					<!-- // サービスグループリスト -->
 				</li>
 			</ul>
-			<ul class="navbar-nav navbar-icons d-none d-md-inline-flex">
+			<ul class="navbar-nav navbar-icons d-none d-lg-inline-flex">
 				<li id="open-btn" class="nav-item header-icon-list search-account-icon">
 					<span class="nav-link"><img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-find.png?cmsp_timestamp=20211122153310" alt="検索アイコン">
 					</span>

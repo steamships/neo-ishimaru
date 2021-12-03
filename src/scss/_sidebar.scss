@@ -1,6 +1,6 @@
 #sidebar {
 
-	@media screen and (max-width:$sp) {
+	@include media-breakpoint-down(lg) {
 		width: 100%;
 	}
 
@@ -24,7 +24,7 @@
 		width: 95%;
 		border-bottom: solid thin;
 
-		@media screen and (max-width:$sp) {
+		@include media-breakpoint-down(lg) {
 			width: 100%;
 		}
 	}

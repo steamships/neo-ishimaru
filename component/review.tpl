@@ -1,8 +1,8 @@
 <{* レビュー *}>
 	<article id="review">
-		<div class="d-none d-md-block"><img class="img-fluid"
+		<div class="d-none d-lg-block"><img class="img-fluid"
 				src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-pc.jpg?cmsp_timestamp=20211201171920"></div>
-		<div class="d-md-none"><img class="img-fluid"
+		<div class="d-lg-none"><img class="img-fluid"
 				src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-sp.jpg?cmsp_timestamp=20211201173054"></div>
 		<div class="row mt-3">
 			<div class="col-6">
@@ -36,21 +36,21 @@
 		</div>
 
 		<!-- 続きが何かおかしいのでとりあえずコメントアウト
-		<img class="d-none d-md-block img-fluid"
+		<img class="d-none d-lg-block img-fluid"
 				src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-pc.jpg?cmsp_timestamp=20211201171920">
-		<img class="d-md-none d-block mt-4 mx-auto mb-1"
+		<img class="d-lg-none d-block mt-4 mx-auto mb-1"
 				src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-sp.jpg?cmsp_timestamp=20211201173054">
 		<{* 1 *}>
 		<div class="row">
-			<div class="col-md-6 d-none d-md-block">
+			<div class="col-lg-6 d-none d-lg-block">
 				<img class="img-fluid"
 					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item1.png?cmsp_timestamp=20211201173038"
 					alt="">
 			</div>
-			<div class="col-12 col-md-6">
+			<div class="col-12 col-lg-6">
 				<div class="badge bg-primary w-100 text-start fs-18px NotoSerifSB py-1 ps-1">ISHIMARUで一番の人気商品！</div>
 				<h4 class="NotoSerifSB fs-28px">【佐賀牛入り】黒毛和牛ハンバーグ</h4>
-				<img class="w-100 d-md-none"
+				<img class="w-100 d-lg-none"
 					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item1.png?cmsp_timestamp=20211201173038"
 					alt="">
 				<div class="card">
@@ -66,12 +66,12 @@
 							<div class="d-flex align-items-center">
 								<div class="customer gray-400">投稿者: 20代 女性</div>
 								<div class="star ms-1" data-rate="5"></div>
-								<a class="d-none d-md-block d-inline-flex ms-auto align-items-center btn btn-outline-secondary NotoSerifL fs-18px px-3 py-1 ls-1 chevron-right"
+								<a class="d-none d-lg-block d-inline-flex ms-auto align-items-center btn btn-outline-secondary NotoSerifL fs-18px px-3 py-1 ls-1 chevron-right"
 									href="#" role="button">
 									商品詳細
 								</a>
 							</div>
-							<a class="w-100 d-block d-md-none d-inline-flex mx-auto align-items-center justify-content-center btn btn-outline-secondary NotoSerifL fs-18px mt-1 py-1 ls-1 chevron-right"
+							<a class="w-100 d-block d-lg-none d-inline-flex mx-auto align-items-center justify-content-center btn btn-outline-secondary NotoSerifL fs-18px mt-1 py-1 ls-1 chevron-right"
 								href="#" role="button">
 								商品詳細
 							</a>
@@ -82,15 +82,15 @@
 		</div>
 		<{* 2 *}>
 		<div class="row">
-			<div class="col-md-6 d-none d-md-block">
+			<div class="col-lg-6 d-none d-lg-block">
 				<img class="img-fluid"
 					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item2.png?cmsp_timestamp=20211202105229"
 					alt="">
 			</div>
-			<div class="col-12 col-md-6">
+			<div class="col-12 col-lg-6">
 				<div class="badge bg-primary w-100 text-start fs-18px NotoSerifSB py-1 ps-1">1つひとつ手作り。肉汁が溢れ出ます。</div>
 				<h4 class="NotoSerifSB fs-28px">【九州産黒毛和牛】ハンバーグ</h4>
-				<img class="w-100 d-md-none"
+				<img class="w-100 d-lg-none"
 					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item2.png?cmsp_timestamp=20211202105229"
 					alt="">
 				<div class="card">
@@ -105,12 +105,12 @@
 							<div class="d-flex align-items-center">
 								<div class="customer gray-400">投稿者: 20代 女性</div>
 								<div class="star ms-1" data-rate="5"></div>
-								<a class="d-none d-md-block d-inline-flex ms-auto align-items-center btn btn-outline-secondary NotoSerifL fs-18px px-3 py-1 ls-1 chevron-right"
+								<a class="d-none d-lg-block d-inline-flex ms-auto align-items-center btn btn-outline-secondary NotoSerifL fs-18px px-3 py-1 ls-1 chevron-right"
 									href="#" role="button">
 									商品詳細
 								</a>
 							</div>
-							<a class="w-100 d-block d-md-none d-inline-flex mx-auto align-items-center justify-content-center btn btn-outline-secondary NotoSerifL fs-18px mt-1 py-1 ls-1 chevron-right"
+							<a class="w-100 d-block d-lg-none d-inline-flex mx-auto align-items-center justify-content-center btn btn-outline-secondary NotoSerifL fs-18px mt-1 py-1 ls-1 chevron-right"
 								href="#" role="button">
 								商品詳細
 							</a>
@@ -121,15 +121,15 @@
 		</div>
 		<{* 3 *}>
 		<div class="row">
-			<div class="col-md-6 d-none d-md-block">
+			<div class="col-lg-6 d-none d-lg-block">
 				<img class="img-fluid"
 					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item3.png?cmsp_timestamp=20211202105248"
 					alt="">
 			</div>
-			<div class="col-12 col-md-6">
+			<div class="col-12 col-lg-6">
 				<div class="badge bg-primary w-100 text-start fs-18px NotoSerifSB py-1 ps-1">1つひとつ手作り。肉汁が溢れ出ます。</div>
 				<h4 class="NotoSerifSB fs-28px">【佐賀牛】ヒレステーキ</h4>
-				<img class="w-100 d-md-none"
+				<img class="w-100 d-lg-none"
 					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item3.png?cmsp_timestamp=20211202105248"
 					alt="">
 				<div class="card">
@@ -143,12 +143,12 @@
 							<div class="d-flex align-items-center">
 								<div class="customer gray-400">投稿者: 50代 男性</div>
 								<div class="star ms-1" data-rate="5"></div>
-								<a class="d-none d-md-block d-inline-flex ms-auto align-items-center btn btn-outline-secondary NotoSerifL fs-18px px-3 py-1 ls-1 chevron-right"
+								<a class="d-none d-lg-block d-inline-flex ms-auto align-items-center btn btn-outline-secondary NotoSerifL fs-18px px-3 py-1 ls-1 chevron-right"
 									href="#" role="button">
 									商品詳細
 								</a>
 							</div>
-							<a class="w-100 d-block d-md-none d-inline-flex mx-auto align-items-center justify-content-center btn btn-outline-secondary NotoSerifL fs-18px mt-1 py-1 ls-1 chevron-right"
+							<a class="w-100 d-block d-lg-none d-inline-flex mx-auto align-items-center justify-content-center btn btn-outline-secondary NotoSerifL fs-18px mt-1 py-1 ls-1 chevron-right"
 								href="#" role="button">
 								商品詳細
 							</a>

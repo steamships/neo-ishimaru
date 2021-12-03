@@ -1,9 +1,9 @@
 
 
 <{* サイドバー *}>
-<nav id="sidebar" class="col-3">
+<nav id="sidebar" class="col-lg-3">
 	<{* PC *}>
-	<div class="d-none d-md-block">
+	<div class="d-none d-lg-block">
 		<ul class="nav nav-pills flex-column mb-auto">
 			<{* お届け目安 *}>
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
@@ -200,7 +200,7 @@
 	<{* // PC *}>
 
 	<{* SP *}>
-	<div class="d-md-none">
+	<div class="d-lg-none">
 		<{* about *}>
 		<a href="">
 			<img class="mx-auto d-block mt-4 mb-2"

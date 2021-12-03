@@ -8,7 +8,7 @@
 		"いぬ"
 	],
 	"is_enable_async_cart_in_pc": true,
-	"view_cart_with_async_info": "view_cart_with_async_info",
+	"view_cart_with_async_info": true,
 	"incart_total_count": 10,
 	"shop_name": "ショップのタイトル",
 	"home_url": "./",

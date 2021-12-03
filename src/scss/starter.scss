@@ -76,7 +76,13 @@ $carousel-indicator-opacity: .8;
 $carousel-indicator-hit-area-height: 0;
 $box-shadow: 0 0 8px #000;
 
-$sp: 768px;//ブレークポイント
+$grid-breakpoints: (
+	xs: 0,
+	lg: 768px,
+);
+$container-max-widths: (
+	lg: 1140px
+);
 
 @import "bootstrap/scss/bootstrap"; // Required
 
@@ -112,6 +118,16 @@ html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p,
  section, header, footer, nav, form, input, div {
 	margin: 0;
 	padding: 0;
+}
+
+// ブレークポイントを１つに変更
+@include media-breakpoint-up(lg) {
+	body{
+		min-width: map-get($container-max-widths, lg) + 60px;
+	}
+	.container{
+		min-width: map-get($container-max-widths, lg);
+	}
 }
 img{
 	@extend .img-fluid;

@@ -8,9 +8,7 @@ footer {
 
 	.checked,
 	.footer {
-		width: vw(1520);
-
-		@media screen and (max-width:$sp) {
+		@include media-breakpoint-down(lg) {
 			width: 95%;
 		}
 	}
@@ -19,7 +17,7 @@ footer {
 		margin-top: rem(80);
 		margin-bottom: rem(80);
 
-		@media screen and (max-width:$sp) {
+		@include media-breakpoint-down(lg) {
 			margin-top: rem(60);
 			margin-bottom: rem(30);
 		}
