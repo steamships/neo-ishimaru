@@ -1,6 +1,5 @@
-<!-- if $tpl_name == "product_list" -->
+<!-- product_list-header-wide.tpl ▼ -->
 <{if $tpl_name == "product_list"}>
-product_list-header-wide
 	<{section name=num loop=$category}>
 	<{if $smarty.section.num.first }>
 	<div class="p-category-main-image">
@@ -23,3 +22,4 @@ product_list-header-wide
 	<{/if}>
 	<{/section}>
 <{/if}>
+<!-- product_list-header-wide.tpl ▲ -->

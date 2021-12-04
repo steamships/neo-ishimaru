@@ -1,4 +1,5 @@
-<!-- Header Start -->
+<!-- header.tpl ▼ -->
+<!-- Header -->
 <header id="header" class="mb-3 mb-lg-8">
 	<nav id="header-nav" class="navbar navbar-expand-lg fixed-top">
 		<button id="header-nav-sp-toggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav-main">
@@ -196,7 +197,7 @@
 
 		</div>
 	</nav>
-	<!-- 検索オーバーレイ Start -->
+	<!-- 検索オーバーレイ -->
 	<div id="overlay">
 		<span id="close-btn" class="close"></span>
 		<div class="overlayflex">
@@ -207,9 +208,9 @@
 			</form>
 		</div>
 	</div>
-	<!-- // 検索オーバーレイ End -->
+	<!-- // 検索オーバーレイ -->
 </header>
-<!-- Header End -->
+<!-- // Header -->
 <div class="container">
 	<div class="row justify-content-between flex-row-reverse">
 <!-- header.tpl ▲ -->
