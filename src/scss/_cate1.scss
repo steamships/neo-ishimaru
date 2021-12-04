@@ -1,0 +1,30 @@
+#cate {
+	.p-sub-category {
+		&-item {
+			background-color: $primary;
+			padding: 0.6rem 0;
+			margin-right: .5rem;
+			transition: .3s;
+			&:last-child {
+				margin-right: 0;
+			}
+			&:hover {
+				background-color: #00000040;
+				.p-sub-category-name{
+					color: $primary;
+				}
+			}
+			&.select {
+				background-color: #00000040;
+				.p-sub-category-name{
+					color: $primary;
+				}
+			}
+		}
+		&-name {
+			font-size: 1.2rem;
+			color: #fff;
+			transition: .3s;
+		}
+	}
+}

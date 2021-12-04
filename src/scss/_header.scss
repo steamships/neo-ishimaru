@@ -7,11 +7,10 @@
 	&-nav{
 		padding: 0;
 		min-width: $body-min-width-lg;
-		background-color: #fff;
-		$shd: 10px;
-		box-shadow: 0 0 $shd $shd #fff;
+		background: linear-gradient(#fff 0% 30%, #fff 40% 78%, transparent 100% 100%);
 		@include media-breakpoint-down(lg) {
-			$shd: 5vw;
+			background-color: #fff;
+			$shd: 3vw;
 			box-shadow: 0 0 $shd $shd #fff;
 			min-width: initial;
 			padding: 0;
@@ -107,7 +106,7 @@
 						font-size: .7em;
 						transition: .3s;
 					}
-					&:hover {
+					&.colorChange {
 						color: $third-color!important;
 						span {
 							color: rgba(0,0,0,0.7)!important;
@@ -323,6 +322,11 @@
 			top: 30%;
 			right: 30%;
 			position: absolute;
+			color: #fff;
+			@include media-breakpoint-down(lg) {
+				top: 35%;
+				right: 5%;
+			}
 			&::before{
 				@include bsicon('x-square');
 				font-size: 40px;
@@ -342,6 +346,10 @@
 			border-radius: 40px;
 			background-color: #fff;
 			box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+			@include media-breakpoint-down(lg) {
+				width: 90vw;
+				border-radius: 5.333vw;
+			}
 			.form-input{
 				border: none;
 				width: 100%;
