@@ -10,18 +10,57 @@
 }
 
 // 矢印
-.chevron-right {
-	position: relative;
+#price,
+#dish {
+	.chevron-right {
+		position: relative;
+		&::after {
+			@include bsicon("chevron-right");
+			position: absolute;
+			top: 33%;
+			right: .5rem;
+		}
+	}
 }
 
-.chevron-right::after {
-	@include bsicon("chevron-right");
-	position: absolute;
-	top: 33%;
-	right: .5rem;
+#dish {
+	.dish::after {
+		top: 18%;
+	}
 }
-.dish::after {
-	top: 18%;
+
+// artice間マージン
+#brand, #dish {
+	margin-bottom: 5.5rem;
+	@include media-breakpoint-down(lg) {
+		margin-bottom: 2rem;
+	}
 }
 
 // インフォメーション
+
+// ブランド
+#brand {
+
+	h5 {
+		margin-top: 1.8rem;
+		padding-bottom: .8rem;
+
+		@include media-breakpoint-down(lg) {
+			margin-top: 1rem;
+			font-size: 1.1rem;
+		}
+	}
+
+	p {
+		margin-top: .8rem;
+
+		@include media-breakpoint-down(lg) {
+			font-size: .8rem;
+		}
+	}
+
+	.bb-1 {
+		border-bottom: solid 1px;
+	}
+}

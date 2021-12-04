@@ -1,10 +1,10 @@
-<{* レビュー *}>
+<!-- review.tpl ▼ -->
 	<article id="review">
 		<img class="d-none d-lg-block img-fluid"
 				src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-pc.jpg?cmsp_timestamp=20211201171920">
 		<img class="d-lg-none d-block mt-4 mx-auto mb-1"
 				src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-sp.jpg?cmsp_timestamp=20211201173054">
-		<{* 1 *}>
+		<!-- 1 -->
 		<div class="row">
 			<div class="col-lg-6 d-none d-lg-block">
 				<img class="img-fluid"
@@ -44,7 +44,7 @@
 				</div>
 			</div>
 		</div>
-		<{* 2 *}>
+		<!-- 2 -->
 		<div class="row">
 			<div class="col-lg-6 d-none d-lg-block">
 				<img class="img-fluid"
@@ -83,7 +83,7 @@
 				</div>
 			</div>
 		</div>
-		<{* 3 *}>
+		<!-- 3 -->
 		<div class="row">
 			<div class="col-lg-6 d-none d-lg-block">
 				<img class="img-fluid"
@@ -123,4 +123,4 @@
 		</div>
 		<a class="d-flex mx-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more" href="#" role="button">more</a>
 	</article>
-	<{* // レビュー *}>
+<!-- review.tpl ▲ -->
