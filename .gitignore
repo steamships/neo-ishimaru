@@ -2,8 +2,7 @@ node_modules
 vendor
 templates_c
 assets
-templates/cate.tpl
-templates/common.tpl
-templates/detail.tpl
-templates/search.tpl
-templates/top.tpl
+templates/*
+!_header.tpl
+!_footer.tpl
+!index.tpl
