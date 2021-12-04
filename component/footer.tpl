@@ -41,9 +41,9 @@
 
 						<!-- SNS -->
 						<div class="py-2">
-							<a href="https://www.instagram.com/suguru_ishimaru/" target="_blank" class="btn btn-link pe-0 instagram">
+							<a href="//www.instagram.com/suguru_ishimaru/" target="_blank" class="btn btn-link pe-0 instagram">
 							</a>
-							<a href="https://www.facebook.com/ishimaru.meet/" target="_blank" class="btn btn-link pe-0 facebook">
+							<a href="//www.facebook.com/ishimaru.meet/" target="_blank" class="btn btn-link pe-0 facebook">
 							</a>
 						</div>
 						<!-- / SNS -->
@@ -51,7 +51,7 @@
 						<!-- ロゴ -->
 						<div class="mt-1">
 							<a href="<{$home_url}>" class="d-block" title="<{$shop_name}>"><img
-									src="https://img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501"
+									src="//img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501"
 									alt="石丸ショップロゴ"></a>
 						</div>
 						<!-- / ロゴ -->
@@ -198,16 +198,16 @@
 					<!-- ロゴ -->
 					<div class="col-4 align-middle">
 						<a href="#"><img
-								src="https://img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501"
+								src="//img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501"
 								width="100" alt="石丸ショップロゴ"></a>
 					</div>
 					<!-- / ロゴ -->
 
 					<!-- SNS -->
 					<div class="col-3 p-0">
-						<a href="https://www.instagram.com/suguru_ishimaru/" target="_blank" class="btn btn-link pe-0 instagram">
+						<a href="//www.instagram.com/suguru_ishimaru/" target="_blank" class="btn btn-link pe-0 instagram">
 						</a>
-						<a href="https://www.facebook.com/ishimaru.meet/" target="_blank" class="btn btn-link pe-0 facebook">
+						<a href="//www.facebook.com/ishimaru.meet/" target="_blank" class="btn btn-link pe-0 facebook">
 						</a>
 					</div>
 					<!-- / SNS -->

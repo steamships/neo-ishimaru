@@ -10,15 +10,48 @@
 }
 
 // 矢印
+#info,
+#ranking,
 #price,
 #dish {
 	.chevron-right {
 		position: relative;
+
 		&::after {
 			@include bsicon("chevron-right");
 			position: absolute;
-			top: 33%;
 			right: .5rem;
+		}
+	}
+}
+
+#info,
+#ranking {
+	@include media-breakpoint-down(lg) {
+		margin-bottom: 5rem;
+	}
+	.name {
+		margin-top: .7rem;
+	}
+	.more {
+		width: 20%;
+		margin-top: 1rem;
+		padding: 1.5rem 0;
+		letter-spacing: .3rem;
+
+		@include media-breakpoint-down(lg) {
+			width: rem(112);
+			height: rem(48);
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			right: 0;
+		}
+
+		&::after {
+			@include media-breakpoint-down(lg) {
+				right: .05rem;
+			}
 		}
 	}
 }
@@ -30,14 +63,56 @@
 }
 
 // artice間マージン
-#brand, #dish {
+#info,
+#ranking,
+#brand,
+#dish {
 	margin-bottom: 5.5rem;
+}
+#brand,
+#dish {
 	@include media-breakpoint-down(lg) {
 		margin-bottom: 2rem;
 	}
 }
 
 // インフォメーション
+#info {
+	.head {
+		margin: .8rem 0 .4rem;
+	}
+	.date {
+		font-size: .8rem;
+		margin-left: .5rem;
+	}
+	.title {
+		padding-bottom: .8rem;
+		border-bottom: solid thin;
+	}
+	.expl {
+		padding-top: .8rem;
+	}
+}
+
+// ランキング
+#ranking {
+	.rank-1 {
+		background: #ebaa00;
+	}
+
+	.rank-2 {
+		background: #808080;
+	}
+
+	.rank-3 {
+		background: #42210b;
+	}
+
+	.rank-4 {
+		color: #000;
+		background: #fff;
+	}
+}
 
 // ブランド
 #brand {
