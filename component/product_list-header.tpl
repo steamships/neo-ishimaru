@@ -1,5 +1,5 @@
 <!-- product_list-header.tpl ▼ -->
-<section id="cate" class="mb-3 mb-lg-8">
+<section id="product_list-header" class="mb-3 mb-lg-8">
 	<!-- <{if $subcategory_num != 0}>
 	<ul class="p-sub-category list-unstyled d-flex flex-nowrap">
 		<{section name=num loop=$sub_category}>

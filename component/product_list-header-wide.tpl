@@ -3,7 +3,7 @@
 	<{section name=num loop=$category}>
 	<{if $smarty.section.num.first }>
 	<!-- <{$category[num].name}>の商品一覧ページ -->
-	<div class="p-category-main-image">
+	<div id="product_list-header-wide" class="p-category-main-image">
 	<{/if}>
 		<{if $bid_name != "" && $smarty.get.cbid == $category[num].bid}>
 			<img class="p-category-main-image-img d-none d-lg-block" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-category-img-<{$smarty.get.cbid}>.jpg" alt="<{$category[num].name}>カテゴリー画像">
@@ -28,7 +28,7 @@
 	<{section name=num loop=$group}>
 	<{if $smarty.section.num.first }>
 	<!-- <{$group[num].name}>の商品一覧ページ -->
-	<div class="p-category-main-image">
+	<div id="product_list-header-wide" class="p-category-main-image">
 	<{/if}>
 		<{if $group[num].name != "" && $smarty.get.gid == $group[num].id}>
 		<img class="p-category-main-image-img d-none d-lg-block" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-category-img-<{$smarty.get.gid}>.jpg" alt="<{$group[num].name}>カテゴリー画像">

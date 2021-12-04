@@ -25,6 +25,6 @@ import "../../node_modules/chart.js/dist/chart.js";
 //パーツごとのJSファイルを読み込み
 import { header } from "./_header.js";
 header();
-import { cate } from "./_cate.js";
-cate();
+import { product_list } from "./_product_list.js";
+product_list();
 require("./niku-radar-chart");
