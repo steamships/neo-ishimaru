@@ -7,28 +7,26 @@ export const header = () => {
 			$("#header-nav").css("left", -$(window).scrollLeft());
 		});
 
-
-
-
 		//デバイスサイズでアクション分岐
 		const windowWidth = $(window).width();
 		const windowSm = 768;
 		if (windowWidth <= windowSm) {
 			$('.sub-nav').wrap('<div class="sub-nav-wrap">')
-			//クリックアクションでサブメニュー表示
+			//クリックアクションでサブメニュー表示、その他アクション
 			$('.main-nav .nav-item').click(function(){
 				const $this = $(this);
 				$this.find('.sub-nav-wrap').toggle(400);
 				$this.find('.sub-nav').toggleClass('show');
 				$this.find('.nav-link').toggleClass('rotate');
+				$this.find('.nav-link').toggleClass('colorChange');
 			});
-
 		}
 		else {
-			//ホバーアクションでサブメニュー表示
+			//ホバーアクションでサブメニュー表示、その他アクション
 			$('.main-nav .nav-item').hover(
 				function(){
 					$(this).find('.sub-nav').toggleClass('show');
+					$(this).find('.nav-link').toggleClass('colorChange');
 				}
 			);
 		}
@@ -41,21 +39,5 @@ export const header = () => {
 		$(".close").click(function() {
 			$("#overlay").fadeOut(200);
 		});
-		// // バブリングを停止
-		// $(".overlay-inner").click(function(e){
-		// 	e.stopPropagation();
-		// });
-
-		// モーダルが開いたら、bodyにfixedを付与
-
-		// $('body').css('position','fixed');
-		// $('body').css('top',`-${window.scrollY}px`);
-
-		// // モーダルが閉じられ時...
-		// const top = document.body.style.top;
-		// $('body').css('position','');
-		// $('body').css('top','');
-		// document.body.style.top = '';
-		// window.scrollTo(0, parseInt(scrollY || '0') * -1);
 	}
 }

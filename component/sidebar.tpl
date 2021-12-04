@@ -30,24 +30,6 @@
 				</a>
 			</li>
 			<li class="NotoSerifL fs-16px ms-2 mb-2">受付 9:00～18：00 (木曜定休)</li>
-			<{* FAX *}>
-			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
-				FAXでのお問い合わせ・ご注文
-			</li>
-			<li>
-				<a href="tel:0956-85-7777" class="nav-link TrajanB fs-26px p-0">
-					<img src="https://img07.shop-pro.jp/PA01437/442/etc/neo-fax.png?cmsp_timestamp=20211129195111"
-						alt="" width="30" height="30">
-					<span class="align-text-bottom">0956-85-7777</span>
-				</a>
-			</li>
-			<li class="NotoSerifL fs-18px mt-1 mb-2">
-				<a class="w-100 px-0 py-1 btn btn-outline-secondary" href="#" role="button">
-					<div class="d-flex justify-content-between align-items-center ps-2 ls-1 chevron-right">
-						FAX用紙ダウンロード
-					</div>
-				</a>
-			</li>
 			<{* MAIL *}>
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				メールでのお問い合わせ・ご注文
