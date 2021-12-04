@@ -148,3 +148,8 @@ img{
 .bi {
 	fill: currentColor;
 }
+.nav-pills {
+	.nav-link {
+		background-color: rgba($primary, 0.1);
+	}
+}

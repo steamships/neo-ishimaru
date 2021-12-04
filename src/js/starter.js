@@ -27,4 +27,4 @@ import { header } from "./_header.js";
 header();
 import { cate } from "./_cate.js";
 cate();
-require("./niku-radar-chart");
+require("./beef-chart");
