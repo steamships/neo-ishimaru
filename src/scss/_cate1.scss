@@ -27,4 +27,29 @@
 			transition: .3s;
 		}
 	}
+	.c-product-sort {
+		&-total {
+			span {
+				font-size: 1.1rem;
+				margin: .1rem;
+			}
+		}
+		&-switch {
+			.c-select-value {
+				-webkit-appearance: none;
+				appearance: none;
+				background-color: $primary;
+				color: #fff;
+				padding: .3rem .5rem;
+				option {
+					&::after{
+						@include bsicon('chevron-down');
+					}
+				}
+				&::-ms-expand {
+					display: none; /* デフォルトのスタイルを無効(IE用) */
+				}
+			}
+		}
+	}
 }

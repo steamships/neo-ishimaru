@@ -38,14 +38,14 @@
 	<!-- 商品数とソート -->
 
 	<{if $productlist_num != 0}>
-	<div class="c-product-sort d-flex justify-content-between">
-		<div class="c-product-sort-total">
+	<div class="c-product-sort mb-lg-1 d-flex justify-content-between">
+		<div class="c-product-sort-total TrajanB fs-16px">
 			全<span><{$productlist_num}></span>商品
 		</div>
 		<div class="c-product-sort-switch">
-		<select class="c-select-value js-sort-switch">
+		<select class="c-select-value js-sort-switch NotoSerifL fs-16px border-0">
 			<{if $productlist_sort_now != ""}>
-			<option value="<{$productlist_sort_def}>">おすすめ順</option>
+			<option value="<{$productlist_sort_def}>">おすすめ順</option><i class="bi bi-chevron-down"></i>
 			<{else}>
 			<option value="" selected>おすすめ順</option>
 			<{/if}>
