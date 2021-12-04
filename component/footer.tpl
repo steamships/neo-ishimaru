@@ -50,7 +50,7 @@
 
 						<!-- ロゴ -->
 						<div class="mt-1">
-							<a href="#"><img
+							<a href="<{$home_url}>" class="d-block" title="<{$shop_name}>"><img
 									src="https://img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501"
 									alt="石丸ショップロゴ"></a>
 						</div>
