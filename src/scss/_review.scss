@@ -16,7 +16,6 @@
 	.chevron-right::after {
 		@include bsicon("chevron-right");
 		position: absolute;
-		top: 37%;
 		right: .5rem;
 	}
 
@@ -59,7 +58,6 @@
 		margin-top: rem(40);
 		letter-spacing: .3rem;
 		@include media-breakpoint-down(lg) {
-			display: inline;
 			width: rem(112);
 			height: rem(48);
 			margin-top: rem(-20);
