@@ -1,0 +1,13 @@
+#product-info{
+	&-img{
+		&-thumbs{
+			img{
+				cursor: pointer;
+				transition: all .3s;
+				&:hover{
+					transform: scale(1.05);
+				}
+			}
+		}
+	}
+}
