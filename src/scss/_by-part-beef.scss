@@ -1,0 +1,15 @@
+#by-part-beef{
+	&-img{
+		position: relative;
+		padding-bottom: 27%;
+		background-image: url(../img/ushi.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		&-star{
+			position: absolute;
+			color: gold;
+			transition: all .3s;
+			// positionはjsでいじる
+		}
+	}
+}

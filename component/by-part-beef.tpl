@@ -7,22 +7,22 @@
 	<!-- 牛の部位タブ -->
 	<ul id="by-part-beef-tab" class="nav nav-pills nav-justified gap-1 my-3 justify-content-center" role="tablist" style="white-space: nowrap;">
 		<li class="nav-item" role="presentation">
-			<a class="nav-link active" data-bs-toggle="pill" href="#部位ヒレ" role="tab" data-chart="8,5,9,7,9">ヒレ</a>
+			<a class="nav-link active" data-bs-toggle="pill" href="#部位ヒレ" role="tab" data-chart="8,5,9,7,9" data-top="20%" data-left="65%">ヒレ</a>
 		</li>
 		<li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="pill" href="#部位ロース" role="tab" data-chart="8,8,9,9,6">ロース</a>
+			<a class="nav-link" data-bs-toggle="pill" href="#部位ロース" role="tab" data-chart="8,8,9,9,6" data-top="18%" data-left="45%">ロース</a>
 		</li>
 		<li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="pill" href="#部位小間切れ" role="tab" data-chart="8,8,9,9,6">赤み</a>
+			<a class="nav-link" data-bs-toggle="pill" href="#部位小間切れ" role="tab" data-chart="8,8,9,9,6" data-top="50%" data-left="50%">赤み</a>
 		</li>
 		<li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="pill" href="#部位赤身" role="tab" data-chart="7,6,6,7,6">小間切れ</a>
+			<a class="nav-link" data-bs-toggle="pill" href="#部位赤身" role="tab" data-chart="7,6,6,7,6" data-top="50%" data-left="50%">小間切れ</a>
 		</li>
 		<li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="pill" href="#部位ウデ" role="tab" data-chart="7,6,6,7,6">肩スライス</a>
+			<a class="nav-link" data-bs-toggle="pill" href="#部位ウデ" role="tab" data-chart="7,6,6,7,6" data-top="23%" data-left="35%">肩スライス</a>
 		</li>
 		<li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="pill" href="#部位モモ" role="tab" data-chart="7,5,7,6,6">ももスライス</a>
+			<a class="nav-link" data-bs-toggle="pill" href="#部位モモ" role="tab" data-chart="7,5,7,6,6" data-top="40%" data-left="75%">ももスライス</a>
 		</li>
 	</ul>
 	<div id="by-part-beef-tab-wrap" class="row justify-content-between flex-column-reverse flex-lg-row">
@@ -30,7 +30,7 @@
 
 			<!-- 牛の部位にスター -->
 			<div id="by-part-beef-img" class="col-6 mx-auto mb-2">
-				<img src="https://img07.shop-pro.jp/PA01437/442/etc/neo-fillet.png">
+				<i id="by-part-beef-img-star" class="bi bi-star-fill"></i>
 			</div>
 
 			<!-- 部位ごとの解説＆リンク -->
