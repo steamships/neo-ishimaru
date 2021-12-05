@@ -11,12 +11,12 @@
 
 	.chevron-right {
 		position: relative;
-	}
 
-	.chevron-right::after {
-		@include bsicon("chevron-right");
-		position: absolute;
-		right: .5rem;
+		&::after {
+			@include bsicon("chevron-right");
+			position: absolute;
+			right: .5rem;
+		}
 	}
 
 	.customer {
@@ -46,17 +46,21 @@
 			color: #ffcf32;
 		}
 	}
+
 	.row:nth-child(even) {
 		flex-direction: row-reverse;
+
 		@include media-breakpoint-down(lg) {
 			flex-direction: row;
 		}
 	}
+
 	.more {
 		width: vw(381);
 		height: vw(60);
 		margin-top: rem(40);
 		letter-spacing: .3rem;
+
 		@include media-breakpoint-down(lg) {
 			width: rem(112);
 			height: rem(48);
@@ -64,6 +68,7 @@
 			position: absolute;
 			right: 0;
 		}
+
 		&::after {
 			@include media-breakpoint-down(lg) {
 				right: .05rem;
@@ -73,6 +78,7 @@
 
 	.row {
 		margin-top: rem(40);
+
 		@include media-breakpoint-down(lg) {
 			background: #fff;
 			margin: 0;

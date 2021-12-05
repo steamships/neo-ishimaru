@@ -30,7 +30,7 @@
 							<div class="d-flex align-items-center">
 								<div class="customer gray-400">投稿者: 20代 女性</div>
 								<div class="star ms-1" data-rate="5"></div>
-								<a class="d-none d-lg-block d-inline-flex ms-auto align-items-center btn btn-outline-secondary NotoSerifL fs-18px px-3 py-1 ls-1 chevron-right"
+								<a class="d-none d-lg-flex ms-auto align-items-center justify-content-center text-decoration-none btn btn-outline-secondary NotoSerifL fs-18px px-2 py-1 ls-1 chevron-right"
 									href="https://www.saga-ishimaru.co.jp/?pid=147855212" role="button">
 									商品詳細
 								</a>
@@ -69,7 +69,7 @@
 							<div class="d-flex align-items-center">
 								<div class="customer gray-400">投稿者: 20代 女性</div>
 								<div class="star ms-1" data-rate="5"></div>
-								<a class="d-none d-lg-block d-inline-flex ms-auto align-items-center btn btn-outline-secondary NotoSerifL fs-18px px-3 py-1 ls-1 chevron-right"
+								<a class="d-none d-lg-flex ms-auto align-items-center justify-content-center text-decoration-none btn btn-outline-secondary NotoSerifL fs-18px px-2 py-1 ls-1 chevron-right"
 									href="https://www.saga-ishimaru.co.jp/?pid=160628002" role="button">
 									商品詳細
 								</a>
@@ -107,7 +107,7 @@
 							<div class="d-flex align-items-center">
 								<div class="customer gray-400">投稿者: 50代 男性</div>
 								<div class="star ms-1" data-rate="5"></div>
-								<a class="d-none d-lg-block d-inline-flex ms-auto align-items-center btn btn-outline-secondary NotoSerifL fs-18px px-3 py-1 ls-1 chevron-right"
+								<a class="d-none d-lg-flex ms-auto align-items-center justify-content-center text-decoration-none btn btn-outline-secondary NotoSerifL fs-18px px-2 py-1 ls-1 chevron-right"
 									href="https://www.saga-ishimaru.co.jp/?pid=145587190" role="button">
 									商品詳細
 								</a>
