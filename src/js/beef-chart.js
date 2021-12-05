@@ -2,7 +2,9 @@
  * 牛肉のチャートグラフ
  * ついでに星の位置も
  */
-if ( $('#by-part-beef-tab').lenght ) {
+console.log('beef-chart.js')
+
+if ( $('#by-part-beef-tab').length ) {
 
 	// 牛肉のチャートグラフ基本データ
 	const beef_chart_data = {
