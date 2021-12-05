@@ -111,6 +111,7 @@ $baseWidth : 1920;
 @import "sidebar";
 @import "review";
 @import "product_list";
+@import "buttons";
 
 
 *{
@@ -154,3 +155,4 @@ img{
 		background-color: rgba($primary, 0.1);
 	}
 }
+

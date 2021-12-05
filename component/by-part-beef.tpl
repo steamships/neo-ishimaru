@@ -37,38 +37,38 @@
 			<div id="by-part-beef-tab-content" class="tab-content lh-lg">
 				<div class="tab-pane show active" id="部位ヒレ" role="tabpanel">
 					<p>牛の部位の中で圧倒的に運動量が少なく、キメが細かなヒレは一頭の牛からわずか3％しか取れない希少部位。肉の女王とも呼ばれるこの部位の特徴はとにかく「柔らかい」こと。</p>
-					<a class="btn btn-primary NotoSerifL d-block my-2 p-1" href="#" role="button">
+					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">
 						ヒレページへ
 					</a>
 				</div>
 				<div class="tab-pane" id="部位ロース" role="tabpanel">
 					<p>赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。</p>
-					<a class="btn btn-primary NotoSerifL d-block my-2 p-1" href="#" role="button">ロースページへ</a>
+					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">ロースページへ</a>
 				</div>
 				<div class="tab-pane" id="部位小間切れ" role="tabpanel">
 					様々な部位のお肉が集まったバラエティパック。使い勝手が良く様々な料理との相性抜群。手ごろな価格で良いお肉を楽しめる。
-					<a class="btn btn-primary NotoSerifL d-block my-2 p-1" href="#" role="button">小間切れページへ</a>
+					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">小間切れページへ</a>
 				</div>
 				<div class="tab-pane" id="部位赤身" role="tabpanel">
 					<p>
 						脂身が少なくてヘルシー、弾力があって食べごたえのある部位。
 						しっかりとした歯ごたえを持ち旨味が凝縮されており、お肉本来の味を堪能出来る。
 					</p>
-					<a class="btn btn-primary NotoSerifL d-block my-2 p-1" href="#" role="button">赤身ページへ</a>
+					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">赤身ページへ</a>
 				</div>
 				<div class="tab-pane" id="部位ウデ" role="tabpanel">
 					<p>
 						とろけるような程よい食感で濃厚な味わいが特徴の霜降り肉。
 						しゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
 					</p>
-					<a class="btn btn-primary NotoSerifL d-block my-2 p-1" href="#" role="button">肩スライスページへ</a>
+					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">肩スライスページへ</a>
 				</div>
 				<div class="tab-pane" id="部位モモ" role="tabpanel">
 					<p>
 						比較的脂身が少ないヘルシーな赤身肉。
 						さっぱりとした味わいが特徴でしゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
 					</p>
-					<a class="btn btn-primary NotoSerifL d-block my-2 p-1" href="#" role="button">モモスライスページへ</a>
+					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">モモスライスページへ</a>
 				</div>
 
 			</div>

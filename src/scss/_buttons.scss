@@ -1,0 +1,13 @@
+.btn{
+	&-chevron{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&::before, &::after{
+			content: "";
+		}
+		&::after{
+			@include bsicon('chevron-right');
+		}
+	}
+}
