@@ -1,3 +1,18 @@
+#product_list {
+	.product_list-item {
+		@include media-breakpoint-down(lg) {
+			&:nth-of-type(odd) {
+				padding-right: calc(var(--bs-gutter-x) * .25);
+			}
+			&:nth-of-type(even) {
+				padding-left: calc(var(--bs-gutter-x) * .25);
+			}
+		}
+		&-name {
+			margin-bottom: .2rem;
+		}
+	}
+}
 #product_list-header-wide {
 	.p-category-main-image {
 		&-text {
@@ -11,11 +26,19 @@
 }
 #product_list-header {
 	.p-sub-category {
+		@include media-breakpoint-down(lg) {
+			display: flex;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+		}
 		&-item {
 			background-color: $primary;
 			padding: 0.6rem 2rem;
 			margin: 0 0.5rem 0.5rem 0;
 			transition: .3s;
+			@include media-breakpoint-down(lg) {
+				padding: 0.4rem 1.5rem;
+			}
 			&:last-child {
 				margin-right: 0;
 			}
@@ -38,11 +61,36 @@
 			transition: .3s;
 		}
 	}
+	.p-sub-category-description{
+		&-textbox {
+			padding: 0 0 0 2rem;
+			@include media-breakpoint-down(lg) {
+				padding: 0;
+			}
+			&-catch {
+				border-bottom: 1px solid $primary;
+				letter-spacing: 1.2px;
+				padding-bottom: 0.5rem;
+				margin-bottom: 0.5rem;
+				@include media-breakpoint-down(lg) {
+					padding-bottom: 0;
+				}
+			}
+			&-text {
+				border-bottom: 1px dashed $primary;
+				line-height: 1.6rem;
+
+			}
+		}
+	}
 	.c-product-sort {
 		&-total {
 			span {
 				font-size: 1.1rem;
 				margin: .1rem;
+				@include media-breakpoint-down(lg) {
+					font-size: 5.333vw;
+				}
 			}
 		}
 		&-switch {
@@ -69,11 +117,6 @@
 				padding: .3rem .5rem;
 				position: relative;
 				width: 100%;
-				option {
-					// &::after{
-					// 	@include bsicon('chevron-down');
-					// }
-				}
 			}
 		}
 	}

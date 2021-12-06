@@ -1,4 +1,8 @@
 export const product_list = () => {
+	if ($('#product_list').length) {
+		console.log("product_list");
+
+	}
 	if ($('#product_list-header-wide').length) {
 		console.log("product_list-header-wide");
 

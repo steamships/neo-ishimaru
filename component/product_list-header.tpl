@@ -1,8 +1,7 @@
 <!-- product_list-header.tpl ▼ -->
 <section id="product_list-header" class="mb-3 mb-lg-8">
-	<{if $bid_name != ""}>
-	<{if $subcategory_num != 0}>
-	<ul class="p-sub-category mb-2 list-unstyled">
+	<{if $smarty.get.mode == "cate" && $subcategory_num != 0}>
+	<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
 		<{section name=num loop=$sub_category}>
 		<li class="p-sub-category-item text-center d-inline-block"">
 			<a href="<{$sub_category[num].link_url}>" class="p-sub-category-link text-decoration-none">
@@ -12,10 +11,9 @@
 		<{/section}>
 	</ul>
 	<{/if}>
-	<{/if}>
 
-	<{if $subgroup_num != 0}>
-	<ul class="p-sub-category mb-2 list-unstyled">
+	<{if $smarty.get.mode == "grp" && $subgroup_num != 0}>
+	<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
 	<{section name=num loop=$sub_group}>
 		<li class="p-sub-category-item text-center d-inline-block">
 			<a href="<{$sub_group[num].link_url}>" class="p-sub-category-link text-decoration-none">
@@ -25,6 +23,14 @@
 	<{/section}>
 	</ul>
 	<{/if}>
+
+	<div class="p-sub-category-description mb-2 mb-lg-1 d-flex justify-content-between flex-column flex-lg-row">
+		<img class="p-sub-category-description-img col-12 col-lg-5 mb-2 mb-lg-0" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-fillet.png" alt="牛の部位">
+		<div class="p-sub-category-description-textbox col-12 col-lg-7 pl-1">
+			<p class="p-sub-category-description-textbox-catch TrajanB fs-26px">1頭から2%しかとれない希少部位。</p>
+			<p class="p-sub-category-description-textbox-text TrajanL d-inline">とても柔らかくキメの細かい肉質、口いっばいに広がる肉汁が特徴。1頭の牛からほんのわずかしか取れない希少部位です。</p>
+		</div>
+	</div>
 
 
 	<{if $productlist_num != 0}>
