@@ -189,12 +189,12 @@
 			<!-- / PC -->
 
 			<!-- SP -->
-			<div class="footer d-lg-none mx-auto py-4">
+			<div class="footer d-lg-none mx-auto pt-3 pb-5">
 				<!-- Grid row 1 -->
 				<div class="row py-2 text-center align-items-center">
 
 					<!-- ロゴ -->
-					<div class="col-4 align-middle">
+					<div class="col-4">
 						<a href="#"><img
 								src="//img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501"
 								width="100" alt="石丸ショップロゴ"></a>
@@ -212,7 +212,7 @@
 
 					<!-- 戻るボタン-->
 					<div class="col-5">
-						<a href="#" class="btn btn-dark rounded-pill TrajanB fs-14px ls-1 chevron-up">PAGE TOP</a>
+						<a href="#" class="btn btn-dark rounded-pill TrajanB ls-1 chevron-up">PAGE TOP</a>
 					</div>
 					<!-- / 戻るボタン-->
 
