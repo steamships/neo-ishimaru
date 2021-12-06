@@ -13,12 +13,6 @@
 			<a class="nav-link" data-bs-toggle="pill" href="#部位ロース" role="tab" data-chart="8,8,9,9,6" data-top="18%" data-left="45%">ロース</a>
 		</li>
 		<li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="pill" href="#部位小間切れ" role="tab" data-chart="8,8,9,9,6" data-top="50%" data-left="50%">赤み</a>
-		</li>
-		<li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="pill" href="#部位赤身" role="tab" data-chart="7,6,6,7,6" data-top="50%" data-left="50%">小間切れ</a>
-		</li>
-		<li class="nav-item" role="presentation">
 			<a class="nav-link" data-bs-toggle="pill" href="#部位ウデ" role="tab" data-chart="7,6,6,7,6" data-top="23%" data-left="35%">肩スライス</a>
 		</li>
 		<li class="nav-item" role="presentation">
@@ -44,17 +38,6 @@
 				<div class="tab-pane" id="部位ロース" role="tabpanel">
 					<p>赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。</p>
 					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">ロースページへ</a>
-				</div>
-				<div class="tab-pane" id="部位小間切れ" role="tabpanel">
-					様々な部位のお肉が集まったバラエティパック。使い勝手が良く様々な料理との相性抜群。手ごろな価格で良いお肉を楽しめる。
-					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">小間切れページへ</a>
-				</div>
-				<div class="tab-pane" id="部位赤身" role="tabpanel">
-					<p>
-						脂身が少なくてヘルシー、弾力があって食べごたえのある部位。
-						しっかりとした歯ごたえを持ち旨味が凝縮されており、お肉本来の味を堪能出来る。
-					</p>
-					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">赤身ページへ</a>
 				</div>
 				<div class="tab-pane" id="部位ウデ" role="tabpanel">
 					<p>
