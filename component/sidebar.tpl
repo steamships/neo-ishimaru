@@ -52,7 +52,7 @@
 			</li>
 			<!-- プレゼント -->
 			<li>
-				<a href="https://www.saga-ishimaru.co.jp/?mode=f3">
+				<a href="//www.saga-ishimaru.co.jp/?mode=f3">
 					<img class="pt-2"
 						src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20211129202928"
 						alt="" width="321">
@@ -131,7 +131,7 @@
 			</li>
 			<!-- about -->
 			<li>
-				<a href="https://www.saga-ishimaru.co.jp/?mode=f1">
+				<a href="//www.saga-ishimaru.co.jp/?mode=f1">
 					<img src="//img07.shop-pro.jp/PA01437/442/etc/neo-about-pc.png?cmsp_timestamp=20211130183540"
 						alt="">
 				</a>
@@ -157,7 +157,7 @@
 			</li>
 			<li class="NotoSerifL fs-18px">
 				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
-					href="//www.rakuten.ne.jp/gold/f413275-yoshinogari/#/" role="button">
+					href="//search.rakuten.co.jp/search/event/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%80%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD/?ev=40&v=2" role="button">
 					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						楽天ふるさと納税
 					</div>
@@ -165,7 +165,7 @@
 			</li>
 			<li class="NotoSerifL fs-18px">
 				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
-					href="//www.furusato-tax.jp/city/product/41327" role="button">
+					href="//www.furusato-tax.jp/search?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD&header=1&target=1&sst=" role="button">
 					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						ふるさとチョイス
 					</div>
@@ -173,7 +173,7 @@
 			</li>
 			<li class="NotoSerifL fs-18px">
 				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
-					href="//furunavi.jp/Municipal/Product/Search?municipalid=1539" role="button">
+					href="//furunavi.jp/Product/Search?keyword=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD" role="button">
 					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						ふるなび
 					</div>
@@ -186,13 +186,13 @@
 	<!-- SP -->
 	<div class="d-lg-none">
 		<!-- about -->
-		<a href="https://www.saga-ishimaru.co.jp/?mode=f1">
+		<a href="//www.saga-ishimaru.co.jp/?mode=f1">
 			<img class="mx-auto d-block mt-4 mb-2"
 				src="//img07.shop-pro.jp/PA01437/442/etc/neo-about-pc.png?cmsp_timestamp=20211130183540" alt=""
 				width="335">
 		</a>
 		<!-- プレゼント -->
-		<a href="https://www.saga-ishimaru.co.jp/?mode=f3">
+		<a href="//www.saga-ishimaru.co.jp/?mode=f3">
 			<img class="w-100 d-block mt-4 mb-2"
 				src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20211129202928" alt="">
 		</a>
@@ -234,19 +234,19 @@
 		</div>
 		<div class="w-75 mx-auto NotoSerifL fs-18px">
 			<a class="d-block mb-10px px-0 py-1 btn btn-secondary"
-				href="//www.rakuten.ne.jp/gold/f413275-yoshinogari/#/" role="button">
+				href="//search.rakuten.co.jp/search/event/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%80%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD/?ev=40&v=2" role="button">
 				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 					楽天ふるさと納税
 				</div>
 			</a>
-			<a class="d-block mb-10px px-0 py-1 btn btn-secondary" href="//www.furusato-tax.jp/city/product/41327"
+			<a class="d-block mb-10px px-0 py-1 btn btn-secondary" href="//www.furusato-tax.jp/search?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD&header=1&target=1&sst="
 				role="button">
 				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 					ふるさとチョイス
 				</div>
 			</a>
 			<a class="d-block mb-10px px-0 py-1 btn btn-secondary"
-				href="//furunavi.jp/Municipal/Product/Search?municipalid=1539" role="button">
+				href="//furunavi.jp/Product/Search?keyword=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD" role="button">
 				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 					ふるなび
 				</div>
