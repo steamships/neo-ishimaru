@@ -70,7 +70,9 @@
 						</p>
 						<div class="collapse" id="collapseSagagyu">
 							<div class="card card-body border-0">
-								佐賀牛
+								<{foreach from=$sub_category.2543763 item=sub_cate}>
+								<a href="<{$sub_cate.link_url}>"><{$sub_cate.name}></a>
+								<{/foreach}>
 							</div>
 						</div>
 						<p>
@@ -79,7 +81,9 @@
 						</p>
 						<div class="collapse" id="collapseKuroge">
 							<div class="card card-body border-0">
-								黒毛和牛
+								<{foreach from=$sub_category.2547504 item=sub_cate}>
+								<a href="<{$sub_cate.link_url}>"><{$sub_cate.name}></a>
+								<{/foreach}>
 							</div>
 						</div>
 					</div>
