@@ -1,9 +1,6 @@
 footer {
 	.gradient {
-		background: linear-gradient(to top, white 60%, transparent);
-		background: -webkit-linear-gradient(to top, white, transparent);
-		background: -mozlinear-gradient(to top, white, transparent);
-		background: -ms-linear-gradient(to top, white, transparent);
+		background: linear-gradient(to top, white 60%, rgba(255, 255, 255, 0));
 	}
 
 	.checked,
@@ -21,6 +18,7 @@ footer {
 			margin-top: rem(60);
 			margin-bottom: rem(30);
 		}
+
 		&::before,
 		&::after {
 			content: '';
@@ -28,9 +26,11 @@ footer {
 			height: 1px;
 			background: #000;
 		}
+
 		&::before {
 			margin-right: 2rem;
 		}
+
 		&::after {
 			margin-left: 2rem;
 		}
@@ -72,9 +72,12 @@ footer {
 		font-size: 1.5rem;
 	}
 
-	.chevron-up::before {
-		@include bsicon("chevron-up");
-		padding-right: .5rem;
+	.chevron-up {
+		font-size: .7em;
+		&::before {
+			@include bsicon("chevron-up");
+			padding-right: .5rem;
+		}
 	}
 
 	.chevron-down::after {

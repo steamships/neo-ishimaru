@@ -7,7 +7,7 @@
 	.nav-item {
 		padding-top: rem(6);
 		padding-bottom: rem(6);
-		background: radial-gradient(circle, white 85%, transparent);
+		background: radial-gradient(circle, white 85%, rgba(255, 255, 255, 0));
 	}
 
 	.chevron-right {
@@ -43,7 +43,7 @@
 	}
 
 	.gift-sp {
-		background: radial-gradient(circle, white 85%, transparent);
+		background: radial-gradient(circle, white 85%, rgba(255, 255, 255, 0));
 	}
 
 	.instagram::after {

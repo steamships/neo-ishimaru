@@ -2,7 +2,8 @@
 <article id="dish">
 	<h3 class="TrajanB">BY DISH<span class="NotoSerifL fs-6 ms-1">料理で選ぶ</span></h3>
 	<div class="row row-cols-2 row-cols-lg-4 justify-content-between text-center">
-		<div class="col my-1"><a class="text-decoration-none" href="">
+		<div class="col my-1"><a class="text-decoration-none"
+				href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338001">
 				<img class="d-lg-block d-block img-fluid mb-1"
 					src="//img07.shop-pro.jp/PA01437/442/etc/neo-yakiniku-pc.png?cmsp_timestamp=20211203192723" alt="">
 				<img class="d-none img-fluid"
@@ -13,7 +14,7 @@
 			</a>
 		</div>
 		<div class="col my-1">
-			<a class="text-decoration-none" href="">
+			<a class="text-decoration-none" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2373403">
 				<img class="d-lg-block d-block img-fluid mb-1"
 					src="//img07.shop-pro.jp/PA01437/442/etc/neo-steak-pc.png?cmsp_timestamp=20211203193938" alt="">
 				<img class="d-none img-fluid"
@@ -24,7 +25,7 @@
 			</a>
 		</div>
 		<div class="col my-1">
-			<a class="text-decoration-none" href="">
+			<a class="text-decoration-none" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338000">
 				<img class="d-lg-block d-block img-fluid mb-1"
 					src="//img07.shop-pro.jp/PA01437/442/etc/neo-nabe-pc.png?cmsp_timestamp=20211203194011" alt="">
 				<img class="d-none img-fluid"
@@ -35,7 +36,7 @@
 			</a>
 		</div>
 		<div class="col my-1">
-			<a class="text-decoration-none" href="">
+			<a class="text-decoration-none" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2337958">
 				<img class="d-lg-block d-block img-fluid mb-1"
 					src="//img07.shop-pro.jp/PA01437/442/etc/neo-hmbg-pc.png?cmsp_timestamp=20211203194037" alt="">
 				<img class="d-none img-fluid"

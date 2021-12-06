@@ -19,6 +19,7 @@
 			<{/foreach}>
 		<{/if}>
 	</div>
-	<a class="d-flex ms-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more" href="#" role="button">more</a>
+	<!-- 一旦moreコメントアウト -->
+	<!-- <a class="d-flex ms-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more" href="#" role="button">more</a> -->
 </article>
 <!-- / ランキング -->

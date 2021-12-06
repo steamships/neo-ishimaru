@@ -1,6 +1,6 @@
 <!-- header.tpl ▼ -->
 <!-- Header -->
-<header id="header" class="mb-3 mb-lg-8">
+<header id="header" class="mb-3 mb-lg-10">
 	<nav id="header-nav" class="navbar navbar-expand-lg fixed-top">
 		<button id="header-nav-sp-toggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav-main">
 			<!-- SPメニュー -->
@@ -145,31 +145,39 @@
 			</ul>
 
 			<!-- アイコン -->
-			<ul id="header-nav-icons" class="navbar-icons d-flex col-lg-auto">
+			<ul id="header-nav-icons" class="navbar-icons d-flex col-lg-auto hide">
+
+				<!-- 検索 -->
 				<li id="open-btn" class="nav-item header-icon-list search-account-icon">
-					<img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-find.png?cmsp_timestamp=20211122153310" alt="検索アイコン">
+					<i class="bi bi-search fs-5"></i>
 				</li>
-				<li class="nav-item header-icon-list favaorite-account-icon">
-					<img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-favarite_.png?cmsp_timestamp=20211125153455" alt="お気に入りアイコン">
-				</li>
+
+				<!-- お気に入り（非使用） -->
+				<!-- <li class="nav-item header-icon-list favaorite-account-icon">
+					<i class="bi bi-heart fs-5"></i>
+				</li> -->
+
+				<!-- カート -->
 				<li class="nav-item header-icon-list cart-account-icon">
 					<{if $is_enable_async_cart_in_pc}>
 					<form name="cart_view_with_async" method="POST" action="<{$view_cart_url}>">
 						<!-- <{$view_cart_with_async_info}> -->
 					</form>
-					<a href="javascript:void(0)" class="cart_view_with_async">
-						<img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-cart-pc.png" alt="カートアイコン">
-						<span class="cart_count"><{$incart_total_count}></span>
+					<a href="javascript:void(0)" class="cart_view_with_async text-decoration-none">
+						<i class="bi bi-cart fs-5"></i>
+						<span class="badge bg-primary rounded-pill small"><{$incart_total_count}></span>
 					</a>
 					<{else}>
 					<a href="<{$view_cart_url}>">
-						<img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-cart-pc.png?cmsp_timestamp=20211122144648" alt="カートアイコン">
+						<i class="bi bi-cart fs-5"></i>
 						<!--(<{$incart_total_count}>)-->
 					</a>
 					<{/if}>
 				</li>
+
+				<!-- メンバー -->
 				<li class="nav-item header-icon-list header-account-icon">
-					<img class="header-icon" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-account-pc.png?cmsp_timestamp=20211122144722" alt="アカウントアイコン">
+					<i class="bi bi-person fs-4"></i>
 					<ul class="header-account-lists TrajanL position-absolute list-unstyled border zindex-dropdown">
 						<li>
 							<a href="<{$view_myaccount_url}>">マイアカウント</a>

@@ -37,7 +37,7 @@
 					<div class="col-2 me-4 pe-0">
 
 						<h3 class="pb-20px badge bg-secondary NotoSerifL fs-20px ls-1">ISHIMARUについて</h3>
-						<a class="nav-link TrajanR ps-0 pt-0 pb-1 fs-18px lh-lg" href="#">- ABOUT</a>
+						<a class="nav-link TrajanR ps-0 pt-0 pb-1 fs-18px lh-lg" href="https://www.saga-ishimaru.co.jp/?mode=f1">- ABOUT</a>
 
 						<!-- SNS -->
 						<div class="py-2">
@@ -93,13 +93,13 @@
 					<div class="col mt-56px NotoSerifL fs-18px">
 						<p class="NotoSerifSB lh-lg">その他</p>
 						<p>
-							<a href="#!" class="lh-lg">- 佐賀牛入りハンバーグ</a>
+							<a href="https://www.saga-ishimaru.co.jp/?pid=147855212" class="lh-lg">- 佐賀牛入りハンバーグ</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">- 九州産黒毛和牛ハンバーグ</a>
+							<a href="https://www.saga-ishimaru.co.jp/?pid=160628002" class="lh-lg">- 九州産黒毛和牛ハンバーグ</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">- 黒毛和牛</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2547504&csid=0" class="lh-lg">- 黒毛和牛</a>
 						</p>
 					</div>
 					<!-- / その他 -->
@@ -108,16 +108,16 @@
 					<div class="col mt-56px NotoSerifL fs-18px">
 						<p class="NotoSerifSB lh-lg">料理で選ぶ</p>
 						<p>
-							<a href="#!" class="lh-lg">- 焼肉</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338001" class="lh-lg">- 焼肉</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">- ステーキ</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2373403" class="lh-lg">- ステーキ</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">- しゃぶしゃぶ・すき焼き</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338000" class="lh-lg">- しゃぶしゃぶ・すき焼き</a>
 						</p>
 						<p>
-							<a href="#!" class="">- ハンバーグ</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2337958" class="">- ハンバーグ</a>
 						</p>
 					</div>
 					<!-- / 料理で選ぶ -->
@@ -126,22 +126,16 @@
 					<div class="col mt-56px NotoSerifL fs-18px">
 						<p class="NotoSerifSB lh-lg">部位で選ぶ</p>
 						<p>
-							<a href="#!" class="lh-lg">- ひれ</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2337960" class="lh-lg">- ひれ</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">- ロース</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2337988" class="lh-lg">- 赤身</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">- 小間切れ</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2337958" class="lh-lg">- ウデ</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">- 赤身</a>
-						</p>
-						<p>
-							<a href="#!" class="lh-lg">- 肩スライス</a>
-						</p>
-						<p>
-							<a href="#!" class="lh-lg">- モモスライス</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2337999" class="lh-lg">- モモ</a>
 						</p>
 					</div>
 					<!-- / 部位で選ぶ -->
@@ -150,13 +144,13 @@
 					<div class="col mt-56px NotoSerifL fs-18px">
 						<p class="NotoSerifSB lh-lg">予算で選ぶ</p>
 						<p>
-							<a href="#!" class="lh-lg">- ～￥4,999</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2673106" class="lh-lg">- ～￥4,999</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">- ￥5,000～￥9,999</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2673107" class="lh-lg">- ￥5,000～￥9,999</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">- ￥10,000～</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2673108" class="lh-lg">- ￥10,000～</a>
 						</p>
 					</div>
 					<!-- / 予算で選ぶ -->
@@ -166,19 +160,19 @@
 					<div class="col NotoSerifL fs-18px pe-0">
 						<h3 class="pb-20px badge bg-secondary NotoSerifL fs-20px">サービス</h3>
 						<p>
-							<a href="#!" class="lh-lg">ポイントについて</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=f3" class="lh-lg">ポイントについて</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">会員登録</a>
+							<a href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442" class="lh-lg">会員登録</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">ご利用ガイド</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=sk" class="lh-lg">ご利用ガイド</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">お問い合せ</a>
+							<a href="https://ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.6948210.1585923337.1638708826-747911806.1637750824" class="lh-lg">お問い合せ</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">メルマガ登録・解約</a>
+							<a href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442" class="lh-lg">メルマガ登録・解約</a>
 						</p>
 					</div>
 					<!-- / サービス -->
@@ -195,12 +189,12 @@
 			<!-- / PC -->
 
 			<!-- SP -->
-			<div class="footer d-lg-none mx-auto pt-4 pb-2">
+			<div class="footer d-lg-none mx-auto pt-3 pb-5">
 				<!-- Grid row 1 -->
 				<div class="row py-2 text-center align-items-center">
 
 					<!-- ロゴ -->
-					<div class="col-4 align-middle">
+					<div class="col-4">
 						<a href="#"><img
 								src="//img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501"
 								width="100" alt="石丸ショップロゴ"></a>
@@ -218,7 +212,7 @@
 
 					<!-- 戻るボタン-->
 					<div class="col-5">
-						<a href="#" class="btn btn-dark rounded-pill TrajanB fs-14px ls-1 chevron-up">PAGE TOP</a>
+						<a href="#" class="btn btn-dark rounded-pill TrajanB ls-1 chevron-up">PAGE TOP</a>
 					</div>
 					<!-- / 戻るボタン-->
 
@@ -226,31 +220,31 @@
 				<!-- Grid row 1 -->
 
 				<!-- Grid row 2 -->
-				<div class="row px-1 pb-2 fs-14px">
+				<div class="row pb-2 fs-14px">
 					<div class="col-6 NotoSerifL">
 						<p>
-							<a href="#!" class="lh-lg">お問い合わせ</a>
+							<a href="https://ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.102523969.1504273749.1638167996-747911806.1637750824" class="lh-lg">お問い合わせ</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">お支払い方法について</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=sk#payment" class="lh-lg">お支払い方法について</a>
 						</p>
+						<!-- <p>
+							<a href="#!" class="lh-lg">サイトポリシー</a>
+						</p> -->
 						<p>
-							<a href="#!" class="lh-lg">サイドポリシー</a>
-						</p>
-						<p>
-							<a href="#!" class="lh-lg">プライバシーポリシー</a>
+							<a href="<{$privacy_url}>" class="lh-lg">プライバシーポリシー</a>
 						</p>
 					</div>
 
 					<div class="col-6 NotoSerifL">
-						<p>
+						<!-- <p>
 							<a href="#!" class="lh-lg">プレスリリース</a>
+						</p> -->
+						<p>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=sk#info" class="lh-lg">特定商取引法に基づく表記</a>
 						</p>
 						<p>
-							<a href="#!" class="lh-lg">特定商取引法に基づく表記</a>
-						</p>
-						<p>
-							<a href="#!" class="lh-lg">配送方法・送料について</a>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=sk" class="lh-lg">配送方法・送料について</a>
 						</p>
 					</div>
 				</div>

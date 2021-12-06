@@ -22,7 +22,7 @@
 		</div><!-- /.col-lg3 -->
 
 		<!-- 商品画像 -->
-		<div id="product-info-img" class="carousel slide col-lg-5 ps-lg-3" data-bs-ride="carousel" data-bs-interval="false">
+		<div id="product-info-img" class="carousel slide col-lg-5 ps-lg-3 pe-lg-2 px-0 mb-1" data-bs-ride="carousel" data-bs-interval="false">
 			<!-- カルーセル -->
 			<div id="product-info-img-inner" class="carousel-inner">
 				<div class="carousel-item active">
@@ -164,6 +164,11 @@
 							<li>
 								<a class="text-decoration-none small" href="<{$sk_url}>#info">
 									<i class="bi bi-check-circle-fill"></i>　特定商取引法に基づく表記
+								</a>
+							</li>
+							<li>
+								<a class="text-decoration-none small" href="<{$privacy_url}>">
+									<i class="bi bi-check-circle-fill"></i>　プライバシーポリシー
 								</a>
 							</li>
 							<{if $opt_url != ""}>
