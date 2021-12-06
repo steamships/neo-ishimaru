@@ -22,7 +22,7 @@
 		</div><!-- /.col-lg3 -->
 
 		<!-- 商品画像 -->
-		<div id="product-info-img" class="carousel slide col-lg-5 ps-lg-3" data-bs-ride="carousel" data-bs-interval="false">
+		<div id="product-info-img" class="carousel slide col-lg-5 ps-lg-3 pe-lg-2 px-0 mb-1" data-bs-ride="carousel" data-bs-interval="false">
 			<!-- カルーセル -->
 			<div id="product-info-img-inner" class="carousel-inner">
 				<div class="carousel-item active">

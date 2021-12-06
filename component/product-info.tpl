@@ -2,7 +2,7 @@
 <div id="product-info" class="row align-items-start">
 
 		<!-- 商品画像 -->
-		<div id="product-info-img" class="carousel slide col-lg-7" data-bs-ride="carousel" data-bs-interval="false">
+		<div id="product-info-img" class="carousel slide col-lg-7 px-lg-1 px-0 mb-1" data-bs-ride="carousel" data-bs-interval="false">
 			<!-- カルーセル -->
 			<div id="product-info-img-inner" class="carousel-inner">
 				<div class="carousel-item active">
