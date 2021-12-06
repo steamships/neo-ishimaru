@@ -166,6 +166,11 @@
 									<i class="bi bi-check-circle-fill"></i>　特定商取引法に基づく表記
 								</a>
 							</li>
+							<li>
+								<a class="text-decoration-none small" href="<{$privacy_url}>">
+									<i class="bi bi-check-circle-fill"></i>　プライバシーポリシー
+								</a>
+							</li>
 							<{if $opt_url != ""}>
 							<li>
 								<a class="text-decoration-none small" href="<{$opt_url}>">
