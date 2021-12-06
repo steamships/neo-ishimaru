@@ -1,4 +1,6 @@
 <!-- sidebar.tpl ▼ -->
+<{if $tpl_name == "free1"}>
+<{else}>
 <nav id="sidebar" class="col-lg-3">
 	<!-- PC -->
 	<div class="d-none d-lg-block">
@@ -268,4 +270,5 @@
 		</div>
 	</div>
 </nav>
+<{/if}>
 <!-- sidebar.tpl ▲ -->
