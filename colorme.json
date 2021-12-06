@@ -538,7 +538,7 @@
 		"return_price": "返品送料",
 		"license": "資格･免許",
 		"service_name": "屋号またはサービス名",
-		"tel": "電話番号",
+		"tel": "0942-94-3716",
 		"email": "公開メールアドレス",
 		"hp_address": "ホームページアドレス"
 	},
@@ -1348,17 +1348,43 @@
 	"review_use_flg": "レビュー機能の使用フラグ",
 	"review_lst_url": "レビュー閲覧画面へのリンク",
 	"review_send_url": "レビュー投稿画面へのリンク",
-	"review_item_num": "投稿されたレビューの数",
+	"review_item_num": 4,
 	"reviewlist": [
 		{
 			"id": "レビューID",
+			"nickname": "赤い彗星",
+			"sex": "男性",
+			"nendai": "30代",
+			"star": 4,
+			"title": "やわらかくて肉厚！",
+			"comment": "レビュー内容",
+			"img_url": "https://img21.shop-pro.jp/PA01437/442/etc/resize_3004.jpg?cmsp_timestamp=20200107231231",
+			"date": "2021/12/12",
+			"res_comment": "",
+			"res_date": ""
+		},
+		{
+			"id": "レビューID",
 			"nickname": "投稿者ニックネーム",
 			"sex": "性別",
 			"nendai": "年代",
 			"star": "評価数（星の画像ではなく数値が出力されます。）",
 			"title": "レビュータイトル",
 			"comment": "レビュー内容",
-			"img_url": "投稿画像URL",
+			"img_url": "",
+			"date": "投稿日時",
+			"res_comment": "ショップからの返信（返信がある場合のみ出力されます。）",
+			"res_date": "2021/12/12"
+		},
+		{
+			"id": "レビューID",
+			"nickname": "投稿者ニックネーム",
+			"sex": "性別",
+			"nendai": "年代",
+			"star": "評価数（星の画像ではなく数値が出力されます。）",
+			"title": "レビュータイトル",
+			"comment": "レビュー内容",
+			"img_url": "",
 			"date": "投稿日時",
 			"res_comment": "ショップからの返信（返信がある場合のみ出力されます。）",
 			"res_date": "ショップからの返信日時（返信がある場合のみ出力されます。）"
@@ -1371,39 +1397,13 @@
 			"star": "評価数（星の画像ではなく数値が出力されます。）",
 			"title": "レビュータイトル",
 			"comment": "レビュー内容",
-			"img_url": "投稿画像URL",
-			"date": "投稿日時",
-			"res_comment": "ショップからの返信（返信がある場合のみ出力されます。）",
-			"res_date": "ショップからの返信日時（返信がある場合のみ出力されます。）"
-		},
-		{
-			"id": "レビューID",
-			"nickname": "投稿者ニックネーム",
-			"sex": "性別",
-			"nendai": "年代",
-			"star": "評価数（星の画像ではなく数値が出力されます。）",
-			"title": "レビュータイトル",
-			"comment": "レビュー内容",
-			"img_url": "投稿画像URL",
-			"date": "投稿日時",
-			"res_comment": "ショップからの返信（返信がある場合のみ出力されます。）",
-			"res_date": "ショップからの返信日時（返信がある場合のみ出力されます。）"
-		},
-		{
-			"id": "レビューID",
-			"nickname": "投稿者ニックネーム",
-			"sex": "性別",
-			"nendai": "年代",
-			"star": "評価数（星の画像ではなく数値が出力されます。）",
-			"title": "レビュータイトル",
-			"comment": "レビュー内容",
-			"img_url": "投稿画像URL",
+			"img_url": "",
 			"date": "投稿日時",
 			"res_comment": "ショップからの返信（返信がある場合のみ出力されます。）",
 			"res_date": "ショップからの返信日時（返信がある場合のみ出力されます。）"
 		}
 	],
-	"review_star_num": "評価数の上限値",
+	"review_star_num": 5,
 	"group_breadcrumb_list": "パンくずのリスト",
 	"group_breadcrumb": [
 		{
