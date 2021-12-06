@@ -12,9 +12,9 @@
 				<p>ただいまご注文いただいた場合の発送日</p>
 			</li>
 			<li class="mt-1 mb-2"><span class="TrajanB fs-26px">
-					<{$smarty.now|date_format:'%Y-%m-%d'}>
+					<{(($smarty.now)+24*60*60*3)|date_format:'%Y年%m月%d日'}>
 				</span><span class="NotoSerifL fs-16px">
-					<{$smarty.now|date_format:'(%a)'|replace:'Sun':'日'|replace:'Mon':'月'|replace:'Tue':'火'|replace:'Wed':'水'|replace:'Thu':'木'|replace:'Fri':'金'|replace:'Sat':'土'}>
+					<{(($smarty.now)+24*60*60*3)|date_format:'(%a)'|replace:'Sun':'日'|replace:'Mon':'月'|replace:'Tue':'火'|replace:'Wed':'水'|replace:'Thu':'木'|replace:'Fri':'金'|replace:'Sat':'土'}>
 				</span></li>
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				お電話でのお問い合わせ・ご注文
