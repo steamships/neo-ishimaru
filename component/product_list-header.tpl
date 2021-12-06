@@ -1,5 +1,6 @@
 <!-- product_list-header.tpl ▼ -->
 <section id="product_list-header" class="mb-3 mb-lg-8">
+	<!--カテゴリーリスト -->
 	<{if $smarty.get.mode == "cate" && $subcategory_num != 0}>
 	<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
 		<{section name=num loop=$sub_category}>
@@ -12,6 +13,7 @@
 	</ul>
 	<{/if}>
 
+	<!-- グループリスト -->
 	<{if $smarty.get.mode == "grp" && $subgroup_num != 0}>
 	<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
 	<{section name=num loop=$sub_group}>
@@ -24,15 +26,36 @@
 	</ul>
 	<{/if}>
 
+	<!-- 部位説明 -->
 	<div class="p-sub-category-description mb-2 mb-lg-1 d-flex justify-content-between flex-column flex-lg-row">
 		<img class="p-sub-category-description-img col-12 col-lg-5 mb-2 mb-lg-0" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-fillet.png" alt="牛の部位">
 		<div class="p-sub-category-description-textbox col-12 col-lg-7 pl-1">
-			<p class="p-sub-category-description-textbox-catch TrajanB fs-26px">1頭から2%しかとれない希少部位。</p>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">とても柔らかくキメの細かい肉質、口いっばいに広がる肉汁が特徴。1頭の牛からほんのわずかしか取れない希少部位です。</p>
+			<{if $smarty.get.cbid == "2543763" || $smarty.get.cbid == "2547504"}>
+				<{$smarty.get.csid}>
+				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+					とても柔らかくキメの細かい肉質、口いっばいに広がる肉汁が特徴。1頭の牛からほんのわずかしか取れない希少部位です。
+				</p>
+			<{elseif $smarty.get.grp&gid == "2337960"}>
+			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+				とても柔らかくキメの細かい肉質、口いっばいに広がる肉汁が特徴。1頭の牛からほんのわずかしか取れない希少部位です。
+			</p>
+			<{elseif $smarty.get.grp&gid == "2337981"}>
+			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+				赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。
+			</p>
+			<{elseif $smarty.get.grp&gid == "2337989"}>
+			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+				とろけるような程よい食感で濃厚な味わいが特徴の霜降り肉。しゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
+			</p>
+			<{elseif $smarty.get.grp&gid == "2337999"}>
+			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+				比較的脂身が少ないヘルシーな赤身肉。さっぱりとした味わいが特徴でしゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
+			</p>
+			<{/if}>
 		</div>
 	</div>
 
-
+	<!-- 商品数とソート -->
 	<{if $productlist_num != 0}>
 	<div class="c-product-sort mb-1 d-flex justify-content-between align-items-end">
 		<div class="c-product-sort-total TrajanB fs-16px">

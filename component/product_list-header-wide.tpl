@@ -18,7 +18,7 @@
 			<{elseif $smarty.get.cbid == "2547504"}>
 			<p class="p-category-main-image-text mb-2 mb-lg-3 TrajanSB text-left text-lg-center">自然豊かな九州で育った黒毛和牛です。味はもちろん、国産で安心・安全さも魅力の一つです！<br>脂が乗りすぎてたくさん食べられないという方に九州産黒毛和牛はおすすめです。</p>
 			<{elseif $smarty.get.cbid == "2601547"}>
-			<p class="p-category-main-image-text mb-2 mb-lg-3 TrajanSB text-left text-lg-center">ハンバーグやローストビーフなどの加工食品をはじめ、希少部位や期間限定のお肉などを随時掲載していきます。まだ、あなたの知らないお肉に出会えるかも…</p>
+			<p class="p-category-main-image-text mb-2 mb-lg-3 TrajanSB text-left text-lg-center">ハンバーグやローストビーフなどの加工食品をはじめ、希少部位や期間限定のお肉などを随時掲載していきます。<br>まだ、あなたの知らないお肉に出会えるかも…</p>
 			<{/if}>
 		<{/if}>
 		<{if $smarty.section.num.last }>
@@ -43,12 +43,8 @@
 			<br>昨年大好評をいただき、たくさんのお申し込みをいただきました。
 			<br>個数が限られているので、お早めにお申込みください。
 		</p>
-		<{elseif $smarty.get.gid == "2483504"}>
-		<p class="p-category-main-image-text mb-2 mb-lg-3 TrajanSB text-left text-lg-center">自然豊かな九州で育った黒毛和牛です。味はもちろん、国産で安心・安全さも魅力の一つです！<br>脂が乗りすぎてたくさん食べられないという方に九州産黒毛和牛はおすすめです。</p>
-		<{elseif $smarty.get.gid == "2483504"}>
-		<p class="p-category-main-image-text mb-2 mb-lg-3 TrajanSB text-left text-lg-center">ハンバーグやローストビーフなどの加工食品をはじめ、希少部位や期間限定のお肉などを随時掲載していきます。まだ、あなたの知らないお肉に出会えるかも…</p>
 		<{/if}>
-		<{/if}>
+	<{/if}>
 	<{if $smarty.section.num.last }>
 	</div>
 	<{/if}>
