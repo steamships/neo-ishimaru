@@ -31,27 +31,29 @@
 			<div id="by-part-beef-tab-content" class="tab-content lh-lg">
 				<div class="tab-pane show active" id="部位ヒレ" role="tabpanel">
 					<p>牛の部位の中で圧倒的に運動量が少なく、キメが細かなヒレは一頭の牛からわずか3％しか取れない希少部位。肉の女王とも呼ばれるこの部位の特徴はとにかく「柔らかい」こと。</p>
-					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">
+					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="./?mode=grp&gid=2337960" role="button">
 						ヒレページへ
 					</a>
 				</div>
 				<div class="tab-pane" id="部位ロース" role="tabpanel">
 					<p>赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。</p>
-					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">ロースページへ</a>
+					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="./?mode=grp&gid=2337981
+
+					" role="button">ロースページへ</a>
 				</div>
 				<div class="tab-pane" id="部位ウデ" role="tabpanel">
 					<p>
 						とろけるような程よい食感で濃厚な味わいが特徴の霜降り肉。
 						しゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
 					</p>
-					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">肩スライスページへ</a>
+					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="./?mode=grp&gid=2337989" role="button">ウデページへ</a>
 				</div>
 				<div class="tab-pane" id="部位モモ" role="tabpanel">
 					<p>
 						比較的脂身が少ないヘルシーな赤身肉。
 						さっぱりとした味わいが特徴でしゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
 					</p>
-					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="#" role="button">モモスライスページへ</a>
+					<a class="btn btn-primary btn-chevron NotoSerifL my-2 p-1" href="./?mode=grp&gid=2337999" role="button">モモページへ</a>
 				</div>
 
 			</div>
