@@ -191,6 +191,7 @@
 						</ul>
 
 					</div><!-- /.p-product-form -->
+					<{$product.info}>
 				</form>
 			</div>
 		</div>

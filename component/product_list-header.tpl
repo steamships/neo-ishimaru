@@ -12,7 +12,7 @@
 	<{if $smarty.get.mode == "cate" && $subcategory_num != 0}>
 	<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
 		<{section name=num loop=$sub_category}>
-		<li class="p-sub-category-item text-center d-inline-block"">
+		<li class="p-sub-category-item text-center d-inline-block">
 			<a href="<{$sub_category[num].link_url}>" class="p-sub-category-link text-decoration-none">
 				<span class="p-sub-category-name TrajanL"><{$sub_category[num].name}></span>
 			</a>
