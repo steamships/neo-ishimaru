@@ -16,7 +16,7 @@
 			<!-- ヘッダーメインナビ -->
 			<ul id="header-nav-main" class="collapse navbar-collapse navbar-nav main-nav col-lg-auto">
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">
+					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=f1">
 						ABOUT
 						<span class="d-lg-block NotoSerifL">ISHIMARUのこと</span>
 					</a>
@@ -31,11 +31,11 @@
 					<{if $smarty.section.num.first }>
 					<ul class="c-sub-nav sub-nav d-flex list-unstyled justify-content-lg-center justify-content-between  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 						<{foreach from=$category item=big_cate name=key}>
-						<{if $sub_category[$big_cate.bid] != ""}>
+						<{if $subcategory[$big_cate.bid] != ""}>
 						<li class="c-sub-nav-blists mx-lg-2">
 							<a class="c-sub-nav-blists-link mb-1 text-decoration-none d-block"><{$big_cate.name}></a>
 							<ul class="c-sub-nav-slists nav_hidden list-unstyled">
-							<{foreach from=$sub_category[$big_cate.bid] item=sub_cate name=key}>
+							<{foreach from=$subcategory[$big_cate.bid] item=sub_cate name=key}>
 								<li class="c-sub-nav-slist TrajanL mb-1">
 									<a class="c-sub-nav-slist-link text-decoration-none" href="<{$sub_cate.link_url}>"><span class="d-block"><{$sub_cate.name}></span></a>
 								</li>
@@ -45,7 +45,6 @@
 						<{else}>
 						<li class="c-sub-nav-blists mx-2 d-none d-lg-block">
 							<a class="c-sub-nav-blists-link text-decoration-none d-block" href="<{$big_cate.link_url}>"><span class="d-block"><{$big_cate.name}></span></a>
-							<span class="d-block"><{$big_cate.id}></span>
 						</li>
 						<{/if}>
 						<{/foreach}>

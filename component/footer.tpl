@@ -70,7 +70,7 @@
 						</p>
 						<div class="collapse" id="collapseSagagyu">
 							<div class="card card-body border-0">
-								<{foreach from=$sub_category.2543763 item=sub_cate}>
+								<{foreach from=$subcategory[2543763] item=sub_cate}>
 								<a href="<{$sub_cate.link_url}>"><{$sub_cate.name}></a>
 								<{/foreach}>
 							</div>
@@ -81,7 +81,7 @@
 						</p>
 						<div class="collapse" id="collapseKuroge">
 							<div class="card card-body border-0">
-								<{foreach from=$sub_category.2547504 item=sub_cate}>
+								<{foreach from=$subcategory[2547504] item=sub_cate}>
 								<a href="<{$sub_cate.link_url}>"><{$sub_cate.name}></a>
 								<{/foreach}>
 							</div>
@@ -159,9 +159,9 @@
 					<!-- サービス -->
 					<div class="col NotoSerifL fs-18px pe-0">
 						<h3 class="pb-20px badge bg-secondary NotoSerifL fs-20px">サービス</h3>
-						<p>
+						<!-- <p>
 							<a href="https://www.saga-ishimaru.co.jp/?mode=f3" class="lh-lg">ポイントについて</a>
-						</p>
+						</p> -->
 						<p>
 							<a href="https://members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442" class="lh-lg">会員登録</a>
 						</p>

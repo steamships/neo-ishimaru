@@ -1,22 +1,24 @@
 <!-- product_list-header.tpl ▼ -->
 <section id="product_list-header" class="mb-3 mb-lg-8">
 	<{section name=num loop=$group}>
-	<{if $group[num].id == "2673106" || $group[num].id == "2673107" || $group[num].id == "2673108"}>
+	<{if $group[$smarty.get.gid][num].id == "2673106" || $group[$smarty.get.gid][num].id == "2673107" || $group[$smarty.get.gid][num].id == "2673108"}>
 	<!-- タイトル出力 -->
-	<{if $smarty.get.gid == $group[num].id}>
-	<P class="p-category-main-image-title TrajanB fs-26px mb-2 text-center"><{$group[num].name}>の商品</P>
+	<{if $smarty.get.gid == $group[$smarty.get.gid][num].id}>
+	<P class="p-category-main-image-title TrajanB fs-26px mb-2 text-center"><{$group[$smarty.get.gid][num].name}>の商品</P>
 	<{/if}>
 	<{/if}>
 	<{/section}>
 	<!--カテゴリーリスト -->
 	<{if $smarty.get.mode == "cate" && $subcategory_num != 0}>
 	<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
-		<{section name=num loop=$sub_category}>
+		<{section name=num loop=$subcategory[$smarty.get.cbid]}>
+		<{if $subcategory[$smarty.get.cbid][num].name}>
 		<li class="p-sub-category-item text-center d-inline-block">
-			<a href="<{$sub_category[num].link_url}>" class="p-sub-category-link text-decoration-none">
-				<span class="p-sub-category-name TrajanL"><{$sub_category[num].name}></span>
+			<a href="<{$subcategory[$smarty.get.cbid][num].link_url}>" class="p-sub-category-link text-decoration-none">
+				<span class="p-sub-category-name TrajanL"><{$subcategory[$smarty.get.cbid][num].name}></span>
 			</a>
 		</li>
+		<{/if}>
 		<{/section}>
 	</ul>
 	<{/if}>
@@ -25,17 +27,17 @@
 	<{if $smarty.get.mode == "grp" && $subgroup_num != 0}>
 	<{if $smarty.get.gid == "2337958" || $smarty.get.gid == "2338000" || $smarty.get.gid == "2338001" || $smarty.get.gid == "2373403"}>
 	<!-- 料理で選ぶグループリスト -->
-	<{section name=num loop=$group}>
+	<{section name=num loop=$group[$smarty.get.gid]}>
 		<{if $smarty.section.num.first }>
 		<ul class="product_list-dish-group d-flex flex-wrap list-unstyled justify-content-evenly TrajanSB mb-lg-2">
 		<{/if}>
-			<{if $group[num].img_url != ""}>
-			<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center  group-<{$group[num].id}>">
-				<a class="product_list-blists-link text-decoration-none d-inline-block fs-26px" href="<{$group[num].link_url}>"><img class="product_list-blists-img mb-1" src="<{$group[num].img_url}>"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
+			<{if $group[$smarty.get.gid][num].img_url != ""}>
+			<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center  group-<{$group[$smarty.get.gid][num].id}>">
+				<a class="product_list-blists-link text-decoration-none d-inline-block fs-26px" href="<{$group[$smarty.get.gid][num].link_url}>"><img class="product_list-blists-img mb-1" src="<{$group[$smarty.get.gid][num].img_url}>"><span class="d-block text-left text-center"><{$group[$smarty.get.gid][num].name}></span></a>
 			</li>
 			<{else}>
-			<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center  group-<{$group[num].id}>">
-				<a class="product_list-blists-link text-decoration-none fs-26px" href="<{$group[num].link_url}>"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
+			<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center  group-<{$group[$smarty.get.gid][num].id}>">
+				<a class="product_list-blists-link text-decoration-none fs-26px" href="<{$group[$smarty.get.gid][num].link_url}>"><span class="d-block text-left text-center"><{$group[$smarty.get.gid][num].name}></span></a>
 			</li>
 			<{/if}>
 		<{if $smarty.section.num.last }>

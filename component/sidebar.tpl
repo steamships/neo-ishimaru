@@ -26,10 +26,10 @@
 			</li>
 			<!-- TEL -->
 			<li>
-				<a href="tel:0956-85-7777" class="nav-link TrajanB fs-26px p-0">
+				<a href="tel:<{$shop.tel}>" class="nav-link TrajanB fs-26px p-0">
 					<img src="//img07.shop-pro.jp/PA01437/442/etc/neo-tel.png?cmsp_timestamp=20211129193648"
 						alt="">
-					<span class="align-text-bottom">0956-85-7777</span>
+					<span class="align-text-bottom"><{$shop.tel}></span>
 				</a>
 			</li>
 			<li class="NotoSerifL fs-16px ms-2 mb-2">受付 9:00～18：00 (木曜定休)</li>
