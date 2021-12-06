@@ -52,7 +52,7 @@
 			</li>
 			<!-- プレゼント -->
 			<li>
-				<a href="">
+				<a href="https://www.saga-ishimaru.co.jp/?mode=f3">
 					<img class="pt-2"
 						src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20211129202928"
 						alt="" width="321">
@@ -131,7 +131,7 @@
 			</li>
 			<!-- about -->
 			<li>
-				<a href="">
+				<a href="https://www.saga-ishimaru.co.jp/?mode=f1">
 					<img src="//img07.shop-pro.jp/PA01437/442/etc/neo-about-pc.png?cmsp_timestamp=20211130183540"
 						alt="">
 				</a>
@@ -186,13 +186,13 @@
 	<!-- SP -->
 	<div class="d-lg-none">
 		<!-- about -->
-		<a href="">
+		<a href="https://www.saga-ishimaru.co.jp/?mode=f1">
 			<img class="mx-auto d-block mt-4 mb-2"
 				src="//img07.shop-pro.jp/PA01437/442/etc/neo-about-pc.png?cmsp_timestamp=20211130183540" alt=""
 				width="335">
 		</a>
 		<!-- プレゼント -->
-		<a href="">
+		<a href="https://www.saga-ishimaru.co.jp/?mode=f3">
 			<img class="w-100 d-block mt-4 mb-2"
 				src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20211129202928" alt="">
 		</a>
@@ -200,7 +200,7 @@
 		<div class="NotoSerifSB fs-20px ls-1 text-center">
 			<!-- 会員登録 -->
 			<div class="bb-1 mx-auto py-2">
-				<a class="" href="//members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
+				<a href="//members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
 					<div class="me-auto chevron-right">
 						ISHIMARU会員登録
 					</div>
@@ -208,7 +208,7 @@
 			</div>
 			<!-- メルマガ -->
 			<div class="bb-1 mx-auto py-1">
-				<a class="" href="//members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
+				<a href="//members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
 					<div class="me-auto chevron-right">
 						<div class="NotoSerifL fs-16px">\お得な情報がいっぱい！/</div>
 						メルマガ会員募集中
@@ -217,7 +217,7 @@
 			</div>
 			<!-- ご利用ガイド -->
 			<div class="bb-1 mx-auto py-2">
-				<a class="" href="//www.saga-ishimaru.co.jp/?mode=sk">
+				<a href="//www.saga-ishimaru.co.jp/?mode=sk">
 					<div class="me-auto chevron-right"></div>
 					ご利用ガイド
 				</a>
@@ -264,8 +264,8 @@
 					alt="">
 			</div>
 			<div class="NotoSerifL fs-31px ls-1">
-				<div class="">熨斗</div>
-				<div class="">無料対応◎</div>
+				<div>熨斗</div>
+				<div>無料対応◎</div>
 			</div>
 		</div>
 	</div>
