@@ -36,6 +36,7 @@ $forth-color: #CAC2AC;
 $body-color: #000;
 $body-bg: $third-color;
 $border-radius: 0;
+$border-radius-lg: 0;
 $primary: $main-color;
 $secondary: $secondar-color;
 $success: $third-color;
@@ -75,6 +76,8 @@ $carousel-indicator-spacer: 13px;
 $carousel-indicator-opacity: .8;
 $carousel-indicator-hit-area-height: 0;
 $box-shadow: 0 0 8px #000;
+
+$list-group-border-color: $primary;
 
 $grid-breakpoints: (
 	xs: 0,

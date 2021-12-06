@@ -2,8 +2,11 @@
 <{if $tpl_name == "product"}>
 <!-- 商品情報 -->
 <div id="product-info" class="align-items-start col-12">
+
+
 	<div class="row">
 
+		<!-- 商品カルーセルナビボタン -->
 		<div class="col-lg-3 d-none d-lg-block">
 			<!-- PC用サムネイルナビ -->
 			<div id="product-info-img-thumbs" class="row g-1">
@@ -45,173 +48,151 @@
 			</div>
 		</div>
 
+		<!-- 商品詳細 -->
 		<div id="product-info-detail" class="col-lg-4 NotoSerifL">
 			<!-- 商品タイトル -->
-			<h2 class="fs-5 fw-bold lh-lg mb-2"><{$product.name}></h2>
+			<h2 class="fs-5 fw-bold lh-lg mb-1"><{$product.name}></h2>
 
-			<!-- 商品価格 -->
-			<{if $members_login_flg && $product.discount_flg}>
-			<div class="p-cart-form__price c-product-info__price c-product-info__price--discount">
-				<{if $option_price.max != $option_price.min}>
-				<{$option_price.min}> &#12316; <{$option_price.max}>
-				<{else}>
-				<{$product.sales}>
+			<!-- 価格・定価 -->
+			<div id="product-info-detail-prices">
+				<div id="product-info-detail-prices-sales">
+					<span class="fs-4 fw-bold my-1 d-inline-block"><{$product.sales}></span>
+					<{* 割引商品の場合 *}>
+					<{if $members_login_flg == true && $product.discount_flg == true}>
+					<span class="badge bg-danger ms-1"><{$product.discount_rate}>OFF</span>
+					<div class="text-secondary small">
+						通常価格：<{$product.regular_price}>
+					</div>
+					<{/if}>
+				</div>
+				<{if $product.price_disp}>
+				<div id="product-info-detail-prices-price" class="text-secondary small">
+					定価：<{$product.price}>
+				</div>
 				<{/if}>
-
-				<{$product.discount_rate}>OFF
 			</div>
-			<div class="p-cart-form__regular-price c-product-info__regular-price">
-				<{$product.regular_price}>
-			</div>
-			<{else}>
-			<div class="p-cart-form__price c-product-info__price">
-				<{if $option_price.max != $option_price.min}>
-				<{$option_price.min}> &#12316; <{$option_price.max}>
-				<{else}>
-				<{$product.sales}>
-				<{/if}>
 
-			</div>
-			<{/if}>
-
-			<!-- ポイント -->
 			<!-- 簡易説明 -->
 			<{if $product.simple_explain != ""}>
-			<div class="small">
+			<div id="product-info-detail-simple-explain" class="small my-1">
 				<{$product.simple_explain}>
 			</div>
 			<{/if}>
-			<!-- カート -->
-			<div class="p-cart-form__option">
-			<{if $layout_type == 1 || $option_cartin_buttons_arrow_flag == false}>
+
+			<!-- カート周り -->
+			<div id="product-info-detail-cart" class="my-1">
+				<!-- 購入フォーム -->
 				<form name="product_form" method="post" action="<{$cart_url}>">
-				<{* オプション情報 *}>
-				<{if $opt_url != ""}>
-				<{if $option_output_mode}>
-				<{* 表形式 *}>
-				<div class="c-form__unit">
-					<div class="c-form__unit-label">
-					<{if $option|@count == 1}>
-					<{section name=num loop=$option}>
-					<{$option[num].name}>
-					<{/section}>
-					<{else}>
-					オプション
-					<{/if}>
-					</div>
-					<div class="c-form__unit-body">
-					<div class="p-option-table c-table-wrap">
-						<{$option_table}>
-					</div>
-					</div>
-				</div>
-				<{else}>
-				<{* セレクトメニュー *}>
-				<{section name=num loop=$option}>
-				<div class="c-form__unit">
-					<div class="c-form__unit-label">
-					<{$option[num].name}>
-					</div>
-					<div class="c-form__unit-body">
-					<div class="p-cart-form__option-select c-select">
-						<select name="<{$option[num].select_name}>" class="c-select__value">
-						<option value="">選択してください</option>
-						<{html_options values=$option_value[num].id output=$option_value[num].name selected=$key}>
-						</select>
-						<svg class="c-select__icon" role="img" aria-hidden="true"><use xlink:href="#angle-down"></use></svg>
-					</div>
-					</div>
-				</div>
-				<{/section}>
-				<{/if}>
-				<{/if}>
-				<{* オプション情報 *}>
+					<div class="d-grid gap-1">
 
-				<{* 名入れ機能 *}>
-				<{if $product.product_text_titles}>
-				<{foreach from=$product.product_text_titles key=key item=val}>
-				<div class="c-form__unit">
-					<div class="c-form__unit-label">
-					<{$val|escape}>
-					</div>
-					<div class="c-form__unit-body">
-					<input type="text" name="product_text[<{$key|escape}>]" value="" class="c-input-text" />
-					</div>
-				</div>
-				<{/foreach}>
-				<{/if}>
-				<{* // 名入れ機能 *}>
+						<!-- オプション情報 -->
+						<{if $opt_url != ""}>
+						<div id="product-info-detail-cart-options">
+							<{if $option_output_mode}>
+							<{* 表形式 *}>
+							<div id="product-info-detail-cart-options-table">
+								<{$option_table}>
+							</div>
+							<div id="product-info-detail-cart-options-select">
+								<{section name=num loop=$option}>
+								<p><{$option[num].name}></p>
+								<select name="<{$option[num].select_name}>" class="form-control bg-white border-primary">
+								<{html_options values=$option_value[num].id output=$option_value[num].name selected=$key}>
+								</select>
+								<{/section}>
+							</div>
+							<{else}>
+							<{* セレクトメニュー *}>
+							<div id="product-info-detail-cart-options-select" class="d-grid gap-1">
+								<{section name=num loop=$option}>
+								<p><{$option[num].name}></p>
+								<select name="<{$option[num].select_name}>" class="form-control bg-white border-primary">
+								<{html_options values=$option_value[num].id output=$option_value[num].name selected=$key}>
+								</select>
+								<{/section}>
+							</div>
+							<{/if}>
+						</div>
+						<{/if}>
 
-				<{* パスワード制限 *}>
-				<{if $product.password_field}>
-				<div class="c-form__unit">
-					<div class="c-form__unit-label">
-					パスワードを入力してください
-					</div>
-					<div class="c-form__unit-body p-cart-form__password-input">
-					<{$product.password_field}>
-					</div>
-				</div>
-				<{/if}>
-				<{* // パスワード制限 *}>
+						<!-- 基本的な販売可能商品の在庫 -->
+						<{if !$shop_stop_flg && $product.soldout_flg == 0 && !$product.login_sale_flg}>
+						<div id="product-info-detail-cart-unit" class="d-grid gap-1">
+							<label class="form-label col-3">
+								<div>数量</div>
+								<input id="hoge" class="form-control bg-white border-primary" type="number" name="product_num" value="<{$product.init_num}>" />
+							</label>
+							<{if $product.stock_disp}>
+							<div id="product-info-detail-cart-unit-stock">
+								在庫：<{$product.stock_str}>
+							</div>
+							<{/if}>
+						</div>
+						<{/if}>
 
-				<{if !$shop_stop_flg && $product.soldout_flg == 0 && !$product.login_sale_flg}>
-				<div class="c-form__unit">
-					<div class="c-form__unit-label c-form__unit-label--fix-margin">
-					購入数
-					</div>
-					<div class="c-form__unit-body">
-					<input type="text" name="product_num" value="<{$product.init_num}>" class="c-input-text p-cart-form__add-cart-num" />
-					<div class="p-cart-form__add-num-wrap">
-						<a href="<{$num_up_url}>" class="p-cart-form__add-num p-cart-form__add-num--up">
-						<svg role="img" aria-hidden="true"><use xlink:href="#angle-up"></use></svg>
-						</a>
-						<a href="<{$num_dw_url}>" class="p-cart-form__add-num p-cart-form__add-num--down">
-						<svg role="img" aria-hidden="true"><use xlink:href="#angle-down"></use></svg>
-						</a>
-					</div>
-					<{$product.unit}>
-					</div>
-				</div>
-				<{/if}>
+						<!-- カートボタン -->
+						<div class="d-grid gap-1">
+						<{if $product.soldout_flg == 0 && !$shop_stop_flg && !$product.login_sale_flg}>
+							<button class="btn btn-lg btn-primary p-1" type="submit">
+								<!-- <i class="bi bi-cart-plus-fill"></i>　-->カートに入れる
+							</button>
+						<{else}>
+							<{if $product.soldout_flg}>
+							<button class="btn btn-lg btn-primary p-1" type="button" disabled="disabled">
+								<i class="bi bi-x-circle"></i> 売り切れ
+							</button>
+							<{elseif $product.login_sale_flg}>
+							<button class="btn btn-lg btn-primary p-1" type="button" disabled="disabled">
+								<i class="bi bi-x-circle"></i> 会員のみ購入できます
+							s</button>
+							<{/if}>
+						<{/if}>
+						<{if $shop_stop_flg}>
+							<button class="btn btn-lg btn-primary p-1" type="button" disabled="disabled">
+								<i class="bi bi-x-circle"></i> 休止中
+							</button>
+						<{/if}>
+						</div>
 
-				<div class="p-cart-form__button-wrap">
-					<{if $product.soldout_flg == 0 && !$shop_stop_flg && !$product.login_sale_flg}>
-					<{if $is_enable_async_cart_in_pc}>
-					<button type="submit" class="p-cart-form__add-cart-button c-button c-button--solid cart_in_async">
-					カートに入れる
-					</button>
-					<{else}>
-					<div class="disable_cartin">
-					<button type="submit" class="p-cart-form__add-cart-button c-button c-button--solid">
-						カートに入れる
-					</button>
-					</div>
-					<{/if}>
-					<p class="p-cart-form__error-message stock_error"></p>
-					<{else}>
-					<div>
-					<{if $product.soldout_flg}>
-					<button type="button" class="p-cart-form__add-cart-button c-button c-button--solid is-disabled" disabled>
-						SOLD OUT
-					</button>
-					<{elseif $product.login_sale_flg}>
-					<button type="submit" class="p-cart-form__add-cart-button c-button c-button--solid is-disabled" disabled>
-						会員のみ購入できます
-					</button>
-					<{/if}>
-					</div>
-					<{/if}>
-				</div>
-				<{$product.info}>
+						<!-- 注意書きリンク -->
+						<ul class="list-unstyled p-1 border border-primary">
+							<li>
+								<a class="text-decoration-none small" href="<{$sk_url}>#return">
+									<i class="bi bi-check-circle-fill"></i>　返品について
+								</a>
+							</li>
+							<li>
+								<a class="text-decoration-none small" href="<{$sk_url}>#info">
+									<i class="bi bi-check-circle-fill"></i>　特定商取引法に基づく表記
+								</a>
+							</li>
+							<{if $opt_url != ""}>
+							<li>
+								<a class="text-decoration-none small" href="<{$opt_url}>">
+									<i class="bi bi-check-circle-fill"></i>　オプションの値段詳細
+								</a>
+							</li>
+							<{/if}>
+							<li>
+								<a class="text-decoration-none small" href="<{$prod_inq_url}>">
+									<i class="bi bi-check-circle-fill"></i>　この商品について問い合わせる
+								</a>
+							</li>
+							<li>
+								<a class="text-decoration-none small" href="<{$keep_shopping_url}>">
+									<i class="bi bi-check-circle-fill"></i>　買い物を続ける
+								</a>
+							</li>
+						</ul>
+
+					</div><!-- /.p-product-form -->
 				</form>
-			<{else}>
-				<{$option_cartin_buttons}>
-			<{/if}>
-
 			</div>
-		</div><!-- /.col-6 -->
+		</div>
+
+
 	</div><!-- /.row -->
+
 </div>
 <{/if}>
 <!-- product-info-wide.tpl ▲ -->
