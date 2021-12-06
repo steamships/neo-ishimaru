@@ -1,7 +1,8 @@
 <!-- インフォメーション -->
 <article id="info">
 	<h3 class="TrajanB mb-1">INFORMATION<span class="NotoSerifL fs-6 ms-1">お知らせ</span></h3>
-	<div class="row position-relative">
+	<!-- カラーミーのデータを元にループ作成▼ -->
+	<!-- <div class="row position-relative">
 		<{if $new_item_num !=0}>
 			<{foreach name=news from=$seller item=v}>
 				<{if $smarty.foreach.news.index < 4}>
@@ -16,7 +17,57 @@
 				<{/if}>
 			<{/foreach}>
 		<{/if}>
+	</div> -->
+
+	<div class="row position-relative">
+
+	<!-- お歳暮 -->
+	<div class="col-6 col-lg-3 mb-1">
+		<a href="#">
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-oseibo.jpg?cmsp_timestamp=20211206160132">
+		</a>
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">2021-12-06</span></div>
+		<div class="NotoSerifSB title fs-5">お歳暮にどうぞ◎</div>
+		<div class="NotoSerifL expl">個数限定！特別特価でご提供するお歳暮特集です。</div>
 	</div>
-	<a class="d-flex ms-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more" href="#" role="button">more</a>
+
+	<!-- 品切れ -->
+	<div class="col-6 col-lg-3 mb-1">
+		<a href="#">
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-oos-hmbg.jpg?cmsp_timestamp=20211206160248">
+		</a>
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">2021-12-06</span></div>
+		<div class="NotoSerifSB title fs-5">品切れのお詫び</div>
+		<div class="NotoSerifL expl">九州産黒毛和牛ハンバーグは大好評のため現在品切れ中です。</div>
+	</div>
+
+	<!-- 鍋 -->
+	<div class="col-6 col-lg-3 mb-1">
+		<a href="#">
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-nabe.jpg?cmsp_timestamp=20211206160509">
+		</a>
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">2021-12-06</span></div>
+		<div class="NotoSerifSB title fs-5">最高級和牛でお鍋！</div>
+		<div class="NotoSerifL expl">寒い冬にはあったかお鍋♪</div>
+	</div>
+
+	<!-- インスタ -->
+	<div class="col-6 col-lg-3 mb-1">
+		<a href="https://www.instagram.com/suguru_ishimaru/">
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-Insta.png?cmsp_timestamp=20211206160453">
+		</a>
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">2021-12-06</span></div>
+		<div class="NotoSerifSB title fs-5">プレゼント企画も!?</div>
+		<div class="NotoSerifL expl">Instagramでお得な情報をお届けします♪</div>
+	</div>
+
+	</div>
+
+	<a class="d-flex ms-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more"
+		href="#" role="button">more</a>
 </article>
 <!-- / インフォメーション -->

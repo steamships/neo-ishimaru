@@ -27,7 +27,7 @@
 				<div class="card-body">
 					<div class=" d-flex flex-column justify-content-between h-100">
 						<p class="card-title fs-17px">商品名:【佐賀牛入り】黒毛和牛ハンバーグ</p>
-						<p class="card-text NotoSerifSB fs-22px bb-d pb-1">とても美味しかった！</p>
+						<p class="card-text NotoSerifSB fs-22px bb-d pb-1">ソースとの相性が抜群！</p>
 						<p class="card-text NotoSerifL fs-18px py-1 mb-auto">冷凍のハンバーグとは思えないほど、肉質が柔らかくて驚きました。
 							肉汁たっぷり、お肉も甘みも感じられてとても美味しかったです。
 							佐賀県産の玉ねぎを贅沢に使用したかばいソースがまた美味しくて、
@@ -136,7 +136,8 @@
 			</div>
 		</div>
 	</div>
-	<a class="d-flex mx-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more"
-		href="#" role="button">more</a>
+	<!-- 遷移先がないため一旦コメントアウト -->
+	<!-- <a class="d-flex mx-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more"
+		href="#" role="button">more</a> -->
 </article>
 <!-- review.tpl ▲ -->

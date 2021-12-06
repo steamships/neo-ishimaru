@@ -161,7 +161,7 @@
 					visibility: hidden;
 					// opacity: 1;
 					// visibility: inherit;
-					background: linear-gradient(#fff 0% 30%, #fff 40% 70%, transparent 85% 100%);
+					background: linear-gradient(#fff 0% 30%, #fff 40% 70%, rgba(255, 255, 255, 0) 85% 100%);
 					@include media-breakpoint-down(lg) {
 						left: 0%;
 						transform: translateX(0%);
