@@ -123,4 +123,17 @@
 			}
 		}
 	}
+	.product_list-dish-group {
+		.product_list-blists {
+				width: 50%;
+			&-link {
+				@include media-breakpoint-down(lg) {
+					font-size: 1.2rem;
+				}
+			}
+		}
+		.group-2373403, .group-2338001, .group-2338000, .group-2337958 {
+			display: block!important;
+		}
+	}
 }
