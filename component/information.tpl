@@ -23,7 +23,7 @@
 
 	<!-- お歳暮 -->
 	<div class="col-6 col-lg-3 mb-1">
-		<a href="#">
+		<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2483504">
 			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-oseibo.jpg?cmsp_timestamp=20211206160132">
 		</a>
 		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
@@ -34,9 +34,9 @@
 
 	<!-- 品切れ -->
 	<div class="col-6 col-lg-3 mb-1">
-		<a href="#">
+
 			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-oos-hmbg.jpg?cmsp_timestamp=20211206160248">
-		</a>
+
 		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
 			<span class="TrajanR date">2021-12-06</span></div>
 		<div class="NotoSerifSB title fs-5">品切れのお詫び</div>
@@ -45,7 +45,7 @@
 
 	<!-- 鍋 -->
 	<div class="col-6 col-lg-3 mb-1">
-		<a href="#">
+		<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338000">
 			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-nabe.jpg?cmsp_timestamp=20211206160509">
 		</a>
 		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
@@ -67,7 +67,8 @@
 
 	</div>
 
-	<a class="d-flex ms-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more"
-		href="#" role="button">more</a>
+	<!-- 一旦moreコメントアウト -->
+	<!-- <a class="d-flex ms-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more"
+		href="#" role="button">more</a> -->
 </article>
 <!-- / インフォメーション -->
