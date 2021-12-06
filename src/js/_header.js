@@ -39,5 +39,20 @@ export const header = () => {
 		$(".close").click(function() {
 			$("#overlay").fadeOut(200);
 		});
+
+		let start = 0, scroll_top = 0;
+		$(window).on('scroll', function(){
+			scroll_top = $(this).scrollTop();
+			if ( scroll_top < 300 ) {
+				$('#header-nav-icons').addClass('hide');
+			}
+			else if (scroll_top >= start) {
+				$('#header-nav-icons').removeClass('hide');
+			} else {
+				$('#header-nav-icons').addClass('hide');
+			}
+			start = scroll_top;
+		});
+
 	}
 }

@@ -277,6 +277,11 @@
 				background-color: #fff;
 				$shd: 10px;
 				box-shadow: 0 0 $shd $shd #fff;
+				transition: all 1s;
+				transform: translateY(0);
+				&.hide{
+					transform: translateY(10vh);
+				}
 			}
 			.header-icon-list {
 				cursor: pointer;

@@ -145,7 +145,7 @@
 			</ul>
 
 			<!-- アイコン -->
-			<ul id="header-nav-icons" class="navbar-icons d-flex col-lg-auto">
+			<ul id="header-nav-icons" class="navbar-icons d-flex col-lg-auto hide">
 
 				<!-- 検索 -->
 				<li id="open-btn" class="nav-item header-icon-list search-account-icon">
