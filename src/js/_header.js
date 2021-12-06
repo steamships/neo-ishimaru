@@ -46,8 +46,12 @@ export const header = () => {
 			if ( scroll_top < 300 ) {
 				$('#header-nav-icons').addClass('hide');
 			}
+			else if( $('body').height() - ( scroll_top + $(this).height() ) < 300 ) {
+				$('#header-nav-icons').addClass('hide');
+			}
 			else if (scroll_top >= start) {
 				$('#header-nav-icons').removeClass('hide');
+
 			} else {
 				$('#header-nav-icons').addClass('hide');
 			}
