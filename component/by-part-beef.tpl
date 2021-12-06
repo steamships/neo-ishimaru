@@ -13,10 +13,10 @@
 			<a class="nav-link" data-bs-toggle="pill" href="#部位ロース" role="tab" data-chart="8,8,9,9,6" data-top="18%" data-left="45%">ロース</a>
 		</li>
 		<li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="pill" href="#部位ウデ" role="tab" data-chart="7,6,6,7,6" data-top="23%" data-left="35%">肩スライス</a>
+			<a class="nav-link" data-bs-toggle="pill" href="#部位ウデ" role="tab" data-chart="7,6,6,7,6" data-top="23%" data-left="35%">ウデ</a>
 		</li>
 		<li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="pill" href="#部位モモ" role="tab" data-chart="7,5,7,6,6" data-top="40%" data-left="75%">ももスライス</a>
+			<a class="nav-link" data-bs-toggle="pill" href="#部位モモ" role="tab" data-chart="7,5,7,6,6" data-top="40%" data-left="75%">モモ</a>
 		</li>
 	</ul>
 	<div id="by-part-beef-tab-wrap" class="row justify-content-between flex-column-reverse flex-lg-row">
