@@ -1,6 +1,6 @@
 <{* assetsの存在でローカルと本番のURLを切り替える *}>
 <{if !$assets}>
-<{assign var="assets" value="https://cdn.jsdelivr.net/gh/steamships/neo-ishimaru@1.0.3/assets"}>
+<{assign var="assets" value="https://cdn.jsdelivr.net/gh/steamships/neo-ishimaru@1.0.4/assets"}>
 <{/if}>
 
 <script src="<{$assets}>/js/bundle.js?ver=<{$smarty.now}>" type="module"></script>
