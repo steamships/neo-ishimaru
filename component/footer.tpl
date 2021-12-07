@@ -8,14 +8,14 @@
 	<div class="container">
 		<!-- 最近チェックした商品 -->
 		<div class="checked mx-auto">
-			<{if $history_num != 0}>
+			<{if $history != 0}>
 				<h2 class="d-flex align-items-center NotoSerifL fs-18px">最近チェックした商品</h2>
 				<div class="row">
-					<{foreach from=$productlist item=v}>
+					<{foreach from=$history item=v}>
 					<a href="<{$v.link_url}>" class="d-block col-6 col-lg-2 mb-2 text-decoration-none">
 						<p><img src="<{$v.img_url}>" class="img-fluid"></p>
 						<p class="NotoSerifL fs-18px"><{$v.name}></p>
-						<p class="TrajanB fs-24px"><{$product.sales}></p>
+						<p class="TrajanB fs-24px"><{$V.sales}></p>
 					</a>
 					<{/foreach}>
 				</div>
