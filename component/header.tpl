@@ -177,22 +177,22 @@
 				<!-- メンバー -->
 				<li class="nav-item header-icon-list header-account-icon position-relative">
 					<i class="bi bi-person fs-4"></i>
-					<ul class="header-account-lists TrajanL position-absolute list-unstyled border zindex-dropdown">
-						<li>
+					<ul class="header-account-lists TrajanL position-absolute list-unstyled border zindex-dropdown bg-white">
+						<li class="p-1 bg-white">
 							<a href="<{$view_myaccount_url}>">マイアカウント</a>
 						</li>
 						<{if $members_use_flg == true}>
 							<{if $members_login_flg == false}>
 								<{if $members_register_flg == true}>
-									<li>
+									<li class="p-1 bg-white">
 									<a href="<{$members_regi_url}>">会員登録</a>
 									</li>
 								<{/if}>
-									<li>
+									<li class="p-1 bg-white">
 										<a href="<{$members_login_url}>">ログイン</a>
 									</li>
 								<{else}>
-									<li>
+									<li class="p-1 bg-white">
 										<a href="<{$members_login_url}>">ログアウト</a>
 									</li>
 							<{/if}>

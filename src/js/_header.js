@@ -59,7 +59,7 @@ export const header = () => {
 		});
 
 		//SP版　タッチでアカウントリスト表示
-		$('.header-account-icon').bind('touchend', function() {
+		$('.header-account-icon .bi-person').bind('touchend', function() {
 			$('.header-account-lists').toggleClass('active');
 		});
 	}

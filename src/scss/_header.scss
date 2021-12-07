@@ -329,11 +329,6 @@
 						left: inherit;
 						-webkit-transform: translate(-50%, -50%);
 						transform: translate(-50%, -50%);
-						top: -60%;
-					}
-					li {
-						padding: 10px 12px;
-						background-color: #fff;
 					}
 					@include media-breakpoint-down(lg){
 						bottom: 0;
