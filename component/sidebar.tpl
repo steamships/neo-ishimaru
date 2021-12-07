@@ -65,7 +65,7 @@
 			<li class="mt-2">
 				<div class="bb-1 mx-auto pb-1">
 					<a class=""
-						href="//ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.102523969.1504273749.1638167996-747911806.1637750824">
+						href="#review">
 						<div class="d-flex justify-content-start align-items-center chevron-right">
 							<div class="me-auto NotoSerifSB fs-20px ls-1">
 								お客さまの声
