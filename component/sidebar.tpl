@@ -182,6 +182,14 @@
 					</div>
 				</a>
 			</li>
+			<li class="NotoSerifL fs-18px">
+				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
+					href="//www.satofull.jp/products/list.php?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89&cnt=60&p=1" role="button">
+					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
+						さとふる
+					</div>
+				</a>
+			</li>
 		</ul>
 	</div>
 	<!-- / PC -->
@@ -252,6 +260,12 @@
 				href="//furunavi.jp/Product/Search?keyword=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD" role="button">
 				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 					ふるなび
+				</div>
+			</a>
+			<a class="d-block mb-10px px-0 py-1 btn btn-secondary"
+				href="//www.satofull.jp/products/list.php?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89&cnt=60&p=1" role="button">
+				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
+					さとふる
 				</div>
 			</a>
 		</div>
