@@ -53,6 +53,12 @@
 					</div>
 				</a>
 			</li>
+			<!-- 送料 -->
+			<li>
+					<img class="pt-2"
+						src="<{$assets}>/img/neo-shipping-img.png"
+						alt="" width="321">
+			</li>
 			<!-- プレゼント -->
 			<li>
 				<a href="//www.saga-ishimaru.co.jp/?mode=f3">
@@ -198,13 +204,17 @@
 	<div class="d-lg-none">
 		<!-- about -->
 		<a href="//www.saga-ishimaru.co.jp/?mode=f1">
-			<img class="mx-auto d-block mt-4 mb-2"
+			<img class="mx-auto d-block mt-4 mb-4"
 				src="//img07.shop-pro.jp/PA01437/442/etc/neo-about-pc.png?cmsp_timestamp=20211130183540" alt=""
 				width="335">
 		</a>
+		<!-- 送料 -->
+		<img class="w-100 d-block"
+			src="<{$assets}>/img/neo-shipping-img.png"
+			alt="" width="321">
 		<!-- プレゼント -->
 		<a href="//www.saga-ishimaru.co.jp/?mode=f3">
-			<img class="w-100 d-block mt-4 mb-2"
+			<img class="w-100 d-block mt-3 mb-2"
 				src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20211129202928" alt="">
 		</a>
 		<!-- 3列 -->
