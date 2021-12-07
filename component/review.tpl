@@ -51,7 +51,8 @@
 		</div>
 	</div>
 	<!-- 2 -->
-	<div class="row">
+	<!-- 売り切れのためコメントアウト -->
+	<!-- <div class="row">
 		<div class="col-lg-6 d-none d-lg-block">
 			<a href="https://www.saga-ishimaru.co.jp/?pid=160628002">
 				<img class="img-fluid"
@@ -92,7 +93,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- 3 -->
 	<div class="row">
