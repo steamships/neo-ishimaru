@@ -32,7 +32,7 @@
 					<span class="align-text-bottom"><{$shop.tel}></span>
 				</a>
 			</li>
-			<li class="NotoSerifL fs-16px ms-2 mb-2">受付 9:00～18：00 (木曜定休)</li>
+			<li class="NotoSerifL fs-16px ms-2 mb-2">受付 9:00～18：00 (日曜定休)<br>年末年始のお休み 12月31日～1月3日</li>
 			<!-- MAIL -->
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				メールでのお問い合わせ・ご注文
