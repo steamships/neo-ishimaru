@@ -32,7 +32,7 @@
 	<{/if}>
 	<{if $group[num].name != "" && $smarty.get.gid == $group[num].id}>
 		<!-- <{$group[num].name}>の商品一覧ページ -->
-		<{if $smarty.get.gid == "2673106" || $smarty.get.gid == "2673107" || $smarty.get.gid == "2673108"}>
+		<{if $smarty.get.gid == "2673106" || $smarty.get.gid == "2673107" || $smarty.get.gid == "2673108" ||$smarty.get.gid == "2337960" || $smarty.get.gid == "2337981" || $smarty.get.gid == "2337989" || $smarty.get.gid == "2337999"}>
 		<{else}>
 		<img class="p-category-main-image-img mb-3 d-none d-lg-block" src="<{$assets}>/img/neo-category-img-<{$smarty.get.gid}>-pc.png" alt="<{$group[num].name}>グループPC用画像">
 		<img class="p-category-main-image-img mb-2 d-block d-lg-none" src="<{$assets}>/img/neo-category-img-<{$smarty.get.gid}>-sp.png" alt="<{$group[num].name}>グループSP用画像">

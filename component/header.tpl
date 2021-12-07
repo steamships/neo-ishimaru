@@ -1,6 +1,6 @@
 <!-- header.tpl ▼ -->
 <!-- Header -->
-<header id="header" class="mb-3 mb-lg-10">
+<header id="header" class="mb-5 mb-lg-10">
 	<nav id="header-nav" class="navbar navbar-expand-lg fixed-top">
 		<button id="header-nav-sp-toggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav-main">
 			<!-- SPメニュー -->
