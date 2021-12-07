@@ -175,7 +175,7 @@
 				</li>
 
 				<!-- メンバー -->
-				<li class="nav-item header-icon-list header-account-icon">
+				<li class="nav-item header-icon-list header-account-icon position-relative">
 					<i class="bi bi-person fs-4"></i>
 					<ul class="header-account-lists TrajanL position-absolute list-unstyled border zindex-dropdown">
 						<li>

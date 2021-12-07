@@ -4,6 +4,10 @@
 		from {opacity: 0;}
 		to {opacity: 1;}
 	}
+	@keyframes fade-out {
+		from {opacity: 1;}
+		to {opacity: 0;}
+	}
 	&-nav{
 		padding: 0;
 		min-width: $body-min-width-lg;
@@ -293,22 +297,46 @@
 			}
 			.header-account {
 				&-icon {
-					&:hover {
-						cursor: pointer;
-						.header-account-lists {
-							display: block;
-							animation-name: fade-in;
-							animation-duration: .3s;
+					@include media-breakpoint-up(lg){
+						&:hover {
+							cursor: pointer;
+							.header-account-lists {
+								display: block;
+								animation-name: fade-in;
+								animation-duration: .3s;
+							}
 						}
 					}
+					@include media-breakpoint-down(lg){
+						.header-account-lists {
+							&.active {
+								display: block;
+								animation-name: fade-in;
+								animation-duration: .3s;
+							}
+						}
+					}
+
 				}
 				&-lists {
-					right: 10px;
 					display: none;
 					transition: .3s;
+					width: max-content;
+					left: 50%;
+					-webkit-transform: translate(-50%, 0%);
+					transform: translate(-50%, 0%);
+					@include media-breakpoint-down(lg){
+						left: inherit;
+						-webkit-transform: translate(-50%, -50%);
+						transform: translate(-50%, -50%);
+						top: -60%;
+					}
 					li {
 						padding: 10px 12px;
 						background-color: #fff;
+					}
+					@include media-breakpoint-down(lg){
+						bottom: 0;
 					}
 				}
 			}

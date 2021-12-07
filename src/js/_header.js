@@ -58,5 +58,9 @@ export const header = () => {
 			start = scroll_top;
 		});
 
+		//SP版　タッチでアカウントリスト表示
+		$('.header-account-icon').bind('touchend', function() {
+			$('.header-account-lists').toggleClass('active');
+		});
 	}
 }
