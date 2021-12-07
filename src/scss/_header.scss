@@ -326,12 +326,8 @@
 					-webkit-transform: translate(-50%, 0%);
 					transform: translate(-50%, 0%);
 					@include media-breakpoint-down(lg){
+						bottom: 50px;
 						left: inherit;
-						-webkit-transform: translate(-50%, -50%);
-						transform: translate(-50%, -50%);
-					}
-					@include media-breakpoint-down(lg){
-						bottom: 0;
 					}
 				}
 			}
