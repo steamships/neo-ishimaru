@@ -15,7 +15,7 @@
 					<a href="<{$v.link_url}>" class="d-block col-6 col-lg-2 mb-2 text-decoration-none">
 						<p><img src="<{$v.img_url}>" class="img-fluid"></p>
 						<p class="NotoSerifL fs-18px"><{$v.name}></p>
-						<p class="TrajanB fs-24px"><{$V.sales}></p>
+						<p class="TrajanB fs-24px"><{$v.price}></p>
 					</a>
 					<{/foreach}>
 				</div>
