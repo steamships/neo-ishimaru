@@ -105,7 +105,7 @@
 			</a>
 		</div>
 		<div class="col-12 col-lg-6">
-			<div class="badge bg-primary w-100 text-start fs-18px NotoSerifSB py-1 ps-1">1つひとつ手作り。肉汁が溢れ出ます。</div>
+			<div class="badge bg-primary w-100 text-start fs-18px NotoSerifSB py-1 ps-1">1頭の牛から2%しか取れない希少部位！</div>
 			<h4 class="NotoSerifSB fs-28px">【佐賀牛】ヒレステーキ</h4>
 			<a href="https://www.saga-ishimaru.co.jp/?pid=145587190">
 				<img class="w-100 d-lg-none"
@@ -137,8 +137,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- 遷移先がないため一旦コメントアウト -->
-	<!-- <a class="d-flex mx-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more"
-		href="#" role="button">more</a> -->
+	<a class="d-flex mx-auto justify-content-center align-items-center btn btn-primary NotoSerifL fs-16px ls-1 chevron-right more"
+		href="https://www.saga-ishimaru.co.jp/?mode=f2" role="button">more</a>
 </article>
 <!-- review.tpl ▲ -->
