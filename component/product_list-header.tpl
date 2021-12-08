@@ -123,15 +123,17 @@
 			<{elseif $smarty.get.gid == "2673106"}>
 			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
 				石丸こだわりのお肉がリーズナブルに楽しめます。気軽に普段使いも出来て、毎日の食卓が華やかに。
+				<br>※10,800円(税込)以上のご購入で送料無料でお届けします。
 			</p>
 			<{elseif $smarty.get.gid == "2673107"}>
 			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
 				いつもとは違ったワンランク上の食事を。お祝いやプレゼントでも喜ばれること間違いなしです。
+				<br>※10,800円(税込)以上のご購入で送料無料でお届けします。
 			</p>
 			<{elseif $smarty.get.gid == "2673108"}>
 			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
 				お肉の中でも国内トップクラスの品質を誇るこだわりの逸品。選び抜かれた厳選のお肉をご堪能ください。
-				<br>※送料無料でお届けします
+				<br>※10,800(税込)以上のご購入で送料無料でお届けします。
 			</p>
 			<{/if}>
 		</div>
