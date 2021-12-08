@@ -16,7 +16,7 @@ foreach( $components as $name => $data ) {
 }
 
 $smarty = new Smarty();
-$smarty->setTemplateDir('./templates/');
+$smarty->template_dir = './templates/';
 
 // デリミタをカラーミーに合わせる
 $smarty->left_delimiter = '<{';

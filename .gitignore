@@ -1,5 +1,7 @@
 node_modules
+package-lock.json
 vendor
+composer.lock
 templates_c
 templates/*
 !_header.tpl
