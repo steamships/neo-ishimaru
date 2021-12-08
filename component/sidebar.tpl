@@ -62,11 +62,12 @@
 			</li>
 			<!-- プレゼント -->
 			<li>
-				<a href="//www.saga-ishimaru.co.jp/?mode=f3">
+				<!-- リンクないのでコメントアウト -->
+				<!-- <a href="//www.saga-ishimaru.co.jp/?mode=f3"> -->
 					<img class="pt-2"
 						src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20211129202928"
 						alt="" width="321">
-				</a>
+				<!-- </a> -->
 			</li>
 			<!-- お客さまの声 -->
 			<li class="mt-2">
@@ -166,7 +167,7 @@
 				</div>
 			</li>
 			<li class="NotoSerifL fs-18px">
-				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
+				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary" target="_blank"
 					href="//search.rakuten.co.jp/search/event/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%80%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD/?ev=40&v=2" role="button">
 					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						楽天ふるさと納税
@@ -174,7 +175,7 @@
 				</a>
 			</li>
 			<li class="NotoSerifL fs-18px">
-				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
+				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary" target="_blank"
 					href="//www.furusato-tax.jp/search?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD&header=1&target=1&sst=" role="button">
 					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						ふるさとチョイス
@@ -182,7 +183,7 @@
 				</a>
 			</li>
 			<li class="NotoSerifL fs-18px">
-				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
+				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary" target="_blank"
 					href="//furunavi.jp/Product/Search?keyword=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD" role="button">
 					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						ふるなび
@@ -190,7 +191,7 @@
 				</a>
 			</li>
 			<li class="NotoSerifL fs-18px">
-				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary"
+				<a class="w-100 mb-10px px-0 py-1 btn btn-secondary" target="_blank"
 					href="//www.satofull.jp/products/list.php?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89&cnt=60&p=1" role="button">
 					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						さとふる
@@ -214,10 +215,11 @@
 			src="<{$assets}>/img/neo-shipping-img.png"
 			alt="" width="321">
 		<!-- プレゼント -->
-		<a href="//www.saga-ishimaru.co.jp/?mode=f3">
+		<!-- リンクないのでコメントアウト -->
+		<!-- <a href="//www.saga-ishimaru.co.jp/?mode=f3"> -->
 			<img class="w-100 d-block mt-3 mb-2"
 				src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20211129202928" alt="">
-		</a>
+		<!-- </a> -->
 		<!-- 3列 -->
 		<div class="NotoSerifSB fs-20px ls-1 text-center">
 			<!-- 会員登録 -->
@@ -255,25 +257,26 @@
 			</div>
 		</div>
 		<div class="w-75 mx-auto NotoSerifL fs-18px">
-			<a class="d-block mb-10px px-0 py-1 btn btn-secondary"
+			<a class="d-block mb-10px px-0 py-1 btn btn-secondary" target="_blank"
 				href="//search.rakuten.co.jp/search/event/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%80%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD/?ev=40&v=2" role="button">
 				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 					楽天ふるさと納税
 				</div>
 			</a>
-			<a class="d-block mb-10px px-0 py-1 btn btn-secondary" href="//www.furusato-tax.jp/search?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD&header=1&target=1&sst="
+			<a class="d-block mb-10px px-0 py-1 btn btn-secondary"  target="_blank"
+				href="//www.furusato-tax.jp/search?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD&header=1&target=1&sst="
 				role="button">
 				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 					ふるさとチョイス
 				</div>
 			</a>
-			<a class="d-block mb-10px px-0 py-1 btn btn-secondary"
+			<a class="d-block mb-10px px-0 py-1 btn btn-secondary" target="_blank"
 				href="//furunavi.jp/Product/Search?keyword=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD" role="button">
 				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 					ふるなび
 				</div>
 			</a>
-			<a class="d-block mb-10px px-0 py-1 btn btn-secondary"
+			<a class="d-block mb-10px px-0 py-1 btn btn-secondary" target="_blank"
 				href="//www.satofull.jp/products/list.php?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89&cnt=60&p=1" role="button">
 				<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 					さとふる

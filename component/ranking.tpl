@@ -13,7 +13,9 @@
 							<img src="<{$v.img_url}>">
 						</a>
 						<div class="NotoSerifL fs-18px name"><{$v.name}></div>
-						<div class="TrajanB fs-31px"><span class="fs-20px">￥</span><{$v.price}><span class="NotoSerifL fs-16px">(税込)</span></div>
+						<!-- 値段の表記一旦コメントアウト -->
+						<!-- <div class="TrajanB fs-31px"><span class="fs-20px">￥</span><{$v.price}><span class="NotoSerifL fs-16px">(税込)</span></div> -->
+						<div class="TrajanB fs-31px"><{$v.price}></div>
 					</div>
 				<{/if}>
 			<{/foreach}>

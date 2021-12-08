@@ -37,7 +37,7 @@
 					<div class="col-2 me-4 pe-0">
 
 						<h3 class="pb-20px badge bg-secondary NotoSerifL fs-20px ls-1">ISHIMARUについて</h3>
-						<a class="nav-link TrajanR ps-0 pt-0 pb-1 fs-18px lh-lg" href="https://www.saga-ishimaru.co.jp/?mode=f1">- ABOUT</a>
+						<a class="nav-link TrajanR ps-0 pt-0 pb-1 fs-14px lh-lg" href="https://www.saga-ishimaru.co.jp/?mode=f1">- ABOUT</a>
 
 						<!-- SNS -->
 						<div class="py-2">
@@ -60,7 +60,7 @@
 					<!-- / ISHIMARUについて -->
 
 					<!-- 商品のご案内 -->
-					<div class="col NotoSerifL fs-18px ps-0">
+					<div class="col NotoSerifL fs-14px ps-0">
 						<h3 class="pb-20px badge bg-secondary NotoSerifL fs-20px">商品のご案内</h3>
 						<!-- ブランド牛で選ぶ -->
 						<p class="NotoSerifSB lh-lg">ブランド牛で選ぶ</p>
@@ -90,7 +90,7 @@
 					<!-- / ブランド牛で選ぶ -->
 
 					<!-- その他 -->
-					<div class="col mt-56px NotoSerifL fs-18px">
+					<div class="col mt-56px NotoSerifL fs-14px text-nowrap pe-1">
 						<p class="NotoSerifSB lh-lg">その他</p>
 						<p>
 							<a href="https://www.saga-ishimaru.co.jp/?pid=147855212" class="lh-lg">- 佐賀牛入りハンバーグ</a>
@@ -105,7 +105,7 @@
 					<!-- / その他 -->
 
 					<!-- 料理で選ぶ -->
-					<div class="col mt-56px NotoSerifL fs-18px">
+					<div class="col mt-56px NotoSerifL fs-14px text-nowrap pe-1">
 						<p class="NotoSerifSB lh-lg">料理で選ぶ</p>
 						<p>
 							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338001" class="lh-lg">- 焼肉</a>
@@ -123,7 +123,7 @@
 					<!-- / 料理で選ぶ -->
 
 					<!-- 部位で選ぶ -->
-					<div class="col mt-56px NotoSerifL fs-18px">
+					<div class="col mt-56px NotoSerifL fs-14px pe-0">
 						<p class="NotoSerifSB lh-lg">部位で選ぶ</p>
 						<p>
 							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2337960" class="lh-lg">- ひれ</a>
@@ -141,7 +141,7 @@
 					<!-- / 部位で選ぶ -->
 
 					<!-- 予算で選ぶ -->
-					<div class="col mt-56px NotoSerifL fs-18px">
+					<div class="col mt-56px NotoSerifL fs-14px ps-0">
 						<p class="NotoSerifSB lh-lg">予算で選ぶ</p>
 						<p>
 							<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2673106" class="lh-lg">- ～￥4,999</a>
@@ -157,7 +157,7 @@
 					<!-- / 商品のご案内 -->
 
 					<!-- サービス -->
-					<div class="col NotoSerifL fs-18px pe-0">
+					<div class="col NotoSerifL fs-14px pe-0">
 						<h3 class="pb-20px badge bg-secondary NotoSerifL fs-20px">サービス</h3>
 						<!-- <p>
 							<a href="https://www.saga-ishimaru.co.jp/?mode=f3" class="lh-lg">ポイントについて</a>
