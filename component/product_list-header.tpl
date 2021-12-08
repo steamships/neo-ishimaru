@@ -1,144 +1,149 @@
 <!-- product_list-header.tpl ▼ -->
 <section id="product_list-header" class="mb-3 mb-lg-8">
-	<{section name=num loop=$group}>
-	<{if $group[$smarty.get.gid][num].id == "2673106" || $group[$smarty.get.gid][num].id == "2673107" || $group[$smarty.get.gid][num].id == "2673108"}>
 	<!-- タイトル出力 -->
-	<{if $smarty.get.gid == $group[$smarty.get.gid][num].id}>
-	<P class="p-category-main-image-title TrajanB fs-26px mb-2 text-center"><{$group[$smarty.get.gid][num].name}>の商品</P>
+	<{section name=num loop=$group}>
+	<{if $group[num].id == "2673106" || $group[num].id == "2673107" || $group[num].id == "2673108" || $group[num].id == "2337960" || $group[num].id == "2337989" || $group[num].id == "2337981" || $group[num].id == "2337999"}>
+	<{if $smarty.get.gid == $group[num].id}>
+	<h2 class="p-category-title TrajanB fs-26px mb-2 mb-lg-3 py-1 text-center"><{$group[num].name}>の商品一覧</h2>
 	<{/if}>
 	<{/if}>
 	<{/section}>
-	<!--カテゴリーリスト -->
-	<{if $smarty.get.mode == "cate" && $subcategory_num != 0}>
-	<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
-		<{section name=num loop=$subcategory[$smarty.get.cbid]}>
-		<{if $subcategory[$smarty.get.cbid][num].name}>
-		<li class="p-sub-category-item text-center d-inline-block">
-			<a href="<{$subcategory[$smarty.get.cbid][num].link_url}>" class="p-sub-category-link text-decoration-none">
-				<span class="p-sub-category-name TrajanL"><{$subcategory[$smarty.get.cbid][num].name}></span>
-			</a>
-		</li>
-		<{/if}>
-		<{/section}>
-	</ul>
-	<{/if}>
 
-	<!-- グループリスト -->
-	<{if $smarty.get.mode == "grp" && $subgroup_num != 0}>
-	<{if $smarty.get.gid == "2337958" || $smarty.get.gid == "2338000" || $smarty.get.gid == "2338001" || $smarty.get.gid == "2373403"}>
-	<!-- 料理で選ぶグループリスト -->
-	<{section name=num loop=$group[$smarty.get.gid]}>
-		<{if $smarty.section.num.first }>
-		<ul class="product_list-dish-group d-flex flex-wrap list-unstyled justify-content-evenly TrajanSB mb-lg-2">
-		<{/if}>
-			<{if $group[$smarty.get.gid][num].img_url != ""}>
-			<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center  group-<{$group[$smarty.get.gid][num].id}>">
-				<a class="product_list-blists-link text-decoration-none d-inline-block fs-26px" href="<{$group[$smarty.get.gid][num].link_url}>"><img class="product_list-blists-img mb-1" src="<{$group[$smarty.get.gid][num].img_url}>"><span class="d-block text-left text-center"><{$group[$smarty.get.gid][num].name}></span></a>
-			</li>
-			<{else}>
-			<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center  group-<{$group[$smarty.get.gid][num].id}>">
-				<a class="product_list-blists-link text-decoration-none fs-26px" href="<{$group[$smarty.get.gid][num].link_url}>"><span class="d-block text-left text-center"><{$group[$smarty.get.gid][num].name}></span></a>
+	<{* お歳暮ページはリストなど非表示 *}>
+	<{if $smarty.get.gid == "2483504"}>
+	<{else}>
+		<!--カテゴリーリスト -->
+		<{if $smarty.get.mode == "cate" && $subcategory_num != 0}>
+		<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
+			<{section name=num loop=$subcategory[$smarty.get.cbid]}>
+			<{if $subcategory[$smarty.get.cbid][num].name}>
+			<li class="p-sub-category-item text-center d-inline-block">
+				<a href="<{$subcategory[$smarty.get.cbid][num].link_url}>" class="p-sub-category-link text-decoration-none">
+					<span class="p-sub-category-name TrajanL"><{$subcategory[$smarty.get.cbid][num].name}></span>
+				</a>
 			</li>
 			<{/if}>
-		<{if $smarty.section.num.last }>
+			<{/section}>
 		</ul>
 		<{/if}>
-	<{/section}>
-	<!-- // 部位で選ぶグループリスト -->
-	<{else}>
-	<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
-	<{section name=num loop=$sub_group}>
-		<li class="p-sub-category-item text-center d-inline-block">
-			<a href="<{$sub_group[num].link_url}>" class="p-sub-category-link text-decoration-none">
-				<span class="p-sub-category-name TrajanL"><{$sub_group[num].name}></span>
-			</a>
-		</li>
-	<{/section}>
-	</ul>
-	<{/if}>
-	<{/if}>
 
-	<!-- 部位説明 -->
-	<div class="p-sub-category-description mb-2 mb-lg-1 d-flex justify-content-between flex-column flex-lg-row">
-		<img class="p-sub-category-description-img col-12 col-lg-5 mb-2 mb-lg-0" src="<{$assets}>/img/ushi.png" alt="牛の部位">
-		<div class="p-sub-category-description-textbox col-12 col-lg-7 pl-1">
-			<{if $smarty.get.cbid == "2543763" || $smarty.get.cbid == "2547504"}>
-				<{if $smarty.get.csid == "0"}>
+		<!-- グループリスト -->
+		<{if $smarty.get.mode == "grp" && $subgroup_num != 0}>
+		<{if $smarty.get.gid == "2337958" || $smarty.get.gid == "2338000" || $smarty.get.gid == "2338001" || $smarty.get.gid == "2373403"}>
+		<!-- 料理で選ぶグループリスト -->
+		<{section name=num loop=$group}>
+			<{if $smarty.section.num.first }>
+			<ul class="product_list-dish-group d-flex flex-wrap list-unstyled justify-content-evenly TrajanSB mb-lg-2">
+			<{/if}>
+				<{if $group[num].img_url != ""}>
+				<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center  group-<{$group[num].id}>">
+					<a class="product_list-blists-link text-decoration-none d-inline-block fs-26px" href="<{$group[num].link_url}>"><img class="product_list-blists-img mb-1" src="<{$group[num].img_url}>"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
+				</li>
+				<{else}>
+				<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center  group-<{$group[num].id}>">
+					<a class="product_list-blists-link text-decoration-none fs-26px" href="<{$group[num].link_url}>"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
+				</li>
+				<{/if}>
+			<{if $smarty.section.num.last }>
+			</ul>
+			<{/if}>
+		<{/section}>
+		<!-- // 部位で選ぶグループリスト -->
+		<{else}>
+		<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
+		<{section name=num loop=$sub_group}>
+			<li class="p-sub-category-item text-center d-inline-block">
+				<a href="<{$sub_group[num].link_url}>" class="p-sub-category-link text-decoration-none">
+					<span class="p-sub-category-name TrajanL"><{$sub_group[num].name}></span>
+				</a>
+			</li>
+		<{/section}>
+		</ul>
+		<{/if}>
+		<{/if}>
+
+		<!-- 部位説明 -->
+		<div class="p-sub-category-description mb-2 mb-lg-1 d-flex justify-content-between flex-column flex-lg-row">
+			<img class="p-sub-category-description-img col-12 col-lg-5 mb-2 mb-lg-0" src="<{$assets}>/img/ushi.png" alt="牛の部位">
+			<div class="p-sub-category-description-textbox col-12 col-lg-7 pl-1">
+				<{if $smarty.get.cbid == "2543763" || $smarty.get.cbid == "2547504"}>
+					<{if $smarty.get.csid == "0"}>
+					<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+						とても柔らかくキメの細かい肉質、口いっばいに広がる肉汁が特徴。1頭の牛からほんのわずかしか取れない希少部位です。
+					</p>
+					<{elseif $smarty.get.csid == "1"}>
+					<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+						赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。
+					</p>
+					<{elseif $smarty.get.csid == "2"}>
+					<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+						様々な部位のお肉が集まったバラエティパック。使い勝手が良く様々な料理との相性抜群。手ごろな価格で良いお肉を楽しめる。
+					</p>
+					<{elseif $smarty.get.csid == "3"}>
+					<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+						脂身が少なくてヘルシー、弾力があって食べごたえのある部位。しっかりとした歯ごたえを持ち旨味が凝縮されており、お肉本来の味を堪能出来る。
+					</p>
+					<{elseif $smarty.get.csid == "4"}>
+					<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+						とろけるような程よい食感で濃厚な味わいが特徴の霜降り肉。しゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
+					</p>
+					<{elseif $smarty.get.csid == "5"}>
+					<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+						比較的脂身が少ないヘルシーな赤身肉。さっぱりとした味わいが特徴でしゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
+					</p>
+					<{/if}>
+				<{elseif $smarty.get.gid == "2337960"}>
 				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
 					とても柔らかくキメの細かい肉質、口いっばいに広がる肉汁が特徴。1頭の牛からほんのわずかしか取れない希少部位です。
 				</p>
-				<{elseif $smarty.get.csid == "1"}>
+				<{elseif $smarty.get.gid == "2337981"}>
 				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
 					赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。
 				</p>
-				<{elseif $smarty.get.csid == "2"}>
-				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-					様々な部位のお肉が集まったバラエティパック。使い勝手が良く様々な料理との相性抜群。手ごろな価格で良いお肉を楽しめる。
-				</p>
-				<{elseif $smarty.get.csid == "3"}>
-				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-					脂身が少なくてヘルシー、弾力があって食べごたえのある部位。しっかりとした歯ごたえを持ち旨味が凝縮されており、お肉本来の味を堪能出来る。
-				</p>
-				<{elseif $smarty.get.csid == "4"}>
+				<{elseif $smarty.get.gid == "2337989"}>
 				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
 					とろけるような程よい食感で濃厚な味わいが特徴の霜降り肉。しゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
 				</p>
-				<{elseif $smarty.get.csid == "5"}>
+				<{elseif $smarty.get.gid == "2337999"}>
 				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
 					比較的脂身が少ないヘルシーな赤身肉。さっぱりとした味わいが特徴でしゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
 				</p>
+				<{elseif $smarty.get.gid == "2338001"}>
+				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+					お肉を食べてスタミナを付けたい！そんな時にはおうちで美味しい焼肉を。ごはんがすすむこと間違いなしです。
+				</p>
+				<{elseif $smarty.get.gid == "2338000"}>
+				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+					鍋を囲んで家族や友人と素敵な時間を。笑顔が詰まった美味しい鍋を食べて、心も体も温まります。
+				</p>
+				<{elseif $smarty.get.gid == "2373403"}>
+				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+					いつもより特別な日に。ステーキを食べて自分にも相手にも幸せなひと時を。ちょっぴり贅沢をしたい、そんなときにおすすめです。
+				</p>
+				<{elseif $smarty.get.gid == "2337958"}>
+				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+					子どもが大好きなものと言えばハンバーグ。好みの焼き方、好みの味付けで更に美味しく。焼くだけ簡単、家族が思わず笑顔になります。
+				</p>
+				<{elseif $smarty.get.gid == "2673106"}>
+				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+					石丸こだわりのお肉がリーズナブルに楽しめます。気軽に普段使いも出来て、毎日の食卓が華やかに。
+					<br>※10,800円(税込)以上のご購入で送料無料でお届けします。
+				</p>
+				<{elseif $smarty.get.gid == "2673107"}>
+				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+					いつもとは違ったワンランク上の食事を。お祝いやプレゼントでも喜ばれること間違いなしです。
+					<br>※10,800円(税込)以上のご購入で送料無料でお届けします。
+				</p>
+				<{elseif $smarty.get.gid == "2673108"}>
+				<p class="p-sub-category-description-textbox-text TrajanL d-inline">
+					お肉の中でも国内トップクラスの品質を誇るこだわりの逸品。選び抜かれた厳選のお肉をご堪能ください。
+					<br>※10,800(税込)以上のご購入で送料無料でお届けします。
+				</p>
 				<{/if}>
-			<{elseif $smarty.get.gid == "2337960"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				とても柔らかくキメの細かい肉質、口いっばいに広がる肉汁が特徴。1頭の牛からほんのわずかしか取れない希少部位です。
-			</p>
-			<{elseif $smarty.get.gid == "2337981"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。
-			</p>
-			<{elseif $smarty.get.gid == "2337989"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				とろけるような程よい食感で濃厚な味わいが特徴の霜降り肉。しゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
-			</p>
-			<{elseif $smarty.get.gid == "2337999"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				比較的脂身が少ないヘルシーな赤身肉。さっぱりとした味わいが特徴でしゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
-			</p>
-			<{elseif $smarty.get.gid == "2338001"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				お肉を食べてスタミナを付けたい！そんな時にはおうちで美味しい焼肉を。ごはんがすすむこと間違いなしです。
-			</p>
-			<{elseif $smarty.get.gid == "2338000"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				鍋を囲んで家族や友人と素敵な時間を。笑顔が詰まった美味しい鍋を食べて、心も体も温まります。
-			</p>
-			<{elseif $smarty.get.gid == "2373403"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				いつもより特別な日に。ステーキを食べて自分にも相手にも幸せなひと時を。ちょっぴり贅沢をしたい、そんなときにおすすめです。
-			</p>
-			<{elseif $smarty.get.gid == "2337958"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				子どもが大好きなものと言えばハンバーグ。好みの焼き方、好みの味付けで更に美味しく。焼くだけ簡単、家族が思わず笑顔になります。
-			</p>
-			<{elseif $smarty.get.gid == "2673106"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				石丸こだわりのお肉がリーズナブルに楽しめます。気軽に普段使いも出来て、毎日の食卓が華やかに。
-				<br>※10,800円(税込)以上のご購入で送料無料でお届けします。
-			</p>
-			<{elseif $smarty.get.gid == "2673107"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				いつもとは違ったワンランク上の食事を。お祝いやプレゼントでも喜ばれること間違いなしです。
-				<br>※10,800円(税込)以上のご購入で送料無料でお届けします。
-			</p>
-			<{elseif $smarty.get.gid == "2673108"}>
-			<p class="p-sub-category-description-textbox-text TrajanL d-inline">
-				お肉の中でも国内トップクラスの品質を誇るこだわりの逸品。選び抜かれた厳選のお肉をご堪能ください。
-				<br>※10,800(税込)以上のご購入で送料無料でお届けします。
-			</p>
-			<{/if}>
+			</div>
 		</div>
-	</div>
 
+	<{/if}>
 	<!-- 商品数とソート -->
 	<{if $productlist_num != 0}>
 	<div class="c-product-sort mb-1 d-flex justify-content-between align-items-end">

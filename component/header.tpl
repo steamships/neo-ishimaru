@@ -62,7 +62,7 @@
 						<{/if}>
 							<{if $group[num].img_url != ""}>
 							<li class="g-sub-nav-blists d-none mx-lg-2 text-center group-<{$group[num].id}>">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img mb-1" src="<{$group[num].img_url}>"><span class="d-block text-center"><{$group[num].name}></span></a>
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-subgroup-img-<{$group[num].id}>.png"><span class="d-block text-center"><{$group[num].name}></span></a>
 							</li>
 							<{else}>
 							<li class="g-sub-nav-blists d-none mx-lg-2 text-center group-<{$group[num].id}>">

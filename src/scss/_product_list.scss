@@ -28,6 +28,9 @@
 	}
 }
 #product_list-header {
+	.p-category-title {
+		background: radial-gradient(circle, white 85%, rgba(255,255,255,0));
+	}
 	.p-sub-category {
 		@include media-breakpoint-down(lg) {
 			display: flex;
@@ -125,7 +128,12 @@
 	}
 	.product_list-dish-group {
 		.product_list-blists {
-				width: 50%;
+				width: 22%;
+				padding: 0 3%;
+				@include media-breakpoint-down(lg) {
+					padding: 0;
+					width: 50%;
+				}
 			&-link {
 				@include media-breakpoint-down(lg) {
 					font-size: 1.2rem;
