@@ -73,7 +73,7 @@
 			<li class="mt-2">
 				<div class="bb-1 mx-auto pb-1">
 					<a class=""
-						href="#review">
+						href="//www.saga-ishimaru.co.jp/?mode=f2">
 						<div class="d-flex justify-content-start align-items-center chevron-right">
 							<div class="me-auto NotoSerifSB fs-20px ls-1">
 								お客さまの声
@@ -222,16 +222,24 @@
 		<!-- </a> -->
 		<!-- 3列 -->
 		<div class="NotoSerifSB fs-20px ls-1 text-center">
+			<!-- お客さまの声 -->
+			<div class="bb-1 mx-auto py-2">
+				<a href="//www.saga-ishimaru.co.jp/?mode=f2">
+					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
+						お客さまの声
+					</div>
+				</a>
+			</div>
 			<!-- 会員登録 -->
 			<div class="bb-1 mx-auto py-2">
 				<a href="//members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
-					<div class="me-auto chevron-right">
+					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
 						ISHIMARU会員登録
 					</div>
 				</a>
 			</div>
 			<!-- メルマガ -->
-			<div class="bb-1 mx-auto py-1">
+			<div class="bb-1 mx-auto py-2">
 				<a href="//members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
 					<div class="me-auto chevron-right">
 						<div class="NotoSerifL fs-16px">\お得な情報がいっぱい！/</div>
@@ -242,8 +250,9 @@
 			<!-- ご利用ガイド -->
 			<div class="bb-1 mx-auto py-2">
 				<a href="//www.saga-ishimaru.co.jp/?mode=sk">
-					<div class="me-auto chevron-right"></div>
-					ご利用ガイド
+					<div class="d-flex justify-content-center align-items-center ls-1 chevron-right">
+						ご利用ガイド
+					</div>
 				</a>
 			</div>
 		</div>
