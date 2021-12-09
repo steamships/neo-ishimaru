@@ -211,7 +211,7 @@
 					<!-- / SNS -->
 
 					<!-- 戻るボタン-->
-					<div class="col-5">
+					<div id="backtotop" class="col-5">
 						<a href="#" class="btn btn-dark rounded-pill TrajanB ls-1 chevron-up">PAGE TOP</a>
 					</div>
 					<!-- / 戻るボタン-->

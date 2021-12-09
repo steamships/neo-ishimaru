@@ -63,4 +63,13 @@ export const header = () => {
 			$('.header-account-lists').toggleClass('active');
 		});
 	}
+
+	// 戻るボタンにanimate（フッター）
+	const backtotop = $('#backtotop');
+	backtotop.click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+	});
 }

@@ -16,7 +16,7 @@
 			<div class="carousel-item">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2547504&csid=0">
 					<img src="<{$assets}>/img/neo-slide-2-pc.png" class="d-none d-lg-block w-100" alt="黒毛和牛">
-					<img src="<{$assets}>/img/neo-slide-2-sp.jpg" class="d-lg-none d-block w-100" alt="黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-2-sp.png" class="d-lg-none d-block w-100" alt="黒毛和牛">
 				</a>
 			</div>
 			<div class="carousel-item">
