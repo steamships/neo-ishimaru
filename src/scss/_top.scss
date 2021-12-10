@@ -13,7 +13,8 @@
 #info,
 #ranking,
 #price,
-#dish {
+#dish,
+#furusato {
 	.chevron-right {
 		position: relative;
 
@@ -26,7 +27,8 @@
 }
 
 #info,
-#ranking {
+#ranking,
+#furusato {
 	@include media-breakpoint-down(lg) {
 		margin-bottom: 5rem;
 	}
@@ -66,7 +68,8 @@
 #info,
 #ranking,
 #brand,
-#dish {
+#dish,
+#furusato {
 	margin-bottom: 5.5rem;
 }
 #brand,
@@ -76,8 +79,9 @@
 	}
 }
 
-// インフォメーション
-#info {
+// インフォメーション,ふるさと納税
+#info,
+#furusato {
 	.head {
 		margin: .8rem 0 .4rem;
 	}

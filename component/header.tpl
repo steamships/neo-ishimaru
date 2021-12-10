@@ -119,6 +119,28 @@
 					<{/section}>
 					<!-- // 価格帯で選ぶグループリスト -->
 				</li>
+
+				<li class="nav-item">
+					<a class="nav-link TrajanSB" href="#">FURUSATO TAX<span class="d-lg-block NotoSerifL">ふるさと納税</span></a>
+					<!-- ふるさと納税リスト -->
+						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-evenly  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
+							<li class="g-sub-nav-blists mx-lg-2 text-center">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://search.rakuten.co.jp/search/mall/%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89/" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-rakuten.png"><span class="d-block text-center">楽天ふるさと納税</span></a>
+							</li>
+							<li class="g-sub-nav-blists mx-lg-2 text-center">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.furusato-tax.jp/search?header=1&target=1&q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-choice.png"><span class="d-block text-center">ふるさとチョイス</span></a>
+							</li>
+							<li class="g-sub-nav-blists mx-lg-2 text-center">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://furunavi.jp/Product/Search?keyword=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-furunavi.png"><span class="d-block text-center">ふるなび</span></a>
+							</li>
+							<li class="g-sub-nav-blists mx-lg-2 text-center">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.satofull.jp/products/list.php?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89&cnt=120&p=1" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-satofull.png"><span class="d-block text-center">さとふる</span></a>
+							</li>
+						</ul>
+					<!-- // ふるさと納税リスト -->
+				</li>
+
+
 				<li class="nav-item">
 					<a class="nav-link TrajanSB" href="#">SERVICE<span class="d-lg-block NotoSerifL">サービス</span></a>
 					<!-- サービスグループリスト -->
