@@ -15,7 +15,9 @@
 					<a href="<{$v.link_url}>" class="d-block col-6 col-lg-2 mb-2 text-decoration-none">
 						<p><img src="<{$v.img_url}>" class="img-fluid"></p>
 						<p class="NotoSerifL fs-18px"><{$v.name}></p>
-						<p class="TrajanB fs-24px"><{$v.price}></p>
+						<p class="TrajanB fs-24px">
+							<{$v.price|replace:'円(内税)':'<small class="fs-6">円 (税込)</small>'}>
+						</p>
 					</a>
 					<{/foreach}>
 				</div>

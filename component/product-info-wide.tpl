@@ -56,18 +56,20 @@
 			<!-- 価格・定価 -->
 			<div id="product-info-detail-prices">
 				<div id="product-info-detail-prices-sales">
-					<span class="fs-4 fw-bold my-1 d-inline-block"><{$product.sales}></span>
+					<span class="fs-4 fw-bold my-1 d-inline-block">
+						<{$product.sales|replace:'円(内税)':'<small class="fs-6">円 (税込)</small>'}>
+					</span>
 					<{* 割引商品の場合 *}>
 					<{if $members_login_flg == true && $product.discount_flg == true}>
 					<span class="badge bg-danger ms-1"><{$product.discount_rate}>OFF</span>
 					<div class="text-secondary small">
-						通常価格：<{$product.regular_price}>
+						通常価格：<{$product.regular_price|replace:'円(内税)':'<small class="fs-6">円 (税込)</small>'}>
 					</div>
 					<{/if}>
 				</div>
 				<{if $product.price_disp}>
 				<div id="product-info-detail-prices-price" class="text-secondary small">
-					定価：<{$product.price}>
+					定価：<{$product.price|replace:'円(内税)':'<small class="fs-6">円 (税込)</small>'}>
 				</div>
 				<{/if}>
 			</div>
