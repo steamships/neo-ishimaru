@@ -21,6 +21,15 @@
 
 	<div class="row position-relative">
 
+	<!-- 品切れ -->
+	<div class="col-6 col-lg-3 mb-1">
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/211208_point-5.png?cmsp_timestamp=20211210172146">
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">2021-12-10</span></div>
+		<div class="NotoSerifSB title fs-5">リニューアル記念！</div>
+		<div class="NotoSerifL expl">期間限定でいまだけポイントが5倍です！12月20日まで♪</div>
+	</div>
+
 	<!-- お歳暮 -->
 	<div class="col-6 col-lg-3 mb-1">
 		<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2483504">
@@ -33,7 +42,7 @@
 	</div>
 
 	<!-- 品切れ -->
-	<div class="col-6 col-lg-3 mb-1">
+	<!-- <div class="col-6 col-lg-3 mb-1">
 
 			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-oos-hmbg.jpg?cmsp_timestamp=20211206160248">
 
@@ -41,7 +50,7 @@
 			<span class="TrajanR date">2021-12-06</span></div>
 		<div class="NotoSerifSB title fs-5">品切れのお詫び</div>
 		<div class="NotoSerifL expl">九州産黒毛和牛ハンバーグは大好評のため現在品切れ中です。</div>
-	</div>
+	</div> -->
 
 	<!-- 鍋 -->
 	<div class="col-6 col-lg-3 mb-1">

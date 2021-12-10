@@ -35,7 +35,6 @@
 				<{if $smarty.section.num.first }>
 				<ul class="product_list-dish-group d-flex flex-wrap list-unstyled justify-content-evenly TrajanSB mb-lg-2">
 				<{/if}>
-					<{assign var="img" value="`$assets`/img/neo-subgroup-img-`$group[num].id`.png"|getimagesize}>
 					<{if $img}>
 					<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center group-<{$group[num].id}>">
 						<a class="product_list-blists-link text-decoration-none d-inline-block fs-26px" href="<{$group[num].link_url}>"><img class="product_list-blists-img mb-1" src="<{$assets}>/img/neo-subgroup-img-<{$group[num].id}>.png"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
