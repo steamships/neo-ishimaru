@@ -17,7 +17,7 @@
 		<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
 			<{section name=num loop=$subcategory[$smarty.get.cbid]}>
 			<{if $subcategory[$smarty.get.cbid][num].name}>
-			<li class="p-sub-category-item text-center d-inline-block">
+			<li class="p-sub-category-item text-center d-inline-block" data-id="">
 				<a href="<{$subcategory[$smarty.get.cbid][num].link_url}>" class="p-sub-category-link text-decoration-none">
 					<span class="p-sub-category-name TrajanL"><{$subcategory[$smarty.get.cbid][num].name}></span>
 				</a>
@@ -29,37 +29,41 @@
 
 		<!-- グループリスト -->
 		<{if $smarty.get.mode == "grp" && $subgroup_num != 0}>
-		<{if $smarty.get.gid == "2337958" || $smarty.get.gid == "2338000" || $smarty.get.gid == "2338001" || $smarty.get.gid == "2373403"}>
-		<!-- 料理で選ぶグループリスト -->
-		<{section name=num loop=$group}>
-			<{if $smarty.section.num.first }>
-			<ul class="product_list-dish-group d-flex flex-wrap list-unstyled justify-content-evenly TrajanSB mb-lg-2">
-			<{/if}>
-				<{if $group[num].img_url != ""}>
-				<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center  group-<{$group[num].id}>">
-					<a class="product_list-blists-link text-decoration-none d-inline-block fs-26px" href="<{$group[num].link_url}>"><img class="product_list-blists-img mb-1" src="<{$group[num].img_url}>"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
-				</li>
-				<{else}>
-				<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center  group-<{$group[num].id}>">
-					<a class="product_list-blists-link text-decoration-none fs-26px" href="<{$group[num].link_url}>"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
-				</li>
+			<{if $smarty.get.gid == "2337958" || $smarty.get.gid == "2338000" || $smarty.get.gid == "2338001" || $smarty.get.gid == "2373403"}>
+			<!-- 料理で選ぶグループリスト -->
+			<{section name=num loop=$group}>
+				<{if $smarty.section.num.first }>
+				<ul class="product_list-dish-group d-flex flex-wrap list-unstyled justify-content-evenly TrajanSB mb-lg-2">
 				<{/if}>
-			<{if $smarty.section.num.last }>
-			</ul>
+					<{if file_exists("`$assets`/img/neo-subgroup-img-`$group[num].id`.png")}>
+					<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center group-<{$group[num].id}>">
+						<a class="product_list-blists-link text-decoration-none d-inline-block fs-26px" href="<{$group[num].link_url}>"><img class="product_list-blists-img mb-1" src="<{$assets}>/img/neo-subgroup-img-<{$group[num].id}>.png"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
+					</li>
+					<{else}>
+					<li class="g-sub-nav-blists d-none mx-lg-2 text-center group-<{$group[num].id}>">
+						<a class="g-sub-nav-blists-link mb-1 text-decoration-none" href="<{$group[num].link_url}>"><span class="d-block text-center"><{$group[num].name}></span></a>
+					</li>
+					<{/if}>
+				<{if $smarty.section.num.last }>
+				</ul>
+				<{/if}>
+			<{/section}>
+				<!-- // 部位で選ぶグループリスト -->
+			<{else}>
+				<{section name=num loop=$group}>
+					<{if $smarty.section.num.first }>
+					<ul class="p-sub-category mb-1 mb-lg-2 d-flex flex-wrap list-unstyled justify-content-start">
+					<{/if}>
+						<li class="p-sub-category-item text-center d-none" data-id="<{$group[num].id}>">
+							<a href="<{$group[num].link_url}>" class="p-sub-category-link d-inline-block text-decoration-none">
+								<span class="p-sub-category-name TrajanL"><{$group[num].name}></span>
+							</a>
+						</li>
+					<{if $smarty.section.num.last }>
+					</ul>
+					<{/if}>
+				<{/section}>
 			<{/if}>
-		<{/section}>
-		<!-- // 部位で選ぶグループリスト -->
-		<{else}>
-		<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
-		<{section name=num loop=$sub_group}>
-			<li class="p-sub-category-item text-center d-inline-block">
-				<a href="<{$sub_group[num].link_url}>" class="p-sub-category-link text-decoration-none">
-					<span class="p-sub-category-name TrajanL"><{$sub_group[num].name}></span>
-				</a>
-			</li>
-		<{/section}>
-		</ul>
-		<{/if}>
 		<{/if}>
 
 		<!-- 部位説明 -->
