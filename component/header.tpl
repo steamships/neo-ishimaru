@@ -33,7 +33,7 @@
 						<{foreach from=$category item=big_cate name=key}>
 						<{if $subcategory[$big_cate.bid] != ""}>
 						<li class="c-sub-nav-blists mx-lg-2">
-							<a class="c-sub-nav-blists-link mb-1 text-decoration-none d-block"><{$big_cate.name}></a>
+							<a class="c-sub-nav-blists-link mb-1 text-decoration-none d-block" href="<{$big_cate.link_url}>"><{$big_cate.name}></a>
 							<ul class="c-sub-nav-slists nav_hidden list-unstyled">
 							<{foreach from=$subcategory[$big_cate.bid] item=sub_cate name=key}>
 								<li class="c-sub-nav-slist TrajanL mb-1">
@@ -60,7 +60,8 @@
 						<{if $smarty.section.num.first }>
 						<ul class="g-sub-nav dish-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-evenly  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 						<{/if}>
-							<{if file_exists("`$assets`/img/neo-subgroup-img-`$group[num].id`.png")}>
+							<{assign var="img" value="`$assets`/img/neo-subgroup-img-`$group[num].id`.png"|getimagesize}>
+							<{if $img}>
 							<li class="g-sub-nav-blists d-none mx-lg-2 text-center group-<{$group[num].id}>">
 								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-subgroup-img-<{$group[num].id}>.png"><span class="d-block text-center"><{$group[num].name}></span></a>
 							</li>
