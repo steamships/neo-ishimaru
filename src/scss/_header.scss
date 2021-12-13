@@ -111,10 +111,20 @@
 						font-size: .7em;
 						transition: .3s;
 					}
+					&.colorChange {
+						@include media-breakpoint-down(lg) {
+							color: $third-color!important;
+							span {
+								color: rgba(0,0,0,0.7)!important;
+							}
+						}
+					}
 					&:hover {
-						color: $third-color!important;
-						span {
-							color: rgba(0,0,0,0.7)!important;
+						@include media-breakpoint-up(lg) {
+							color: $third-color!important;
+							span {
+								color: rgba(0,0,0,0.7)!important;
+							}
 						}
 					}
 					@include media-breakpoint-down(lg) {
@@ -155,6 +165,13 @@
 						position: relative;
 					}
 				}
+				.bcate-nav {
+					.c-sub-nav-blists {
+						@include media-breakpoint-down(lg) {
+							width: 50%;
+						}
+					}
+				}
 				.c-sub-nav,.g-sub-nav {
 					left: 50%;
 					transform: translateX(-50%);
@@ -185,7 +202,7 @@
 							font-size: 0.938vw;
 							@include media-breakpoint-down(lg) {
 								font-size: 15px;
-								padding: 4px 8px;
+								padding: 6px 16px;
 								border-bottom: none;
 							}
 						}
