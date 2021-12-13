@@ -364,6 +364,7 @@
 			top: 30%;
 			right: 30%;
 			position: absolute;
+			color: #fff;
 			&::before{
 				@include bsicon('x-square');
 				font-size: 40px;
@@ -371,7 +372,6 @@
 			@include media-breakpoint-down(lg){
 				top: 35%;
 				right: 10%;
-				color: #fff;
 			}
 		}
 		.overlayflex{
@@ -388,6 +388,9 @@
 			border-radius: 40px;
 			background-color: #fff;
 			box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+			@include media-breakpoint-down(lg){
+				width: 90%;
+			}
 			.form-input{
 				border: none;
 				width: 100%;
