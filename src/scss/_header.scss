@@ -351,6 +351,11 @@
 				@include bsicon('x-square');
 				font-size: 40px;
 			}
+			@include media-breakpoint-down(lg){
+				top: 35%;
+				right: 10%;
+				color: #fff;
+			}
 		}
 		.overlayflex{
 			/*オーバーレイ内の要素を上下・左右中央揃え*/
