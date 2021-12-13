@@ -39,7 +39,6 @@
 		}
 		&-item {
 			background-color: $primary;
-			padding: 0.6rem 2rem;
 			margin: 0 0.5rem 0.5rem 0;
 			transition: .3s;
 			@include media-breakpoint-down(lg) {
@@ -69,6 +68,9 @@
 			&[data-id="2337960"], &[data-id="2337981"], &[data-id="2337989"], &[data-id="2337999"]{
 				display: block!important;
 			}
+		}
+		&-link {
+			padding: 0.6rem 2rem;
 		}
 		&-name {
 			font-size: 1.2rem;

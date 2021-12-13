@@ -48,7 +48,8 @@ export const product_list = () => {
 		if ($('.p-sub-category').length) {
 			$('.p-sub-category-item').each(function(i,group){
 				const categoryId = $(this).data('id');
-				if (getParam('gid') != categoryId) {
+				const categorySid = $(this).data('csid');
+				if (getParam('gid') != categoryId || getParam('csid') != categorySid) {
 					$(this).addClass('select');
 				}
 				else {

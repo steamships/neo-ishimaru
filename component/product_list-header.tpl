@@ -15,10 +15,10 @@
 		<!--カテゴリーリスト -->
 		<{if $smarty.get.mode == "cate" && $subcategory_num != 0}>
 		<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
-			<{section name=num loop=$subcategory[$smarty.get.cbid]}>
+			<{section name=num loop=$subcategory[$smarty.get.cbid] start=0}>
 			<{if $subcategory[$smarty.get.cbid][num].name}>
-			<li class="p-sub-category-item text-center d-inline-block" data-id="">
-				<a href="<{$subcategory[$smarty.get.cbid][num].link_url}>" class="p-sub-category-link text-decoration-none">
+			<li class="p-sub-category-item text-center d-inline-block" data-csid="<{$smarty.section.num.index}>">
+				<a href="<{$subcategory[$smarty.get.cbid][num].link_url}>" class="p-sub-category-link d-block text-decoration-none">
 					<span class="p-sub-category-name TrajanL"><{$subcategory[$smarty.get.cbid][num].name}></span>
 				</a>
 			</li>
@@ -35,7 +35,7 @@
 				<{if $smarty.section.num.first }>
 				<ul class="product_list-dish-group d-flex flex-wrap list-unstyled justify-content-evenly TrajanSB mb-lg-2">
 				<{/if}>
-					<{if $img}>
+					<{if $group[num].id == "2373403" || $group[num].id == "2338001" || $group[num].id == "2338000" || $group[num].id == "2337958"}>
 					<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center group-<{$group[num].id}>">
 						<a class="product_list-blists-link text-decoration-none d-inline-block fs-26px" href="<{$group[num].link_url}>"><img class="product_list-blists-img mb-1" src="<{$assets}>/img/neo-subgroup-img-<{$group[num].id}>.png"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
 					</li>
@@ -55,7 +55,7 @@
 					<ul class="p-sub-category mb-1 mb-lg-2 d-flex flex-wrap list-unstyled justify-content-start">
 					<{/if}>
 						<li class="p-sub-category-item text-center d-none" data-id="<{$group[num].id}>">
-							<a href="<{$group[num].link_url}>" class="p-sub-category-link d-inline-block text-decoration-none">
+							<a href="<{$group[num].link_url}>" class="p-sub-category-link d-block text-decoration-none">
 								<span class="p-sub-category-name TrajanL"><{$group[num].name}></span>
 							</a>
 						</li>
