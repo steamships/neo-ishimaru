@@ -46,9 +46,9 @@ export const header = () => {
 			if ( scroll_top < 300 ) {
 				$('#header-nav-icons').addClass('hide');
 			}
-			else if( $('body').height() - ( scroll_top + $(this).height() ) < 300 ) {
-				$('#header-nav-icons').addClass('hide');
-			}
+			// else if( $('body').height() - ( scroll_top + $(this).height() ) < 300 ) {
+			// 	$('#header-nav-icons').addClass('hide');
+			// }
 			else if (scroll_top >= start) {
 				$('#header-nav-icons').removeClass('hide');
 
@@ -59,9 +59,13 @@ export const header = () => {
 		});
 
 		//SP版　タッチでアカウントリスト表示
-		$('.header-account-icon .bi-person').bind('touchend', function() {
+		$('.header-account-icon').bind('touchend', function() {
 			$('.header-account-lists').toggleClass('active');
 		});
+		$('.header-account-lists').bind('touchend', function(e){
+			e.stopPropagation();
+		});
+
 	}
 
 	// 戻るボタンにanimate（フッター）
