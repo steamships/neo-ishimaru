@@ -43,7 +43,7 @@ export const header = () => {
 		let start = 0, scroll_top = 0;
 		$(window).on('scroll', function(){
 			scroll_top = $(this).scrollTop();
-			if ( scroll_top < 300 ) {
+			if ( scroll_top < 150 ) {
 				$('#header-nav-icons').addClass('hide');
 			}
 			// else if( $('body').height() - ( scroll_top + $(this).height() ) < 300 ) {
@@ -55,7 +55,7 @@ export const header = () => {
 			} else {
 				$('#header-nav-icons').addClass('hide');
 			}
-			start = scroll_top;
+			// start = scroll_top;
 		});
 
 		//SP版　タッチでアカウントリスト表示

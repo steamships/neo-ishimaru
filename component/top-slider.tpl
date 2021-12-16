@@ -1,7 +1,7 @@
 <{if $tpl_name == "top"}>
 	<{* スライド *}>
-	<link rel="stylesheet" type="text/css" href="https://www.jungleocean.com/demo/jquery-slick/css/slick-theme.css"/>
-	<link rel="stylesheet" type="text/css" href="https://www.jungleocean.com/demo/jquery-slick/css/slick.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="https://www.jungleocean.com/demo/jquery-slick/css/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.jungleocean.com/demo/jquery-slick/css/slick.css"/> -->
 
 	<div id="carouselExampleIndicators" class="carousel slide carousel-fade mb-4 px-0" data-bs-ride="carousel">
 		<ol class="carousel-indicators">
@@ -31,17 +31,17 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<!-- <script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript">
-	// $(document).ready(function(){
-	// 	$('.carousel-inner').slick({
-	// 		autoplay: true, //自動再生
-	// 		dots: true, //ドットのナビゲーションを表示
-	// 		infinite: true, //スライドのループ有効化
-	// 		speed: 5000, //切り替えのスピード（小さくすると速くなる）
-	// 		fade: true, //フェードの有効化
-	// 	});
-	// });
-	</script>
+	$(document).ready(function(){
+		$('.carousel-inner').slick({
+			autoplay: true, //自動再生
+			dots: true, //ドットのナビゲーションを表示
+			infinite: true, //スライドのループ有効化
+			speed: 5000, //切り替えのスピード（小さくすると速くなる）
+			fade: true, //フェードの有効化
+		});
+	});
+	</script> -->
 	<{* // スライド *}>
 <{/if}>
