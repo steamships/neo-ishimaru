@@ -41,6 +41,17 @@
 		<div class="NotoSerifL expl">九州産黒毛和牛ハンバーグは大好評のため現在品切れ中です。</div>
 	</div> -->
 
+	<!-- 変更のお知らせ -->
+	<div class="col-6 col-lg-3 mb-1">
+
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-noticeofchange.png?cmsp_timestamp=20211220164719">
+
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">2021-12-07</span></div>
+		<div class="NotoSerifSB title fs-5">変更のお知らせ</div>
+		<div class="NotoSerifL expl">リニューアル後に大きく2点の変更を行いました。</div>
+	</div>
+
 	<!-- 鍋 -->
 	<div class="col-6 col-lg-3 mb-1">
 		<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338000">
