@@ -1,5 +1,9 @@
 #product-info{
 	&-img{
+		$carousel-transition: .3s;
+		.carousel-item {
+			@include transition($carousel-transition);
+		}
 		&-thumbs{
 			img{
 				cursor: pointer;
