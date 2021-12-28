@@ -143,3 +143,57 @@
 		border-bottom: solid 1px;
 	}
 }
+
+//オーバーレイ
+#nenshi_overlay{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height:100vh;
+	display: none;
+	background: rgba(0,0,0,0.6);
+	z-index: 2147483647;
+	.flex{
+		/*オーバーレイ内の要素を上下・左右中央揃え*/
+		width: 100%;
+		height:100%;
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+	}
+	.overlay_inner{
+		background-color:#FFF;
+		text-align:center;
+		width: 60%;
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		line-height: 1.7;
+		@include NotoSerifL();
+		@include media-breakpoint-down(lg) {
+			width: 90%;
+			font-size: 15px;
+		}
+		span {
+			font-size: 22px;
+			@include media-breakpoint-down(lg) {
+				font-size: 17px;
+			}
+		}
+	}
+	#nenshi_close_btn{
+		cursor: pointer;
+		line-height: 1.5;
+		border-radius: 0.5rem;
+		border: 1px solid #ccc;
+		background: -webkit-gradient(linear, left top, left bottom, from(#fdfbfb), to(#ebedee));
+		background: -webkit-linear-gradient(top, #fdfbfb 0%, #ebedee 100%);
+		background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%);
+		-webkit-box-shadow: inset 1px 1px 1px #fff;
+		box-shadow: inset 1px 1px 1px #fff;
+		&:hover {
+		background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#ebedee));
+		background: -webkit-linear-gradient(bottom, #fdfbfb 0%, #ebedee 100%);
+		background: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
+		}
+	}
+}
