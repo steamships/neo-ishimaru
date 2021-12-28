@@ -5,8 +5,23 @@
 	<!-- PC -->
 	<div class="d-none d-lg-block">
 		<ul class="nav nav-pills flex-column mb-auto">
-			<!-- お届け目安 -->
+			<!-- 年始のお届け目安 -->
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
+				年始のお届け目安
+			</li>
+			<li class="NotoSerifL fs-16px">
+				<p>通常商品の場合 (予約商品を除く)</p>
+				<p>ただいまご注文いただいた場合の発送日</p>
+			</li>
+			<li class="mt-1 mb-1">
+				<span class="TrajanB fs-26px">2022年1月8日</span>
+				<span class="NotoSerifL fs-16px">(土)</span>
+			</li>
+			<li class="NotoSerifL fs-16px mb-2">
+				<p>※年始の交通状況や荷物量の増加により、商品のお届けが遅れる場合がございます。予めご了承ください。</p>
+			</li>
+			<!-- お届け目安 -->
+			<!-- <li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				お届け目安
 			</li>
 			<li class="NotoSerifL fs-16px">
@@ -21,11 +36,11 @@
 				<span class="NotoSerifL fs-16px">
 					<{$otodoke|date_format:'(%a)'|replace:'Sun':'日'|replace:'Mon':'月'|replace:'Tue':'火'|replace:'Wed':'水'|replace:'Thu':'木'|replace:'Fri':'金'|replace:'Sat':'土'}>
 				</span>
-			</li>
+			</li> -->
+			<!-- TEL -->
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				お電話でのお問い合わせ・ご注文
 			</li>
-			<!-- TEL -->
 			<li>
 				<a href="tel:<{$shop.tel}>" class="nav-link TrajanB fs-26px p-0">
 					<img src="//img07.shop-pro.jp/PA01437/442/etc/neo-tel.png?cmsp_timestamp=20211129193648"
