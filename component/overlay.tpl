@@ -2,7 +2,7 @@
 	<div class="flex">
 	  <div class="overlay_inner py-2">
 		<p class="text mb-2 px-1 px-lg-2">
-			<span class="NotoSerifSB d-block mb-1 mb-lg-2"">【 商品発送についてのお知らせ 】</span>
+			<span class="NotoSerifSB d-block mb-1 mb-lg-2">【 商品発送についてのお知らせ 】</span>
 			いつもご愛顧いただき<br>
 			誠にありがとうございます。<br>
 			<br>
