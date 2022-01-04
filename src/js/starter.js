@@ -25,8 +25,8 @@ import "../../node_modules/chart.js/dist/chart.js";
 //パーツごとのJSファイルを読み込み
 import { header } from "./_header.js";
 header();
-import { nenshiOverlay } from "./_overlay.js";
-nenshiOverlay();
+// import { nenshiOverlay } from "./_overlay.js";
+// nenshiOverlay();
 import { product_list } from "./_product_list.js";
 product_list();
 require("./beef-chart");

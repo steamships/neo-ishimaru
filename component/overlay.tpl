@@ -1,5 +1,5 @@
 <!-- nenshi_overlay.tpl ▼ -->
-<div id="nenshi_overlay" class="close">
+<!-- <div id="nenshi_overlay" class="close">
 	<div class="flex">
 	  <div class="overlay_inner py-2">
 		<p class="text mb-2 px-1 px-lg-2">
@@ -15,4 +15,4 @@
 		<button id="nenshi_close_btn" class="nenshi_close d-inline position-relative mb-1 mx-auto py-1 px-2" type="button">Close</button>
 	  </div>
 	</div>
-</div>
+</div> -->
