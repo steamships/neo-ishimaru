@@ -19,6 +19,11 @@
 		<{/if}>
 	</div> -->
 
+	<!-- お知らせ　インスタ投稿を表示 -->
+	<!-- <div id="instagram">
+		<ul id="instagram-lists" class="row position-relative list-unstyled"></ul>
+	</div> -->
+
 	<div class="row position-relative">
 
 	<!-- ハンバーグ再入荷 -->

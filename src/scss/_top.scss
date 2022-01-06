@@ -159,7 +159,7 @@
 		height:100%;
 		display: flex;
 		justify-content: center;
-		align-items: center; 
+		align-items: center;
 	}
 	.overlay_inner{
 		background-color:#FFF;
@@ -194,6 +194,35 @@
 		background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#ebedee));
 		background: -webkit-linear-gradient(bottom, #fdfbfb 0%, #ebedee 100%);
 		background: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
+		}
+	}
+}
+
+
+//instagram(information)
+#instagram {
+	#instagram-lists {
+		.instagram-feed {
+			&-imgWrap {
+				&:hover {
+					img {
+						filter: brightness(1.05);
+					}
+				}
+				img {
+					transition: .3s;
+				}
+			}
+			.title {
+				text-decoration: none;
+				color: inherit;
+				transition: .2s;
+				&:hover {
+					text-decoration: underline;
+					color: inherit;
+					opacity: .7;
+				}
+			}
 		}
 	}
 }

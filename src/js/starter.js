@@ -29,4 +29,6 @@ header();
 // nenshiOverlay();
 import { product_list } from "./_product_list.js";
 product_list();
+import { get_instagram_API } from "./_infomation.js";
+get_instagram_API();
 require("./beef-chart");
