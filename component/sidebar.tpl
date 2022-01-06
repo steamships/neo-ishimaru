@@ -6,7 +6,7 @@
 	<div class="d-none d-lg-block">
 		<ul class="nav nav-pills flex-column mb-auto">
 			<!-- 年始のお届け目安 -->
-			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
+			<!-- <li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				年始のお届け目安
 			</li>
 			<li class="NotoSerifL fs-16px">
@@ -19,9 +19,9 @@
 			</li>
 			<li class="NotoSerifL fs-16px mb-2">
 				<p>※年始の交通状況や荷物量の増加により、商品のお届けが遅れる場合がございます。予めご了承ください。</p>
-			</li>
+			</li> -->
 			<!-- お届け目安 -->
-			<!-- <li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
+			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				お届け目安
 			</li>
 			<li class="NotoSerifL fs-16px">
@@ -36,7 +36,7 @@
 				<span class="NotoSerifL fs-16px">
 					<{$otodoke|date_format:'(%a)'|replace:'Sun':'日'|replace:'Mon':'月'|replace:'Tue':'火'|replace:'Wed':'水'|replace:'Thu':'木'|replace:'Fri':'金'|replace:'Sat':'土'}>
 				</span>
-			</li> -->
+			</li>
 			<!-- TEL -->
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				お電話でのお問い合わせ・ご注文
@@ -48,7 +48,7 @@
 					<span class="align-text-bottom"><{$shop.tel}></span>
 				</a>
 			</li>
-			<li class="NotoSerifL fs-16px ms-2 mb-2">受付 9:00～18：00 (日曜定休)<br>年末年始のお休み 12月31日～1月3日</li>
+			<li class="NotoSerifL fs-16px ms-2 mb-2">受付 9:00～18:00 (日曜定休)</li>
 			<!-- MAIL -->
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				メールでのお問い合わせ・ご注文
