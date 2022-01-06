@@ -1,5 +1,3 @@
-import { Title } from "chart.js";
-
 export const get_instagram_API = () => {
 	console.log('instagram');
 	//facebook-jsonを取得して表示
@@ -13,6 +11,7 @@ export const get_instagram_API = () => {
 			url: url
 		})
 		.done(function(res) {
+			console.log(res);
 			const data = res.media;
 			const limit = 4;
 			let count = 0;
