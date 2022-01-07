@@ -1,0 +1,12 @@
+#freepage {
+	.freepage {
+		&-shinshun {
+			&-buttonWrap {
+				transition: .3s;
+				&:hover {
+					opacity: .8;
+				}
+			}
+		}
+	}
+}
