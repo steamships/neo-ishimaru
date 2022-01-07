@@ -26,6 +26,26 @@
 
 	<div class="row position-relative">
 
+	<!-- 新春キャンペーン -->
+	<div class="col-6 col-lg-3 mb-1">
+		<a href="https://www.saga-ishimaru.co.jp/?mode=f3">
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/shinshun-present-Instagram-1.jpg?cmsp_timestamp=20220107170514">
+		</a>
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">2021-12-10</span></div>
+		<div class="NotoSerifSB title fs-5">新春プレゼントキャンペーン</div>
+		<div class="NotoSerifL expl">佐賀牛サーロインステーキが当たる！？詳しくは画像をクリック♪</div>
+	</div>
+
+	<!-- 新春ポイント3倍 -->
+	<div class="col-6 col-lg-3 mb-1">
+		<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/shinshun-point-present.png?cmsp_timestamp=20220107165953">
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">2021-12-10</span></div>
+		<div class="NotoSerifSB title fs-5">今だけポイントが3倍に！</div>
+		<div class="NotoSerifL expl">購入時のポイントが期間限定で3倍です！</div>
+	</div>
+
 	<!-- ハンバーグ再入荷 -->
 	<div class="col-6 col-lg-3 mb-1">
 		<a href="https://www.saga-ishimaru.co.jp/?pid=160628002">
@@ -35,17 +55,6 @@
 			<span class="TrajanR date">2021-12-21</span></div>
 		<div class="NotoSerifSB title fs-5">10セット限定で販売再開！</div>
 		<div class="NotoSerifL expl">大人気のハンバーグ、個数限定で販売を再開しました！</div>
-	</div>
-
-	<!-- 変更のお知らせ -->
-	<div class="col-6 col-lg-3 mb-1">
-
-			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-noticeofchange.png?cmsp_timestamp=20211220164719">
-
-		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
-			<span class="TrajanR date">2021-12-07</span></div>
-		<div class="NotoSerifSB title fs-5">変更のお知らせ</div>
-		<div class="NotoSerifL expl">リニューアル後に大きく2点の変更を行いました。</div>
 	</div>
 
 	<!-- 鍋 -->
@@ -59,8 +68,20 @@
 		<div class="NotoSerifL expl">寒い冬にはあったかお鍋♪</div>
 	</div>
 
+	<!-- 変更のお知らせ -->
+	<!-- <div class="col-6 col-lg-3 mb-1">
+
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-noticeofchange.png?cmsp_timestamp=20211220164719">
+
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">2021-12-07</span></div>
+		<div class="NotoSerifSB title fs-5">変更のお知らせ</div>
+		<div class="NotoSerifL expl">リニューアル後に大きく2点の変更を行いました。</div>
+	</div> -->
+
+
 	<!-- インスタ -->
-	<div class="col-6 col-lg-3 mb-1">
+	<!-- <div class="col-6 col-lg-3 mb-1">
 		<a href="https://www.instagram.com/suguru_ishimaru/">
 			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-Insta.png?cmsp_timestamp=20211206160453">
 		</a>
@@ -68,7 +89,7 @@
 			<span class="TrajanR date">2021-12-06</span></div>
 		<div class="NotoSerifSB title fs-5">プレゼント企画も!?</div>
 		<div class="NotoSerifL expl">Instagramでお得な情報をお届けします♪</div>
-	</div>
+	</div> -->
 
 	</div>
 
