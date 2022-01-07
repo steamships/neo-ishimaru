@@ -32,7 +32,7 @@
 			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/shinshun-present-Instagram-1.jpg?cmsp_timestamp=20220107170514">
 		</a>
 		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
-			<span class="TrajanR date">2021-12-10</span></div>
+			<span class="TrajanR date">2022-1-10</span></div>
 		<div class="NotoSerifSB title fs-5">新春プレゼントキャンペーン</div>
 		<div class="NotoSerifL expl">佐賀牛サーロインステーキが当たる！？詳しくは画像をクリック♪</div>
 	</div>
@@ -41,7 +41,7 @@
 	<div class="col-6 col-lg-3 mb-1">
 		<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/shinshun-point-present.png?cmsp_timestamp=20220107165953">
 		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
-			<span class="TrajanR date">2021-12-10</span></div>
+			<span class="TrajanR date">2022-1-10</span></div>
 		<div class="NotoSerifSB title fs-5">今だけポイントが3倍に！</div>
 		<div class="NotoSerifL expl">購入時のポイントが期間限定で3倍です！</div>
 	</div>
