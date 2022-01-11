@@ -116,19 +116,25 @@
 	"product_name": "商品名称",
 	"category": [
 		{
-			"bid": 2543763,
+			"id": "2543763,0",
+			"bid": "2543763",
+			"sid": "0",
 			"link_url": "カテゴリー1別商品一覧のURL",
 			"img_url": "カテゴリー1画像のURL",
 			"name": "佐賀牛"
 		},
 		{
-			"bid": 2547504,
+			"id": "2547504,0",
+			"bid": "2547504",
+			"sid": "0",
 			"link_url": "カテゴリー2別商品一覧のURL",
 			"img_url": "カテゴリー2画像のURL",
 			"name": "九州産黒毛和牛"
 		},
 		{
-			"bid": 2601547,
+			"id": "2601547,0",
+			"bid": "2601547",
+			"sid": "0",
 			"link_url": "カテゴリー3別商品一覧のURL",
 			"img_url": "カテゴリー3画像のURL",
 			"name": "その他"
@@ -1419,35 +1425,45 @@
 			"name": "グループ名称"
 		}
 	],
-	"subcategory_num": "4",
+	"subcategory_num":{
+		"2543763": "6",
+		"2547504": "5",
+		"2601547": "0"
+	},
 	"subcategory": {
 		"2543763": [
 			{
+				"id" : "2543763,1",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=1",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "ヒレ"
 			},
 			{
+				"id" : "2543763,2",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=2",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "ロース"
 			},
 			{
+				"id" : "2543763,3",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=3",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "小間切れ"
 			},
 			{
+				"id" : "2543763,4",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=4",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "赤身"
 			},
 			{
+				"id" : "2543763,5",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=5",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "肩スライス"
 			},
 			{
+				"id" : "2543763,6",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=6",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "モモスライス"
@@ -1455,81 +1471,37 @@
 		],
 		"2547504": [
 			{
+				"id" : "2547504,1",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2547504&csid=1",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "ヒレ"
 			},
 			{
+				"id" : "2547504,2",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2547504&csid=2",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "ロース"
 			},
 			{
+				"id" : "2547504,3",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2547504&csid=4",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "赤身"
 			},
 			{
+				"id" : "2547504,4",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2547504&csid=5",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "肩スライス"
 			},
 			{
+				"id" : "2547504,5",
 				"link_url": "https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=6",
 				"img_url": "サブカテゴリー画像のURL",
 				"name": "モモスライス"
 			}
 		],
-		"2": [
-			{
-				"link_url": "サブカテゴリー別商品一覧のURL",
-				"img_url": "サブカテゴリー画像のURL",
-				"name": "サブカテゴリー名称1"
-			},
-			{
-				"link_url": "サブカテゴリー別商品一覧のURL",
-				"img_url": "サブカテゴリー画像のURL",
-				"name": "サブカテゴリー名称2"
-			},
-			{
-				"link_url": "サブカテゴリー別商品一覧のURL",
-				"img_url": "サブカテゴリー画像のURL",
-				"name": "サブカテゴリー名称3"
-			}
-		],
-		"3": [
-			{
-				"link_url": "サブカテゴリー別商品一覧のURL",
-				"img_url": "サブカテゴリー画像のURL",
-				"name": "サブカテゴリー名称1"
-			},
-			{
-				"link_url": "サブカテゴリー別商品一覧のURL",
-				"img_url": "サブカテゴリー画像のURL",
-				"name": "サブカテゴリー名称2"
-			},
-			{
-				"link_url": "サブカテゴリー別商品一覧のURL",
-				"img_url": "サブカテゴリー画像のURL",
-				"name": "サブカテゴリー名称3"
-			}
-		],
-		"4": [
-			{
-				"link_url": "サブカテゴリー別商品一覧のURL",
-				"img_url": "サブカテゴリー画像のURL",
-				"name": "サブカテゴリー名称1"
-			},
-			{
-				"link_url": "サブカテゴリー別商品一覧のURL",
-				"img_url": "サブカテゴリー画像のURL",
-				"name": "サブカテゴリー名称2"
-			},
-			{
-				"link_url": "サブカテゴリー別商品一覧のURL",
-				"img_url": "サブカテゴリー画像のURL",
-				"name": "サブカテゴリー名称3"
-			}
+		"2601547": [
 		]
 	},
 	"subgroup_num": "6",

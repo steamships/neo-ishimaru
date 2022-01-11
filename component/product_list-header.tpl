@@ -13,19 +13,23 @@
 	<{if $smarty.get.gid == "2483504"}>
 	<{else}>
 		<!--カテゴリーリスト -->
-		<{if $smarty.get.mode == "cate" && $subcategory_num != 0}>
-		<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
-			<{section name=num loop=$subcategory[$smarty.get.cbid] start=0}>
-			<{if $subcategory[$smarty.get.cbid][num].name}>
-			<li class="p-sub-category-item text-center d-inline-block" data-csid="<{$smarty.section.num.index}>">
-				<a href="<{$subcategory[$smarty.get.cbid][num].link_url}>" class="p-sub-category-link d-block text-decoration-none">
-					<span class="p-sub-category-name TrajanL"><{$subcategory[$smarty.get.cbid][num].name}></span>
-				</a>
-			</li>
-			<{/if}>
-			<{/section}>
-		</ul>
+		<{foreach from=$category item=cate name=cate}>
+		<{if $smarty.get.cbid == $cate.bid}>
+			<{foreach from=$subcategory[$cate.bid] item=scate name=scate}>
+				<{if $smarty.foreach.scate.first}>
+				<ul class="p-sub-category mb-1 mb-lg-2 list-unstyled">
+				<{/if}>
+				<li class="p-sub-category-item text-center d-inline-block" data-csid="<{$scate.id|replace:$smarty.get.cbid|replace:",":""}>">
+						<a href="<{$scate.link_url}>" class="p-sub-category-link d-block text-decoration-none">
+							<span class="p-sub-category-name TrajanL"><{$scate.name}></span>
+						</a>
+					</li>
+				<{if $smarty.foreach.scate.last}>
+				</ul>
+				<{/if}>
+			<{/foreach}>
 		<{/if}>
+		<{/foreach}>
 
 		<!-- グループリスト -->
 		<{if $smarty.get.mode == "grp"}>
@@ -72,17 +76,17 @@
 			<div class="p-sub-category-description-textbox col-12 col-lg-7 pl-1">
 				<{if $smarty.get.cbid == "2543763" || $smarty.get.cbid == "2547504"}>
 					<p class="p-sub-category-description-textbox-text NotoSerifL d-inline">
-						<{if $smarty.get.csid == "0"}>
+						<{if $smarty.get.csid == "1"}>
 						とても柔らかくキメの細かい肉質、口いっばいに広がる肉汁が特徴。1頭の牛からほんのわずかしか取れない希少部位です。
-						<{elseif $smarty.get.csid == "1"}>
-						赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。
 						<{elseif $smarty.get.csid == "2"}>
-						様々な部位のお肉が集まったバラエティパック。使い勝手が良く様々な料理との相性抜群。手ごろな価格で良いお肉を楽しめる。
+						赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。
 						<{elseif $smarty.get.csid == "3"}>
-						脂身が少なくてヘルシー、弾力があって食べごたえのある部位。しっかりとした歯ごたえを持ち旨味が凝縮されており、お肉本来の味を堪能出来る。
+						様々な部位のお肉が集まったバラエティパック。使い勝手が良く様々な料理との相性抜群。手ごろな価格で良いお肉を楽しめる。
 						<{elseif $smarty.get.csid == "4"}>
-						とろけるような程よい食感で濃厚な味わいが特徴の霜降り肉。しゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
+						脂身が少なくてヘルシー、弾力があって食べごたえのある部位。しっかりとした歯ごたえを持ち旨味が凝縮されており、お肉本来の味を堪能出来る。
 						<{elseif $smarty.get.csid == "5"}>
+						とろけるような程よい食感で濃厚な味わいが特徴の霜降り肉。しゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
+						<{elseif $smarty.get.csid == "6"}>
 						比較的脂身が少ないヘルシーな赤身肉。さっぱりとした味わいが特徴でしゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
 						<{/if}>
 					</p>
