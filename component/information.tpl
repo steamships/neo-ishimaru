@@ -46,17 +46,6 @@
 		<div class="NotoSerifL expl">購入時のポイントが期間限定で3倍です！</div>
 	</div>
 
-	<!-- ハンバーグ再入荷 -->
-	<div class="col-6 col-lg-3 mb-1">
-		<a href="https://www.saga-ishimaru.co.jp/?pid=160628002">
-			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-backInStock.png?cmsp_timestamp=20211221095705">
-		</a>
-		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
-			<span class="TrajanR date">2021-12-21</span></div>
-		<div class="NotoSerifSB title fs-5">10セット限定で販売再開！</div>
-		<div class="NotoSerifL expl">大人気のハンバーグ、個数限定で販売を再開しました！</div>
-	</div>
-
 	<!-- 鍋 -->
 	<div class="col-6 col-lg-3 mb-1">
 		<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338000">
@@ -66,6 +55,17 @@
 			<span class="TrajanR date">2021-12-06</span></div>
 		<div class="NotoSerifSB title fs-5">最高級和牛でお鍋！</div>
 		<div class="NotoSerifL expl">寒い冬にはあったかお鍋♪</div>
+	</div>
+
+	<!-- インスタ -->
+	<div class="col-6 col-lg-3 mb-1">
+		<a href="https://www.instagram.com/suguru_ishimaru/">
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-Insta.png?cmsp_timestamp=20211206160453">
+		</a>
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">2021-12-06</span></div>
+		<div class="NotoSerifSB title fs-5">プレゼント企画も!?</div>
+		<div class="NotoSerifL expl">Instagramでお得な情報をお届けします♪</div>
 	</div>
 
 	<!-- 変更のお知らせ -->
@@ -79,16 +79,15 @@
 		<div class="NotoSerifL expl">リニューアル後に大きく2点の変更を行いました。</div>
 	</div> -->
 
-
-	<!-- インスタ -->
+	<!-- ハンバーグ再入荷 -->
 	<!-- <div class="col-6 col-lg-3 mb-1">
-		<a href="https://www.instagram.com/suguru_ishimaru/">
-			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-Insta.png?cmsp_timestamp=20211206160453">
+		<a href="https://www.saga-ishimaru.co.jp/?pid=160628002">
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/neo-backInStock.png?cmsp_timestamp=20211221095705">
 		</a>
 		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
-			<span class="TrajanR date">2021-12-06</span></div>
-		<div class="NotoSerifSB title fs-5">プレゼント企画も!?</div>
-		<div class="NotoSerifL expl">Instagramでお得な情報をお届けします♪</div>
+			<span class="TrajanR date">2021-12-21</span></div>
+		<div class="NotoSerifSB title fs-5">10セット限定で販売再開！</div>
+		<div class="NotoSerifL expl">大人気のハンバーグ、個数限定で販売を再開しました！</div>
 	</div> -->
 
 	</div>
