@@ -72,8 +72,7 @@
 
 		<!-- 部位説明 -->
 		<div class="p-sub-category-description mb-2 mb-lg-1 d-flex justify-content-between flex-column flex-lg-row">
-			<img class="p-sub-category-description-img col-12 col-lg-5 mb-2 mb-lg-0" src="<{$assets}>/img/ushi.png" alt="牛の部位">
-			<div class="p-sub-category-description-textbox col-12 col-lg-7 pl-1">
+			<div class="p-sub-category-description-textbox col-12 mb-1 mb-lg-3">
 				<{if $smarty.get.cbid == "2543763" || $smarty.get.cbid == "2547504"}>
 					<p class="p-sub-category-description-textbox-text NotoSerifL d-inline">
 						<{if $smarty.get.csid == "1"}>

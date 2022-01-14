@@ -42,7 +42,7 @@
 			margin: 0 0.5rem 0.5rem 0;
 			transition: .3s;
 			@include media-breakpoint-down(lg) {
-				padding: 0.4rem 1.5rem;
+				padding: 0.2rem 1rem;
 			}
 			&:last-child {
 				margin-right: 0;
@@ -71,6 +71,9 @@
 		}
 		&-link {
 			padding: 0.6rem 2rem;
+			@include media-breakpoint-down(lg) {
+				padding: 0.2rem 1.2rem;
+			}
 		}
 		&-name {
 			font-size: 1.2rem;
@@ -80,7 +83,7 @@
 	}
 	.p-sub-category-description{
 		&-textbox {
-			padding: 0 0 0 2rem;
+			padding: 0;
 			@include media-breakpoint-down(lg) {
 				padding: 0;
 			}

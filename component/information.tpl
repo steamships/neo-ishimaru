@@ -20,9 +20,9 @@
 	</div> -->
 
 	<!-- お知らせ　インスタ投稿を表示 -->
-	<!-- <div id="instagram">
+	<div id="instagram">
 		<ul id="instagram-lists" class="row position-relative list-unstyled"></ul>
-	</div> -->
+	</div>
 
 	<div class="row position-relative">
 
