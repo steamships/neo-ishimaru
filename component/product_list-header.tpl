@@ -72,6 +72,11 @@
 
 		<!-- 部位説明 -->
 		<div class="p-sub-category-description mb-2 mb-lg-1 d-flex justify-content-between flex-column flex-lg-row">
+			<{if $smarty.get.gid == "2337960" || $smarty.get.gid == "2337981" || $smarty.get.gid == "2337989" || $smarty.get.gid == "2337999"}>
+			<div id="by-part-beef-img" class="col-12 col-lg-5 mb-2 mt-1 mt-lg-0 mb-lg-0 p-sub-category-description-beefimg">
+				<i id="by-part-beef-img-star" class="bi bi-star-fill p-sub-category-description-beefstar"></i>
+			</div>
+			<{/if}>
 			<div class="p-sub-category-description-textbox col-12 mb-1 mb-lg-3">
 				<{if $smarty.get.cbid == "2543763" || $smarty.get.cbid == "2547504"}>
 					<p class="p-sub-category-description-textbox-text NotoSerifL d-inline">

@@ -82,6 +82,12 @@
 		}
 	}
 	.p-sub-category-description{
+		&-img {
+			@include media-breakpoint-down(lg) {
+				width: 70%;
+				margin: 0 auto;
+			}
+		}
 		&-textbox {
 			padding: 0;
 			@include media-breakpoint-down(lg) {
@@ -100,6 +106,12 @@
 				border-bottom: 1px dashed $primary;
 				line-height: 1.6rem;
 
+			}
+		}
+		&-beefimg {
+			@include media-breakpoint-down(lg) {
+				padding-bottom: 54%;
+				background-size: cover;
 			}
 		}
 	}
