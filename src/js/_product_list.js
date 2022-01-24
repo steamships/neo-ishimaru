@@ -66,6 +66,23 @@ export const product_list = () => {
 				}
 			});
 		}
+		//開いている価格グループのリストの色変更
+		if ($('.product_list-price-group').length) {
+			$('.p-sub-category-item').each(function(i,group){
+				const groupId = $(this).data('id');
+				if (getParam('gid') != groupId) {
+					$(this).addClass('select');
+				}
+				else {
+					$(this).css({
+						'background-color': '#000',
+						'color': '#000',
+						'pointer-events': 'none',
+					});
+					$(this).attr('href', 'javascript: void(0)');
+				}
+			});
+		}
 
 		//部位のグループページの時、部位別でスターの位置を調整
 		const cateBeefImg = $('.p-sub-category-description-beefimg');

@@ -53,6 +53,24 @@
 					<{/if}>
 				<{/section}>
 				<!-- // 料理で選ぶグループリスト -->
+			<{elseif $smarty.get.gid == "2673106" || $smarty.get.gid == "2673107" || $smarty.get.gid == "2673108"}>
+				<!-- 価格で選ぶグループリスト -->
+				<{section name=num loop=$group}>
+					<{if $smarty.section.num.first }>
+					<ul class="product_list-price-group d-flex flex-wrap list-unstyled justify-content-evenly TrajanSB mb-lg-2">
+					<{/if}>
+						<{if $group[num].id == "2673106" || $group[num].id == "2673107" || $group[num].id == "2673108"}>
+						<li class="p-sub-category-item text-center d-none group-<{$group[num].id}>" data-id="<{$group[num].id}>">
+							<a href="<{$group[num].link_url}>" class="p-sub-category-link d-block text-decoration-none">
+								<span class="p-sub-category-name TrajanL"><{$group[num].name}></span>
+							</a>
+						</li>
+						<{/if}>
+					<{if $smarty.section.num.last }>
+					</ul>
+					<{/if}>
+				<{/section}>
+				<!-- // 価格で選ぶグループリスト -->
 			<{else}>
 				<{section name=num loop=$group}>
 					<{if $smarty.section.num.first }>

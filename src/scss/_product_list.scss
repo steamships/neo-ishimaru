@@ -152,7 +152,7 @@
 			}
 		}
 	}
-	.product_list-dish-group {
+	.product_list-dish-group, .product_list-price-group{
 		.product_list-blists {
 				width: 22%;
 				padding: 0 3%;
@@ -179,8 +179,15 @@
 				}
 			}
 		}
+	}
+	.product_list-dish-group {
 		.group-2373403, .group-2338001, .group-2338000, .group-2337958 {
-			display: block!important;
+		display: block!important;
+		}
+	}
+	.product_list-price-group {
+		.group-2673106, .group-2673107, .group-2673108 {
+		display: block!important;
 		}
 	}
 }
