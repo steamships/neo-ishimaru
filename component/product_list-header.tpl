@@ -57,7 +57,7 @@
 				<!-- 価格で選ぶグループリスト -->
 				<{section name=num loop=$group}>
 					<{if $smarty.section.num.first }>
-					<ul class="product_list-price-group d-flex flex-wrap list-unstyled justify-content-evenly TrajanSB mb-lg-2">
+					<ul class="product_list-price-group  mb-1 mb-lg-2 d-flex flex-wrap list-unstyled justify-content-start">
 					<{/if}>
 						<{if $group[num].id == "2673106" || $group[num].id == "2673107" || $group[num].id == "2673108"}>
 						<li class="p-sub-category-item text-center d-none group-<{$group[num].id}>" data-id="<{$group[num].id}>">
