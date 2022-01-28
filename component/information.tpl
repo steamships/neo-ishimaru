@@ -26,6 +26,17 @@
 
 	<div class="row position-relative">
 
+	<!-- ローストビーフ -->
+	<div class="col-6 col-lg-3 mb-1">
+		<a href="https://www.saga-ishimaru.co.jp/?pid=165469806">
+			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/product/165469806_o1.jpg">
+		</a>
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date"></span>22/1/28</div>
+		<div class="NotoSerifSB title fs-5">新商品発売！</div>
+		<div class="NotoSerifL expl">店頭で大人気のローストビーフがついに販売開始！</div>
+	</div>
+
 	<!-- 鍋 -->
 	<div class="col-6 col-lg-3 mb-1">
 		<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338000">
