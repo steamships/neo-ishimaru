@@ -4,7 +4,7 @@
 	<!-- 送料無料表示 -->
 	<{if $tpl_name != "top"}>
 	<div id="header-freeShipping" class="d-block w-100 position-fixed top-0">
-		<p class="text-center TrajanSB">¥10,800<span>(税込)以上</span>送料無料</p>
+		<p class="text-center TrajanSB">&yen;10,800<span>(税込)以上</span>送料無料</p>
 	</div>
 	<{/if}>
 	<!-- // 送料無料表示 -->
