@@ -1,5 +1,25 @@
 
 #header {
+	&-freeShipping {
+		z-index: 10000;
+		background-color: #000;
+		p {
+			color: #fff;
+			font-size: 1em;
+			padding: 10px 0;
+			letter-spacing: 1.2px;
+			@include media-breakpoint-down(lg) {
+				font-size: 1rem;
+				padding: .3rem 0;
+			}
+			span {
+				font-size: .8em;
+				@include media-breakpoint-down(lg) {
+					font-size: .8rem;
+				}
+			}
+		}
+	}
 	@keyframes fade-in {
 		from {opacity: 0;}
 		to {opacity: 1;}

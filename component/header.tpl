@@ -1,6 +1,13 @@
 <!-- header.tpl ▼ -->
 <!-- Header -->
 <header id="header" class="mb-5 mb-lg-10">
+	<!-- 送料無料表示 -->
+	<{if $tpl_name != "top"}>
+	<div id="header-freeShipping" class="d-block w-100 position-fixed top-0">
+		<p class="text-center TrajanSB">¥10,800<span>(税込)以上</span>送料無料</p>
+	</div>
+	<{/if}>
+	<!-- // 送料無料表示 -->
 	<nav id="header-nav" class="navbar navbar-expand-lg fixed-top">
 		<button id="header-nav-sp-toggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav-main">
 			<!-- SPメニュー -->

@@ -2,6 +2,15 @@ export const header = () => {
 	if ($('#header').length) {
 		console.log('header');
 
+		//送料無料要素の処理
+		const freeShipHight = $('#header-freeShipping').height();
+		$("#header-nav").css("top",`${freeShipHight}px`);
+		const headerMb = $("#header").css("margin-bottom");
+
+		let headerMbNum = headerMb.split('px')[0];
+		const addHight = (Number(freeShipHight)) + (Number(headerMbNum));
+		$("#header").css({'cssText':`margin-bottom:${addHight}px !important`});
+
 		//右に溢れ出す固定ナビを強制スクロールさせる
 		$(window).on("scroll", function(){
 			$("#header-nav").css("left", -$(window).scrollLeft());
