@@ -171,6 +171,9 @@
 							<a href="https://www.saga-ishimaru.co.jp/?mode=sk" class="lh-lg">ご利用ガイド</a>
 						</p>
 						<p>
+							<a href="https://www.saga-ishimaru.co.jp/?mode=privacy" class="lh-lg">プライバシーポリシー</a>
+						</p>
+						<p>
 							<a href="https://ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.6948210.1585923337.1638708826-747911806.1637750824" class="lh-lg">お問い合せ</a>
 						</p>
 						<p>
