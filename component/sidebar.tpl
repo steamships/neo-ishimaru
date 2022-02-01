@@ -80,7 +80,7 @@
 				<!-- リンクないのでコメントアウト -->
 				<!-- <a href="//www.saga-ishimaru.co.jp/?mode=f3"> -->
 					<img class="pt-2"
-						src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20211129202928"
+						src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20220201140546"
 						alt="" width="321">
 				<!-- </a> -->
 			</li>
@@ -233,7 +233,7 @@
 		<!-- リンクないのでコメントアウト -->
 		<!-- <a href="//www.saga-ishimaru.co.jp/?mode=f3"> -->
 			<img class="w-100 d-block mt-3 mb-2"
-				src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20211129202928" alt="">
+				src="//img07.shop-pro.jp/PA01437/442/etc/neo-point-pc.png?cmsp_timestamp=20220201140546" alt="">
 		<!-- </a> -->
 		<!-- 3列 -->
 		<div class="NotoSerifSB fs-20px ls-1 text-center">
