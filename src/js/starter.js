@@ -31,4 +31,6 @@ import { product_list } from "./_product_list.js";
 product_list();
 import { get_instagram_API } from "./_information.js";
 get_instagram_API();
+import { privacy } from "./_privacy.js";
+privacy();
 require("./beef-chart");

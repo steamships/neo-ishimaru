@@ -1,4 +1,4 @@
-<div class="c-section p-layout-container">
+<div id="privacy" class="c-section p-layout-container">
 	<div class="c-topic-path">
 	  <ul class="c-topic-path__list">
 		<li class="c-topic-path__item">
@@ -19,7 +19,7 @@
 		<{section name=num loop=$privacy}>
 		<h3 class="c-section__label"><{$privacy[num].title}></h3>
 		<div class="c-section__content">
-			<p><{$privacy[num].note}></p>
+			<p class="jsonTxt"><{$privacy[num].note}></p>
 		</div>
 		<{/section}>
 	</div>
