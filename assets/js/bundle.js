@@ -47,7 +47,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"get_instagram_API\": function() { return /* binding */ get_instagram_API; }\n/* harmony export */ });\nconst get_instagram_API = () => {\n\tif ($('#instagram').size()) {\n\t\t$.ajax({\n\t\t\turl: \"//steamship.co.jp/rakuten-musouapi/gold/gold.html?content=hoge&template=instagram\",\n\t\t\tdataType: 'html',\n\t\t})\n\t\t.done(function(res) {\n\t\t\tconsole.log(res);\n\t\t\t$('#instagram').html(res);\n\t\t})\n\t\t.fail(function(jqXHR, status) {\n\t\t\t$('#instagram').html('<p>読み込みに失敗しました。</p>');\n\t\t})\n\t}\n}\n\n\n//# sourceURL=webpack://bootstrap-npm-starter/./src/js/_information.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"get_instagram_API\": function() { return /* binding */ get_instagram_API; }\n/* harmony export */ });\nconst get_instagram_API = () => {\n\tif ($('#instagram').size()) {\n\t\t$.ajax({\n\t\t\turl: \"//steamship.co.jp/rakuten-musouapi/musou.php?content=ishimaru&template=instagram\",\n\t\t})\n\t\t.done(function(res) {\n\t\t\tconsole.log(res);\n\t\t\t$('#instagram').html(res);\n\t\t})\n\t\t.fail(function(jqXHR, status) {\n\t\t\t$('#instagram').html('<p>読み込みに失敗しました。</p>');\n\t\t})\n\t}\n}\n\n\n//# sourceURL=webpack://bootstrap-npm-starter/./src/js/_information.js?");
 
 /***/ }),
 

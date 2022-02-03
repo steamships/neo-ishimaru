@@ -1,8 +1,7 @@
 export const get_instagram_API = () => {
 	if ($('#instagram').size()) {
 		$.ajax({
-			url: "//steamship.co.jp/rakuten-musouapi/gold/gold.html?content=hoge&template=instagram",
-			dataType: 'html',
+			url: "//steamship.co.jp/rakuten-musouapi/musou.php?content=ishimaru&template=instagram",
 		})
 		.done(function(res) {
 			console.log(res);
