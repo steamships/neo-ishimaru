@@ -1,7 +1,7 @@
 export const get_instagram_API = () => {
 	if ($('#instagram').size()) {
 		$.ajax({
-			url: "//steamship.co.jp/rakuten-musouapi/musou.php?content=ishimaru&template=instagram",
+			url: "//api.steamship.co.jp/musouapi/musou.php?content=ishimaru&template=instagram",
 		})
 		.done(function(res) {
 			console.log(res);
