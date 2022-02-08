@@ -1,26 +1,15 @@
-<div id="privacy" class="c-section p-layout-container">
-	<div class="c-topic-path">
-	  <ul class="c-topic-path__list">
-		<li class="c-topic-path__item">
-		  <a href="<{$home_url}>">ホーム</a>
-		</li>
-		<li class="c-topic-path__item">
-		  <svg role="img" aria-hidden="true"><use xlink:href="#angle-right"></use></svg>
-			 プライバシーポリシー
-		</li>
-	  </ul>
-	</div>
-	<h2 class="c-section__heading">
-		<div class="c-section__heading--title">
-		<span>プライバシーポリシー</span>
+<div id="privacy">
+	<section class="mb-3 mb-lg-8">
+		<div class="text-center mb-2 mb-lg-3 py-1">
+			<h2 class="privacy-title TrajanB fs-26px py-1 d-inline-block position-relative">プライバシーポリシー</h2>
 		</div>
-	</h2>
-	<div class="c-section__container">
-		<{section name=num loop=$privacy}>
-		<h3 class="c-section__label"><{$privacy[num].title}></h3>
-		<div class="c-section__content">
-			<p class="jsonTxt"><{$privacy[num].note}></p>
+		<div class="privacy-contents">
+			<{section name=num loop=$privacy}>
+			<div class="privacy-contents-block mb-3 mb-lg-4">
+				<h3 class="privacy-contents-block-title NotoSerifSB fs-26px mb-1 mb-lg-2"><{$privacy[num].title}></h3>
+				<p class="privacy-contents-block-note NotoSerifL p-1 p-lg-2"><{$privacy[num].note}></p>
+			</div>
+			<{/section}>
 		</div>
-		<{/section}>
-	</div>
+	</section>
 </div>
