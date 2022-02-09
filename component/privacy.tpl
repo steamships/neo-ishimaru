@@ -1,7 +1,8 @@
 <div id="privacy">
 	<section class="mb-3 mb-lg-8">
 		<div class="text-center mb-2 mb-lg-3 py-1">
-			<h2 class="privacy-title TrajanB fs-26px py-1 d-inline-block position-relative">プライバシーポリシー</h2>
+			<h2 class="privacy-title TrajanB fs-26px  mb-2 mb-lg-3 py-1 d-inline-block position-relative">プライバシーポリシー</h2>
+			<p class="privacy-policy NotoSerifL fw-bold text-start"><{$shop_name}>(以下当ショップ)は、GMOペパボ株式会社(以下サービス提供会社)の提供するショッピングカートASPサービス　カラーミーショップ(当サービス)を利用して当ショップを開設するにあたりGMOペパボ株式会社の定めたプライバシー・ポリシーに則った個人情報の取扱いを行います。</p>
 		</div>
 		<div class="privacy-contents">
 			<{section name=num loop=$privacy}>

@@ -5,6 +5,5 @@ export const privacy = () => {
 		let str = $(this).text();
 		str = str.replace(/\r?\n/g,'<br>');
 		$(this).html(str);
-		console.log();
 	});
 }

@@ -58,7 +58,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"privacy\": function() { return /* binding */ privacy; }\n/* harmony export */ });\nconst privacy = () => {\n\tconsole.log('praivacy');\n\n\t$(\".privacy-contents-block-note\").each(function() {\n\t\tlet str = $(this).text();\n\t\tstr = str.replace(/\\r?\\n/g,'<br>');\n\t\t$(this).html(str);\n\t\tconsole.log();\n\t});\n}\n\n\n//# sourceURL=webpack://bootstrap-npm-starter/./src/js/_privacy.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"privacy\": function() { return /* binding */ privacy; }\n/* harmony export */ });\nconst privacy = () => {\n\tconsole.log('praivacy');\n\n\t$(\".privacy-contents-block-note\").each(function() {\n\t\tlet str = $(this).text();\n\t\tstr = str.replace(/\\r?\\n/g,'<br>');\n\t\t$(this).html(str);\n\t});\n}\n\n\n//# sourceURL=webpack://bootstrap-npm-starter/./src/js/_privacy.js?");
 
 /***/ }),
 
