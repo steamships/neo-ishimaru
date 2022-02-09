@@ -171,7 +171,7 @@
 								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/?mode=sk"><span class="d-block text-left text-lg-center NotoSerifL">ご利用ガイド</span></a>
 							</li>
 							<li class="g-sub-nav-blists mx-0 mx-lg-2">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/?mode=privacy"><span class="d-block text-left text-lg-center NotoSerifL">プライバシーポリシー</span></a>
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$privacy_url}>"><span class="d-block text-left text-lg-center NotoSerifL">プライバシーポリシー</span></a>
 							</li>
 							<li class="g-sub-nav-blists mx-0 mx-lg-2">
 								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://ishimaruniku.shop-pro.jp/secure/?mode=inq&shop_back_url=https%3A%2F%2Fwww.saga-ishimaru.co.jp%2F&shop_id=PA01437442&_ga=2.23778426.1193864833.1638167008-503689517.1589418692"><span class="d-block text-left text-lg-center NotoSerifL">お問い合わせ</span></a>
