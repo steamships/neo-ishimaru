@@ -529,63 +529,53 @@
 		}
 	],
 	"shop": {
-		"shop_name": "販売業者",
-		"manager_name": "運営統括責任者名",
-		"postal": "郵便番号",
-		"address": "住所",
-		"price": "商品代金以外の料金の説明",
-		"apply_limit": "申込有効期限",
-		"bad_product": "不良品",
-		"sales_num": "販売数量",
-		"delivery_time": "引渡し時期",
-		"payment_way": "お支払方法",
-		"payment_limit": "お支払期限",
-		"return_limit": "返品期限",
-		"return_price": "返品送料",
-		"license": "資格･免許",
-		"service_name": "屋号またはサービス名",
+		"shop_name": "石丸食肉産業 株式会社",
+		"manager_name": "取締役専務　石丸健大",
+		"postal": "849-0101",
+		"address": "佐賀県三養基郡みやき町原古賀",
+		"price": "・送料全国一律1,200円\n（配送先1つにつき）10,800円(税込)以上の購入で送料無料となります。\n・振込手数料は石丸食肉産業が負担いたします。",
+		"apply_limit": "ご注文後7日以内といたします。ご注文後７日間ご入金がない場合は、購入の意思がないものとし、注文を自動的にキャンセルとさせていただきます。",
+		"bad_product": "万一不良品等がございましたら、当店の在庫状況を確認のうえ、新品、または同等品と交換させていただきます。\n商品到着後2日以内にメールまたは電話でご連絡ください。それを過ぎますと返品交換のご要望はお受けできなくなりますので、ご了承ください。",
+		"sales_num": "各商品ページにてご確認ください。",
+		"delivery_time": "ご入金確認後7営業日以内に発送いたします。\n※基本的に配送は日本国内のみとさせていただきます。",
+		"payment_way": "クレジットカード決済\nコンビニ決済\n銀行振込",
+		"payment_limit": "当方からの確認メール送信後7日以内となります。",
+		"return_limit": "・お客様のご都合によるご返品にはご対応できかねますので予めご了承ください。\n・商品には万全を期しておりますが、万が一不良品・誤品配送があった場合は商品到着後2日以内にご連絡ください。それを過ぎますと返品交換のご要望はお受けできなくなりますので、あらかじめご了承ください。\n・一度開封された商品 (開封後不良品とわかった場合を除く)、お客様の責任でキズや汚れが生じた商品の返品はお受けできません。\n※商品到着後、中身のご確認をお願い致します。",
+		"return_price": "不良品交換、誤品配送交換は当店負担とさせていただきます。",
+		"license": "",
+		"service_name": "石丸食肉産業 株式会社",
 		"tel": "0942-94-3716",
-		"email": "公開メールアドレス",
-		"hp_address": "ホームページアドレス"
+		"email": "ishimaru_1968@outlook.jp",
+		"hp_address": "https://www.saga-ishimaru.co.jp/"
 	},
 	"sk_payment": [
 		{
-			"name": "決済名称",
-			"img_url": "画像URL",
-			"card_img": "カードイメージ",
+			"name": "クレジット",
+			"img_url": "",
+			"card_img": "<img class=\"payment_img\" src=\"https://img.shop-pro.jp/common/card2.gif\"><img class=\"payment_img\" src=\"https://img.shop-pro.jp/common/card6.gif\"><img class=\"payment_img\" src=\"https://img.shop-pro.jp/common/card18.gif\"><img class=\"payment_img\" src=\"https://img.shop-pro.jp/common/card0.gif\"><img class=\"payment_img\" src=\"https://img.shop-pro.jp/common/card9.gif\">",
 			"fee_str": "（未使用）",
-			"other": "備考"
+			"other": "クレジットカード決済でのお支払いが可能です。\n(VISA/DINERS/MASTER/JCB/AMEX)"
 		},
 		{
-			"name": "決済名称",
-			"img_url": "画像URL",
-			"card_img": "カードイメージ",
+			"name": "コンビニ",
+			"img_url": "",
+			"card_img": "",
 			"fee_str": "（未使用）",
-			"other": "備考"
+			"other": "コンビエンスストアでお支払い可能です。\n(セブンイレブン / ファミリーマート / ローソン / セイコーマート / サークル K/ サンクス /ミニストップ)"
 		},
 		{
-			"name": "決済名称",
-			"img_url": "画像URL",
-			"card_img": "カードイメージ",
+			"name": "銀行振込",
+			"img_url": "",
+			"card_img": "",
 			"fee_str": "（未使用）",
-			"other": "備考"
+			"other": ""
 		}
 	],
 	"sk_delivery": [
 		{
-			"name": "配送方法名称",
-			"img_url": "画像URL",
-			"other": "備考"
-		},
-		{
-			"name": "配送方法名称",
-			"img_url": "画像URL",
-			"other": "備考"
-		},
-		{
-			"name": "配送方法名称",
-			"img_url": "画像URL",
-			"other": "備考"
+			"name": "ヤマト運輸",
+			"img_url": "",
+			"other": "送料全国一律1,200円\n（配送先1つにつき）10,800円(税込)以上の購入で送料無料となります。\n\n・指定日での配送を希望の方\n指定日がある際は備考欄にご記入ください。\n※記入がない場合は用意ができ次第配送いたします。\n\n・熨斗(のし)をご希望の方\n熨斗について、表書き\n・名入れ等をご希望の際は備考欄にご記入ください。"
 		}
 	],
 	"paperboy_url": "弊社HPのURL",
