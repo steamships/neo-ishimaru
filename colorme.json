@@ -552,7 +552,7 @@
 		{
 			"name": "クレジット",
 			"img_url": "",
-			"card_img": "<img class=\"payment_img\" src=\"https://img.shop-pro.jp/common/card2.gif\"><img class=\"payment_img\" src=\"https://img.shop-pro.jp/common/card6.gif\"><img class=\"payment_img\" src=\"https://img.shop-pro.jp/common/card18.gif\"><img class=\"payment_img\" src=\"https://img.shop-pro.jp/common/card0.gif\"><img class=\"payment_img\" src=\"https://img.shop-pro.jp/common/card9.gif\">",
+			"card_img": "<img class=\"payment-img\" src=\"https://img.shop-pro.jp/common/card2.gif\"><img class=\"payment-img\" src=\"https://img.shop-pro.jp/common/card6.gif\"><img class=\"payment-img\" src=\"https://img.shop-pro.jp/common/card18.gif\"><img class=\"payment-img\" src=\"https://img.shop-pro.jp/common/card0.gif\"><img class=\"payment-img\" src=\"https://img.shop-pro.jp/common/card9.gif\">",
 			"fee_str": "（未使用）",
 			"other": "クレジットカード決済でのお支払いが可能です。\n(VISA/DINERS/MASTER/JCB/AMEX)"
 		},
@@ -568,7 +568,7 @@
 			"img_url": "",
 			"card_img": "",
 			"fee_str": "（未使用）",
-			"other": ""
+			"other": "ご注文確認メールに記載されております弊社指定の銀行口座へ、ご請求金額をお振り込み下さい。\nお振り込みの期限は7日以内にさせていただきます。\n期限を過ぎてもお振り込みの確認ができない場合、ご注文をキャンセルさせていただきます。"
 		}
 	],
 	"sk_delivery": [

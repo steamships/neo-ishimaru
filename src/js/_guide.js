@@ -1,9 +1,17 @@
 export const guide = () => {
 	console.log('guide');
 
-	$(".privacy-contents-block-note").each(function() {
-		let str = $(this).text();
-		str = str.replace(/\r?\n/g,'<br>');
-		$(this).html(str);
-	});
+	const ChangeCareer = (elm) => {
+		elm.each(function() {
+			let str = $(this).text();
+			str = str.replace(/\t/g,'');
+			str = str.trim(/\r?\n/);
+			str = str.replace(/\r?\n/g,'<br>');
+			$(this).html(str);
+		});
+	}
+
+	ChangeCareer($(".guide-content"));
+	ChangeCareer($(".guide-content p"));
+
 }

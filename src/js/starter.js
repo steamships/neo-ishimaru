@@ -33,4 +33,6 @@ import { get_instagram_API } from "./_information.js";
 get_instagram_API();
 import { privacy } from "./_privacy.js";
 privacy();
+import { guide } from "./_guide.js";
+guide();
 require("./beef-chart");
