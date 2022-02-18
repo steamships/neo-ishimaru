@@ -23,7 +23,15 @@
 	<div id="instagram"></div>
 
 	<div class="row position-relative">
-
+	<!-- ポイント3倍 -->
+	<div class="col-6 col-lg-3 mb-1">
+		<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/220218_information.png?cmsp_timestamp=20220218162550">
+		<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span>
+			<span class="TrajanR date">22/02/15</span></div>
+		<div class="NotoSerifSB title fs-5">今だけポイントが3倍に！</div>
+		<div class="NotoSerifL expl">購入時のポイントが期間限定で3倍です！</div>
+	</div>
+	
 	<!-- ローストビーフ -->
 	<div class="col-6 col-lg-3 mb-1">
 		<a href="https://www.saga-ishimaru.co.jp/?pid=165469806">
