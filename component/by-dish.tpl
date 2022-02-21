@@ -5,7 +5,7 @@
 		<div class="col my-1"><a class="text-decoration-none"
 				href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338001">
 				<img class="img-fluid mb-1"
-					src="<{$assets}>/img/neo-subgroup-img-2338001.png" alt="">
+					src="<{$assets}>/img/neo-subgroup-img-2338001.png.webp" alt="">
 				<p class="NotoSerifSB fs-5 chevron-right dish">
 					焼肉・BBQ
 				</p>
@@ -14,7 +14,7 @@
 		<div class="col my-1">
 			<a class="text-decoration-none" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2373403">
 				<img class="img-fluid mb-1"
-					src="<{$assets}>/img/neo-subgroup-img-2373403.png" alt="">
+					src="<{$assets}>/img/neo-subgroup-img-2373403.png.webp" alt="">
 				<p class="NotoSerifSB fs-5 chevron-right dish">
 					ステーキ
 				</p>
@@ -23,7 +23,7 @@
 		<div class="col my-1">
 			<a class="text-decoration-none" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338000">
 				<img class="img-fluid mb-1"
-					src="<{$assets}>/img/neo-subgroup-img-2338000.png" alt="">
+					src="<{$assets}>/img/neo-subgroup-img-2338000.png.webp" alt="">
 				<p class="NotoSerifSB fs-5 chevron-right dish">
 					鍋もの
 				</p>
@@ -32,7 +32,7 @@
 		<div class="col my-1">
 			<a class="text-decoration-none" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2337958">
 				<img class="img-fluid mb-1"
-					src="<{$assets}>/img/neo-subgroup-img-2337958.png" alt="">
+					src="<{$assets}>/img/neo-subgroup-img-2337958.png.webp" alt="">
 				<p class="NotoSerifSB fs-5 chevron-right dish">
 					ハンバーグ
 				</p>

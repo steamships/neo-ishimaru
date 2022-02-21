@@ -12,20 +12,20 @@
 		<div class="carousel-inner">
 			<div class="carousel-item active" data-bs-interval="6000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=0">
-					<img src="<{$assets}>/img/neo-slide-1-pc.png" class="d-none d-lg-block w-100" alt="黒毛和牛">
-					<img src="<{$assets}>/img/neo-slide-1-sp.png" class="d-lg-none d-block w-100" alt="黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-1-pc.png.webp" class="d-none d-lg-block w-100" alt="黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-1-sp.png.webp" class="d-lg-none d-block w-100" alt="黒毛和牛">
 				</a>
 			</div>
 			<div class="carousel-item" data-bs-interval="6000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2547504&csid=0">
-					<img src="<{$assets}>/img/neo-slide-2-pc.png" class="d-none d-lg-block w-100" alt="黒毛和牛">
-					<img src="<{$assets}>/img/neo-slide-2-sp.png" class="d-lg-none d-block w-100" alt="黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-2-pc.png.webp" class="d-none d-lg-block w-100" alt="黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-2-sp.png.webp" class="d-lg-none d-block w-100" alt="黒毛和牛">
 				</a>
 			</div>
 			<div class="carousel-item" data-bs-interval="6000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2601547&csid=0">
-					<img src="<{$assets}>/img/neo-slide-3-pc.png" class="d-none d-lg-block w-100" alt="黒毛和牛">
-					<img src="<{$assets}>/img/neo-slide-3-sp.png" class="d-lg-none d-block w-100" alt="黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-3-pc.png.webp" class="d-none d-lg-block w-100" alt="黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-3-sp.png.webp" class="d-lg-none d-block w-100" alt="黒毛和牛">
 				</a>
 			</div>
 		</div>

@@ -25,6 +25,10 @@
 **部位チャート資料**
 https://docs.google.com/document/d/1pnBMNIPXVfo3NFqcfWiYmmOkrvE8kia9u_9mNuDqkJQ/edit
 
+**convertWebp.shについて**
+aseetsディレクトリ内でsh convertWebp.shを実行
+jpg/pngファイルをwebpファイルに変換する
+
 参考
 https://casualweb.info/blog/obtain-category-id/
 https://mihune-web.com/ecshop/colorme/colorme_customize/grobalnavi/

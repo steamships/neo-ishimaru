@@ -41,7 +41,7 @@
 					<{/if}>
 						<{if $group[num].id == "2373403" || $group[num].id == "2338001" || $group[num].id == "2338000" || $group[num].id == "2337958"}>
 						<li class="product_list-blists d-none mx-0 mb-2 px-1 px-lg-0 text-center group-<{$group[num].id}>">
-							<a class="product_list-blists-link text-decoration-none d-inline-block fs-26px" href="<{$group[num].link_url}>"><img class="product_list-blists-img mb-1" src="<{$assets}>/img/neo-subgroup-img-<{$group[num].id}>.png"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
+							<a class="product_list-blists-link text-decoration-none d-inline-block fs-26px" href="<{$group[num].link_url}>"><img class="product_list-blists-img mb-1" src="<{$assets}>/img/neo-subgroup-img-<{$group[num].id}>.png.webp"><span class="d-block text-left text-center"><{$group[num].name}></span></a>
 						</li>
 						<{else}>
 						<li class="g-sub-nav-blists d-none mx-lg-2 text-center group-<{$group[num].id}>">

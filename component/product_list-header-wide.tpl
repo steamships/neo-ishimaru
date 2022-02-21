@@ -6,8 +6,8 @@
 	<{/if}>
 	<{if $bid_name != "" && $smarty.get.cbid == $category[num].bid}>
 			<!-- <{$category[num].name}>の商品一覧ページ -->
-			<img class="p-category-main-image-img mb-3 d-none d-lg-block" src="<{$assets}>/img/neo-category-img-<{$smarty.get.cbid}>-pc.png" alt="<{$category[num].name}>カテゴリーPC用画像">
-			<img class="p-category-main-image-img mb-2 d-block d-lg-none" src="<{$assets}>/img/neo-category-img-<{$smarty.get.cbid}>-sp.png" alt="<{$category[num].name}>カテゴリーSP用画像">
+			<img class="p-category-main-image-img mb-3 d-none d-lg-block" src="<{$assets}>/img/neo-category-img-<{$smarty.get.cbid}>-pc.png.webp" alt="<{$category[num].name}>カテゴリーPC用画像">
+			<img class="p-category-main-image-img mb-2 d-block d-lg-none" src="<{$assets}>/img/neo-category-img-<{$smarty.get.cbid}>-sp.png.webp" alt="<{$category[num].name}>カテゴリーSP用画像">
 			<!-- <{$category[num].name}>の説明文 -->
 			<{if $smarty.get.cbid == "2543763"}>
 			<p class="p-category-main-image-text mb-2 mb-lg-3 TrajanSB text-left text-lg-center">日本食肉格付協会の定める牛取引規格の最高の肉質である「5」等級および「4」等級かつ、
@@ -34,8 +34,8 @@
 		<!-- <{$group[num].name}>の商品一覧ページ -->
 		<{if $smarty.get.gid == "2673106" || $smarty.get.gid == "2673107" || $smarty.get.gid == "2673108" ||$smarty.get.gid == "2337960" || $smarty.get.gid == "2337981" || $smarty.get.gid == "2337989" || $smarty.get.gid == "2337999"}>
 		<{else}>
-		<img class="p-category-main-image-img mb-3 d-none d-lg-block" src="<{$assets}>/img/neo-category-img-<{$smarty.get.gid}>-pc.png" alt="<{$group[num].name}>グループPC用画像">
-		<img class="p-category-main-image-img mb-2 d-block d-lg-none" src="<{$assets}>/img/neo-category-img-<{$smarty.get.gid}>-sp.png" alt="<{$group[num].name}>グループSP用画像">
+		<img class="p-category-main-image-img mb-3 d-none d-lg-block" src="<{$assets}>/img/neo-category-img-<{$smarty.get.gid}>-pc.png.webp" alt="<{$group[num].name}>グループPC用画像">
+		<img class="p-category-main-image-img mb-2 d-block d-lg-none" src="<{$assets}>/img/neo-category-img-<{$smarty.get.gid}>-sp.png.webp" alt="<{$group[num].name}>グループSP用画像">
 		<{/if}>
 		<!-- <{$group[num].name}>の説明文 -->
 		<{if $smarty.get.gid == "2483504"}>

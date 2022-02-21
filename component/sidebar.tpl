@@ -72,7 +72,7 @@
 			<!-- 送料 -->
 			<li>
 					<img class="pt-2"
-						src="<{$assets}>/img/neo-shipping-img.png"
+						src="<{$assets}>/img/neo-shipping-img.png.webp"
 						alt="" width="321">
 			</li>
 			<!-- プレゼント -->
@@ -227,7 +227,7 @@
 		</a>
 		<!-- 送料 -->
 		<img class="w-100 d-block"
-			src="<{$assets}>/img/neo-shipping-img.png"
+			src="<{$assets}>/img/neo-shipping-img.png.webp"
 			alt="" width="321">
 		<!-- プレゼント -->
 		<!-- リンクないのでコメントアウト -->

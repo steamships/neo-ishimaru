@@ -69,7 +69,7 @@
 						<{/if}>
 							<{if $group[num].id == "2373403" || $group[num].id == "2338001" || $group[num].id == "2338000" || $group[num].id == "2337958"}>
 							<li class="g-sub-nav-blists d-none mx-lg-2 text-center group-<{$group[num].id}>">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-subgroup-img-<{$group[num].id}>.png"><span class="d-block text-center NotoSerifL"><{$group[num].name}></span></a>
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$group[num].link_url}>"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-subgroup-img-<{$group[num].id}>.png.webp"><span class="d-block text-center NotoSerifL"><{$group[num].name}></span></a>
 							</li>
 							<{else}>
 							<li class="g-sub-nav-blists d-none mx-lg-2 text-center group-<{$group[num].id}>">
@@ -132,16 +132,16 @@
 					<!-- ふるさと納税リスト -->
 						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-evenly TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 							<li class="g-sub-nav-blists mx-lg-2 text-center">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://search.rakuten.co.jp/search/mall/%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89/" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-rakuten.png"><span class="d-block text-left text-lg-center NotoSerifL">楽天ふるさと納税</span></a>
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://search.rakuten.co.jp/search/mall/%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89/" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-rakuten.png.webp"><span class="d-block text-left text-lg-center NotoSerifL">楽天ふるさと納税</span></a>
 							</li>
 							<li class="g-sub-nav-blists mx-lg-2 text-center">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.furusato-tax.jp/search?header=1&target=1&q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-choice.png"><span class="d-block text-left text-lg-center NotoSerifL">ふるさとチョイス</span></a>
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.furusato-tax.jp/search?header=1&target=1&q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-choice.png.webp"><span class="d-block text-left text-lg-center NotoSerifL">ふるさとチョイス</span></a>
 							</li>
 							<li class="g-sub-nav-blists mx-lg-2 text-center">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://furunavi.jp/Product/Search?keyword=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-furunavi.png"><span class="d-block text-left text-lg-center NotoSerifL">ふるなび</span></a>
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://furunavi.jp/Product/Search?keyword=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-furunavi.png.webp"><span class="d-block text-left text-lg-center NotoSerifL">ふるなび</span></a>
 							</li>
 							<li class="g-sub-nav-blists mx-lg-2 text-center">
-								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.satofull.jp/products/list.php?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89&cnt=120&p=1" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-satofull.png"><span class="d-block text-left text-lg-center NotoSerifL">さとふる</span></a>
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.satofull.jp/products/list.php?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89&cnt=120&p=1" target="_blank" rel="noopener"><img class="g-sub-nav-blists-img mb-1" src="<{$assets}>/img/neo-furusato-satofull.png.webp"><span class="d-block text-left text-lg-center NotoSerifL">さとふる</span></a>
 							</li>
 						</ul>
 					<!-- // ふるさと納税リスト -->
