@@ -108,10 +108,10 @@
 			"page_title": "フリーページ10のタイトル"
 		}
 	],
-	"bid_link": "大カテゴリーURL、またはグループURL（グループ別商品一覧ページ表示時）",
-	"bid_name": "大カテゴリー名称、またはグループ名称（グループ別商品一覧ページ表示時）",
-	"sid_link": "小カテゴリーURL",
-	"sid_name": "小カテゴリー名称",
+	"bid_link": "/?p=product_list&mode=cate&cbid=2543763&csid=0",
+	"bid_name": "佐賀牛",
+	"sid_link": "/?p=product_list&mode=grp&gid=2673106",
+	"sid_name": "ヒレ",
 	"product_link": "商品URL",
 	"product_name": "商品名称",
 	"category": [

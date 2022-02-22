@@ -163,4 +163,11 @@ img{
 		background-color: rgba($primary, 0.1);
 	}
 }
-
+.breadcrumb  {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	> li + li::before {
+		margin: 0 10px;
+		content: '>';
+	}
+}

@@ -261,4 +261,25 @@
 <!-- // Header -->
 <div class="container">
 	<div class="row justify-content-between flex-row-reverse">
+	<!-- カテゴリのパンくずリスト -->
+	<ol class="breadcrumb list-unstyled NotoSerifL">
+		<li class="ps-1 d-inline-block"><a class="text-decoration-none" href="<{$home_url}>">TOP</a></li>
+		<{if $bid_name != ""}><li class="d-inline-block"><a class="text-decoration-none" href='<{$bid_link}>'><{$bid_name}></a></li><{/if}>
+		<{if $sid_name != ""}><li class="d-inline-block"><a class="text-decoration-none" href='<{$sid_link}>'><{$sid_name}></a></li><{/if}>
+	</ol>
+
+	<!-- グループのパンくずリスト -->
+	<{if $group_breadcrumb_list != ""}>
+		<ol class="breadcrumb sub list-unstyled NotoSerifL">
+		<{section name=cnt loop=$group_breadcrumb_list}>
+			<{section name=num loop=$group_breadcrumb_list[cnt].group_breadcrumb}>
+			<li class="d-inline-block">
+				<a class="text-decoration-none" href="<{$group_breadcrumb_list[cnt].group_breadcrumb[num].link_url}>">
+				<{$group_breadcrumb_list[cnt].group_breadcrumb[num].name}>
+				</a>
+			</li>
+			<{/section}>
+		<{/section}>
+		</ol>
+	<{/if}>
 <!-- header.tpl ▲ -->
