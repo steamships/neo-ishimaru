@@ -261,6 +261,7 @@
 <!-- // Header -->
 <div class="container">
 	<div class="row justify-content-between flex-row-reverse">
+	<{if $tpl_name != "top"}>
 	<!-- カテゴリのパンくずリスト -->
 	<ol class="breadcrumb list-unstyled NotoSerifL">
 		<li class="ps-1 d-inline-block"><a class="text-decoration-none" href="<{$home_url}>">TOP</a></li>
@@ -273,7 +274,7 @@
 		<ol class="breadcrumb sub list-unstyled NotoSerifL">
 		<{section name=cnt loop=$group_breadcrumb_list}>
 			<{section name=num loop=$group_breadcrumb_list[cnt].group_breadcrumb}>
-			<li class="d-inline-block">
+			<li class="ps-1 d-inline-block">
 				<a class="text-decoration-none" href="<{$group_breadcrumb_list[cnt].group_breadcrumb[num].link_url}>">
 				<{$group_breadcrumb_list[cnt].group_breadcrumb[num].name}>
 				</a>
@@ -281,5 +282,6 @@
 			<{/section}>
 		<{/section}>
 		</ol>
+	<{/if}>
 	<{/if}>
 <!-- header.tpl ▲ -->
