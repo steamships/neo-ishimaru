@@ -2,17 +2,17 @@
 <article id="review">
 
 	<img class="d-none d-lg-block img-fluid"
-		src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-pc.jpg?cmsp_timestamp=20211201171920">
+		src="<{$assets}>/img/neo-review-pc.jpg.webp">
 	<img class="d-lg-none d-block mt-4 mx-auto mb-1"
-		src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-sp.jpg?cmsp_timestamp=20211201173054">
+		src="<{$assets}>/img/neo-review-sp.jpg.webp">
 
 	<!-- 1 -->
 	<div class="row">
 		<div class="col-lg-6 d-none d-lg-block">
 			<a href="https://www.saga-ishimaru.co.jp/?pid=147855212">
 				<img class="img-fluid"
-					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item1.png?cmsp_timestamp=20211201173038"
-					alt="">
+					src="<{$assets}>/img/neo-review-item1.png.webp"
+					alt="レビュー用黒毛和牛ハンバーグ画像">
 			</a>
 		</div>
 		<div class="col-12 col-lg-6">
@@ -20,8 +20,8 @@
 			<h4 class="NotoSerifSB fs-28px">【佐賀牛入り】黒毛和牛ハンバーグ</h4>
 			<a href="https://www.saga-ishimaru.co.jp/?pid=147855212">
 				<img class="w-100 d-lg-none"
-					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item1.png?cmsp_timestamp=20211201173038"
-					alt="">
+					src="<{$assets}>/img/neo-review-item1.png.webp"
+					alt="レビュー用黒毛和牛ハンバーグ画像">
 			</a>
 			<div class="card">
 				<div class="card-body">
@@ -56,8 +56,8 @@
 		<div class="col-lg-6 d-none d-lg-block">
 			<a href="https://www.saga-ishimaru.co.jp/?pid=160628002">
 				<img class="img-fluid"
-					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item2.png?cmsp_timestamp=20211202105229"
-					alt="">
+					src="<{$assets}>/img/neo-review-item2.png.webp"
+					alt="レビュー用九州産黒毛和牛ハンバーグ画像">
 			</a>
 		</div>
 		<div class="col-12 col-lg-6">
@@ -65,8 +65,8 @@
 			<h4 class="NotoSerifSB fs-28px">【九州産黒毛和牛】ハンバーグ</h4>
 			<a href="https://www.saga-ishimaru.co.jp/?pid=160628002">
 				<img class="w-100 d-lg-none"
-					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item2.png?cmsp_timestamp=20211202105229"
-					alt="">
+					src="<{$assets}>/img/neo-review-item2.png.webp"
+					alt="レビュー用九州産黒毛和牛ハンバーグ画像">
 			</a>
 			<div class="card">
 				<div class="card-body">
@@ -100,8 +100,8 @@
 		<div class="col-lg-6 d-none d-lg-block">
 			<a href="https://www.saga-ishimaru.co.jp/?pid=145587190">
 				<img class="img-fluid"
-					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item3.png?cmsp_timestamp=20211202105248"
-					alt="">
+					src="<{$assets}>/img/neo-review-item3.png.webp"
+					alt="レビュー用ヒレステーキ画像">
 			</a>
 		</div>
 		<div class="col-12 col-lg-6">
@@ -109,8 +109,8 @@
 			<h4 class="NotoSerifSB fs-28px">【佐賀牛】ヒレステーキ</h4>
 			<a href="https://www.saga-ishimaru.co.jp/?pid=145587190">
 				<img class="w-100 d-lg-none"
-					src="https://img07.shop-pro.jp/PA01437/442/etc/neo-review-item3.png?cmsp_timestamp=20211202105248"
-					alt="">
+					src="<{$assets}>/img/neo-review-item3.png.webp"
+					alt="レビュー用ヒレステーキ画像">
 			</a>
 			<div class="card">
 				<div class="card-body">
