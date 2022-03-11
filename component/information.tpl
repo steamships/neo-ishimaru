@@ -25,7 +25,7 @@
 	<div class="row position-relative">
 
 	<!-- 鍋 -->
-	<div class="col-6 col-lg-3 mb-1">
+	<!-- <div class="col-6 col-lg-3 mb-1">
 		<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2338000">
 			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-nabe.jpg?cmsp_timestamp=20211206160509">
 		</a>
@@ -33,10 +33,10 @@
 			<span class="TrajanR date"></span></div>
 		<div class="NotoSerifSB title fs-5">最高級和牛でお鍋！</div>
 		<div class="NotoSerifL expl">寒い冬にはあったかお鍋♪</div>
-	</div>
+	</div> -->
 
 	<!-- インスタ -->
-	<div class="col-6 col-lg-3 mb-1">
+	<!-- <div class="col-6 col-lg-3 mb-1">
 		<a href="https://www.instagram.com/suguru_ishimaru/">
 			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-Insta.png?cmsp_timestamp=20211206160453">
 		</a>
@@ -44,7 +44,7 @@
 			<span class="TrajanR date"></span></div>
 		<div class="NotoSerifSB title fs-5">プレゼント企画も!?</div>
 		<div class="NotoSerifL expl">Instagramでお得な情報をお届けします♪</div>
-	</div>
+	</div> -->
 
 	<!-- 変更のお知らせ -->
 	<!-- <div class="col-6 col-lg-3 mb-1">
