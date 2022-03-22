@@ -20,7 +20,7 @@
 	</div> -->
 
 	<!-- お知らせ　インスタ投稿を表示 -->
-	<!-- <div id="instagram"></div> -->
+	<div id="instagram"></div>
 
 	<div class="row position-relative">
 
@@ -36,7 +36,7 @@
 	</div> -->
 
 	<!-- プレゼント -->
-	<div class="col-6 col-lg-3 mb-1">
+	<!-- <div class="col-6 col-lg-3 mb-1">
 		<a href="#" style="pointer-events: none;">
 			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/220312_information_point.png?cmsp_timestamp=20220315105433">
 		</a>
@@ -44,10 +44,10 @@
 			<span class="TrajanR date"></span></div>
 		<div class="NotoSerifSB title fs-5">今だけポイントが5倍に！</div>
 		<div class="NotoSerifL expl">購入時のポイントが期間限定53倍です！</div>
-	</div>
+	</div> -->
 
 	<!-- インスタ -->
-	<div class="col-6 col-lg-3 mb-1">
+	<!-- <div class="col-6 col-lg-3 mb-1">
 		<a href="https://www.instagram.com/suguru_ishimaru/">
 			<img class="img-fluid" src="https://img07.shop-pro.jp/PA01437/442/etc/info-Insta.png?cmsp_timestamp=20211206160453">
 		</a>
@@ -55,7 +55,7 @@
 			<span class="TrajanR date"></span></div>
 		<div class="NotoSerifSB title fs-5">プレゼント企画も!?</div>
 		<div class="NotoSerifL expl">Instagramでお得な情報をお届けします♪</div>
-	</div>
+	</div> -->
 
 	<!-- 変更のお知らせ -->
 	<!-- <div class="col-6 col-lg-3 mb-1">
