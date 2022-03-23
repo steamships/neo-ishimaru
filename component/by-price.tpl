@@ -9,7 +9,7 @@
 
 		<a class="d-flex align-items-center justify-content-center flex-grow-1 btn bg-white NotoSerifL fs-26px py-1 ls-1 chevron-right"
 			href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2673107" role="button">
-			￥5,000～4,999
+			￥5,000～9,999
 		</a>
 
 		<a class="d-flex align-items-center justify-content-center flex-grow-1 btn bg-white NotoSerifL fs-26px py-1 ls-1 chevron-right"
