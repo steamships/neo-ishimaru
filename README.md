@@ -1,10 +1,44 @@
 # neo-ishimaru
 ネオ石丸ECサイト
 
+## 開発はじめるとき
+
+### git clone後
+
+Composerのインストール
+
+- [Composerインストール](https://mebee.info/2020/06/02/post-10844/)
+
+以下neo-ishimaruディレクトリ
+
+- ライブラリのインストール
+
+ ```
+composer install
+ ```
+
+- npmのインストール　
+
+ ```
+npm install
+ ```
+- 開発時はコマンドでnpm-run-all、watch webpackさせる
+
+ ```
+npm run start
+ ```
+- 開発
+
+### dockersで開発するとき
+- htmlディレクトリにgit clone
+
+___ 
+
 ## Bootstrap
 基本的にBootstrapのしきたりに従う
 
 [Bootstrap ドキュメント](https://getbootstrap.jp/docs/5.0/getting-started/introduction/)
+
 [Bootstrap Github](https://github.com/twbs/bootstrap)
 
 **カンプ案**
@@ -25,9 +59,14 @@
 **部位チャート資料**
 https://docs.google.com/document/d/1pnBMNIPXVfo3NFqcfWiYmmOkrvE8kia9u_9mNuDqkJQ/edit
 
-**convertWebp.shについて**
+___ 
+
+## 画像のwebp化 / convertWebp.shについて
+
 aseetsディレクトリ内でsh convertWebp.shを実行
+
 jpg/pngファイルをwebpファイルに変換する
+
 
 参考
 https://casualweb.info/blog/obtain-category-id/
