@@ -12,7 +12,7 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active" data-bs-interval="6000">
-				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2601547&csid=0">
+				<a href="https://www.saga-ishimaru.co.jp/?pid=160628002">
 					<img src="<{$assets}>/img/neo-slide-0-pc.webp" class="d-none d-lg-block w-100" alt="ハンバーグ復活キャンペーン">
 					<img src="<{$assets}>/img/neo-slide-0-sp.webp" class="d-lg-none d-block w-100" alt="ハンバーグ復活キャンペーン">
 				</a>
