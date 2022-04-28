@@ -8,24 +8,31 @@
 			<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="shadow active"></li>
 			<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="shadow"></li>
 			<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="shadow"></li>
+			<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="shadow"></li>
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active" data-bs-interval="6000">
+				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2601547&csid=0">
+					<img src="<{$assets}>/img/neo-slide-0-pc.webp" class="d-none d-lg-block w-100" alt="ハンバーグ復活キャンペーン">
+					<img src="<{$assets}>/img/neo-slide-0-sp.webp" class="d-lg-none d-block w-100" alt="ハンバーグ復活キャンペーン">
+				</a>
+			</div>
+			<div class="carousel-item" data-bs-interval="6000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=0">
-					<img src="<{$assets}>/img/neo-slide-1-pc.png.webp" class="d-none d-lg-block w-100" alt="黒毛和牛">
-					<img src="<{$assets}>/img/neo-slide-1-sp.png.webp" class="d-lg-none d-block w-100" alt="黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-1-pc.png.webp" class="d-none d-lg-block w-100" alt="佐賀牛">
+					<img src="<{$assets}>/img/neo-slide-1-sp.png.webp" class="d-lg-none d-block w-100" alt="佐賀牛">
 				</a>
 			</div>
 			<div class="carousel-item" data-bs-interval="6000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2547504&csid=0">
-					<img src="<{$assets}>/img/neo-slide-2-pc.png.webp" class="d-none d-lg-block w-100" alt="黒毛和牛">
-					<img src="<{$assets}>/img/neo-slide-2-sp.png.webp" class="d-lg-none d-block w-100" alt="黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-2-pc.png.webp" class="d-none d-lg-block w-100" alt="九州産黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-2-sp.png.webp" class="d-lg-none d-block w-100" alt="九州産黒毛和牛">
 				</a>
 			</div>
 			<div class="carousel-item" data-bs-interval="6000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2601547&csid=0">
-					<img src="<{$assets}>/img/neo-slide-3-pc.png.webp" class="d-none d-lg-block w-100" alt="黒毛和牛">
-					<img src="<{$assets}>/img/neo-slide-3-sp.png.webp" class="d-lg-none d-block w-100" alt="黒毛和牛">
+					<img src="<{$assets}>/img/neo-slide-3-pc.png.webp" class="d-none d-lg-block w-100" alt="その他">
+					<img src="<{$assets}>/img/neo-slide-3-sp.png.webp" class="d-lg-none d-block w-100" alt="その他">
 				</a>
 			</div>
 		</div>
