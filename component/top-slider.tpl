@@ -14,9 +14,9 @@
 		</ol> -->
 		<div class="carousel-inner">
 			<div class="carousel-item active" data-bs-interval="6000">
-				<a href="https://www.saga-ishimaru.co.jp/?pid=160628002">
-					<img src="<{$assets}>/img/neo-slide-2-pc.webp" class="d-none d-lg-block w-100" alt="ハンバーグ復活キャンペーン">
-					<img src="<{$assets}>/img/neo-slide-2-sp.webp" class="d-lg-none d-block w-100" alt="ハンバーグ復活キャンペーン">
+				<a href="https://www.saga-ishimaru.co.jp/?pid=147855212">
+					<img src="<{$assets}>/img/neo-slide-6-pc.webp" class="d-none d-lg-block w-100" alt="その他">
+					<img src="<{$assets}>/img/neo-slide-6-sp.webp" class="d-lg-none d-block w-100" alt="その他">
 				</a>
 			</div>
 			<div class="carousel-item" data-bs-interval="6000">
