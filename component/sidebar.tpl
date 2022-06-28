@@ -219,9 +219,43 @@
 
 	<!-- SP -->
 	<div class="d-lg-none">
+		<ul class="nav nav-pills flex-column text-center mx-auto mt-5">
+			<!-- 年始のお届け目安 -->
+			<!-- <li class="nav-item mb-1 NotoSerifSB fs-16px">
+				年始のお届け目安
+			</li>
+			<li class="NotoSerifL fs-16px">
+				<p>通常商品の場合 (予約商品を除く)</p>
+				<p>ただいまご注文いただいた場合の発送日</p>
+			</li>
+			<li class="mt-1 mb-1">
+				<span class="TrajanB fs-26px">2022年1月8日</span>
+				<span class="NotoSerifL fs-16px">(土)</span>
+			</li>
+			<li class="NotoSerifL fs-16px mb-2">
+				<p>※年始の交通状況や荷物量の増加により、商品のお届けが遅れる場合がございます。予めご了承ください。</p>
+			</li> -->
+			<!-- お届け目安 -->
+			<li class="fs-22px nav-item mb-2 NotoSerifSB fs-16px">
+				お届け目安
+			</li>
+			<li class="NotoSerifL fs-20px">
+				<p>通常商品の場合 (予約商品を除く)</p>
+				<p>ただいまご注文いただいた場合の発送日</p>
+			</li>
+			<li class="mt-1 mb-2">
+				<{math equation="x+y" x= $smarty.now y=259200 assign="otodoke"}>
+				<span class="TrajanB fs-26px">
+					<{$otodoke|date_format:"%Y年%m月%d日"}>
+				</span>
+				<span class="NotoSerifL fs-16px">
+					<{$otodoke|date_format:'(%a)'|replace:'Sun':'日'|replace:'Mon':'月'|replace:'Tue':'火'|replace:'Wed':'水'|replace:'Thu':'木'|replace:'Fri':'金'|replace:'Sat':'土'}>
+				</span>
+			</li>
+		</ul>
 		<!-- about -->
 		<a href="//www.saga-ishimaru.co.jp/?mode=f1">
-			<img class="mx-auto d-block mt-4 mb-4"
+			<img class="mx-auto d-block mt-2 mb-4"
 				src="<{$assets}>/img/neo-aboutLink-sp.png.webp" alt=""
 				width="335">
 		</a>
