@@ -33,8 +33,8 @@
 			</div>
 			<div class="carousel-item" data-bs-interval="6000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2601547&csid=0">
-					<img src="<{$assets}>/img/neo-slide-5-pc.png.webp" class="d-none d-lg-block w-100" alt="その他">
-					<img src="<{$assets}>/img/neo-slide-5-sp.png.webp" class="d-lg-none d-block w-100" alt="その他">
+					<img src="<{$assets}>/img/neo-slide-other-pc.webp" class="d-none d-lg-block w-100" alt="その他">
+					<img src="<{$assets}>/img/neo-slide-other-sp.webp" class="d-lg-none d-block w-100" alt="その他">
 				</a>
 			</div>
 		</div>

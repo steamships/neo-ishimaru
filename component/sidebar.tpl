@@ -31,11 +31,14 @@
 			<li class="mt-1 mb-2">
 				<{math equation="x+y" x= $smarty.now y=259200 assign="otodoke"}>
 				<span class="TrajanB fs-26px">
-					<{$otodoke|date_format:"%Y年%m月%d日"}>
+					<{$otodoke|date_format:"※%Y年%m月%d日"}>
 				</span>
 				<span class="NotoSerifL fs-16px">
 					<{$otodoke|date_format:'(%a)'|replace:'Sun':'日'|replace:'Mon':'月'|replace:'Tue':'火'|replace:'Wed':'水'|replace:'Thu':'木'|replace:'Fri':'金'|replace:'Sat':'土'}>
 				</span>
+			</li>
+			<li class="NotoSerifL fs-24px mb-sm-2 mb-2 p-1 bg-white">
+				<p>※仕入れの都合により、<span class="fw-bold">がばいソースを注文のお客様は7月15日以降</span>の発送となります。</p>
 			</li>
 			<!-- TEL -->
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
@@ -239,18 +242,21 @@
 			<li class="fs-22px nav-item mb-2 NotoSerifSB fs-16px">
 				お届け目安
 			</li>
-			<li class="NotoSerifL fs-20px">
+			<li class="NotoSerifL fs-26px">
 				<p>通常商品の場合 (予約商品を除く)</p>
 				<p>ただいまご注文いただいた場合の発送日</p>
 			</li>
 			<li class="mt-1 mb-2">
 				<{math equation="x+y" x= $smarty.now y=259200 assign="otodoke"}>
 				<span class="TrajanB fs-26px">
-					<{$otodoke|date_format:"%Y年%m月%d日"}>
+					<{$otodoke|date_format:"※%Y年%m月%d日"}>
 				</span>
 				<span class="NotoSerifL fs-16px">
 					<{$otodoke|date_format:'(%a)'|replace:'Sun':'日'|replace:'Mon':'月'|replace:'Tue':'火'|replace:'Wed':'水'|replace:'Thu':'木'|replace:'Fri':'金'|replace:'Sat':'土'}>
 				</span>
+			</li>
+			<li class="NotoSerifL fs-26px mb-sm-2 mb-2 p-1 bg-white">
+				<p>※仕入れの都合により、<span class="fw-bold">がばいソースを注文のお客様は7月15日以降</span>の発送となります。</p>
 			</li>
 		</ul>
 		<!-- about -->
