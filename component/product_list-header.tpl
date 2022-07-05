@@ -71,6 +71,12 @@
 					<{/if}>
 				<{/section}>
 				<!-- // 価格で選ぶグループリスト -->
+			<{elseif $smarty.get.gid == "2750355"}>
+				<!-- カタログギフトの場合 -->
+				<div>
+					カタログギフトの説明とか画像
+				</div>
+				<!-- カタログギフトの場合 -->
 			<{else}>
 				<{section name=num loop=$group}>
 					<{if $smarty.section.num.first }>
