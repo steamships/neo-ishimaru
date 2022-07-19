@@ -32,9 +32,9 @@
 				<span id="js-shipdate-pc" class="TrajanB fs-26px">
 				</span>
 			</li>
-			<li class="NotoSerifL fs-24px mb-sm-2 mb-2 p-1 bg-white">
+			<!-- <li class="NotoSerifL fs-24px mb-sm-2 mb-2 p-1 bg-white">
 				<p>※仕入れの都合により、<span class="fw-bold">がばいソースを注文のお客様は7月15日以降</span>の発送となります。</p>
-			</li>
+			</li> -->
 			<!-- TEL -->
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				お電話でのお問い合わせ・ご注文
@@ -245,9 +245,9 @@
 				<span id="js-shipdate-sp" class="TrajanB fs-24px">
 				</span>
 			</li>
-			<li class="NotoSerifL fs-22px mb-sm-2 mb-2 p-1 bg-white">
+			<!-- <li class="NotoSerifL fs-22px mb-sm-2 mb-2 p-1 bg-white">
 				<p>※仕入れの都合により、<span class="fw-bold">がばいソースを注文のお客様は7月15日以降</span>の発送となります。</p>
-			</li>
+			</li> -->
 		</ul>
 		<!-- about -->
 		<a href="//www.saga-ishimaru.co.jp/?mode=f1">
