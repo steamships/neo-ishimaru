@@ -35,5 +35,7 @@ import { privacy } from "./_privacy.js";
 privacy();
 import { guide } from "./_guide.js";
 guide();
+import { shindan } from "./_shindan.js";
+shindan();
 require("./shipdate");
 require("./beef-chart");
