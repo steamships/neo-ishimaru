@@ -19,6 +19,35 @@ export const shindan = () => {
 		// testRecommendation();
 
 		function init() {
+
+			let productList = {};
+			$.ajax({
+				url: 'https://sheets.googleapis.com/v4/spreadsheets/1GzTelbizmEX5oIiALA4dRGIxn-_GbKi1zkjA64gWNx4/values/product?key=AIzaSyDdTL68c0PLn0b1nh1opWb-AA6VvtmB1U0',
+				success: function (d) {
+					const sheetsData = d.values;	//実データ部分を取得
+					//シート1行目をkeyに指定
+					const key1 = sheetsData[0][0]; //商品ID
+					const key2 = sheetsData[0][1]; //商品名
+					const key3 = sheetsData[0][2]; //商品画像URL
+					const key4 = sheetsData[0][3]; //販売価格
+					const key5 = sheetsData[0][4]; //タイトル
+					const key6 = sheetsData[0][5]; //ページ概要
+					//2行目以降をvalueにし、オブジェクト生成
+					for (let i = 1; i < sheetsData.length; i++) {
+						const obj = {};
+						const productId = sheetsData[i][0];
+						obj[key1] = sheetsData[i][0];
+						obj[key2] = sheetsData[i][1];
+						obj[key3] = sheetsData[i][2];
+						obj[key4] = sheetsData[i][3];
+						obj[key5] = sheetsData[i][4];
+						obj[key6] = sheetsData[i][5];
+						obj["point"] = 0;
+						productList[productId] = obj;
+					}
+					console.log(productList);
+				}
+			});
 			counter = 0;
 			meats = {
 				spColla: { name: "【佐賀牛】小間切れ 1000g", point: 0 },
