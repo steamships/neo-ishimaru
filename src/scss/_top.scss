@@ -69,7 +69,8 @@
 #ranking,
 #brand,
 #dish,
-#furusato {
+#furusato,
+#gift {
 	margin-bottom: 5.5rem;
 }
 #brand,
@@ -118,8 +119,8 @@
 	}
 }
 
-// ブランド
-#brand {
+// ブランド, ギフト
+#brand, #gift {
 
 	h5 {
 		margin-top: 1.8rem;
@@ -141,6 +142,16 @@
 
 	.bb-1 {
 		border-bottom: solid 1px;
+	}
+}
+#gift {
+	
+	h5 {
+		margin-top: 0rem;
+
+		@include media-breakpoint-down(lg) {
+			margin-top: 0rem;
+		}
 	}
 }
 
