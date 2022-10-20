@@ -33,8 +33,8 @@
 
 		<!-- グループリスト -->
 		<{if $smarty.get.mode == "grp"}>
+			<!-- 料理で選ぶグループリスト -->
 			<{if $smarty.get.gid == "2337958" || $smarty.get.gid == "2338000" || $smarty.get.gid == "2338001" || $smarty.get.gid == "2373403"}>
-				<!-- 料理で選ぶグループリスト -->
 				<{section name=num loop=$group}>
 					<{if $smarty.section.num.first }>
 					<ul class="product_list-dish-group d-flex flex-wrap list-unstyled justify-content-evenly TrajanSB mb-lg-2">
@@ -52,9 +52,9 @@
 					</ul>
 					<{/if}>
 				<{/section}>
-				<!-- // 料理で選ぶグループリスト -->
+			<!-- // 料理で選ぶグループリスト -->
+			<!-- 価格で選ぶグループリスト -->
 			<{elseif $smarty.get.gid == "2673106" || $smarty.get.gid == "2673107" || $smarty.get.gid == "2673108"}>
-				<!-- 価格で選ぶグループリスト -->
 				<{section name=num loop=$group}>
 					<{if $smarty.section.num.first }>
 					<ul class="product_list-price-group  mb-1 mb-lg-2 d-flex flex-wrap list-unstyled justify-content-start">
@@ -70,13 +70,12 @@
 					</ul>
 					<{/if}>
 				<{/section}>
-				<!-- // 価格で選ぶグループリスト -->
+			<!-- // 価格で選ぶグループリスト -->
+			<!-- カタログギフトの場合 -->
 			<{elseif $smarty.get.gid == "2750355"}>
-				<!-- カタログギフトの場合 -->
-				<div>
-					カタログギフトの説明とか画像
-				</div>
-				<!-- カタログギフトの場合 -->
+				<img src="<{$assets}>/img/neo-gift-explain-pc.png.webp" class="d-none d-lg-block w-100" alt="カタログギフトについて">
+				<img src="<{$assets}>/img/neo-gift-explain-sp.png.webp" class="d-lg-none d-block w-100" alt="カタログギフトについて">
+			<!-- //カタログギフトの場合 -->
 			<{else}>
 				<{section name=num loop=$group}>
 					<{if $smarty.section.num.first }>
