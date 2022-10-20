@@ -47,11 +47,6 @@
 			<br>個数が限られているので、お早めにお申込みください。
 		</p>
 		<{/if}>
-		<{if $smarty.get.gid == "2750355"}>
-		<p class="p-category-main-image-text mb-2 mb-lg-3 TrajanSB text-left text-lg-center">
-			石丸食肉産業のカタログギフト
-		</p>
-		<{/if}>
 	<{/if}>
 	<{if $smarty.section.num.last }>
 	</div>
