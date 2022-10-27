@@ -1,4 +1,4 @@
-<!-- price -->
+<!-- gift -->
 <article id="gift">
 	<h3 class="TrajanB mb-1">GIFT<span class="NotoSerifL fs-6 ms-1">ギフト</span></h3>
     <div class="row row-cols-1 row-cols-lg-2 justify-content-between">
@@ -13,4 +13,4 @@
         </div>
     </div>
 </article>
-<!-- / price -->
+<!-- / gift -->
