@@ -127,7 +127,7 @@
 					<!-- // 価格帯で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
+					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
 					<!-- ギフト券 -->
 					<{section name=num loop=$productlist}>
 						<{if $smarty.section.num.first }>
