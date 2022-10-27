@@ -126,9 +126,15 @@
 					<{/section}>
 					<!-- // 価格帯で選ぶグループリスト -->
 				</li>
+<<<<<<< HEAD
 				<!-- ギフト券 -->
 				<!--<li class="nav-item">
 					<a class="nav-link TrajanSB" href="#">GIFT<span class="d-lg-block NotoSerifL">ギフト券</span></a>
+=======
+				<li class="nav-item">
+					<a class="nav-link TrajanSB" href="#">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
+					<!-- ギフト券 -->
+>>>>>>> gift_ver
 					<{section name=num loop=$productlist}>
 						<{if $smarty.section.num.first }>
 						<ul class="g-sub-nav gift-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-start  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
