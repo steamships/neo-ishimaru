@@ -61,7 +61,7 @@
 					<!-- // カテゴリーリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">DISH<span class="d-lg-block NotoSerifL">料理で選ぶ</span></a>
+					<a class="nav-link TrajanSB">DISH<span class="d-lg-block NotoSerifL">料理で選ぶ</span></a>
 					<!-- 料理で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
@@ -83,7 +83,7 @@
 					<!-- // 料理で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">BUDGET<span class="d-lg-block NotoSerifL">部位で選ぶ</span></a>
+					<a class="nav-link TrajanSB">BUDGET<span class="d-lg-block NotoSerifL">部位で選ぶ</span></a>
 					<!-- 部位で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
@@ -105,7 +105,7 @@
 					<!-- // 部位で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">PRICE<span class="d-lg-block NotoSerifL">価格帯で選ぶ</span></a>
+					<a class="nav-link TrajanSB">PRICE<span class="d-lg-block NotoSerifL">価格帯で選ぶ</span></a>
 					<!-- 価格帯で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
@@ -127,7 +127,7 @@
 					<!-- // 価格帯で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
+					<a class="nav-link TrajanSB">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
 					<!-- ギフト券 -->
 					<{section name=num loop=$productlist}>
 						<{if $smarty.section.num.first }>
@@ -145,7 +145,7 @@
 					<!-- // ギフト券 -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">FURUSATO TAX<span class="d-lg-block NotoSerifL">ふるさと納税</span></a>
+					<a class="nav-link TrajanSB">FURUSATO TAX<span class="d-lg-block NotoSerifL">ふるさと納税</span></a>
 					<!-- ふるさと納税リスト -->
 						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-evenly TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 							<li class="g-sub-nav-blists mx-lg-2 text-center">
@@ -166,7 +166,7 @@
 
 				
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="#">SERVICE<span class="d-lg-block NotoSerifL">サービス</span></a>
+					<a class="nav-link TrajanSB">SERVICE<span class="d-lg-block NotoSerifL">サービス</span></a>
 					<!-- サービスグループリスト -->
 						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-start TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 							<!-- <li class="g-sub-nav-blists mx-0 mx-lg-2">
