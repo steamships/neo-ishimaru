@@ -128,13 +128,14 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link TrajanSB">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
+
 					<!-- ギフト券 -->
 					<{section name=num loop=$productlist}>
 						<{if $smarty.section.num.first }>
 						<ul class="g-sub-nav gift-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-start  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 						<{/if}>
 							<{if $productlist[num].id == "169230886" || $productlist[num].id == "169231798" || $productlist[num].id == "169231809"}>
-							<li class="g-sub-nav-blists mx-lg-2 text-center product-<{$productlist[num].id}>">
+							<li class="g-sub-nav-blists d-none mx-lg-2 text-center group-<{$productlist[num].id}>">
 								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="<{$productlist[num].link_url}>"><span class="d-block text-center NotoSerifL"><{$productlist[num].name}></span></a>
 							</li>
 							<{/if}>
