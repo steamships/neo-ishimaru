@@ -82,9 +82,9 @@
 							<p>14,000円コース</p>
 						</div>
 						<div class="catalog-summary-cooking-images">
-							<img src="<{$assets}>/img/neo-gift-explain-pc.png.webp" alt="焼肉調理イメージ画像">
-							<img src="<{$assets}>/img/neo-gift-explain-pc.png.webp" alt="ステーキ調理イメージ画像">
-							<img src="<{$assets}>/img/neo-gift-explain-pc.png.webp" alt="すき焼き調理イメージ画像">
+							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-02.webp" alt="焼肉調理イメージ画像">
+							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-03.webp" alt="ステーキ調理イメージ画像">
+							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-04.webp" alt="すき焼き調理イメージ画像">
 						</div>
 					</div>
 				</div>
