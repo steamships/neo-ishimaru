@@ -73,6 +73,22 @@
 			<!-- // 価格で選ぶグループリスト -->
 			<!-- カタログギフトの場合 -->
 			<{elseif $smarty.get.gid == "2750355"}>
+				<div class="catalog-summary-body">
+					<div calass="catalog-summary-header">
+						<h2 class="catalog-summary-heder-title"><span>選べる</span><span>佐</span>賀<span>牛</span>カタログギフト</h2>
+						<div class="catalog-summary-header-coursename">
+							<p>7,000円コース</p>
+							<p>10,000円コース</p>
+							<p>14,000円コース</p>
+						</div>
+						<div class="catalog-summary-cooking-images">
+							<img src="<{$assets}>/img/neo-gift-explain-pc.png.webp" alt="焼肉調理イメージ画像">
+							<img src="<{$assets}>/img/neo-gift-explain-pc.png.webp" alt="ステーキ調理イメージ画像">
+							<img src="<{$assets}>/img/neo-gift-explain-pc.png.webp" alt="すき焼き調理イメージ画像">
+						</div>
+					</div>
+				</div>
+
 				<img src="<{$assets}>/img/neo-gift-explain-pc.png.webp" class="d-none d-lg-block w-100" alt="カタログギフトについて">
 				<img src="<{$assets}>/img/neo-gift-explain-sp.png.webp" class="d-lg-none d-block w-100" alt="カタログギフトについて">
 			<!-- //カタログギフトの場合 -->
@@ -144,7 +160,7 @@
 					<{elseif $smarty.get.gid == "2673108"}>
 					お肉の中でも国内トップクラスの品質を誇るこだわりの逸品。選び抜かれた厳選のお肉をご堪能ください。
 					<br>※10,800(税込)以上のご購入で送料無料でお届けします。
-					<{/if}>
+					<{/if}>product_list[] = product_list
 				</p>
 				<{/if}>
 			</div>
