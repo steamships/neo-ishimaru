@@ -86,6 +86,56 @@
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-03.webp" alt="ステーキ調理イメージ画像">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-04.webp" alt="すき焼き調理イメージ画像">
 						</div>
+						<div class="catalog-summary-text">
+							好きなときに、好きなものを。<br>
+							カタログギフトなら先様のご都合に合わせて受取が可能です。<br>
+							いつもお世話になているあの人に、感謝の気持ちと一緒に届けませんか。		
+						</div>
+						<div class="catalog-summary-merits">
+							<div class="catalog-summary-merits-circle">先様の好きな商品が選べる</div>
+							<div class="catalog-summary-merits-circle">好きなときに新鮮なまま受け取れる</div>
+							<div class="catalog-summary-merits-circle">先様の費用負担ゼロ</div>
+							<div class="catalog-summary-merits-circle">熨斗対応可能</div>
+						</div>
+						<div class="catalog-summary-recommend">
+							<div class="catalog-summary-recommend-texts">
+								<p>こんなときにおすすめ！</p>
+								<ul>
+									<li><img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">特別な日のお祝いに</li>
+									<li><img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">冠婚葬祭に</li>
+									<li><img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">お中元・お歳暮に</li>
+									<li><img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">イベントの景品に</li>
+								</ul>
+							</div>
+							<div class="catalog-summary-recommend-image">
+								<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-05.webp" alt="贈答イメージ画像">
+							</div>
+						</div>
+						<div class="catalog-summary-order">
+							<h3 class="catalog-summary-order-title">ご注文・ご利用方法</h3>
+							<div class="catalog-summary-order-processes">
+								<div class="catalog-summary-order-processes-block">
+									<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-06.webp" alt="スマホ操作イラスト画像">
+									<p><span>1</span>依頼主様</p>
+									<p>本ページより希望のギフトセットを選択。</p>
+								</div>
+								<div class="catalog-summary-order-processes-block">
+									<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-07.webp" alt="ギフト券イラスト画像">
+									<p><span>2</span>受取主様</p>
+									<p>ギフト券、申込みハガキの受取。</p>
+								</div>
+								<div class="catalog-summary-order-processes-block">
+									<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-08.webp" alt="お肉イラスト画像">
+									<p><span>3</span>受取主様</p>
+									<p>希望の商品の選択・申込み。</p>
+								</div>
+								<div class="catalog-summary-order-processes-block">
+									<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-09.webp" alt="商品イラスト画像">
+									<p><span>4</span>受取主様</p>
+									<p>商品の受け取り。</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -136,9 +186,7 @@
 				<{elseif $smarty.get.mode == "grp"}>
 				<p class="p-sub-category-description-textbox-text NotoSerifL d-inline">
 					<{if $smarty.get.gid == "2337960"}>
-					とても柔らかくキメの細かい肉質、口いっばいに広がる肉汁が特徴。1頭の牛からほんのわずかしか取れない希少部位です。
-					<{elseif $smarty.get.gid == "2337981"}>
-					赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。
+					とても柔らかくキメの細かい肉product_list[] = product_listシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。
 					<{elseif $smarty.get.gid == "2337989"}>
 					とろけるような程よい食感で濃厚な味わいが特徴の霜降り肉。しゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
 					<{elseif $smarty.get.gid == "2337999"}>
@@ -160,7 +208,7 @@
 					<{elseif $smarty.get.gid == "2673108"}>
 					お肉の中でも国内トップクラスの品質を誇るこだわりの逸品。選び抜かれた厳選のお肉をご堪能ください。
 					<br>※10,800(税込)以上のご購入で送料無料でお届けします。
-					<{/if}>product_list[] = product_list
+					<{/if}>
 				</p>
 				<{/if}>
 			</div>
