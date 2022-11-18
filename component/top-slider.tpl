@@ -14,12 +14,6 @@
 		</ol> -->
 		<div class="carousel-inner">
 			<div class="carousel-item active" data-bs-interval="6000">
-				<a href="https://www.instagram.com/p/Ck0DAnQNMUL" target="_blank" rel="noopener">
-					<img src="<{$assets}>/img/neo-slide-present202211-pc.webp" class="d-none d-lg-block w-100" alt="プレゼントキャンペーン">
-					<img src="<{$assets}>/img/neo-slide-present202211-sp.webp" class="d-lg-none d-block w-100" alt="プレゼントキャンペーン">
-				</a>
-			</div>
-			<div class="carousel-item" data-bs-interval="6000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">
 					<img src="<{$assets}>/img/neo-slide-8-pc.webp" class="d-none d-lg-block w-100" alt="カタログギフト">
 					<img src="<{$assets}>/img/neo-slide-8-sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
