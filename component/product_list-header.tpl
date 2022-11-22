@@ -74,12 +74,20 @@
 			<!-- カタログギフトの場合 -->
 			<{elseif $smarty.get.gid == "2750355"}>
 				<div class="catalog-summary-body">
-					<div calass="catalog-summary-header">
-						<h2 class="catalog-summary-heder-title"><span>選べる</span><span>佐</span>賀<span>牛</span>カタログギフト</h2>
-						<div class="catalog-summary-header-coursename">
-							<p>7,000円コース</p>
-							<p>10,000円コース</p>
-							<p>14,000円コース</p>
+					<div class="catalog-summary-header">
+						<div class="catalog-summary-header-wrap d-flex flex-wrap list-unstyled justify-content-start">
+							<h2 class="catalog-summary-header-wrap-title NotoSerifL">
+								<span>選べる</span>
+								<span class="NotoSerifSB">
+									佐<span class="">賀</span>牛
+								</span>
+								<span class="NotoSerifSB">カタログギフト</span>
+							</h2>
+							<div class="catalog-summary-header-wrap-coursename NotoSerifL">
+								<p class="ls-1 text-center">7,000円<span>コース</span></p>
+								<p class="ls-1 text-center">10,000円<span>コース</span></p>
+								<p class="ls-1 text-center">14,000円<span>コース</span></p>
+							</div>
 						</div>
 						<div class="catalog-summary-cooking-images">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-02.webp" alt="焼肉調理イメージ画像">

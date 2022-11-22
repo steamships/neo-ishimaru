@@ -190,4 +190,48 @@
 		display: block!important;
 		}
 	}
+	.catalog-summary-body {
+		.catalog-summary-header {
+			&-wrap {
+				&-title {
+					> span:first-of-type {
+						font-size: 3rem;
+						color: #A61D07;
+					}
+					> span:nth-of-type(2) {
+						font-size: 5rem;
+						color: #A61D07;
+						text-shadow: 3px 2px 3px #EB811A;
+					}
+					> span:nth-of-type(3) {
+						display: block;
+						font-size: 3rem;
+						color: #000;
+					}
+				}
+				&-coursename {
+					p {
+						color: #fff;
+						font-size: 2.5rem;
+						span {
+							font-size: 2rem;
+						}
+						&:nth-of-type(1) {
+							background-color: #6E8D30;
+							background: linear-gradient(to right, transparent 0%, #6E8D30 30%, #6E8D30 70%, transparent 100%);
+						}
+						&:nth-of-type(2) {
+							background-color: #A31F05;
+							background: linear-gradient(to right, transparent 0%, #A31F05 30%, #A31F05 70%, transparent 100%);	
+						}
+						&:nth-of-type(3) {
+							background-color: #D88921;
+							background: linear-gradient(to right, transparent 0%, #D88921 30%, #D88921 70%, transparent 100%);	
+						}
+					}
+				}
+			}
+		}
+
+	}
 }
