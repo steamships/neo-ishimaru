@@ -1,7 +1,7 @@
 <div id="freepage">
 	<div class="freepage-about">
 		<img class="d-none d-lg-block" src="<{$assets}>/img/neo-about-pc-01.png" alt="石丸について">
-		<div class="map-wrap d-none d-lg-block">
+		<div class="map-wrap mincho d-none d-lg-block">
 			<div class="map-wrap-item">
 			<h2 class="map-header"><img src="<{$assets}>/img/neo-about-header01.png" alt="石丸について"></h2>
 			<div class="map-item-wrap">
