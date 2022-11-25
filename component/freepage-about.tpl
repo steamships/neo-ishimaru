@@ -49,6 +49,6 @@
 			</div>
 			<!--map-wrap-item-->
 		</div>
-		<img class="d-block d-lg-none" src="<{$assets}>/img/neo-about-sp.png.webp" alt="石丸について">
+		<img class="d-block d-lg-none" src="<{$assets}>/img/neo-about-sp-01.webp" alt="石丸について">
 	</div>
 </div>
