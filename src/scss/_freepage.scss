@@ -20,25 +20,54 @@
 					margin-bottom: 2rem;
 					img{
 						zoom: .5;
+						@include media-breakpoint-down(lg){
+							zoom: 1;
+						}
 					}
 				}
 				&-item{
 					padding-top: 2rem;
 					margin-bottom: 3rem;
+					@include media-breakpoint-down(lg){
+						margin-bottom: 0;
+					}
 				}
 			}
 			.map-item-wrap{
 				display: flex;
 				justify-content: center;
+				@include media-breakpoint-down(lg){
+					flex-direction: column;
+				}
 				.map-item{
 					display: flex;
 					flex-direction: column;
 					justify-content: space-between;
+					@include media-breakpoint-down(lg){
+						margin-bottom: 2rem;
+					}
 					&:first-child{
 						margin-right: 2rem;
+						@include media-breakpoint-down(lg){
+							margin-right: 0;
+						}
 					}
 					&-info{
 						margin-bottom: 1rem;
+						@include media-breakpoint-down(lg){
+							text-align: center;
+						}
+					}
+					.map-shopname{
+						@include media-breakpoint-down(lg){
+							font-size: 1.5rem;
+						}
+					}
+					&-map{
+						width: 480px;
+						@include media-breakpoint-down(lg){
+							width: 100%;
+						}
 					}
 				}
 			}
