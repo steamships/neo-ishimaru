@@ -8,5 +8,35 @@
 				}
 			}
 		}
+		&-about {
+			.map-wrap{
+				.map-header{
+					text-align: center;
+					margin-bottom: 2rem;
+					img{
+						zoom: .5;
+					}
+				}
+				&-item{
+					padding-top: 2rem;
+					margin-bottom: 3rem;
+				}
+			}
+			.map-item-wrap{
+				display: flex;
+				justify-content: center;
+				.map-item{
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					&:first-child{
+						margin-right: 2rem;
+					}
+					&-info{
+						margin-bottom: 1rem;
+					}
+				}
+			}
+		}
 	}
 }
