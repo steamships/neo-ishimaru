@@ -60,6 +60,9 @@
 						@include media-breakpoint-down(lg){
 							text-align: center;
 						}
+						a{
+							text-decoration: none;
+						}
 					}
 					.map-shopname{
 						@include media-breakpoint-down(lg){

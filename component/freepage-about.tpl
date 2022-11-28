@@ -10,7 +10,7 @@
 					<div class="map-item-info">
 					<p class="map-shopname">黒毛和牛専門店 佐賀店</p>
 					<p class="map-address">〒840-0804 佐賀県佐賀市神野東1丁目32</p>
-					<p class="map-tel map-section-last">TEL:0952-30-0203</p>
+					<a class="map-tel map-section-last" href="tel:0952-30-0203">TEL:0952-30-0203</a>
 					</div>
 					<div class="map-item-map">
 					<iframe
@@ -40,14 +40,14 @@
 					<div class="map-item-info">
 						<p class="map-shopname map-headerline">上峰ミートセンター</p>
 						<p class="map-address">〒849-0123 佐賀県三養基郡上峰町大字坊所1603-1</p>
-						<p class="map-tel map-section-last">TEL:0952-20-8380</p>
+						<a class="map-tel map-section-last" href="tel:0952-20-8380">TEL:0952-20-8380</a>
 					</div>
 				</div>
 				<div class="map-item">
 					<div class="map-item-info">
 						<p class="map-shopname map-headerline">三養基ミートセンター</p>
 						<p class="map-address map-section-last">〒849-0101 佐賀県三養基郡みやき町原古賀7385-16</p>
-						<p class="map-tel map-section-last">TEL:0942-85-9529</p>
+						<a class="map-tel map-section-last" href="tel:0942-85-9529">TEL:0942-85-9529</a>
 					</div>
 				</div>
 			</div>
