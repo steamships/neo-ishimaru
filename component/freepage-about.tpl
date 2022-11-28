@@ -4,7 +4,7 @@
 		<img class="d-block d-lg-none" src="<{$assets}>/img/neo-about-sp-01.webp" alt="石丸について">
 		<div class="map-wrap mincho">
 			<div class="map-wrap-item">
-			<h2 class="map-header"><img src="<{$assets}>/img/neo-about-header01.png" alt="石丸について"></h2>
+			<h2 class="map-header"><img src="<{$assets}>/img/neo-about-header01.svg" style="max-width: 177px;" alt="石丸について" ></h2>
 			<div class="map-item-wrap">
 				<div class="map-item">
 					<div class="map-item-info">
@@ -34,7 +34,7 @@
 			</div>
 			</div><!--map-wrap-item-->
 			<div class="map-wrap-item">
-			<h2 class="map-header"><img  src="<{$assets}>/img/neo-about-header02.png" alt="石丸について"></h2>
+			<h2 class="map-header"><img  src="<{$assets}>/img/neo-about-header02.svg" style="max-width: 338px;" alt="石丸について"></h2>
 			<div class="map-item-wrap">
 				<div class="map-item">
 					<div class="map-item-info">
