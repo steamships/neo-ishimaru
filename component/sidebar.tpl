@@ -82,8 +82,21 @@
 						alt="" width="321">
 				<!-- </a> -->
 			</li>
-			<!-- お客さまの声 -->
+			<!-- 美味しいハンバーグの焼き方 -->
 			<li class="mt-2">
+				<div class="bb-1 mx-auto pb-1">
+					<a class=""
+						href="//www.saga-ishimaru.co.jp/?mode=f5">
+						<div class="d-flex justify-content-start align-items-center chevron-right">
+							<div class="me-auto NotoSerifSB fs-20px ls-1">
+								美味しい♪<br>ハンバーグの焼き方
+							</div>
+						</div>
+					</a>
+				</div>
+			</li>
+			<!-- お客さまの声 -->
+			<li>
 				<div class="bb-1 mx-auto pb-1">
 					<a class=""
 						href="//www.saga-ishimaru.co.jp/?mode=f2">
