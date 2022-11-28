@@ -19,7 +19,7 @@
 					text-align: center;
 					margin-bottom: 2rem;
 					img{
-						zoom: .5;
+						zoom: .75;
 						@include media-breakpoint-down(lg){
 							zoom: 1;
 						}
@@ -54,6 +54,9 @@
 					}
 					&-info{
 						margin-bottom: 1rem;
+						@include media-breakpoint-up(lg){
+							width: 480px;
+						}
 						@include media-breakpoint-down(lg){
 							text-align: center;
 						}
@@ -61,6 +64,13 @@
 					.map-shopname{
 						@include media-breakpoint-down(lg){
 							font-size: 1.5rem;
+						}
+					}
+					.map-headerline{
+						@include media-breakpoint-down(lg){
+							border-bottom: 1px solid #000;
+							margin-bottom: 1rem;
+							display: inline-block;
 						}
 					}
 					&-map{
