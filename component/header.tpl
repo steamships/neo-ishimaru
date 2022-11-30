@@ -33,7 +33,7 @@
 						HOW TO BAKE
 						<span class="d-lg-block NotoSerifL">ハンバーグの焼き方</span>
 					</a>
-				</li>				
+				</li>
 				<li class="nav-item">
 					<a class="nav-link TrajanSB">
 						BRAND
@@ -133,7 +133,7 @@
 					<!-- // 価格帯で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
+					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
 					<!-- ギフト券 -->
 						<ul class="g-sub-nav gift-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-start  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 							<li class="g-sub-nav-blists mx-lg-2 text-center">
@@ -168,7 +168,7 @@
 					<!-- // ふるさと納税リスト -->
 				</li>
 
-				
+
 				<li class="nav-item">
 					<a class="nav-link TrajanSB">SERVICE<span class="d-lg-block NotoSerifL">サービス</span></a>
 					<!-- サービスグループリスト -->
