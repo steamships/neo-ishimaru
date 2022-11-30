@@ -133,9 +133,12 @@
 					<!-- // 価格帯で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
+					<a class="nav-link TrajanSB">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
 					<!-- ギフト券 -->
 						<ul class="g-sub-nav gift-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-start  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
+							<li class="g-sub-nav-blists mx-lg-2 text-center">
+								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355"><span class="d-block text-center NotoSerifL">カタログギフト　詳細</span></a>
+							</li>
 							<li class="g-sub-nav-blists mx-lg-2 text-center">
 								<a class="g-sub-nav-blists-link mb-1 text-decoration-none d-inline-block" href="https://www.saga-ishimaru.co.jp/?pid=169230886"><span class="d-block text-center NotoSerifL">特選佐賀牛カタログギフトセット　7,000円コース</span></a>
 							</li>
