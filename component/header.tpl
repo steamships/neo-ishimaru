@@ -30,7 +30,7 @@
 				</li>
 				<li class="nav-item d-block d-lg-none">
 					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=f5">
-						HOW TO BAKE
+						HOW TO COOK
 						<span class="d-lg-block NotoSerifL">ハンバーグの焼き方</span>
 					</a>
 				</li>
