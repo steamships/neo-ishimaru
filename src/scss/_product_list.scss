@@ -190,48 +190,174 @@
 		display: block!important;
 		}
 	}
-	.catalog-summary-body {
-		.catalog-summary-header {
-			&-wrap {
-				&-title {
-					> span:first-of-type {
-						font-size: 3rem;
-						color: #A61D07;
-					}
-					> span:nth-of-type(2) {
-						font-size: 5rem;
-						color: #A61D07;
-						text-shadow: 3px 2px 3px #EB811A;
-					}
-					> span:nth-of-type(3) {
-						display: block;
-						font-size: 3rem;
-						color: #000;
+	.catalog-summary {
+		&-body {
+			background-image: url(../img/neo-catalog-back02.webp), url(../img/neo-catalog-back01.webp);
+			background-size: contain, 100% auto;
+			background-repeat: no-repeat, repeat;
+		}
+		&-header {
+			padding: 2rem 0 2rem 3rem;
+			&-title {
+				> span:first-of-type {
+					font-size: 3rem;
+					color: #A61D07;
+				}
+				> span:nth-of-type(2) {
+					line-height: .65;
+					font-size: 5rem;
+					color: #A61D07;
+					text-shadow: 3px 2px 3px #EB811A;
+					span {
+						vertical-align:-20%;
 					}
 				}
-				&-coursename {
-					p {
-						color: #fff;
-						font-size: 2.5rem;
-						span {
-							font-size: 2rem;
+				> span:nth-of-type(3) {
+					display: block;
+					font-size: 3.5rem;
+					color: #000;
+				}
+			}
+			&-coursename {
+				p {
+					color: #fff;
+					font-size: 2.5rem;
+					width: 145%;
+					margin-bottom: 9px;
+					line-height: 1.2;
+					span {
+						font-size: 2rem;
+					}
+					&:nth-of-type(1) {
+						background-color: #6E8D30;
+						background: linear-gradient(to right, transparent 0%, #6E8D30 30%, #6E8D30 70%, transparent 100%);
+					}
+					&:nth-of-type(2) {
+						background-color: #A31F05;
+						background: linear-gradient(to right, transparent 0%, #A31F05 30%, #A31F05 70%, transparent 100%);
+							
+					}
+					&:nth-of-type(3) {
+						background-color: #D88921;
+						background: linear-gradient(to right, transparent 0%, #D88921 30%, #D88921 70%, transparent 100%);
+						margin-bottom: 0px;	
+					}
+				}
+			}
+		}
+		&-cooking-images {
+			img {
+				width: calc(100% / 3 - 6px);
+			}
+		}
+		&-text {
+			letter-spacing: .5px;
+			line-height: 2;
+		}
+		&-merits {
+			$circle: 170px;
+			&-circle {
+				position: relative;
+				width: $circle;
+				height: $circle; 
+				background: linear-gradient(to bottom, #DEA42F, #A47E34); 
+				border-radius: 50%;
+				text-align: center;
+				&-inner {
+					width: 100%;
+					color: #fff;
+					position: absolute;
+					font-weight: 500;
+					top: 50%;
+					left: 50%;
+					-webkit-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+				}
+			}
+		}
+		&-recommend {
+			&-texts {
+				width: 50%;
+				p {
+					display: inline-block;
+					color: #A71C10;
+					font-size: 33px;
+					border-bottom: dotted 3.5px #A71C10;
+				}
+				ul {
+					li {
+						img {
+							width: 25px;
+							margin-right: 10px;
 						}
-						&:nth-of-type(1) {
-							background-color: #6E8D30;
-							background: linear-gradient(to right, transparent 0%, #6E8D30 30%, #6E8D30 70%, transparent 100%);
+						span {
+							margin-top: 5px;
+						}
+					}
+				}
+			}
+			&-image {
+				width: 48%;
+				margin-left: 2%;
+			}
+		}
+		&-order {
+			&-title {
+				font-size: 34px;
+				color: #A71C10;
+				border-top: 1px solid #A71C10;
+				border-bottom: 1px solid #A71C10;
+				padding: 1.4rem 0;
+				margin:0 3.5rem 2rem;
+			}
+			&-processes {
+				&-block {
+					width: 25%;
+					img {
+						width: 70%;
+					}
+					p {
+						position: relative;
+						font-size: 1.2rem;
+						margin: 0 1rem 1rem;
+						span {
+							color: #fff;
+							display: inline-block;
+							&:nth-of-type(1) {
+								position: absolute;
+								display: inline-block;
+								background-color: #000;
+								border-radius: 50%;
+								left: -10px;
+								width: 40px;
+								height: 40px;
+								top: -6px;
+								line-height: 40px;
+							}
+							&:nth-of-type(2) {
+								display: block;
+								background-color: #000;
+								border-radius: 9999px;
+								
+							}
+						}
+						&.first-elm {
+							span {
+								color: #fff;
+								&:nth-of-type(1) {
+									background-color: #a82319;
+								}
+								&:nth-of-type(2) {
+									background-color: #a82319;
+								}
+							}
 						}
 						&:nth-of-type(2) {
-							background-color: #A31F05;
-							background: linear-gradient(to right, transparent 0%, #A31F05 30%, #A31F05 70%, transparent 100%);	
-						}
-						&:nth-of-type(3) {
-							background-color: #D88921;
-							background: linear-gradient(to right, transparent 0%, #D88921 30%, #D88921 70%, transparent 100%);	
+							text-align: left;
 						}
 					}
 				}
 			}
 		}
-
 	}
 }

@@ -74,45 +74,65 @@
 			<!-- カタログギフトの場合 -->
 			<{elseif $smarty.get.gid == "2750355"}>
 				<div class="catalog-summary-body">
-					<div class="catalog-summary-header">
-						<div class="catalog-summary-header-wrap d-flex flex-wrap list-unstyled justify-content-start">
-							<h2 class="catalog-summary-header-wrap-title NotoSerifL">
-								<span>選べる</span>
+					<div class="catalog-summary-inner">
+						<div class="catalog-summary-header d-flex flex-wrap justify-content-start">
+							<h2 class="catalog-summary-header-title NotoSerifL">
+								<span class="NotoSerifSB">選べる</span>
 								<span class="NotoSerifSB">
-									佐<span class="">賀</span>牛
+									佐<span>賀</span>牛</span>
 								</span>
-								<span class="NotoSerifSB">カタログギフト</span>
+								<span class="NotoSerifSB mt-1">カタログギフト</span>
 							</h2>
-							<div class="catalog-summary-header-wrap-coursename NotoSerifL">
-								<p class="ls-1 text-center">7,000円<span>コース</span></p>
-								<p class="ls-1 text-center">10,000円<span>コース</span></p>
-								<p class="ls-1 text-center">14,000円<span>コース</span></p>
+							<div class="catalog-summary-header-coursename NotoSerifL">
+								<p class="ls-1 NotoSerifSB text-center">7,000円<span>コース</span></p>
+								<p class="ls-1 NotoSerifSB text-center">10,000円<span>コース</span></p>
+								<p class="ls-1 NotoSerifSB text-center">14,000円<span>コース</span></p>
 							</div>
 						</div>
-						<div class="catalog-summary-cooking-images">
+						<div class="catalog-summary-cooking-images px-3 mb-1 d-flex flex-wrap justify-content-between">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-02.webp" alt="焼肉調理イメージ画像">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-03.webp" alt="ステーキ調理イメージ画像">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-04.webp" alt="すき焼き調理イメージ画像">
 						</div>
-						<div class="catalog-summary-text">
+						<div class="catalog-summary-text text-center NotoSerifL fs-22px mb-1 px-3">
 							好きなときに、好きなものを。<br>
 							カタログギフトなら先様のご都合に合わせて受取が可能です。<br>
-							いつもお世話になているあの人に、感謝の気持ちと一緒に届けませんか。		
+							いつもお世話になっているあの人に、感謝の気持ちと一緒に届けませんか。		
 						</div>
-						<div class="catalog-summary-merits">
-							<div class="catalog-summary-merits-circle">先様の好きな商品が選べる</div>
-							<div class="catalog-summary-merits-circle">好きなときに新鮮なまま受け取れる</div>
-							<div class="catalog-summary-merits-circle">先様の費用負担ゼロ</div>
-							<div class="catalog-summary-merits-circle">熨斗対応可能</div>
+						<div class="catalog-summary-merits d-flex flex-wrap justify-content-between px-3 mb-2">
+							<div class="catalog-summary-merits-circle fs-22px">
+								<p class="catalog-summary-merits-circle-inner">先様の好き<br>な商品が選べる</p>
+							</div>
+							<div class="catalog-summary-merits-circle fs-22px">
+								<p class="catalog-summary-merits-circle-inner">好きなときに<br>新鮮なまま<br>受け取れる</p>
+							</div>
+							<div class="catalog-summary-merits-circle fs-22px">
+								<p class="catalog-summary-merits-circle-inner">先様の<br>費用負担ゼロ</p>
+							</div>
+							<div class="catalog-summary-merits-circle">
+								<p class="catalog-summary-merits-circle-inner">熨斗対応<br>可能</p>
+							</div>
 						</div>
-						<div class="catalog-summary-recommend">
+						<div class="catalog-summary-recommend d-flex flex-wrap justify-content-between px-3 mb-2">
 							<div class="catalog-summary-recommend-texts">
-								<p>こんなときにおすすめ！</p>
-								<ul>
-									<li><img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">特別な日のお祝いに</li>
-									<li><img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">冠婚葬祭に</li>
-									<li><img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">お中元・お歳暮に</li>
-									<li><img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">イベントの景品に</li>
+								<p class="NotoSerifL mt-1">こんなときにおすすめ！</p>
+								<ul class="NotoSerifL list-unstyled mx-1 mt-2">
+									<li class="d-flex flex-wrap justify-content-first">
+										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
+										<span class="fs-28px">特別な日のお祝いに</span>
+									</li>
+									<li class="d-flex flex-wrap justify-content-first">
+										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
+										<span class="fs-28px">冠婚葬祭に</span>
+									</li>
+									<li class="d-flex flex-wrap justify-content-first">
+										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
+										<span class="fs-28px">お中元・お歳暮に</span>
+									</li>
+									<li class="d-flex flex-wrap justify-content-first">
+										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
+										<span class="fs-28px">イベントの景品に</span>
+									</li>
 								</ul>
 							</div>
 							<div class="catalog-summary-recommend-image">
@@ -120,27 +140,27 @@
 							</div>
 						</div>
 						<div class="catalog-summary-order">
-							<h3 class="catalog-summary-order-title">ご注文・ご利用方法</h3>
-							<div class="catalog-summary-order-processes">
-								<div class="catalog-summary-order-processes-block">
-									<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-06.webp" alt="スマホ操作イラスト画像">
-									<p><span>1</span>依頼主様</p>
-									<p>本ページより希望のギフトセットを選択。</p>
+							<h3 class="catalog-summary-order-title text-center NotoSerifSB">ご注文・ご利用方法</h3>
+							<div class="catalog-summary-order-processes d-flex flex-wrap justify-content-between px-2 pb-2 NotoSerifL">
+								<div class="catalog-summary-order-processes-block text-center">
+									<img class="mb-1" src="<{$assets}>/img/neo-catalog-cooking-img-pc-06.webp" alt="スマホ操作イラスト画像">
+									<p class="first-elm"><span>1</span><span>依頼主様</span></p>
+									<p class="">本ページより希望のギフトセットを選択。</p>
 								</div>
-								<div class="catalog-summary-order-processes-block">
-									<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-07.webp" alt="ギフト券イラスト画像">
-									<p><span>2</span>受取主様</p>
-									<p>ギフト券、申込みハガキの受取。</p>
+								<div class="catalog-summary-order-processes-block text-center">
+									<img class="mb-1" src="<{$assets}>/img/neo-catalog-cooking-img-pc-07.webp" alt="ギフト券イラスト画像">
+									<p><span>2</span><span>受取主様</span></p>
+									<p class="">ギフト券、申込みハガキの受取。</p>
 								</div>
-								<div class="catalog-summary-order-processes-block">
-									<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-08.webp" alt="お肉イラスト画像">
-									<p><span>3</span>受取主様</p>
-									<p>希望の商品の選択・申込み。</p>
+								<div class="catalog-summary-order-processes-block text-center">
+									<img class="mb-1" src="<{$assets}>/img/neo-catalog-cooking-img-pc-08.webp" alt="お肉イラスト画像">
+									<p><span>3</span><span>受取主様</span></p>
+									<p class="">希望の商品の選択・申込み。</p>
 								</div>
-								<div class="catalog-summary-order-processes-block">
-									<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-09.webp" alt="商品イラスト画像">
-									<p><span>4</span>受取主様</p>
-									<p>商品の受け取り。</p>
+								<div class="catalog-summary-order-processes-block text-center">
+									<img class="mb-1" src="<{$assets}>/img/neo-catalog-cooking-img-pc-09.webp" alt="商品イラスト画像">
+									<p><span>4</span><span>受取主様</span></p>
+									<p class="">商品の受け取り。</p>
 								</div>
 							</div>
 						</div>
