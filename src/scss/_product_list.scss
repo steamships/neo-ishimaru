@@ -253,6 +253,7 @@
 		&-text {
 			letter-spacing: .5px;
 			line-height: 2;
+			font-size: 1.3rem;
 		}
 		&-merits {
 			$circle: 170px;
@@ -267,7 +268,8 @@
 					width: 100%;
 					color: #fff;
 					position: absolute;
-					font-weight: 500;
+					font-weight: 400;
+					font-size: 1.3rem;
 					top: 50%;
 					left: 50%;
 					-webkit-transform: translate(-50%, -50%);
@@ -286,12 +288,14 @@
 				}
 				ul {
 					li {
+						margin-bottom: .6rem;
 						img {
 							width: 25px;
 							margin-right: 10px;
 						}
 						span {
 							margin-top: 5px;
+							font-size: 28px;
 						}
 					}
 				}

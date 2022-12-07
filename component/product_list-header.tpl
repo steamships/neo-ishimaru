@@ -94,19 +94,19 @@
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-03.webp" alt="ステーキ調理イメージ画像">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-04.webp" alt="すき焼き調理イメージ画像">
 						</div>
-						<div class="catalog-summary-text text-center NotoSerifL fs-22px mb-1 px-3">
+						<div class="catalog-summary-text text-center NotoSerifL mb-1 px-3">
 							好きなときに、好きなものを。<br>
 							カタログギフトなら先様のご都合に合わせて受取が可能です。<br>
 							いつもお世話になっているあの人に、感謝の気持ちと一緒に届けませんか。		
 						</div>
 						<div class="catalog-summary-merits d-flex flex-wrap justify-content-between px-3 mb-2">
-							<div class="catalog-summary-merits-circle fs-22px">
-								<p class="catalog-summary-merits-circle-inner">先様の好き<br>な商品が選べる</p>
+							<div class="catalog-summary-merits-circle">
+								<p class="catalog-summary-merits-circle-inner">先様の好きな<br>商品が選べる</p>
 							</div>
-							<div class="catalog-summary-merits-circle fs-22px">
+							<div class="catalog-summary-merits-circle">
 								<p class="catalog-summary-merits-circle-inner">好きなときに<br>新鮮なまま<br>受け取れる</p>
 							</div>
-							<div class="catalog-summary-merits-circle fs-22px">
+							<div class="catalog-summary-merits-circle">
 								<p class="catalog-summary-merits-circle-inner">先様の<br>費用負担ゼロ</p>
 							</div>
 							<div class="catalog-summary-merits-circle">
@@ -114,24 +114,24 @@
 							</div>
 						</div>
 						<div class="catalog-summary-recommend d-flex flex-wrap justify-content-between px-3 mb-2">
-							<div class="catalog-summary-recommend-texts">
-								<p class="NotoSerifL mt-1">こんなときにおすすめ！</p>
-								<ul class="NotoSerifL list-unstyled mx-1 mt-2">
+							<div class="catalog-summary-recommend-texts NotoSerifSB">
+								<p class="mt-1">こんなときにおすすめ！</p>
+								<ul class="list-unstyled mx-1 mt-2">
 									<li class="d-flex flex-wrap justify-content-first">
 										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
-										<span class="fs-28px">特別な日のお祝いに</span>
+										<span class="">特別な日のお祝いに</span>
 									</li>
 									<li class="d-flex flex-wrap justify-content-first">
 										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
-										<span class="fs-28px">冠婚葬祭に</span>
+										<span class="">冠婚葬祭に</span>
 									</li>
 									<li class="d-flex flex-wrap justify-content-first">
 										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
-										<span class="fs-28px">お中元・お歳暮に</span>
+										<span class="">お中元・お歳暮に</span>
 									</li>
 									<li class="d-flex flex-wrap justify-content-first">
 										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
-										<span class="fs-28px">イベントの景品に</span>
+										<span class="">イベントの景品に</span>
 									</li>
 								</ul>
 							</div>
