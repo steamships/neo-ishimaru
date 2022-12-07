@@ -75,20 +75,50 @@
 			<{elseif $smarty.get.gid == "2750355"}>
 				<div class="catalog-summary-body">
 					<div class="catalog-summary-inner">
-						<div class="catalog-summary-header d-flex flex-wrap justify-content-start">
+						<div class="catalog-summary-header">
 							<h2 class="catalog-summary-header-title NotoSerifL">
 								<span class="NotoSerifSB">選べる</span>
 								<span class="NotoSerifSB">
 									佐<span>賀</span>牛</span>
 								</span>
-								<span class="NotoSerifSB mt-1">カタログギフト</span>
+								<span class="NotoSerifSB">カタログギフト</span>
 							</h2>
 							<div class="catalog-summary-header-coursename NotoSerifL">
-								<p class="ls-1 NotoSerifSB text-center">7,000円<span>コース</span></p>
-								<p class="ls-1 NotoSerifSB text-center">10,000円<span>コース</span></p>
-								<p class="ls-1 NotoSerifSB text-center">14,000円<span>コース</span></p>
+								<div class="catalog-summary-header-coursename-img">
+									<img src="<{$assets}>/img/neo-catalog-ticket-img-sp.webp">
+								</div>
+								<div class="catalog-summary-header-coursename-wrap">
+									<p class="ls-1 NotoSerifSB text-center">7,000円<span>コース</span></p>
+									<p class="ls-1 NotoSerifSB text-center">10,000円<span>コース</span></p>
+									<p class="ls-1 NotoSerifSB text-center">14,000円<span>コース</span></p>
+								</div>
 							</div>
 						</div>
+						<!-- SP -->
+						<div class="catalog-summary-catch-sp text-center">
+							<img src="<{$assets}>/img/neo-catalog-cooking-img-sp-catch.webp" alt="カタログギフトキャッチ画像">
+						</div>
+						<div class="catalog-summary-cooking-images-sp NotoSerifSB">
+							<div class="catalog-summary-cooking-images-sp-block">
+								<p>先様が好きな<br>商品を選べます。</p>
+								<img src="<{$assets}>/img/neo-catalog-cooking-img-sp-02.webp" alt="焼肉調理イメージ画像">
+							</div>
+							<div class="catalog-summary-cooking-images-sp-block">
+								<p>新鮮佐賀牛を<br>新鮮な状態で<br>お届けします。</p>
+								<img src="<{$assets}>/img/neo-catalog-cooking-img-sp-04.webp" alt="すき焼き調理イメージ画像">
+							</div>
+						</div>
+						<div class="catalog-summary-recommend-sp text-center">
+							<p class="NotoSerifSB">特別な日のお祝いなどに<br>いかがですか？</p>
+							<img class="" src="<{$assets}>/img/neo-catalog-cooking-img-sp-05.webp" alt="ステーキ、焼肉画像">
+							<p class="d-flex">
+								<span class="d-inline-block">※</span>
+								<span class="d-inline-block">受取主様が費用を負担いただくことはございません。</span>
+							</p>
+						</div>
+						<!-- //SP -->
+
+						<!-- PC -->
 						<div class="catalog-summary-cooking-images px-3 mb-1 d-flex flex-wrap justify-content-between">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-02.webp" alt="焼肉調理イメージ画像">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-03.webp" alt="ステーキ調理イメージ画像">
@@ -164,11 +194,9 @@
 								</div>
 							</div>
 						</div>
+						<!-- //PC -->
 					</div>
 				</div>
-
-				<img src="<{$assets}>/img/neo-gift-explain-pc.png.webp" class="d-none d-lg-block w-100" alt="カタログギフトについて">
-				<img src="<{$assets}>/img/neo-gift-explain-sp.png.webp" class="d-lg-none d-block w-100" alt="カタログギフトについて">
 			<!-- //カタログギフトの場合 -->
 			<{else}>
 				<{section name=num loop=$group}>
