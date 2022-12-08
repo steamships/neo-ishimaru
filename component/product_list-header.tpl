@@ -73,8 +73,130 @@
 			<!-- // 価格で選ぶグループリスト -->
 			<!-- カタログギフトの場合 -->
 			<{elseif $smarty.get.gid == "2750355"}>
-				<img src="<{$assets}>/img/neo-gift-explain-pc.png.webp" class="d-none d-lg-block w-100" alt="カタログギフトについて">
-				<img src="<{$assets}>/img/neo-gift-explain-sp.png.webp" class="d-lg-none d-block w-100" alt="カタログギフトについて">
+				<div class="catalog-summary-body">
+					<div class="catalog-summary-inner">
+						<div class="catalog-summary-header">
+							<h2 class="catalog-summary-header-title NotoSerifL">
+								<span class="NotoSerifSB">選べる</span>
+								<span class="NotoSerifSB">
+									佐<span>賀</span>牛</span>
+								</span>
+								<span class="NotoSerifSB">カタログギフト</span>
+							</h2>
+							<div class="catalog-summary-header-coursename NotoSerifL">
+								<div class="catalog-summary-header-coursename-img">
+									<img src="<{$assets}>/img/neo-catalog-ticket-img-sp.webp">
+								</div>
+								<div class="catalog-summary-header-coursename-wrap">
+									<p class="ls-1 NotoSerifSB text-center">7,000円<span>コース</span></p>
+									<p class="ls-1 NotoSerifSB text-center">10,000円<span>コース</span></p>
+									<p class="ls-1 NotoSerifSB text-center">14,000円<span>コース</span></p>
+								</div>
+							</div>
+						</div>
+						<!-- SP -->
+						<div class="catalog-summary-catch-sp text-center">
+							<img src="<{$assets}>/img/neo-catalog-cooking-img-sp-catch.webp" alt="カタログギフトキャッチ画像">
+						</div>
+						<div class="catalog-summary-cooking-images-sp NotoSerifSB">
+							<div class="catalog-summary-cooking-images-sp-block">
+								<p>先様が好きな<br>商品を選べます。</p>
+								<img src="<{$assets}>/img/neo-catalog-cooking-img-sp-02.webp" alt="焼肉調理イメージ画像">
+							</div>
+							<div class="catalog-summary-cooking-images-sp-block">
+								<p>新鮮佐賀牛を<br>新鮮な状態で<br>お届けします。</p>
+								<img src="<{$assets}>/img/neo-catalog-cooking-img-sp-04.webp" alt="すき焼き調理イメージ画像">
+							</div>
+						</div>
+						<div class="catalog-summary-recommend-sp text-center">
+							<p class="NotoSerifSB">特別な日のお祝いなどに<br>いかがですか？</p>
+							<img class="" src="<{$assets}>/img/neo-catalog-cooking-img-sp-05.webp" alt="ステーキ、焼肉画像">
+							<p class="d-flex NotoSerifSB">
+								<span class="d-inline-block">※</span>
+								<span class="d-inline-block">受取主様が費用を負担いただくことはございません。</span>
+							</p>
+						</div>
+						<!-- //SP -->
+
+						<!-- PC -->
+						<div class="catalog-summary-cooking-images px-3 mb-1 d-flex flex-wrap justify-content-between">
+							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-02.webp" alt="焼肉調理イメージ画像">
+							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-03.webp" alt="ステーキ調理イメージ画像">
+							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-04.webp" alt="すき焼き調理イメージ画像">
+						</div>
+						<div class="catalog-summary-text text-center NotoSerifL mb-1 px-3">
+							好きなときに、好きなものを。<br>
+							カタログギフトなら先様のご都合に合わせて受取が可能です。<br>
+							いつもお世話になっているあの人に、感謝の気持ちと一緒に届けませんか。		
+						</div>
+						<div class="catalog-summary-merits d-flex flex-wrap justify-content-between px-3 mb-2">
+							<div class="catalog-summary-merits-circle">
+								<p class="catalog-summary-merits-circle-inner">先様の好きな<br>商品が選べる</p>
+							</div>
+							<div class="catalog-summary-merits-circle">
+								<p class="catalog-summary-merits-circle-inner">好きなときに<br>新鮮なまま<br>受け取れる</p>
+							</div>
+							<div class="catalog-summary-merits-circle">
+								<p class="catalog-summary-merits-circle-inner">先様の<br>費用負担ゼロ</p>
+							</div>
+							<div class="catalog-summary-merits-circle">
+								<p class="catalog-summary-merits-circle-inner">熨斗対応<br>可能</p>
+							</div>
+						</div>
+						<div class="catalog-summary-recommend d-flex flex-wrap justify-content-between px-3 mb-2">
+							<div class="catalog-summary-recommend-texts NotoSerifSB">
+								<p class="mt-1">こんなときにおすすめ！</p>
+								<ul class="list-unstyled mx-1 mt-2">
+									<li class="d-flex flex-wrap justify-content-first">
+										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
+										<span class="">特別な日のお祝いに</span>
+									</li>
+									<li class="d-flex flex-wrap justify-content-first">
+										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
+										<span class="">冠婚葬祭に</span>
+									</li>
+									<li class="d-flex flex-wrap justify-content-first">
+										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
+										<span class="">お中元・お歳暮に</span>
+									</li>
+									<li class="d-flex flex-wrap justify-content-first">
+										<img src="<{$assets}>/img/neo-catalog-check.svg" alt="チェックボックス">
+										<span class="">イベントの景品に</span>
+									</li>
+								</ul>
+							</div>
+							<div class="catalog-summary-recommend-image">
+								<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-05.webp" alt="贈答イメージ画像">
+							</div>
+						</div>
+						<div class="catalog-summary-order">
+							<h3 class="catalog-summary-order-title text-center NotoSerifSB">ご注文・ご利用方法</h3>
+							<div class="catalog-summary-order-processes d-flex flex-wrap justify-content-between px-2 pb-2 NotoSerifL">
+								<div class="catalog-summary-order-processes-block text-center">
+									<img class="mb-1" src="<{$assets}>/img/neo-catalog-cooking-img-pc-06.webp" alt="スマホ操作イラスト画像">
+									<p class="first-elm"><span>1</span><span>依頼主様</span></p>
+									<p class="">本ページより希望のギフトセットを選択。</p>
+								</div>
+								<div class="catalog-summary-order-processes-block text-center">
+									<img class="mb-1" src="<{$assets}>/img/neo-catalog-cooking-img-pc-07.webp" alt="ギフト券イラスト画像">
+									<p><span>2</span><span>受取主様</span></p>
+									<p class="">ギフト券、申込みハガキの受取。</p>
+								</div>
+								<div class="catalog-summary-order-processes-block text-center">
+									<img class="mb-1" src="<{$assets}>/img/neo-catalog-cooking-img-pc-08.webp" alt="お肉イラスト画像">
+									<p><span>3</span><span>受取主様</span></p>
+									<p class="">希望の商品の選択・申込み。</p>
+								</div>
+								<div class="catalog-summary-order-processes-block text-center">
+									<img class="mb-1" src="<{$assets}>/img/neo-catalog-cooking-img-pc-09.webp" alt="商品イラスト画像">
+									<p><span>4</span><span>受取主様</span></p>
+									<p class="">商品の受け取り。</p>
+								</div>
+							</div>
+						</div>
+						<!-- //PC -->
+					</div>
+				</div>
 			<!-- //カタログギフトの場合 -->
 			<{else}>
 				<{section name=num loop=$group}>
@@ -120,9 +242,7 @@
 				<{elseif $smarty.get.mode == "grp"}>
 				<p class="p-sub-category-description-textbox-text NotoSerifL d-inline">
 					<{if $smarty.get.gid == "2337960"}>
-					とても柔らかくキメの細かい肉質、口いっばいに広がる肉汁が特徴。1頭の牛からほんのわずかしか取れない希少部位です。
-					<{elseif $smarty.get.gid == "2337981"}>
-					赤身の部分は柔らかく、適度に脂のサシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。
+					とても柔らかくキメの細かい肉product_list[] = product_listシが入ってきめ細かな霜降りになっているのが特徴。牛肉の脂の甘みとコクの深い旨味を楽しむには最適の部位。
 					<{elseif $smarty.get.gid == "2337989"}>
 					とろけるような程よい食感で濃厚な味わいが特徴の霜降り肉。しゃぶしゃぶ、すき焼きなどの鍋物に最適なお肉。
 					<{elseif $smarty.get.gid == "2337999"}>

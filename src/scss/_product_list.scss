@@ -190,4 +190,366 @@
 		display: block!important;
 		}
 	}
+	/* カタログギフト */
+	.catalog-summary {
+		&-body {
+			background-image: url(../img/neo-catalog-back02.webp), url(../img/neo-catalog-back01.webp);
+			background-size: contain, 60% auto;
+			background-repeat: no-repeat, repeat;
+			background-color: #f9f5ef;
+		}
+		&-header {
+			display: flex;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			flex-direction: row;
+			padding: 2rem 0 2rem 3rem;
+			@include media-breakpoint-down(lg) {
+				padding: 2rem 0 0 0;
+				display: inherit;
+				text-align: center;
+			}
+			&-title {
+				@include media-breakpoint-down(lg) {
+					text-align: center;
+					margin-bottom: 4vw;
+				}
+				> span:first-of-type {
+					font-size: 3rem;
+					color: #A61D07;
+					@include media-breakpoint-down(lg) {
+						font-size: 9.5vw;
+					}
+				}
+				> span:nth-of-type(2) {
+					line-height: .65;
+					font-size: 5rem;
+					color: #A61D07;
+					text-shadow: 3px 2px 3px #EB811A;
+					@include media-breakpoint-down(lg) {
+						font-size: 15vw;
+					}
+					span {
+						vertical-align:-20%;
+					}
+				}
+				> span:nth-of-type(3) {
+					display: block;
+					font-size: 3.5rem;
+					color: #000;
+					margin-top: 1rem;
+					@include media-breakpoint-down(lg) {
+						font-size: 11vw;
+						margin-top: 3.5vw;
+					}
+				}
+			}
+			&-coursename {
+				@include media-breakpoint-down(lg) {
+					display: flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					margin-bottom: 7.5vw;
+				}
+				&-wrap {
+					@include media-breakpoint-down(lg) {
+						width: 63%;
+					}
+					p {
+						color: #fff;
+						font-size: 2.5rem;
+						width: 145%;
+						margin-bottom: 9px;
+						line-height: 1.2;
+						@include media-breakpoint-down(lg) {
+							font-size: 6vw;
+							width: 100%;
+						}
+						span {
+							font-size: 2rem;
+							@include media-breakpoint-down(lg) {
+								font-size: 4.5vw;
+							}
+						}
+						&:nth-of-type(1) {
+							background-color: #6E8D30;
+							background: linear-gradient(to right, transparent 0%, #6E8D30 30%, #6E8D30 70%, transparent 100%);
+						}
+						&:nth-of-type(2) {
+							background-color: #A31F05;
+							background: linear-gradient(to right, transparent 0%, #A31F05 30%, #A31F05 70%, transparent 100%);
+								
+						}
+						&:nth-of-type(3) {
+							background-color: #D88921;
+							background: linear-gradient(to right, transparent 0%, #D88921 30%, #D88921 70%, transparent 100%);
+							margin-bottom: 0px;	
+						}
+					}
+				}
+				&-img {
+					display: none;
+					@include media-breakpoint-down(lg) {
+						display: block;
+						width: 30%;
+					}
+					img {
+						width: 94%;
+					}
+				}
+			}
+		}
+		&-catch-sp, &-cooking-images-sp, &-recommend-sp {
+			display: none;
+			@include media-breakpoint-down(lg) {
+				display: block;
+			}
+		}
+		&-catch-sp {
+			margin-bottom: 7vw;
+			img {
+				width: 92%;
+			}
+		}
+		&-cooking-images-sp {
+			color: #464439;
+			margin-bottom: 10vw;
+			&-block {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				&:nth-of-type(1) {
+					flex-direction: row-reverse;
+					margin-bottom: 4vw;
+					p {
+						&::before, &::after {
+							position: absolute;
+							content: '';
+							display: inline-block;
+							background-size: contain;
+							vertical-align: middle;
+							background-repeat: no-repeat;
+						}
+						&::before {
+							left: -9%;
+							top: 5%;
+							width: 19.5vw;
+							height: 10vw;					
+							background-image: url(../img/neo-catalog-pattern-img1-sp.webp);
+						}
+						&::after {
+							right: 21%;
+							bottom: -22%;
+							width: 32vw;
+							height: 20vw;
+							background-image: url(../img/neo-catalog-pattern-img2-sp.webp);
+							z-index: -1;
+						}
+					} 
+				}
+				&:nth-of-type(2) {
+					p {
+						&::before {
+							position: absolute;
+							content: '';
+							display: inline-block;
+							background-size: contain;
+							vertical-align: middle;
+							background-repeat: no-repeat;
+							left: 10%;
+							bottom: -43%;
+							width: 32vw;
+							height: 20vw;				
+							background-image: url(../img/neo-catalog-pattern-img2-sp.webp);
+							z-index: -1;
+						}
+					} 
+				}
+				p {
+					z-index: 10;
+					text-align: center;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					position: relative;
+					width: 48%;
+					font-size: 4.7vw;
+				}
+				img {
+					width: 52%;
+				}
+			}
+		}
+		&-recommend-sp {
+			margin: 0 5.5vw;
+			padding-bottom: 8vw;
+			p {
+				&:nth-of-type(1) {
+					color: #A71C10;
+					font-size: 5.6vw;
+					letter-spacing: 1.5px;
+					margin-bottom: 3.4vw;
+					position: relative;
+					text-shadow: 1px 1px 0px #d5c38d;
+					&::before {
+						position: absolute;
+						content: '';
+						display: inline-block;
+						background-size: contain;
+						vertical-align: middle;
+						background-repeat: no-repeat;
+						right: 0%;
+						top: 72%;
+						width: 32vw;
+						height: 20vw;				
+						background-image: url(../img/neo-catalog-pattern-img2-sp.webp);
+					}
+				}
+				&:nth-of-type(2) {
+					color: #464439;
+					text-align: left!important;
+					font-size: 4.4vw;
+				}
+			}
+			img {
+				filter: drop-shadow(8px 9px 6px #c6ba9a);
+				margin-bottom: 6vw;
+			}
+		}
+		&-cooking-images {
+			@include media-breakpoint-down(lg) {
+				display: none!important;
+			}
+			img {
+				width: calc(100% / 3 - 6px);
+			}
+		}
+		&-text {
+			@include media-breakpoint-down(lg) {
+				display: none!important;
+			}
+			letter-spacing: .5px;
+			line-height: 2;
+			font-size: 1.3rem;
+		}
+		&-merits {
+			@include media-breakpoint-down(lg) {
+				display: none!important;
+			}
+			$circle: 170px;
+			&-circle {
+				position: relative;
+				width: $circle;
+				height: $circle; 
+				background: linear-gradient(to bottom, #DEA42F, #A47E34); 
+				border-radius: 50%;
+				text-align: center;
+				&-inner {
+					width: 100%;
+					color: #fff;
+					position: absolute;
+					font-weight: 400;
+					font-size: 1.3rem;
+					top: 50%;
+					left: 50%;
+					-webkit-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+				}
+			}
+		}
+		&-recommend {
+			@include media-breakpoint-down(lg) {
+				display: none!important;
+			}
+			&-texts {
+				width: 50%;
+				p {
+					display: inline-block;
+					color: #A71C10;
+					font-size: 33px;
+					border-bottom: dotted 3.5px #A71C10;
+				}
+				ul {
+					li {
+						margin-bottom: .6rem;
+						img {
+							width: 25px;
+							margin-right: 10px;
+						}
+						span {
+							margin-top: 5px;
+							font-size: 28px;
+						}
+					}
+				}
+			}
+			&-image {
+				width: 48%;
+				margin-left: 2%;
+			}
+		}
+		&-order {
+			@include media-breakpoint-down(lg) {
+				display: none!important;
+			}
+			&-title {
+				font-size: 34px;
+				color: #A71C10;
+				border-top: 1px solid #A71C10;
+				border-bottom: 1px solid #A71C10;
+				padding: 1.4rem 0;
+				margin:0 3.5rem 2rem;
+			}
+			&-processes {
+				&-block {
+					width: 25%;
+					img {
+						width: 70%;
+					}
+					p {
+						position: relative;
+						font-size: 1.2rem;
+						margin: 0 1rem 1rem;
+						span {
+							color: #fff;
+							display: inline-block;
+							&:nth-of-type(1) {
+								position: absolute;
+								display: inline-block;
+								background-color: #000;
+								border-radius: 50%;
+								left: -10px;
+								width: 40px;
+								height: 40px;
+								top: -6px;
+								line-height: 40px;
+							}
+							&:nth-of-type(2) {
+								display: block;
+								background-color: #000;
+								border-radius: 9999px;
+								
+							}
+						}
+						&.first-elm {
+							span {
+								color: #fff;
+								&:nth-of-type(1) {
+									background-color: #a82319;
+								}
+								&:nth-of-type(2) {
+									background-color: #a82319;
+								}
+							}
+						}
+						&:nth-of-type(2) {
+							text-align: left;
+						}
+					}
+				}
+			}
+		}
+	}
+	/* //カタログギフト */
 }
