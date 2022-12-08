@@ -111,7 +111,7 @@
 						<div class="catalog-summary-recommend-sp text-center">
 							<p class="NotoSerifSB">特別な日のお祝いなどに<br>いかがですか？</p>
 							<img class="" src="<{$assets}>/img/neo-catalog-cooking-img-sp-05.webp" alt="ステーキ、焼肉画像">
-							<p class="d-flex">
+							<p class="d-flex NotoSerifSB">
 								<span class="d-inline-block">※</span>
 								<span class="d-inline-block">受取主様が費用を負担いただくことはございません。</span>
 							</p>

@@ -190,11 +190,13 @@
 		display: block!important;
 		}
 	}
+	/* カタログギフト */
 	.catalog-summary {
 		&-body {
 			background-image: url(../img/neo-catalog-back02.webp), url(../img/neo-catalog-back01.webp);
-			background-size: contain, 100% auto;
+			background-size: contain, 60% auto;
 			background-repeat: no-repeat, repeat;
+			background-color: #f9f5ef;
 		}
 		&-header {
 			display: flex;
@@ -319,13 +321,58 @@
 				&:nth-of-type(1) {
 					flex-direction: row-reverse;
 					margin-bottom: 4vw;
+					p {
+						&::before, &::after {
+							position: absolute;
+							content: '';
+							display: inline-block;
+							background-size: contain;
+							vertical-align: middle;
+							background-repeat: no-repeat;
+						}
+						&::before {
+							left: -9%;
+							top: 5%;
+							width: 19.5vw;
+							height: 10vw;					
+							background-image: url(../img/neo-catalog-pattern-img1-sp.webp);
+						}
+						&::after {
+							right: 21%;
+							bottom: -22%;
+							width: 32vw;
+							height: 20vw;
+							background-image: url(../img/neo-catalog-pattern-img2-sp.webp);
+							z-index: -1;
+						}
+					} 
+				}
+				&:nth-of-type(2) {
+					p {
+						&::before {
+							position: absolute;
+							content: '';
+							display: inline-block;
+							background-size: contain;
+							vertical-align: middle;
+							background-repeat: no-repeat;
+							left: 10%;
+							bottom: -43%;
+							width: 32vw;
+							height: 20vw;				
+							background-image: url(../img/neo-catalog-pattern-img2-sp.webp);
+							z-index: -1;
+						}
+					} 
 				}
 				p {
+					z-index: 10;
 					text-align: center;
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
 					align-items: center;
+					position: relative;
 					width: 48%;
 					font-size: 4.7vw;
 				}
@@ -342,13 +389,32 @@
 					color: #A71C10;
 					font-size: 5.6vw;
 					letter-spacing: 1.5px;
+					margin-bottom: 3.4vw;
+					position: relative;
+					text-shadow: 1px 1px 0px #d5c38d;
+					&::before {
+						position: absolute;
+						content: '';
+						display: inline-block;
+						background-size: contain;
+						vertical-align: middle;
+						background-repeat: no-repeat;
+						right: 0%;
+						top: 72%;
+						width: 32vw;
+						height: 20vw;				
+						background-image: url(../img/neo-catalog-pattern-img2-sp.webp);
+					}
 				}
 				&:nth-of-type(2) {
+					color: #464439;
 					text-align: left!important;
+					font-size: 4.4vw;
 				}
 			}
 			img {
-
+				filter: drop-shadow(8px 9px 6px #c6ba9a);
+				margin-bottom: 6vw;
 			}
 		}
 		&-cooking-images {
@@ -485,4 +551,5 @@
 			}
 		}
 	}
+	/* //カタログギフト */
 }
