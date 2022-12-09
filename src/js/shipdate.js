@@ -25,19 +25,22 @@ const dateIncrease = (date, addDays) => {
 //特定の曜日と祝日を判定し表示
 const extractDate = () => {
 	const judgDate = new Date();
-	const $displayDatePc = document.getElementById('js-shipdate-pc');
-	const $displayDateSp = document.getElementById('js-shipdate-sp');
-	//祝 土日 木金判定
-	if ((findHoliday(judgDate) || judgDate.getDay() === 6) || judgDate.getDay() === 0 || judgDate.getDay() === 4 || judgDate.getDay() === 5)
-	{
-		$displayDatePc.textContent = dateIncrease(judgDate, 4);
-		$displayDateSp.textContent = $displayDatePc.textContent;
+	if (document.getElementById('js-shipdate-pc') && document.getElementById('js-shipdate-sp')) {
+		const $displayDatePc = document.getElementById('js-shipdate-pc');
+		const $displayDateSp = document.getElementById('js-shipdate-sp');
+		//祝 土日 木金判定
+		if ((findHoliday(judgDate) || judgDate.getDay() === 6) || judgDate.getDay() === 0 || judgDate.getDay() === 4 || judgDate.getDay() === 5)
+		{
+			$displayDatePc.textContent = dateIncrease(judgDate, 4);
+			$displayDateSp.textContent = $displayDatePc.textContent;
+		}
+		//月火水判定
+		else if (judgDate.getDay() === 1 || judgDate.getDay() === 2 || judgDate.getDay() === 3)
+		{
+			$displayDatePc.textContent = dateIncrease(judgDate, 2);
+			$displayDateSp.textContent = $displayDatePc.textContent;
+		}
 	}
-	//月火水判定
-	else if (judgDate.getDay() === 1 || judgDate.getDay() === 2 || judgDate.getDay() === 3)
-	{
-		$displayDatePc.textContent = dateIncrease(judgDate, 2);
-		$displayDateSp.textContent = $displayDatePc.textContent;
-	}
+	return;
 }
 extractDate();
