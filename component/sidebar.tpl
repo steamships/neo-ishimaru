@@ -5,23 +5,25 @@
 	<!-- PC -->
 	<div class="d-none d-lg-block">
 		<ul class="nav nav-pills flex-column mb-auto">
-			<!-- 年始の発送日目安 -->
-			<!-- <li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
-				年始の発送日目安
+			<!-- 年末年始の発送日の目安 -->
+			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
+				年末年始の発送日目安
 			</li>
 			<li class="NotoSerifL fs-16px">
-				<p>通常商品の場合 (予約商品を除く)</p>
-				<p>ただいまご注文いただいた場合の発送日</p>
+				<p class="mb-1">年末年始休み：12月30日～1月5日</p>
+				<p>ご注文いただいた場合の発送日</p>
 			</li>
-			<li class="mt-1 mb-1">
-				<span class="TrajanB fs-26px">2022年1月8日</span>
-				<span class="NotoSerifL fs-16px">(土)</span>
+			<li class="mt-1">
+				<span class="TrajanB fs-22px">12月24日迄：年内に発送</span>
+			</li>
+			<li class="mb-1">
+				<span class="TrajanB fs-22px">12月25日以降：1月10日に発送</span>
 			</li>
 			<li class="NotoSerifL fs-16px mb-2">
-				<p>※年始の交通状況や荷物量の増加により、商品のお届けが遅れる場合がございます。予めご了承ください。</p>
-			</li> -->
+				<p>※年末年始の交通状況や荷物量の増加により、商品のお届けが遅れる場合がございます。予めご了承ください。</p>
+			</li>
 			<!-- 発送日の目安 -->
-			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
+			<!-- <li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				発送日の目安
 			</li>
 			<li class="NotoSerifL fs-16px">
@@ -31,7 +33,7 @@
 			<li class="mt-1 mb-2">
 				<span id="js-shipdate-pc" class="TrajanB fs-26px">
 				</span>
-			</li>
+			</li> -->
 			<!-- <li class="NotoSerifL fs-24px mb-sm-2 mb-2 p-1 bg-white">
 				<p>※仕入れの都合により、<span class="fw-bold">がばいソースを注文のお客様は7月15日以降</span>の発送となります。</p>
 			</li> -->
@@ -232,22 +234,24 @@
 	<div class="d-lg-none">
 		<ul class="nav nav-pills flex-column text-center mx-auto mt-5">
 			<!-- 年始の発送日目安 -->
-			<!-- <li class="nav-item mb-1 NotoSerifSB fs-16px">
-				年始の発送日目安
+			<li class="fs-22px nav-item mb-2 NotoSerifSB fs-16px">
+				年末年始の発送日目安
 			</li>
 			<li class="NotoSerifL fs-16px">
-				<p>通常商品の場合 (予約商品を除く)</p>
-				<p>ただいまご注文いただいた場合の発送日</p>
+				<p class="mb-1">年末年始休み：12月30日～1月5日</p>
+				<p>ご注文いただいた場合の発送日</p>
 			</li>
-			<li class="mt-1 mb-1">
-				<span class="TrajanB fs-26px">2022年1月8日</span>
-				<span class="NotoSerifL fs-16px">(土)</span>
+			<li class="mt-1">
+				<span class="TrajanB fs-22px">12月24日迄：年内に発送</span>
+			</li>
+			<li class="mb-1">
+				<span class="TrajanB fs-22px">12月25日以降：1月10日に発送</span>
 			</li>
 			<li class="NotoSerifL fs-16px mb-2">
-				<p>※年始の交通状況や荷物量の増加により、商品のお届けが遅れる場合がございます。予めご了承ください。</p>
-			</li> -->
+				<p>※年末年始の交通状況や荷物量の増加により、商品のお届けが遅れる場合がございます。予めご了承ください。</p>
+			</li>
 			<!-- 発送日の目安 -->
-			<li class="fs-22px nav-item mb-2 NotoSerifSB fs-16px">
+			<!-- <li class="fs-22px nav-item mb-2 NotoSerifSB fs-16px">
 				発送日の目安
 			</li>
 			<li class="NotoSerifL fs-22px">
@@ -257,7 +261,7 @@
 			<li class="mt-1 mb-2 text-center">
 				<span id="js-shipdate-sp" class="TrajanB fs-24px">
 				</span>
-			</li>
+			</li> -->
 			<!-- <li class="NotoSerifL fs-22px mb-sm-2 mb-2 p-1 bg-white">
 				<p>※仕入れの都合により、<span class="fw-bold">がばいソースを注文のお客様は7月15日以降</span>の発送となります。</p>
 			</li> -->
