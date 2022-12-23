@@ -9,7 +9,7 @@
 		<!-- 楽天 -->
 		<div class="col-6 col-lg-3 mb-1">
 			<a href="https://search.rakuten.co.jp/search/mall/%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89/" target="_blank" rel="noopener">
-				<img class="img-fluid" src="<{$assets}>/img/neo-furusato-rakuten.png.webp">
+				<img class="img-fluid" src="<{$assets}>/img/neo-furusato-rakuten.webp">
 			</a>
 			<div class="NotoSerifSB title fs-5 py-1 text-center">楽天ふるさと納税</div>
 		</div>
@@ -17,7 +17,7 @@
 		<!-- チョイス -->
 		<div class="col-6 col-lg-3 mb-1">
 			<a href="https://www.furusato-tax.jp/search?header=1&target=1&q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89%E7%94%A3%E6%A5%AD" target="_blank" rel="noopener">
-				<img class="img-fluid" src="<{$assets}>/img/neo-furusato-choice.png.webp">
+				<img class="img-fluid" src="<{$assets}>/img/neo-furusato-choice.webp">
 			</a>
 			<div class="NotoSerifSB title fs-5 py-1 text-center">ふるさとチョイス</div>
 		</div>
@@ -25,7 +25,7 @@
 		<!-- ふるなび -->
 		<div class="col-6 col-lg-3 mb-1">
 			<a href="https://furunavi.jp/Product/Search?keyword=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89" target="_blank" rel="noopener">
-				<img class="img-fluid" src="<{$assets}>/img/neo-furusato-furunavi.png.webp">
+				<img class="img-fluid" src="<{$assets}>/img/neo-furusato-furunavi.webp">
 			</a>
 			<div class="NotoSerifSB title fs-5 py-1 text-center">ふるなび</div>
 		</div>
@@ -33,7 +33,7 @@
 		<!-- さとふる -->
 		<div class="col-6 col-lg-3 mb-1">
 			<a href="https://www.satofull.jp/products/list.php?q=%E7%9F%B3%E4%B8%B8%E9%A3%9F%E8%82%89&cnt=120&p=1" target="_blank" rel="noopener">
-				<img class="img-fluid" src="<{$assets}>/img/neo-furusato-satofull.png.webp">
+				<img class="img-fluid" src="<{$assets}>/img/neo-furusato-satofuru.webp">
 			</a>
 			<div class="NotoSerifSB title fs-5 py-1 text-center">さとふる</div>
 		</div>
