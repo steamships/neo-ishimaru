@@ -68,6 +68,79 @@ aseetsディレクトリ内でsh convertWebp.shを実行
 jpg/pngファイルをwebpファイルに変換する
 
 
+## 石丸EC開発用パラメータメモ
+
+カテゴリー
+
+
+|                        |                 | 
+| ---------------------- | --------------- | 
+| 佐賀牛         | cate&cbid=2543763 | 
+| 九州産黒毛和牛 | cate&cbid=2547504 | 
+| その他         | cate&cbid=2601547 | 
+
+
+https://colorme.ss.localhost/neo-ishimaru/?p=product_list&mode=cate&cbid=2543763
+
+グループ
+
+|                        |                 | 
+| ---------------------- | --------------- | 
+| ハンバーグ             | grp&gid=2337958 | 
+| しゃぶしゃぶ・すき焼き | grp&gid=2338000 | 
+| 焼肉                   | grp&gid=2338001 |  | 
+| ハンバーグ             | grp&gid=2337958 | 
+| しゃぶしゃぶ・すき焼き | grp&gid=2338000 | 
+| 焼肉                   | grp&gid=2338001 | 
+| ヒレ                   | grp&gid=2337960 | 
+| ロース                 | grp&gid=2337981 | 
+| 小間切れ               | grp&gid=2337986 | 
+| 赤身                   | grp&gid=2337988 | 
+| ウデ                   | grp&gid=2337989 | 
+| モモ                   | grp&gid=2337999 | 
+| ステーキ               | grp&gid=2373403 | 
+| お歳暮特価品           | grp&gid=2483504 | 
+| お中元特集メモ             | grp&gid=2409217 | 
+| ～4,999円              | grp&gid=2673106 | 
+| 5,000円～9,999円       | grp&gid=2673107 | 
+| 10,000円～             | grp&gid=2673108 | 
+| カタログギフト         | grp&gid=2750355 | 
+| ヒレ                   | grp&gid=2337960 | 
+| ロース                 | grp&gid=2337981 | 
+| 小間切れ               | grp&gid=2337986 | 
+| 赤身                   | grp&gid=2337988 | 
+| ウデ                   | grp&gid=2337989 | 
+| モモ                   | grp&gid=2337999 | 
+| ステーキ               | grp&gid=2373403 | 
+| お歳暮特価品           | grp&gid=2483504 | 
+| お中元特集             | grp&gid=2409217 | 
+| ～4,999円              | grp&gid=2673106 | 
+| 5,000円～9,999円       | grp&gid=2673107 | 
+| 10,000円～             | grp&gid=2673108 | 
+| カタログギフト         | grp&gid=2750355 | 
+
+https://colorme.ss.localhost/neo-ishimaru/?p=product_list&mode=grp&gid=2483504
+
+その他ページ
+
+ご利用ガイド
+
+https://colorme.ss.localhost/neo-ishimaru/?p=guide
+
+フリーページ
+
+https://colorme.ss.localhost/neo-ishimaru/?p=free1
+
+プライバシーページ
+
+https://colorme.ss.localhost/neo-ishimaru/?p=privacy
+
+レビューページ
+
+https://colorme.ss.localhost/neo-ishimaru/?p=review_main
+
+
+
 参考
 https://casualweb.info/blog/obtain-category-id/
 https://mihune-web.com/ecshop/colorme/colorme_customize/grobalnavi/
