@@ -89,6 +89,9 @@
 			&-title {
 				h2 {
 					border-bottom: $secondar-color solid 4px;
+					@media (max-width: map-get($grid-breakpoints,lg)) {
+						font-size: rem(22);
+					}
 					&:before {
 						position: absolute;
 						bottom: -4px;
@@ -100,9 +103,44 @@
 					}
 				}
 			}
+			&-notes {
+				p {
+					text-decoration: wavy underline 1px;
+				}
+				li {
+					&::before {
+						content: "・";
+						position: absolute;
+						left: -1rem;
+					}
+				}
+			}
 			&-recipe {
+				.step1::before {
+					content: "1";
+				}
+				.step2::before {
+					content: "2";
+				}
+				.step3::before {
+					content: "3";
+				}
+				.step4::before {
+					content: "4";
+				}
 				li {
 					border-top: $main-color solid 1px;
+					&::before {
+						color: #fff;
+						background-color: #000;
+						position: absolute;
+						left: 0;
+						top: 1rem;
+						width: 2rem;
+						height: 2rem;
+						text-align: center;
+						line-height: 2rem;
+					}
 					div {
 						flex-basis: 50%;
 					}
@@ -110,6 +148,19 @@
 						width: 90%;
 						height: auto;
 					}
+				}
+			}
+			.note {
+				&::before {
+					content: "※";
+					position: absolute;
+					left: 0;
+				}
+			}
+			h3 {
+				border-left: $secondar-color solid 4px;
+				@media (max-width: map-get($grid-breakpoints,lg)) {
+					font-size: rem(22);
 				}
 			}
 		}
