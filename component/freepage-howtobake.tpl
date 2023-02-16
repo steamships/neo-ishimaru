@@ -1,7 +1,7 @@
 <div id="freepage">
     <div class="freepage-howtobake mincho">
         <div class="freepage-howtobake-title mb-3 text-center">
-            <h2 class="TrajanB d-inline">ハンバーグの美味しい焼き方</h2>
+            <h2 class="TrajanB d-inline position-relative">ハンバーグの美味しい焼き方</h2>
         </div>
         <div class="freepage-howtobake-notes mb-3">
 			<p class="mb-1">※必ず焼いてお召し上がり下さい</p>
