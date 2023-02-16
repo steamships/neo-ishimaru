@@ -85,5 +85,33 @@
 				}
 			}
 		}
-	}
+		&-howtobake {
+			&-title {
+				h2 {
+					border-bottom: $secondar-color solid 4px;
+					&:before {
+						position: absolute;
+						bottom: -4px;
+						left: 0;
+						width: 20%;
+						height: 4px;
+						content: '';
+						background: $forth-color;
+					}
+				}
+			}
+			&-recipe {
+				li {
+					border-top: $main-color solid 1px;
+					div {
+						flex-basis: 50%;
+					}
+					img {
+						width: 90%;
+						height: auto;
+					}
+				}
+			}
+		}
+ 	}
 }
