@@ -84,6 +84,88 @@
 					}
 				}
 			}
+			.reason-wrap{
+				p{
+					font-size: 12px;
+				}
+			}
+			.reason-header{
+				background-image: url(../img/bg_01.webp);
+				background-size: cover;
+				display: flex;
+				flex-direction: column;
+				padding-left: 50%;
+				padding-top: 16rem;
+				padding-bottom: 16rem;
+				h1{
+					color: #b40000;
+					font-weight: bold;
+					margin-bottom: 1rem;
+					span{
+						font-size: 4rem;
+					}
+				}
+			}
+			.reason-box{
+				h2{
+					font-weight: bold;
+					margin-bottom: 1rem;
+					span{
+						font-size: 4rem;
+						margin-right: 1rem;
+						font-style: italic;
+						font-weight: normal;
+						vertical-align: sub;
+					}
+				}
+				h3{
+					font-size: 1.25rem;
+					font-weight: bold;
+					margin-bottom: 1rem;
+				}
+				p{
+					width: 18rem;
+				}
+				&.left-message{
+					padding-left: 2rem;
+				}
+				&.right-message{
+					padding-left: 67%;
+					h2{
+						color: #fff;
+					}
+				}
+				&.reason-first{
+					padding-top: 6rem;
+					padding-bottom: 6.8rem;
+					background-image: url(../img/bg_02.webp);
+					background-size: cover;
+				}
+				&.reason-second{
+					padding-top: 7.2rem;
+					padding-bottom: 8.9rem;
+					background-image: url(../img/bg_03.webp);
+					background-size: cover;
+					p{
+						width: 19rem;
+					}
+				}
+				&.reason-third{
+					padding-top: 7.3rem;
+					padding-bottom: 7rem;
+					background-image: url(../img/bg_04.webp);
+					background-size: cover;
+					p{
+						width: 17.5rem;
+					}
+				}
+				&.reason-fourth{
+					padding-top: 6.9rem;
+					padding-bottom: 6.5rem;
+					background-image: url(../img/bg_05.webp);
+					background-size: cover;
+				}
+			}
 		}
 		&-howtobake {
 			&-title {
