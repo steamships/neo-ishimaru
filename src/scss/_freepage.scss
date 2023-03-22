@@ -129,7 +129,9 @@
 					content: "4";
 				}
 				li {
-					border-top: $main-color solid 1px;
+					&:not(:first-of-type){
+						border-top: $third-color dashed 2px;
+					}
 					&::before {
 						color: #fff;
 						background-color: #000;
@@ -140,6 +142,10 @@
 						height: 2rem;
 						text-align: center;
 						line-height: 2rem;
+						@media (max-width: map-get($grid-breakpoints,lg)) {
+							left: 50%;
+							transform: translateX(-50%);
+						}
 					}
 					div {
 						flex-basis: 50%;

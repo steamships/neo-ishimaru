@@ -21,7 +21,7 @@
         </div>
         <div class="freepage-howtobake-recipe mb-3">
 			<h3 class="TrajanSB mb-2 ps-1">手順</h3>
-            <ol class="list-unstyled">
+            <ol class="list-unstyled bg-white px-2">
                 <li class="step1 pb-1 pt-4 pt-lg-1 d-lg-flex align-items-center position-relative">
 					<div class="mb-1">フライパンに薄くサラダ油をひいてフライパンを温めて下さい。</div>
 					<div class="text-center"><img src="assets/img/neo-howtobake1.jpg" alt=""></div>
@@ -39,7 +39,7 @@
                     <div class="note ps-1">お時間や火加減はあくまでも目安です。状況によって変わりますので、予めご了承下さい。電子レンジによる解凍や調理は、品質を損ないますのでお避け下さい。</div>
                 </li>
             </ol>
+			<p class="freepage-howtobake-sign text-end bg-white p-1">石丸食肉産業株式会社</p>
         </div>
-        <p class="freepage-howtobake-sign text-end">石丸食肉産業株式会社</p>
     </div>
 </div>
