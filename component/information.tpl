@@ -10,7 +10,7 @@
 						<a href="<{$v.link_url}>">
 							<img src="<{$v.img_url}>">
 						</a>
-						<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span><span class="TrajanR date"><{$smarty.now|date_format:'%Y-%m-%d'}></span></div>
+						<div class="fs-6 head"><span class="badge bg-primary TrajanB ls-1">NEWS</span></div>
 						<div class="NotoSerifSB title fs-5"><{$v.name}></div>
 						<div class="NotoSerifL expl"><{$v.s_expl}></div>
 					</div>
