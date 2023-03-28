@@ -3,27 +3,27 @@
 		<div class="reason-wrap mincho">
 			<div class="reason-header">
 				<h1 class="reason-title">石丸食肉産業<span class="small">が選ばれる</span><br><span class="large">5</span><span class="midium">つ</span><span class="semi-midium">の</span><span class="large">理由</span></h1>
-				<p>石丸食肉産業のお肉を食べると思わず笑顔がこぼれる。<br>その秘訣はお客様目線を徹底した、たくさんのこだわりにあります。<br>その中から5つのこだわりと想いをお伝えします。</p>
+				<p>石丸食肉産業のお肉を食べると思わず<br class="sp">笑顔がこぼれる。</p><p>その秘訣はお客様目線を徹底した、<br class="sp">たくさんのこだわりにあります。</p><p>その中から5つのこだわりと想いを<br class="sp">お伝えします。</p>
 				<span href="#" class="scroll-bar">scroll</span>
 			</div>
 			<div class="reason-box reason-first left-message">
-				<h2>品質へのこだわり</h2>
+				<h2><span>品質</span>のこだわり</h2>
 				<h3>美しい見た目から伝わる美味しさ。</h3>
-				<p>一般的に佐賀牛はBMS7以上のものが該当する中で、石丸食肉産業ではBMS10以上のものをこだわって買い付けています。<br>
-					※BMS（Beef Marbling Standard）とは、霜降りの質を表すという基準で12段階で評価されています。</p>
+				<p>一般的に佐賀牛はBMS7以上のものが該当する中で、石丸食肉産業ではBMS10以上のものを<br class="sp">こだわって買い付けています。</p>
+				<p>※BMS（Beef Marbling Standard）とは、<br class="sp">霜降りの質を表すという基準で<br class="sp">12段階で評価されています。</p>
 			</div>
 			<div class="reason-box reason-second right-message">
-				<h2>加工へのこだわり</h2>
+				<h2><span>加工</span>のこだわり</h2>
 				<h3>腕利きの職人が織りなす技術。</h3>
 				<p>肉の美味しいところを熟知した職人により、肉の旨味が最大限に伝わるように丹精込めて加工されています。</p>
 			</div>
 			<div class="reason-box reason-third left-message">
-				<h2>包装へのこだわり</h2>
+				<h2><span>包装</span>のこだわり</h2>
 				<h3>ひとつひとつ丁寧に想いを込めて。</h3>
 				<p>石丸食肉産業では、一枚一枚丁寧に包装した状態でお届けします。美味しさそのまま、好きなときに好きなだけお召し上がりいただけます。</p>
 			</div>
 			<div class="reason-box reason-fourth right-message">
-				<h2>配送へのこだわり</h2>
+				<h2><span>配送</span>のこだわり</h2>
 				<h3>美味しいお肉を、美味しいときに。</h3>
 				<p>すぐに食べたいという声にお応えし、注文から数日以内の発送を心がけています。<br>※年末年始など、時期によっては発送にお時間をいただく場合もございます。</p>
 			</div>
@@ -35,47 +35,48 @@
 				<div class="point-wrap point-system d-flex justify-content-between">
 					<div class="point-box">
 						<h4>ポイント還元率</h4>
-						<img class="d-none d-lg-block" src="<{$assets}>/img/point_01.png" alt="ポイント還元率">
+						<img class="d-lg-block" src="<{$assets}>/img/point_01.png" alt="ポイント還元率">
 						<p>ご購入金額100円につき1ポイント貯まり、ポイントは1ポイント=1円として使えます。</p>
 					</div>
 					<div class="point-box">
 						<h4>ポイントアップキャンペーン</h4>
-						<img class="d-none d-lg-block" src="<{$assets}>/img/point_02.png" alt="ポイント還元率">
+						<img class="d-lg-block" src="<{$assets}>/img/point_02.png" alt="ポイント還元率">
 						<p>定期的にポイント還元率がアップするポイントアップキャンペーンを開催しています。</p>
 					</div>
 					<div class="point-box">
 						<h4>アンケートキャンペーン</h4>
-						<img class="d-none d-lg-block" src="<{$assets}>/img/point_03.png" alt="ポイント還元率">
+						<img class="d-lg-block" src="<{$assets}>/img/point_03.png" alt="ポイント還元率">
 						<p>ご購入後のアンケートにご回答いただくと、500ポイント獲得できます。</p>
 					</div>
 				</div>
 				<div class="point-wrap get-point d-flex justify-content-between">
+					<h3 class="get-point-header sp">ポイント交換例</h3>
 					<div class="point-box">
 						<h4 class="d-flex justify-content-center align-items-center">540P</h4>
-						<img class="d-none d-lg-block" src="<{$assets}>/img/way_01.webp" alt="オリジナルソースと交換">
+						<img class="d-lg-block" src="<{$assets}>/img/way_01.webp" alt="オリジナルソースと交換">
 						<h5>オリジナルソースと交換！</h5>
 						<p>一度食べたらやみつきになること間違いなし「がばいソース」と交換可能！</p>
 					</div>
 					<div class="point-box">
 						<h4 class="d-flex justify-content-center align-items-center">1200P</h4>
-						<img class="d-none d-lg-block" src="<{$assets}>/img/way_01.webp" alt="オリジナルソースと交換">
+						<img class="d-lg-block" src="<{$assets}>/img/way_01.webp" alt="オリジナルソースと交換">
 						<h5>配送料を無料に！</h5>
 						<p>1万年未満のお買い物の場合に加算される、送料￥1,200を実質送料無料に！</p>
 					</div>
 					<div class="point-box">
 						<h4 class="d-flex justify-content-center align-items-center">4000P</h4>
-						<img class="d-none d-lg-block" src="<{$assets}>/img/way_03.webp" alt="大人気ハンバーグと交換">
+						<img class="d-lg-block" src="<{$assets}>/img/way_03.webp" alt="大人気ハンバーグと交換">
 						<h5>大人気ハンバーグと交換！</h5>
 						<p>1番人気の【佐賀牛入り】黒毛和牛ハンバーグ150g☓6(ソース付き)と交換できます。<br>※送料は別途加算されます。</p>
 					</div>
 				</div>
-				<a href="#" class="meat-link d-flex justify-content-center align-items-center">石丸食肉産業自慢のお肉はこちらから！</a>
+				<a href="#" class="meat-link d-flex justify-content-center align-items-center">石丸食肉産業<span class="pc">自慢</span>の<br class="sp">お肉はこちらから！</a>
 			</div>
 		</div>
 		<div class="about-us mincho">
 			<h2 class="about-info-header">石丸食肉産業について</h2>
 			<div class="about-us-inner d-flex">
-				<div class="about-us-inner-left"><img src="<{$assets}>/img/award-img.webp" class="about-img d-none d-lg-block" alt="受賞歴" ></div>
+				<div class="about-us-inner-left"><img src="<{$assets}>/img/award-img.webp" class="about-img d-lg-block" alt="受賞歴" ></div>
 				<div class="about-us-inner-right">
 					<h3>創業半世紀の想い</h3>
 					<p>食とは、世界中全ての人が生きていく上で必要なことです。<br>その中で食肉の卸、小売を始めさせて頂き本店で創業52年となりました。</p>
