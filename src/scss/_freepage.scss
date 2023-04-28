@@ -27,7 +27,6 @@
 				}
 			}
 			.map-wrap{
-				background-image: url(../img/bg_06.webp);
 				padding-top: 3rem;
 				.map-wrap-header{
 					position: relative;
@@ -130,7 +129,7 @@
 				}
 			}
 			.reason-header{
-				background-image: url(../img/bg_00.webp);
+				background-image: url(../img/kodawari_top.webp);
 				background-size: cover;
 				display: flex;
 				flex-direction: column;
@@ -144,7 +143,7 @@
 					background-size: contain;
 					background-repeat: no-repeat;
 					background-color: #fff;
-					background-image: url(../img/sp_bg_head.jpg);
+					background-image: url(../img/kodawari_top_sp.webp);
 				}
 				h1{
 					color: #b40000;
@@ -228,11 +227,8 @@
 						padding-bottom: 0.5rem;
 					}
 					span{
-						font-size: 4rem;
-						margin-right: 1rem;
-						font-style: italic;
-						font-weight: normal;
-						vertical-align: sub;
+						font-size: 3rem;
+						vertical-align: inherit;
 						@include media-breakpoint-down(lg){
 							font-size: 3rem;
 							font-style: normal;
@@ -246,6 +242,9 @@
 					font-size: 1.25rem;
 					font-weight: bold;
 					margin-bottom: 1rem;
+					@include media-breakpoint-down(lg){
+						font-size: 1.18rem;
+					}
 				}
 				p{
 					width: 18rem;
@@ -259,31 +258,34 @@
 				&.reason-first{
 					padding-top: 6rem;
 					padding-bottom: 6.8rem;
-					background-image: url(../img/bg_01.webp);
+					background-image: url(../img/kodawari_point_1.webp);
 					background-size: cover;
+					box-shadow: 0px 2px 4px rgba(0,0,0,.4);
+					z-index: 2;
+					position: relative;
 					@include media-breakpoint-down(lg){
-						background-image: url(../img/sp_bg_01.jpg);
+						background-image: url(../img/kodawari_point_1_sp.webp);
 					}
 				}
 				&.reason-second{
 					padding-top: 7.2rem;
 					padding-bottom: 8.9rem;
-					background-image: url(../img/bg_02.webp);
+					background-image: url(../img/kodawari_point_2.webp);
 					background-size: cover;
 					@include media-breakpoint-down(lg){
-						background-image: url(../img/sp_bg_02.jpg);
+						background-image: url(../img/kodawari_point_2_sp.webp);
 					}
 					p{
-						width: 19rem;
+						width: 20rem;
 					}
 				}
 				&.reason-third{
 					padding-top: 7.3rem;
 					padding-bottom: 8rem;
-					background-image: url(../img/bg_03.webp);
+					background-image: url(../img/kodawari_point_3.webp);
 					background-size: cover;
 					@include media-breakpoint-down(lg){
-						background-image: url(../img/sp_bg_03.jpg);
+						background-image: url(../img/kodawari_point_3_sp.webp);
 					}
 					p{
 						width: 17.5rem;
@@ -292,23 +294,31 @@
 				&.reason-fourth{
 					padding-top: 6.9rem;
 					padding-bottom: 6.5rem;
-					background-image: url(../img/bg_04.webp);
+					background-image: url(../img/kodawari_point_4.webp);
 					background-size: cover;
+					position: relative;
 					@include media-breakpoint-down(lg){
-						background-image: url(../img/sp_bg_04.png);
+						background-image: url(../img/kodawari_point_4_sp.webp);
+					}
+					.kodawari-pcg{
+						position: absolute;
+						top: -3rem;
+						left: 5rem;
+						width: 550px;
+						@include media-breakpoint-down(lg){
+							display: none;
+						}
 					}
 				}
 				&.reason-fifth{
-					padding-top: 6.9rem;
+					margin-top: -9rem;
+					padding-top: 12rem;
 					padding-bottom: 6.5rem;
 					padding-right: 8rem;
-					background-image: url(../img/bg_05.webp);
-					background-size: cover;
 					@include media-breakpoint-down(lg){
-						background-image: url(../img/sp_bg_05.png);
-						background-position: top center;
 						background-size: contain;
 						padding-top: 5rem !important;
+						margin-top: -4rem;
 					}
 					&.left-message{
 						padding-left: 6rem;
@@ -328,7 +338,7 @@
 					}
 					.point-wrap{
 						background: #fff;
-						padding: 1rem;
+						padding: 2rem 1rem;
 						border-radius: 0.8rem;
 						box-shadow: 1px 1px 3px #ccc;
 						margin-bottom: 3rem;
@@ -347,6 +357,9 @@
 						p{
 							padding: 0 1rem;
 							color: #8c6239;
+						}
+						img{
+							padding: 1rem;
 						}
 					}
 					.point-system{
@@ -387,34 +400,43 @@
 						}
 					}
 				}
-				.meat-link{
+				.meat-link-pc{
 					background-image: url(../img/btn_bg.webp);
 					background-size: contain;
 					background-repeat: no-repeat;
 					text-align: center;
 					width: 100%;
-					display: block;
 					margin: 0 auto;
 					padding: 2rem 0;
 					color: #fff;
 					text-decoration: none;
 					font-size: 2rem;
 					font-weight: bold;
+					display: flex;
+					justify-content: center;
+					align-items: center;
 					@include media-breakpoint-down(lg){
+						display: none;
 						background: none;
 						background-color: #8c6239;
 					}
 				}
 			}
+			.detail-info-wrap{
+				background-image: url(../img/kodawari_point_5_bg_01.webp);
+				background-size: cover;
+				@include media-breakpoint-down(lg){
+					background-image: url(../img/kodawari_point_5_bg_sp.webp);
+					background-position: top center;
+				}
+			}
 			.about-us{
-				background-image: url(../img/bg_06.webp);
 				padding-left: 6rem;
 				padding-right: 6rem;
 				padding-bottom: 3rem;
 				@include media-breakpoint-down(lg){
 					padding-left: 2rem;
 					padding-right: 2rem;
-					background-image: url(../img/sp_bg_06.png);
 				}
 			}
 			.about-us-inner{
