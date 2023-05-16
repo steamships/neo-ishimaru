@@ -22,7 +22,7 @@ const dateIncrease = (date, addDays) => {
 	return addedDate;
 }
 
-document.getElementById('js-shipdate-pc').textContent = dateIncrease(new Date(), 4);
+document.getElementById('js-shipdate-pc').textContent = dateIncrease(new Date(), 7);
 document.getElementById('js-shipdate-sp').textContent = document.getElementById('js-shipdate-pc').textContent;
 
 //日付を加算して整える
