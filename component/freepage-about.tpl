@@ -109,6 +109,7 @@
 							<div class="map-item-info">
 							<p class="map-shopname">石丸食肉産業ハコミネ店</p>
 							<p class="map-address map-section-last">〒849-0123 佐賀県三養基郡上峰町坊所1523-1</p>
+							<a class="map-tel map-section-last" href="tel:0942-85-9529">TEL:0942-85-9529</a>
 							</div>
 							<div class="map-item-map">
 							<iframe
@@ -123,16 +124,14 @@
 					<div class="map-item-wrap">
 						<div class="map-item">
 							<div class="map-item-info">
-								<p class="map-shopname map-headerline">上峰ミートセンター</p>
-								<p class="map-address">〒849-0123 佐賀県三養基郡上峰町大字坊所1603-1</p>
-								<a class="map-tel map-section-last" href="tel:0952-20-8380">TEL:0952-20-8380</a>
+								<p class="map-shopname map-headerline">三養基ミートセンター</p>
+								<p class="map-address map-section-last">〒849-0101 佐賀県三養基郡みやき町原古賀7385-16</p>
+								<a class="map-tel map-section-last" href="tel:0942-85-9529">TEL:0942-85-9529</a>
 							</div>
 						</div>
 						<div class="map-item">
 							<div class="map-item-info">
-								<p class="map-shopname map-headerline">三養基ミートセンター</p>
-								<p class="map-address map-section-last">〒849-0101 佐賀県三養基郡みやき町原古賀7385-16</p>
-								<a class="map-tel map-section-last" href="tel:0942-85-9529">TEL:0942-85-9529</a>
+								<!-- 調整用 -->
 							</div>
 						</div>
 					</div>
