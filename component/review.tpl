@@ -50,6 +50,52 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- 2(new) -->
+	<div class="row">
+		<div class="col-lg-6 d-none d-lg-block">
+			<a href="https://www.saga-ishimaru.co.jp/?pid=145807493">
+				<img class="img-fluid"
+					src="<{$assets}>/img/review_yakiniku_05152023.webp"
+					alt="レビュー用黒毛和牛ハンバーグ画像">
+			</a>
+		</div>
+		<div class="col-12 col-lg-6">
+			<div class="badge bg-primary w-100 text-start fs-18px NotoSerifSB py-1 ps-1">美味しい焼肉を食べてスタミナ補充！</div>
+			<h4 class="NotoSerifSB fs-28px">【九州産黒毛和牛】焼肉用(ロース)</h4>
+			<a href="https://www.saga-ishimaru.co.jp/?pid=145807493">
+				<img class="w-100 d-lg-none"
+					src="<{$assets}>/img/review_yakiniku_05152023.webp"
+					alt="レビュー用黒毛和牛ハンバーグ画像">
+			</a>
+			<div class="card">
+				<div class="card-body">
+					<div class=" d-flex flex-column justify-content-between h-100">
+						<p class="card-title fs-17px">商品名:【九州産黒毛和牛】焼肉用(ロース)</p>
+						<p class="card-text NotoSerifSB fs-22px bb-d pb-1">また食べたくなる美味しさでした！</p>
+						<p class="card-text NotoSerifL fs-18px py-1 mb-auto">バーベキュー用のお肉、とても美味しく頂きました。
+							石丸食肉さんのお肉はふるさと納税でいただいてから、毎年注文しております。
+							お肉の美味しさに加えて一枚ずつの包装がとても扱いやすく、手間がかかると思われますが
+							その丁寧さにいつも感心させられています。
+							また注文するかと思いますが、今後ともよろしくお願いいたします。</p>
+						<div class="d-flex align-items-center">
+							<div class="customer gray-400">投稿者: 40代 男性</div>
+							<div class="star ms-1" data-rate="5"></div>
+							<a class="d-none d-lg-flex ms-auto align-items-center justify-content-center text-decoration-none btn btn-outline-secondary NotoSerifL fs-18px px-2 py-1 ls-1 chevron-right"
+								href="https://www.saga-ishimaru.co.jp/?pid=145807493" role="button">
+								商品詳細
+							</a>
+						</div>
+						<a class="w-100 d-block d-lg-none d-inline-flex mx-auto align-items-center justify-content-center btn btn-outline-secondary NotoSerifL fs-18px mt-1 py-1 ls-1 chevron-right"
+							href="https://www.saga-ishimaru.co.jp/?pid=145807493" role="button">
+							商品詳細
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	<!-- 2 -->
 	<!-- 売り切れのためコメントアウト -->
 	<!-- <div class="row">
