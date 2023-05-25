@@ -44,9 +44,9 @@
 					<{if $smarty.section.num.first }>
 					<ul class="c-sub-nav bcate-nav sub-nav d-flex list-unstyled justify-content-start justify-content-lg-center TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 						<{foreach from=$category item=big_cate name=key}>
-						<{if $subcategory[$big_cate.bid] != ""}>
 						<li class="c-sub-nav-blists mx-lg-2">
 							<a class="c-sub-nav-blists-link mb-1 text-decoration-none d-inline-block NotoSerifSB" href="<{$big_cate.link_url}>"><{$big_cate.name}></a>
+							<{if $subcategory[$big_cate.bid] != ""}>
 							<ul class="c-sub-nav-slists nav_hidden list-unstyled">
 							<{foreach from=$subcategory[$big_cate.bid] item=sub_cate name=key}>
 								<li class="c-sub-nav-slist TrajanL mb-1">
@@ -54,12 +54,8 @@
 								</li>
 							<{/foreach}>
 							</ul>
+							<{/if}>
 						</li>
-						<{else}>
-						<li class="c-sub-nav-blists mx-2 d-none d-lg-block">
-							<a class="c-sub-nav-blists-link text-decoration-none d-inline-block NotoSerifL" href="<{$big_cate.link_url}>"><span class="d-block"><{$big_cate.name}></span></a>
-						</li>
-						<{/if}>
 						<{/foreach}>
 					</ul>
 					<{/if}>

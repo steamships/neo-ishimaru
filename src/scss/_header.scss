@@ -209,6 +209,7 @@
 						-webkit-transform: translateX(0%);
 						-ms-transform: translateX(0%);
 						background: none;
+						flex-wrap: wrap;
 					}
 					&.show {
 						opacity: 1;
@@ -237,6 +238,14 @@
 							@include media-breakpoint-down(lg) {
 								.c-sub-nav-blists-link {
 									background-color: $primary;
+									color: #fff;
+								}
+							}
+						}
+						&:nth-child(3) {
+							@include media-breakpoint-down(lg) {
+								.c-sub-nav-blists-link {
+									background-color: $secondary;
 									color: #fff;
 								}
 							}
