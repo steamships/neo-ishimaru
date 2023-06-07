@@ -37,9 +37,22 @@
 			<!-- <li class="NotoSerifL fs-24px mb-sm-2 mb-2 p-1 bg-white">
 				<p>※仕入れの都合により、<span class="fw-bold">がばいソースを注文のお客様は7月15日以降</span>の発送となります。</p>
 			</li> -->
+			<!-- SNS -->
+			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
+				石丸の最新情報はこちらからチェック！
+			</li>
+			<li class="mb-2">
+				<a href="https://lin.ee/Qzc6XSv" class="line-add-btn"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
+				<a href="//www.instagram.com/suguru_ishimaru/" target="_blank" class="btn btn-link pe-0 instagram">
+					</a>
+					<a href="//www.facebook.com/ishimaru.meet/" target="_blank" class="btn btn-link pe-0 facebook">
+					</a>
+
+			</li>
+			<!-- / SNS -->
 			<!-- TEL -->
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
-				お電話でのお問い合わせ・ご注文
+				お電話でのお問い合わせ
 			</li>
 			<li>
 				<a href="tel:<{$shop.tel}>" class="nav-link TrajanB fs-26px p-0">
@@ -51,7 +64,7 @@
 			<li class="NotoSerifL fs-16px ms-2 mb-2">受付 9:00～18:00 (日曜定休)</li>
 			<!-- MAIL -->
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
-				メールでのお問い合わせ・ご注文
+				メールでのお問い合わせ
 			</li>
 			<li>
 				<a class=""
@@ -63,8 +76,7 @@
 								alt="">
 						</div>
 						<div class="me-auto NotoSerifSB fs-16px">
-							<div class="NotoSerifSB fs-16px">メールでの</div>
-							お問い合わせ・ご注文
+							<div class="NotoSerifSB fs-16px">メールでのお問い合わせ</div>
 						</div>
 					</div>
 				</a>
@@ -123,7 +135,7 @@
 				</div>
 			</li>
 			<!-- メルマガ -->
-			<li>
+			<!-- <li>
 				<div class="bb-1 mx-auto pb-1">
 					<a class="" href="//members.shop-pro.jp/?mode=members_regi&shop_id=PA01437442">
 						<div class="d-flex justify-content-start align-items-center chevron-right">
@@ -134,7 +146,7 @@
 						</div>
 					</a>
 				</div>
-			</li>
+			</li> -->
 			<!-- ご利用ガイド -->
 			<li>
 				<div class="w-95 mx-auto pb-1">

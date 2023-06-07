@@ -47,6 +47,7 @@
 							</a>
 							<a href="//www.facebook.com/ishimaru.meet/" target="_blank" class="btn btn-link pe-0 facebook">
 							</a>
+							<a href="https://lin.ee/Qzc6XSv" class="line-add-btn"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
 						</div>
 						<!-- / SNS -->
 
@@ -195,19 +196,25 @@
 
 			<!-- SP -->
 			<div class="footer d-lg-none mx-auto pt-3 pb-5">
+					<!-- 戻るボタン-->
+					<div id="backtotop" class="col-5 d-flex w-100 justify-content-center">
+						<a href="#" class="btn btn-dark rounded-pill TrajanB ls-1 chevron-up">PAGE TOP</a>
+					</div>
+					<!-- / 戻るボタン-->
 				<!-- Grid row 1 -->
-				<div class="row py-2 text-center align-items-center">
-
+				<div class="row py-1 text-center align-items-center mt-1 mb-1">
 					<!-- ロゴ -->
-					<div class="col-4">
+					<div class="col-5">
 						<a href="#"><img
 								src="//img07.shop-pro.jp/PA01437/442/etc/neo-logo.png?cmsp_timestamp=20211119172501"
 								width="100" alt="石丸ショップロゴ"></a>
 					</div>
 					<!-- / ロゴ -->
 
+
 					<!-- SNS -->
-					<div class="col-3 p-0">
+					<div class="col-7 p-0">
+						<a href="https://lin.ee/Qzc6XSv" class="line-add-btn"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
 						<a href="//www.instagram.com/suguru_ishimaru/" target="_blank" class="btn btn-link pe-0 instagram">
 						</a>
 						<a href="//www.facebook.com/ishimaru.meet/" target="_blank" class="btn btn-link pe-0 facebook">
@@ -215,11 +222,6 @@
 					</div>
 					<!-- / SNS -->
 
-					<!-- 戻るボタン-->
-					<div id="backtotop" class="col-5">
-						<a href="#" class="btn btn-dark rounded-pill TrajanB ls-1 chevron-up">PAGE TOP</a>
-					</div>
-					<!-- / 戻るボタン-->
 
 				</div>
 				<!-- Grid row 1 -->

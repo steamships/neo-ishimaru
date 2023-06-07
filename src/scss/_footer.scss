@@ -84,4 +84,9 @@ footer {
 		@include bsicon("chevron-down");
 		padding-left: .5rem;
 	}
+	.line-add-btn{
+		width: 92px;
+		display: inline-block;
+		margin-left: 10px;
+	}
 }
