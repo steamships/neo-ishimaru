@@ -210,7 +210,24 @@
 		}
 	}
 }
+//SNS
+#sns_top{
+	margin-bottom: 2rem;
+	.line-add-btn{
+		width: 150px;
+		display: inline-block;
+	}
+	.instagram::after {
+		@include bsicon("instagram");
+		font-size: 2.5rem;
+	}
 
+	.facebook::after {
+		@include bsicon("facebook");
+		font-size: 2.5rem;
+	}
+
+}
 
 //instagram(information)
 #instagram {
