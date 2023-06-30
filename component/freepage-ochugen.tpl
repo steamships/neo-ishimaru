@@ -1,7 +1,7 @@
 <div id="freepage">
 	<div class="freepage-ochugen">
 		<div id="product_list-header-wide" class="p-category-main-image">
-			<img class="freepage-shinshun-page mb-3" src="<{$assets}>/img/ochugen-cp-header.webp" alt="お中元キャンペーンのご案内">
+			<img class="freepage-shinshun-page mb-3" src="<{$assets}>/img/ochugen-cp-header.jpg" alt="お中元キャンペーンのご案内">
 			<p class="p-category-main-image-text mb-2 mb-lg-3 TrajanSB text-left text-lg-center">
 				ハンバーグやローストビーフなどの加工食品をはじめ、希少部位や期間限定のお肉などを随時掲載していきます。<br>まだ、あなたの知らないお肉に出会えるかも…</p>
 		</div>
