@@ -1,5 +1,5 @@
 <!-- inc.tpl ▼ -->
-<{if $tpl_name == "free1" || $tpl_name == "free3"}>
+<{if $tpl_name == "free1" || $tpl_name == "free3" || $tpl_name == "free6"}>
 <main id="main" class="col-12">
 <{else}>
 <main id="main" class="col-lg-9 ps-lg-3">

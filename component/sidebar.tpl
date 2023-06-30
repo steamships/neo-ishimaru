@@ -1,5 +1,5 @@
 <!-- sidebar.tpl ▼ -->
-<{if $tpl_name == "free1" || $tpl_name == "free3"}>
+<{if $tpl_name == "free1" || $tpl_name == "free3" || $tpl_name == "free6"}>
 <{else}>
 <nav id="sidebar" class="col-lg-3">
 	<!-- PC -->
