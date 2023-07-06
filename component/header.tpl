@@ -28,6 +28,12 @@
 						<span class="d-lg-block NotoSerifL">ISHIMARUのこと</span>
 					</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=f1">
+						SUMMER GIFT
+						<span class="d-lg-block NotoSerifL">お中元</span>
+					</a>
+				</li>
 				<li class="nav-item d-block d-lg-none">
 					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=f5">
 						HOW TO COOK
