@@ -1,5 +1,5 @@
 <!-- インフォメーション -->
-<article id="info">
+<article id="info" style="display:none;">
 	<h3 class="TrajanB mb-1">INFORMATION<span class="NotoSerifL fs-6 ms-1">お知らせ</span></h3>
 	<!-- カラーミーのデータを元にループ作成▼ -->
 	<!-- <div class="row position-relative">
