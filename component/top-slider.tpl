@@ -20,6 +20,12 @@
 				</a>
 			</div>-->
 			<div class="carousel-item active" data-bs-interval="6000">
+				<a href="https://admane.jp/ad/p/r?_site=3090&_article=2181&_link=9646&_image=10308&admane_[%E2%80%A6]3Fcity-product_rank%26utm_source=business%26utm_medium=affiliate">
+					<img src="<{$assets}>/img/choice-header-pc.webp" class="d-none d-lg-block w-100" alt="チョイスイチオシ！">
+					<img src="<{$assets}>/img/choice-header-sp.webp" class="d-lg-none d-block w-100" alt="チョイスイチオシ！">
+				</a>
+			</div>
+			<div class="carousel-item" data-bs-interval="6000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">
 					<img src="<{$assets}>/img/neo-slide-8-pc.webp" class="d-none d-lg-block w-100" alt="カタログギフト">
 					<img src="<{$assets}>/img/neo-slide-8-sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
