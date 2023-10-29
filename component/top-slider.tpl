@@ -20,7 +20,7 @@
 				</a>
 			</div>-->
 			<div class="carousel-item active" data-bs-interval="6000">
-				<a href="https://admane.jp/ad/p/r?_site=3090&_article=2181&_link=9646&_image=10308&admane_[%E2%80%A6]3Fcity-product_rank%26utm_source=business%26utm_medium=affiliate">
+				<a href="https://admane.jp/ad/p/r?_site=3090&_article=2181&_link=9646&_image=10308&admane_reurl=https%3A%2F%2Fwww.furusato-tax.jp%2Fproduct%2Fdetail%2F41327%2F5050356%3Fcity-product_rank%26utm_source=business%26utm_medium=affiliate" target="_blank">
 					<img src="<{$assets}>/img/choice-header-pc.webp" class="d-none d-lg-block w-100" alt="チョイスイチオシ！">
 					<img src="<{$assets}>/img/choice-header-sp.webp" class="d-lg-none d-block w-100" alt="チョイスイチオシ！">
 				</a>
