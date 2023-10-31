@@ -19,7 +19,7 @@
 					<img src="<{$assets}>/img/ochugen-cp-sp.webp" class="d-lg-none d-block w-100" alt="お中元キャンペーン">
 				</a>
 			</div>-->
-			<div class="carousel-item" data-bs-interval="6000">
+			<div class="carousel-item" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">
 					<img src="<{$assets}>/img/neo-slide-8-pc.webp" class="d-none d-lg-block w-100" alt="カタログギフト">
 					<img src="<{$assets}>/img/neo-slide-8-sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
@@ -31,19 +31,19 @@
 					<img src="<{$assets}>/img/choice-header-sp_01.webp" class="d-lg-none d-block w-100" alt="チョイスイチオシ！">
 				</a>
 			</div>
-			<div class="carousel-item" data-bs-interval="6000">
+			<div class="carousel-item" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=0">
 					<img src="<{$assets}>/img/neo-slide-3-pc.png.webp" class="d-none d-lg-block w-100" alt="佐賀牛">
 					<img src="<{$assets}>/img/neo-slide-3-sp.png.webp" class="d-lg-none d-block w-100" alt="佐賀牛">
 				</a>
 			</div>
-			<div class="carousel-item" data-bs-interval="6000">
+			<div class="carousel-item" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2547504&csid=0">
 					<img src="<{$assets}>/img/neo-slide-4-pc.png.webp" class="d-none d-lg-block w-100" alt="九州産黒毛和牛">
 					<img src="<{$assets}>/img/neo-slide-4-sp.png.webp" class="d-lg-none d-block w-100" alt="九州産黒毛和牛">
 				</a>
 			</div>
-			<div class="carousel-item" data-bs-interval="6000">
+			<div class="carousel-item" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2601547&csid=0">
 					<img src="<{$assets}>/img/neo-slide-5-pc.png.webp" class="d-none d-lg-block w-100" alt="その他">
 					<img src="<{$assets}>/img/neo-slide-5-sp.png.webp" class="d-lg-none d-block w-100" alt="その他">
