@@ -28,6 +28,12 @@
 						<span class="d-lg-block NotoSerifL">ISHIMARUのこと</span>
 					</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2483504">
+						WINTER GIFT
+						<span class="d-lg-block NotoSerifL">お歳暮</span>
+					</a>
+				</li>
 				<!--<li class="nav-item">
 					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=f1">
 						SUMMER GIFT
