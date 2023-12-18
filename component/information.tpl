@@ -1,6 +1,9 @@
 <!-- インフォメーション -->
-<article id="info" style="display:none;">
+<article id="info">
 	<h3 class="TrajanB mb-1">INFORMATION<span class="NotoSerifL fs-6 ms-1">お知らせ</span></h3>
+	<p style="color:#f00;">お歳暮キャンペーンは終了いたしました。<br>
+		数ある中から当商品をご購入いただき、ありがとうございました。<br>
+		引き続き、石丸食肉産業をよろしくお願いいたします！</p>
 	<!-- カラーミーのデータを元にループ作成▼ -->
 	<!-- <div class="row position-relative">
 		<{if $new_item_num !=0}>
@@ -20,9 +23,9 @@
 	</div> -->
 
 	<!-- お知らせ　インスタ投稿を表示 -->
-	<div id="instagram"></div>
+	<div id="instagram" style="display:none;"></div>
 
-	<div class="row position-relative">
+	<div class="row position-relative" style="display:none;">
 
 	<!-- 鍋 -->
 	<!-- <div class="col-6 col-lg-3 mb-1">
