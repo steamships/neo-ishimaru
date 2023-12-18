@@ -19,13 +19,13 @@
 					<img src="<{$assets}>/img/ochugen-cp-sp.webp" class="d-lg-none d-block w-100" alt="お中元キャンペーン">
 				</a>
 			</div>-->
-			<div class="carousel-item active" data-bs-interval="3000">
+			<!--<div class="carousel-item active" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2483504">
 					<img src="<{$assets}>/img/oseibo-pc-2023.webp" class="d-none d-lg-block w-100" alt="お歳暮キャンペーン">
 					<img src="<{$assets}>/img/oseibo-sp-2023.webp" class="d-lg-none d-block w-100" alt="お歳暮キャンペーン">
 				</a>
-			</div>
-			<div class="carousel-item" data-bs-interval="3000">
+			</div>-->
+			<div class="carousel-item active" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">
 					<img src="<{$assets}>/img/neo-slide-8-pc.webp" class="d-none d-lg-block w-100" alt="カタログギフト">
 					<img src="<{$assets}>/img/neo-slide-8-sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
