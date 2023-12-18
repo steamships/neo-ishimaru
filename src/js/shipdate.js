@@ -19,6 +19,9 @@ const dateIncrease = (date, addDays) => {
 	else {
 		addedDate = `${year}年${month}月${day}日(${dayOfWeekStr})`;
 	}
+	// 年末は日付固定(2023/12/19〜2024/01/05)
+	addedDate = '2024年1月11日(木)';
+
 	return addedDate;
 }
 
