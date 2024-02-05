@@ -1,9 +1,9 @@
 <!-- インフォメーション -->
 <article id="info">
-	<h3 class="TrajanB mb-1">INFORMATION<span class="NotoSerifL fs-6 ms-1">お知らせ</span></h3>
+	<!--<h3 class="TrajanB mb-1">INFORMATION<span class="NotoSerifL fs-6 ms-1">お知らせ</span></h3>
 	<p style="color:#f00;">お歳暮キャンペーンは終了いたしました。<br>
 		数ある中から当商品をご購入いただき、ありがとうございました。<br>
-		引き続き、石丸食肉産業をよろしくお願いいたします！</p>
+		引き続き、石丸食肉産業をよろしくお願いいたします！</p>-->
 	<!-- カラーミーのデータを元にループ作成▼ -->
 	<!-- <div class="row position-relative">
 		<{if $new_item_num !=0}>
