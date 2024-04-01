@@ -33,8 +33,8 @@
 			</div>-->
 			<div class="carousel-item active" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?pid=179333429">
-					<img src="<{$assets}>/img/hamburger_campaign_pc.webp" class="d-none d-lg-block w-100" alt="カタログギフト">
-					<img src="<{$assets}>/img/hamburger_campaign_sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
+					<img src="<{$assets}>/img/hamburger_campaign_2404_pc.webp" class="d-none d-lg-block w-100" alt="カタログギフト">
+					<img src="<{$assets}>/img/hamburger_campaign_2404_sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
 				</a>
 			</div>
 			<div class="carousel-item" data-bs-interval="3000">
