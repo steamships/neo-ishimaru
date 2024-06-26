@@ -76,23 +76,7 @@
 				<div class="catalog-summary-body">
 					<div class="catalog-summary-inner">
 						<div class="catalog-summary-header">
-							<h2 class="catalog-summary-header-title NotoSerifL">
-								<span class="NotoSerifSB">選べる</span>
-								<span class="NotoSerifSB">
-									佐<span>賀</span>牛</span>
-								</span>
-								<span class="NotoSerifSB">カタログギフト</span>
-							</h2>
-							<div class="catalog-summary-header-coursename NotoSerifL">
-								<div class="catalog-summary-header-coursename-img">
-									<img src="<{$assets}>/img/neo-catalog-ticket-img-sp.webp">
-								</div>
-								<div class="catalog-summary-header-coursename-wrap">
-									<p class="ls-1 NotoSerifSB text-center">7,000円<span>コース</span></p>
-									<p class="ls-1 NotoSerifSB text-center">10,000円<span>コース</span></p>
-									<p class="ls-1 NotoSerifSB text-center">14,000円<span>コース</span></p>
-								</div>
-							</div>
+							<img src="<{$assets}>/img/cataloggift-detail-top-header-pc.png" alt="選べる佐賀牛カタログギフト 5000円 7000円 10000円 14000円">
 						</div>
 						<!-- SP -->
 						<div class="catalog-summary-catch-sp text-center">
@@ -127,7 +111,7 @@
 						<div class="catalog-summary-text text-center NotoSerifL mb-1 px-3">
 							好きなときに、好きなものを。<br>
 							カタログギフトなら先様のご都合に合わせて受取が可能です。<br>
-							いつもお世話になっているあの人に、感謝の気持ちと一緒に届けませんか。		
+							いつもお世話になっているあの人に、感謝の気持ちと一緒に届けませんか。
 						</div>
 						<div class="catalog-summary-merits d-flex flex-wrap justify-content-between px-3 mb-2">
 							<div class="catalog-summary-merits-circle">
