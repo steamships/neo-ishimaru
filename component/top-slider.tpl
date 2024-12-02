@@ -25,6 +25,12 @@
 					<img src="<{$assets}>/img/oseibo_cp1106_sp.webp" class="d-lg-none d-block w-100" alt="お歳暮キャンペーン">
 				</a>
 			</div>
+			<div class="carousel-item" data-bs-interval="3000">
+				<a href="https://www.saga-ishimaru.co.jp/?pid=183581501">
+					<img src="<{$assets}>/img/xmas_cp1129_pc.webp" class="d-none d-lg-block w-100" alt="クリスマスキャンペーン">
+					<img src="<{$assets}>/img/xmas_cp1129_sp.webp" class="d-lg-none d-block w-100" alt="クリスマスキャンペーン">
+				</a>
+			</div>
 			<!--<div class="carousel-item active" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?pid=145586798">
 					<img src="<{$assets}>/img/valentine_campaign_pc.webp" class="d-none d-lg-block w-100" alt="バレンタインキャンペーン">
