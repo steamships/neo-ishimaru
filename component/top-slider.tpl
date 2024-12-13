@@ -19,12 +19,12 @@
 					<img src="<{$assets}>/img/ochugen-cp-sp.webp" class="d-lg-none d-block w-100" alt="お中元キャンペーン">
 				</a>
 			</div>-->
-			<div class="carousel-item active" data-bs-interval="3000">
+			<!--<div class="carousel-item active" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2483504">
 					<img src="<{$assets}>/img/oseibo_cp1106_pc.webp" class="d-none d-lg-block w-100" alt="お歳暮キャンペーン">
 					<img src="<{$assets}>/img/oseibo_cp1106_sp.webp" class="d-lg-none d-block w-100" alt="お歳暮キャンペーン">
 				</a>
-			</div>
+			</div>-->
 			<div class="carousel-item" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?pid=183581501">
 					<img src="<{$assets}>/img/xmas_cp1129_pc.webp" class="d-none d-lg-block w-100" alt="クリスマスキャンペーン">
