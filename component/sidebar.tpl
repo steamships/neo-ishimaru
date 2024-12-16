@@ -6,22 +6,22 @@
 	<div class="d-none d-lg-block">
 		<ul class="nav nav-pills flex-column mb-auto">
 			<!-- 年末年始の発送日の目安 -->
-			<!-- <li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
-				年末年始の発送日目安
+			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
+				年末の発送日目安
 			</li>
-			<li class="NotoSerifL fs-16px">
+			<!--<li class="NotoSerifL fs-16px">
 				<p class="mb-1">年末年始休み：12月30日～1月5日</p>
 				<p>ご注文いただいた場合の発送日</p>
-			</li>
+			</li>-->
 			<li class="mt-1">
-				<span class="TrajanB fs-22px">12月24日迄：年内に発送</span>
+				<span class="TrajanB fs-22px">12月20日迄：年内に発送</span>
 			</li>
-			<li class="mb-1">
+			<!--<li class="mb-1">
 				<span class="TrajanB fs-22px">12月25日以降：1月10日に発送</span>
-			</li>
+			</li>-->
 			<li class="NotoSerifL fs-16px mb-2">
 				<p>※年末年始の交通状況や荷物量の増加により、商品のお届けが遅れる場合がございます。予めご了承ください。</p>
-			</li> -->
+			</li>
 			<!-- 発送日の目安 -->
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				発送日の目安

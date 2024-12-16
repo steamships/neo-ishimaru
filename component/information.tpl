@@ -1,5 +1,7 @@
 <!-- インフォメーション -->
-<article id="info" style="display:none;">
+<!--<article id="info" style="display:none;">-->
+<article id="info">
+		<img src="<{$assets}>/img/nennai_headder.webp" alt="年内配送は12/20(金)ご注文＆ご入金完了まで！">
 	<!--<h3 class="TrajanB mb-1">INFORMATION<span class="NotoSerifL fs-6 ms-1">お知らせ</span></h3>
 	<p style="color:#f00;">バレンタインキャンペーンは終了いたしました。<br>
 		数ある中から当商品をご購入いただき、ありがとうございました。<br>
