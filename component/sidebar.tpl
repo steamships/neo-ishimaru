@@ -9,10 +9,10 @@
 			<li class="nav-item mb-1 ps-1 NotoSerifSB fs-16px">
 				年末の発送日目安
 			</li>
-			<!--<li class="NotoSerifL fs-16px">
+			<li class="NotoSerifL fs-16px">
 				<p class="mb-1">年末年始休み：12月30日～1月5日</p>
 				<p>ご注文いただいた場合の発送日</p>
-			</li>-->
+			</li>
 			<li class="mt-1">
 				<span class="TrajanB fs-22px">12月20日迄：年内に発送</span>
 			</li>
