@@ -56,7 +56,7 @@
 				</a>
 			</div>-->
 			<div class="carousel-item active" data-bs-interval="3000">
-				<a href="https://www.saga-ishimaru.co.jp/?tid=6&mode=f3">
+				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=3067405">
 					<img src="<{$assets}>/img/goukaku_cp0307_pc.jpg" class="d-none d-lg-block w-100" alt="一人暮らし応援キャンペーン">
 					<img src="<{$assets}>/img/goukaku_cp0307_sp.jpg" class="d-lg-none d-block w-100" alt="一人暮らし応援キャンペーン">
 				</a>
