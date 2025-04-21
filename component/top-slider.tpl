@@ -55,11 +55,9 @@
 					<img src="<{$assets}>/img/keirou_cp240818_sp.webp" class="d-lg-none d-block w-100" alt="敬老の日キャンペーン">
 				</a>
 			</div>-->
-			<div class="carousel-item active" data-bs-interval="3000">
-				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=3067405">
-					<img src="<{$assets}>/img/goukaku_cp0307_pc.jpg" class="d-none d-lg-block w-100" alt="一人暮らし応援キャンペーン">
-					<img src="<{$assets}>/img/goukaku_cp0307_sp.jpg" class="d-lg-none d-block w-100" alt="一人暮らし応援キャンペーン">
-				</a>
+			<div class="carousel-item active" data-bs-interval="4000"><!--リンク無し-->
+					<img src="<{$assets}>/img/md2025_pr_pc.webp" class="d-none d-lg-block w-100" alt="母の日キャンペーン">
+					<img src="<{$assets}>/img/md2025_pr_sp.webp" class="d-lg-none d-block w-100" alt="母の日キャンペーン">
 			</div>
 			<div class="carousel-item" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">
@@ -67,7 +65,7 @@
 					<img src="<{$assets}>/img/neo-slide-8-sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
 				</a>
 			</div>
-			<div class="carousel-item" data-bs-interval="6000">
+			<div class="carousel-item" data-bs-interval="3000">
 				<a href="https://admane.jp/ad/p/r?_site=3090&_article=2181&_link=9646&_image=10308&admane_reurl=https%3A%2F%2Fwww.furusato-tax.jp%2Fproduct%2Fdetail%2F41327%2F5050356%3Fcity-product_rank%26utm_source=business%26utm_medium=affiliate" target="_blank">
 					<img src="<{$assets}>/img/choice-header-pc_01.webp" class="d-none d-lg-block w-100" alt="チョイスイチオシ！">
 					<img src="<{$assets}>/img/choice-header-sp_01.webp" class="d-lg-none d-block w-100" alt="チョイスイチオシ！">
