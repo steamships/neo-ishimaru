@@ -54,7 +54,7 @@
 					<div class="point-wrap get-point d-flex justify-content-between">
 						<h3 class="get-point-header sp">ポイント交換例</h3>
 						<div class="point-box">
-							<h4 class="d-flex justify-content-center align-items-center"><img src="<{$assets}>/img/540pt.png" class="" alt="540pt"></h4>
+							<h4 class="d-flex justify-content-center align-items-center"><img src="<{$assets}>/img/680pt.png" class="" alt="680pt"></h4>
 							<img class="d-lg-block" src="<{$assets}>/img/way_01.webp" alt="オリジナルソースと交換">
 							<h5>オリジナルソースと交換！</h5>
 							<p>一度食べたらやみつきになること間違いなし「がばいソース」と交換可能！</p>
@@ -66,8 +66,8 @@
 							<p>1万年未満のお買い物の場合に加算される、送料￥1,200を実質送料無料に！</p>
 						</div>
 						<div class="point-box">
-							<h4 class="d-flex justify-content-center align-items-center"><img src="<{$assets}>/img/4000pt.png" class="" alt="4000pt"></h4>
-							<img class="d-lg-block" src="<{$assets}>/img/way_03.webp" alt="大人気ハンバーグと交換">
+							<h4 class="d-flex justify-content-center align-items-center"><img src="<{$assets}>/img/3240pt.png" class="" alt="3240pt"></h4>
+							<img class="d-lg-block" src="<{$assets}>/img/way_03_2.webp" alt="大人気ハンバーグと交換">
 							<h5>大人気ハンバーグと交換！</h5>
 							<p>1番人気の【佐賀牛入り】黒毛和牛ハンバーグ150g☓6(ソース付き)と交換できます。<br>※送料は別途加算されます。</p>
 						</div>
