@@ -7,8 +7,8 @@
 	.nav-item {
 		padding-top: rem(6);
 		padding-bottom: rem(6);
-		background: #fff;
-		box-shadow: 0 0 8px rgb(255, 255, 255) !important;
+		background: $third-color;
+		box-shadow: 0 0 8px $third-color !important;
 	}
 
 	.chevron-right {

@@ -43,12 +43,12 @@
 					<img src="<{$assets}>/img/hamburger_campaign_2404_sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
 				</a>
 			</div>-->
-			<div class="carousel-item active" data-bs-interval="3000">
+			<!--<div class="carousel-item active" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=3084874">
 					<img src="<{$assets}>/img/neo-category-img-3084874-pc.png.webp" class="d-none d-lg-block w-100" alt="父の日キャンペーン">
 					<img src="<{$assets}>/img/neo-category-img-3084874-sp.png.webp" class="d-lg-none d-block w-100" alt="父の日キャンペーン">
 				</a>
-			</div>
+			</div>-->
 			<!--<div class="carousel-item active" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?pid=145586798">
 					<img src="<{$assets}>/img/keirou_cp240818_pc.webp" class="d-none d-lg-block w-100" alt="敬老の日キャンペーン">
