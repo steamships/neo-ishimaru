@@ -5,6 +5,11 @@
 
 	<div id="top-slider" class="top-slider-container mb-4">
 		<div class="slider-wrapper">
+			<!-- Fixed overlay for left and right side images -->
+			<div class="slider-fixed-overlay">
+				<div class="overlay-left"></div>
+				<div class="overlay-right"></div>
+			</div>
 			<div class="slider-item">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">
 					<img src="<{$assets}>/img/neo-slide-8-pc.webp" class="d-none d-lg-block w-100" alt="カタログギフト">
@@ -41,17 +46,6 @@
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
-		// Function to add/remove overlays based on slide position
-		function updateOverlays() {
-			// Remove all existing overlays
-			$('.slider-overlay').remove();
-			
-			// Add overlays to non-center slides - add to the 'a' element (same parent as img)
-			$('.slider-wrapper .slick-slide:not(.slick-center) .slider-item a').each(function() {
-				$(this).append('<div class="slider-overlay"></div>');
-			});
-		}
-		
 		$('.slider-wrapper').slick({
 			autoplay: true, //自動再生
 			autoplaySpeed: 3000, //自動再生の速度
@@ -86,13 +80,7 @@
 					}
 				}
 			]
-		}).on('init reInit afterChange', function(event, slick, currentSlide){
-			// Update overlays after slider initialization and slide changes
-			updateOverlays();
 		});
-		
-		// Initial overlay setup
-		setTimeout(updateOverlays, 100);
 	});
 	</script>
 	<{* // スライド *}>
