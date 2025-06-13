@@ -1,0 +1,108 @@
+// Top page horizontal slider styles
+.top-slider-container {
+	position: relative;
+	padding: 0;
+	
+	.slider-wrapper {
+		// Override slick theme styles
+		.slick-prev,
+		.slick-next {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			z-index: 10;
+			width: 50px;
+			height: 50px;
+			border: none;
+			border-radius: 50%;
+			background-color: rgba(0, 0, 0, 0.7);
+			color: white;
+			font-size: 20px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+			
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.9);
+				transform: translateY(-50%) scale(1.1);
+			}
+			
+			&:before {
+				display: none; // Hide default slick arrows
+			}
+			
+			i {
+				font-size: 24px;
+			}
+		}
+		
+		.slick-prev {
+			left: 20px;
+		}
+		
+		.slick-next {
+			right: 20px;
+		}
+		
+		// Mobile responsive arrows
+		@include media-breakpoint-down(lg) {
+			.slick-prev,
+			.slick-next {
+				width: 40px;
+				height: 40px;
+				
+				i {
+					font-size: 18px;
+				}
+			}
+			
+			.slick-prev {
+				left: 10px;
+			}
+			
+			.slick-next {
+				right: 10px;
+			}
+		}
+	}
+	
+	.slider-item {
+		padding: 0 8px; // Gap between slides
+		
+		a {
+			display: block;
+			
+			img {
+				width: 100%;
+				height: auto;
+				border-radius: 8px; // Rounded corners for modern look
+				transition: transform 0.3s ease;
+			}
+			
+			&:hover img {
+				transform: scale(1.02);
+			}
+		}
+		
+		@include media-breakpoint-down(lg) {
+			padding: 0 5px;
+			
+			a img {
+				border-radius: 4px;
+			}
+		}
+	}
+	
+	// Hide slick dots if they appear
+	.slick-dots {
+		display: none !important;
+	}
+}
+
+// Adjust margins for spacing
+#top-slider {
+	margin-bottom: 2rem;
+	
+	@include media-breakpoint-down(lg) {
+		margin-bottom: 1rem;
+	}
+}
