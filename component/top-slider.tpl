@@ -41,6 +41,17 @@
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
+		// Function to add/remove overlays based on slide position
+		function updateOverlays() {
+			// Remove all existing overlays
+			$('.slider-overlay').remove();
+			
+			// Add overlays to non-center slides
+			$('.slider-wrapper .slick-slide:not(.slick-center) .slider-item').each(function() {
+				$(this).append('<div class="slider-overlay"></div>');
+			});
+		}
+		
 		$('.slider-wrapper').slick({
 			autoplay: true, //自動再生
 			autoplaySpeed: 3000, //自動再生の速度
@@ -75,7 +86,13 @@
 					}
 				}
 			]
+		}).on('init reInit afterChange', function(event, slick, currentSlide){
+			// Update overlays after slider initialization and slide changes
+			updateOverlays();
 		});
+		
+		// Initial overlay setup
+		setTimeout(updateOverlays, 100);
 	});
 	</script>
 	<{* // スライド *}>
