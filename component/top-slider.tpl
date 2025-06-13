@@ -79,6 +79,9 @@
 
 		// Add overlays to non-center slides after initialization
 		function updateOverlays() {
+			// Remove all existing overlays first
+			$('.slider-wrapper .slide-overlay').remove();
+			
 			$('.slider-wrapper .slick-slide').each(function() {
 				var $slide = $(this);
 				var $item = $slide.find('.slider-item a');
@@ -88,9 +91,6 @@
 					if ($item.find('.slide-overlay').length === 0) {
 						$item.append('<div class="slide-overlay"></div>');
 					}
-				} else {
-					// Remove overlay from center slide
-					$item.find('.slide-overlay').remove();
 				}
 			});
 		}
@@ -100,8 +100,13 @@
 			updateOverlays();
 		});
 
-		// Initial overlay setup
-		setTimeout(updateOverlays, 100);
+		// Update overlays on initialization
+		$('.slider-wrapper').on('init', function() {
+			updateOverlays();
+		});
+
+		// Initial overlay setup with a longer delay to ensure Slick is ready
+		setTimeout(updateOverlays, 200);
 	});
 	</script>
 	<{* // スライド *}>
