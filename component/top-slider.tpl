@@ -13,32 +13,27 @@
 			<div class="slider-wrapper">
 				<div class="slider-item">
 					<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">
-						<img src="<{$assets}>/img/neo-slide-8-pc.webp" class="d-none d-lg-block w-100" alt="カタログギフト">
-						<img src="<{$assets}>/img/neo-slide-8-sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
+						<img src="<{$assets}>/img/neo-slide-8-pc.webp" class="w-100" alt="カタログギフト">
 					</a>
 				</div>
 				<div class="slider-item">
 					<a href="https://admane.jp/ad/p/r?_site=3090&_article=2181&_link=9646&_image=10308&admane_reurl=https%3A%2F%2Fwww.furusato-tax.jp%2Fproduct%2Fdetail%2F41327%2F5050356%3Fcity-product_rank%26utm_source=business%26utm_medium=affiliate" target="_blank">
-						<img src="<{$assets}>/img/choice-header-pc_01.webp" class="d-none d-lg-block w-100" alt="チョイスイチオシ！">
-						<img src="<{$assets}>/img/choice-header-sp_01.webp" class="d-lg-none d-block w-100" alt="チョイスイチオシ！">
+						<img src="<{$assets}>/img/choice-header-pc_01.webp" class="w-100" alt="チョイスイチオシ！">
 					</a>
 				</div>
 				<div class="slider-item">
 					<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2543763&csid=0">
-						<img src="<{$assets}>/img/neo-slide-3-pc.png.webp" class="d-none d-lg-block w-100" alt="佐賀牛">
-						<img src="<{$assets}>/img/neo-slide-3-sp.png.webp" class="d-lg-none d-block w-100" alt="佐賀牛">
+						<img src="<{$assets}>/img/neo-slide-3-pc.png.webp" class="w-100" alt="佐賀牛">
 					</a>
 				</div>
 				<div class="slider-item">
 					<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2547504&csid=0">
-						<img src="<{$assets}>/img/neo-slide-4-pc.png.webp" class="d-none d-lg-block w-100" alt="九州産黒毛和牛">
-						<img src="<{$assets}>/img/neo-slide-4-sp.png.webp" class="d-lg-none d-block w-100" alt="九州産黒毛和牛">
+						<img src="<{$assets}>/img/neo-slide-4-pc.png.webp" class="w-100" alt="九州産黒毛和牛">
 					</a>
 				</div>
 				<div class="slider-item">
 					<a href="https://www.saga-ishimaru.co.jp/?mode=cate&cbid=2601547&csid=0">
-						<img src="<{$assets}>/img/neo-slide-5-pc.png.webp" class="d-none d-lg-block w-100" alt="その他">
-						<img src="<{$assets}>/img/neo-slide-5-sp.png.webp" class="d-lg-none d-block w-100" alt="その他">
+						<img src="<{$assets}>/img/neo-slide-5-pc.png.webp" class="w-100" alt="その他">
 					</a>
 				</div>
 			</div>
@@ -51,10 +46,10 @@
 		$('.slider-wrapper').slick({
 			autoplay: true, //自動再生
 			autoplaySpeed: 3000, //自動再生の速度
-			dots: false, //ドットのナビゲーションを非表示
+			dots: false, //ドットのナビゲーションを非表示（デスクトップ・タブレット）
 			infinite: true, //スライドのループ有効化
 			speed: 500, //切り替えのスピード
-			fade: false, //フェードを無効化
+			fade: false, //フェードを無効化（デスクトップ・タブレット）
 			slidesToShow: 1, //中央フォーカスのため1つ
 			slidesToScroll: 1, //一度にスクロールするスライド数
 			centerMode: true, //中央フォーカスモード
@@ -68,8 +63,12 @@
 					settings: {
 						slidesToShow: 1, //モバイルでは1つ表示
 						slidesToScroll: 1,
-						centerMode: true,
-						centerPadding: '60px'
+						centerMode: false, //モバイルではセンターモード無効
+						centerPadding: '0', //モバイルでは余白なし
+						fade: true, //モバイルではフェード効果
+						arrows: false, //モバイルでは矢印非表示
+						dots: true, //モバイルではドットナビ表示
+						dotsClass: 'slick-dots mobile-dots'
 					}
 				},
 				{

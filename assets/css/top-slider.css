@@ -134,46 +134,80 @@
   display: none !important;
 }
 
+/* Mobile dots styling */
+.mobile-dots {
+  display: none !important; /* Hidden by default */
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+  gap: 12px;
+}
+
+.mobile-dots li {
+  margin: 0;
+}
+
+.mobile-dots li button {
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+  min-height: 44px; /* Touch target size for accessibility */
+  min-width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-dots li button:before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.mobile-dots li.slick-active button:before {
+  background-color: #333;
+  transform: scale(1.2);
+}
+
 /* Mobile responsive */
 @media (max-width: 767px) {
   #slider-wrap {
     margin-bottom: 1rem;
   }
   
+  /* Hide overlay and arrows on mobile since we're using fade */
+  .slider-fixed-overlay {
+    display: none;
+  }
+  
   #slider-wrap .slider-wrapper .slick-prev,
   #slider-wrap .slider-wrapper .slick-next {
-    width: 40px;
-    height: 40px;
-  }
-  
-  #slider-wrap .slider-wrapper .slick-prev i,
-  #slider-wrap .slider-wrapper .slick-next i {
-    font-size: 18px;
-  }
-  
-  /* Keep arrows at edges for mobile due to smaller screen */
-  #slider-wrap .slider-wrapper .slick-prev {
-    left: 10px;
-    transform: translateY(-50%);
-  }
-  
-  #slider-wrap .slider-wrapper .slick-next {
-    right: 10px;
-    transform: translateY(-50%);
+    display: none !important;
   }
   
   #slider-wrap .slider-item {
-    padding: 0 5px;
+    padding: 0;
   }
   
   #slider-wrap .slider-item a img {
     border-radius: 4px;
   }
   
-  /* Mobile overlay adjustments - considering centerPadding of 60px */
-  .overlay-left,
-  .overlay-right {
-    width: 60px; /* Fixed width for mobile padding */
+  /* Show dots navigation on mobile */
+  .mobile-dots {
+    display: flex !important;
   }
 }
 
@@ -194,6 +228,19 @@
   .overlay-left,
   .overlay-right {
     width: 10%;
+  }
+  
+  /* Hide dots on tablet */
+  .mobile-dots {
+    display: none !important;
+  }
+}
+
+/* Desktop responsive */
+@media (min-width: 1024px) {
+  /* Hide dots on desktop */
+  .mobile-dots {
+    display: none !important;
   }
 }
 
