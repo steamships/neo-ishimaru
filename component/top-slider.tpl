@@ -48,8 +48,10 @@
 			infinite: true, //スライドのループ有効化
 			speed: 500, //切り替えのスピード
 			fade: false, //フェードを無効化
-			slidesToShow: 3, //表示するスライド数（デスクトップ）
+			slidesToShow: 1, //中央フォーカスのため1つ
 			slidesToScroll: 1, //一度にスクロールするスライド数
+			centerMode: true, //中央フォーカスモード
+			centerPadding: '25%', //左右に25%ずつ見せる（半分程度）
 			arrows: true, //矢印ボタンを表示
 			prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-chevron-left"></i></button>',
 			nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
@@ -66,8 +68,10 @@
 				{
 					breakpoint: 1024,
 					settings: {
-						slidesToShow: 2, //タブレットでは2つ表示
-						slidesToScroll: 1
+						slidesToShow: 1, //タブレットでも中央フォーカス
+						slidesToScroll: 1,
+						centerMode: true,
+						centerPadding: '20%'
 					}
 				}
 			]

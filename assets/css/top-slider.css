@@ -5,6 +5,7 @@
   margin-bottom: 2rem;
 }
 
+/* Navigation arrows positioned between center and side images */
 .top-slider-container .slider-wrapper .slick-prev,
 .top-slider-container .slider-wrapper .slick-next {
   position: absolute;
@@ -42,20 +43,24 @@
   color: white;
 }
 
+/* Position arrows between center and side images */
 .top-slider-container .slider-wrapper .slick-prev {
-  left: 20px;
+  left: 12.5%; /* Between left edge and center */
 }
 
 .top-slider-container .slider-wrapper .slick-next {
-  right: 20px;
+  right: 12.5%; /* Between center and right edge */
 }
 
+/* Slider item base styles */
 .top-slider-container .slider-item {
   padding: 0 8px;
+  position: relative;
 }
 
 .top-slider-container .slider-item a {
   display: block;
+  position: relative;
 }
 
 .top-slider-container .slider-item a img {
@@ -65,7 +70,22 @@
   transition: transform 0.3s ease;
 }
 
-.top-slider-container .slider-item a:hover img {
+/* Semi-transparent overlay for non-center slides */
+.top-slider-container .slick-slide:not(.slick-center) .slider-item a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Center slide should not have overlay and can have hover effect */
+.top-slider-container .slick-center .slider-item a:hover img {
   transform: scale(1.02);
 }
 
@@ -90,6 +110,7 @@
     font-size: 18px;
   }
   
+  /* Keep arrows at edges for mobile due to smaller screen */
   .top-slider-container .slider-wrapper .slick-prev {
     left: 10px;
   }
@@ -104,6 +125,25 @@
   
   .top-slider-container .slider-item a img {
     border-radius: 4px;
+  }
+  
+  /* Adjust overlay for mobile */
+  .top-slider-container .slick-slide:not(.slick-center) .slider-item a::after {
+    left: 5px;
+    right: 5px;
+    border-radius: 4px;
+  }
+}
+
+/* Tablet responsive */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Position arrows between center and side images for tablet */
+  .top-slider-container .slider-wrapper .slick-prev {
+    left: 10%; /* Adjust for tablet centerPadding of 20% */
+  }
+  
+  .top-slider-container .slider-wrapper .slick-next {
+    right: 10%;
   }
 }
 
