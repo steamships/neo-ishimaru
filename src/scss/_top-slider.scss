@@ -56,8 +56,16 @@
 			}
 		}
 		
-		// Mobile responsive arrows
-		@include media-breakpoint-down(lg) {
+		// Mobile responsive - hide arrows since we use fade transition
+		@include media-breakpoint-down(md) {
+			.slick-prev,
+			.slick-next {
+				display: none !important;
+			}
+		}
+		
+		// Tablet responsive arrows
+		@include media-breakpoint-between(md, lg) {
 			.slick-prev,
 			.slick-next {
 				width: 40px;
@@ -68,7 +76,7 @@
 				}
 			}
 			
-			// Keep arrows at edges for mobile due to smaller screen
+			// Keep arrows at edges for tablet due to smaller screen
 			.slick-prev {
 				left: 10px;
 				transform: translateY(-50%);
@@ -120,6 +128,11 @@
 		z-index: 5;
 		pointer-events: none;
 		
+		// Hide overlay on mobile since we're using fade
+		@include media-breakpoint-down(md) {
+			display: none;
+		}
+		
 		// Left side overlay covering the left 12.5% of the slider
 		.overlay-left {
 			position: absolute;
@@ -129,11 +142,6 @@
 			height: 100%;
 			background-color: rgba(255, 255, 255, 0.7);
 			pointer-events: none;
-			
-			// Mobile overlay adjustments - considering centerPadding of 60px
-			@include media-breakpoint-down(md) {
-				width: 60px; // Fixed width for mobile padding
-			}
 			
 			// Tablet overlay adjustments - considering centerPadding of 10%
 			@include media-breakpoint-between(md, lg) {
@@ -150,11 +158,6 @@
 			height: 100%;
 			background-color: rgba(255, 255, 255, 0.7);
 			pointer-events: none;
-			
-			// Mobile overlay adjustments - considering centerPadding of 60px
-			@include media-breakpoint-down(md) {
-				width: 60px; // Fixed width for mobile padding
-			}
 			
 			// Tablet overlay adjustments - considering centerPadding of 10%
 			@include media-breakpoint-between(md, lg) {
@@ -183,6 +186,15 @@
 			}
 		}
 		
+		// Mobile responsive - remove padding and smaller border radius
+		@include media-breakpoint-down(md) {
+			padding: 0;
+			
+			a img {
+				border-radius: 4px;
+			}
+		}
+		
 		@include media-breakpoint-down(lg) {
 			padding: 0 5px;
 			
@@ -197,9 +209,58 @@
 		transform: scale(1.02);
 	}
 	
-	// Hide slick dots if they appear
+	// Hide slick dots on desktop and tablet, but show on mobile
 	.slick-dots {
 		display: none !important;
+		
+		// Show dots on mobile when using mobile-dots class
+		&.mobile-dots {
+			@include media-breakpoint-down(md) {
+				display: flex !important;
+				justify-content: center;
+				align-items: center;
+				list-style: none;
+				padding: 0;
+				margin: 20px 0 0 0;
+				gap: 12px;
+				
+				li {
+					margin: 0;
+					
+					button {
+						width: 16px;
+						height: 16px;
+						border: none;
+						border-radius: 50%;
+						background-color: rgba(0, 0, 0, 0.3);
+						cursor: pointer;
+						font-size: 0;
+						padding: 0;
+						transition: all 0.3s ease;
+						min-height: 44px; // Touch target size for accessibility
+						min-width: 44px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						
+						&:before {
+							content: '';
+							width: 16px;
+							height: 16px;
+							border-radius: 50%;
+							background-color: rgba(0, 0, 0, 0.3);
+							display: block;
+							transition: all 0.3s ease;
+						}
+					}
+					
+					&.slick-active button:before {
+						background-color: #333;
+						transform: scale(1.2);
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -207,7 +268,7 @@
 #top-slider {
 	margin-bottom: 2rem;
 	
-	@include media-breakpoint-down(lg) {
+	@include media-breakpoint-down(md) {
 		margin-bottom: 1rem;
 	}
 }

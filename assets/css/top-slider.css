@@ -134,6 +134,11 @@
   display: none !important;
 }
 
+/* Show dots on mobile when using mobile-dots class */
+#slider-wrap .slick-dots.mobile-dots {
+  display: none !important; /* Hidden by default */
+}
+
 /* Mobile dots styling */
 .mobile-dots {
   display: none !important; /* Hidden by default */
@@ -206,6 +211,10 @@
   }
   
   /* Show dots navigation on mobile */
+  #slider-wrap .slick-dots.mobile-dots {
+    display: flex !important;
+  }
+  
   .mobile-dots {
     display: flex !important;
   }
