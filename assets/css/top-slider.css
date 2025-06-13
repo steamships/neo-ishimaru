@@ -146,7 +146,11 @@
   align-items: center;
   list-style: none;
   padding: 0;
-  margin: 30px 0 0 0; /* Increased margin for more spacing */
+  margin: 0; /* Remove margin since we're using absolute positioning */
+  position: absolute;
+  bottom: -40px; /* Increased spacing from slider */
+  left: 0;
+  right: 0;
   gap: 12px;
 }
 
