@@ -37,11 +37,11 @@
 		
 		// Position arrows between center and side images
 		.slick-prev {
-			left: 12.5%; // Between left edge and center
+			left: 18.75%; // Adjust position to be between center and side
 		}
 		
 		.slick-next {
-			right: 12.5%; // Between center and right edge
+			right: 18.75%; // Adjust position to be between center and side
 		}
 		
 		// Mobile responsive arrows
@@ -69,11 +69,11 @@
 		// Tablet responsive
 		@include media-breakpoint-between(md, lg) {
 			.slick-prev {
-				left: 10%; // Adjust for tablet centerPadding of 20%
+				left: 15%; // Adjust for tablet centerPadding of 20%
 			}
 			
 			.slick-next {
-				right: 10%;
+				right: 15%;
 			}
 		}
 	}
@@ -104,17 +104,18 @@
 	}
 	
 	// Semi-transparent overlay for non-center slides
-	.slick-slide:not(.slick-center) .slider-item a::after {
+	.slider-wrapper .slick-slide:not(.slick-center) .slider-item a::after {
 		content: '';
 		position: absolute;
 		top: 0;
 		left: 8px;
 		right: 8px;
 		bottom: 0;
-		background-color: rgba(255, 255, 255, 0.5);
+		background-color: rgba(255, 255, 255, 0.6) !important;
 		border-radius: 8px;
 		pointer-events: none;
 		transition: opacity 0.3s ease;
+		z-index: 2;
 		
 		@include media-breakpoint-down(lg) {
 			left: 5px;
