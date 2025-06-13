@@ -76,37 +76,6 @@
 				}
 			]
 		});
-
-		// Add overlays to non-center slides after initialization
-		function updateOverlays() {
-			// Remove all existing overlays first
-			$('.slider-wrapper .slide-overlay').remove();
-			
-			$('.slider-wrapper .slick-slide').each(function() {
-				var $slide = $(this);
-				var $item = $slide.find('.slider-item a');
-				
-				if (!$slide.hasClass('slick-center')) {
-					// Add overlay if not present
-					if ($item.find('.slide-overlay').length === 0) {
-						$item.append('<div class="slide-overlay"></div>');
-					}
-				}
-			});
-		}
-
-		// Update overlays on slide change
-		$('.slider-wrapper').on('afterChange', function() {
-			updateOverlays();
-		});
-
-		// Update overlays on initialization
-		$('.slider-wrapper').on('init', function() {
-			updateOverlays();
-		});
-
-		// Initial overlay setup with a longer delay to ensure Slick is ready
-		setTimeout(updateOverlays, 200);
 	});
 	</script>
 	<{* // スライド *}>
