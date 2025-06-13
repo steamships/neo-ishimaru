@@ -9,7 +9,6 @@
 		.slick-next {
 			position: absolute;
 			top: 50%;
-			transform: translateY(-50%);
 			z-index: 10;
 			width: 50px;
 			height: 50px;
@@ -23,7 +22,6 @@
 			
 			&:hover {
 				background-color: rgba(0, 0, 0, 0.9);
-				transform: translateY(-50%) scale(1.1);
 			}
 			
 			&:before {
@@ -37,11 +35,21 @@
 		
 		// Position arrows between center and side images
 		.slick-prev {
-			left: 18.75%; // Adjust position to be between center and side
+			left: 25%; // Position between left side image and center image
+			transform: translate(-50%, -50%); // Center the button on the boundary
+			
+			&:hover {
+				transform: translate(-50%, -50%) scale(1.1);
+			}
 		}
 		
 		.slick-next {
-			right: 18.75%; // Adjust position to be between center and side
+			right: 25%; // Position between center image and right side image
+			transform: translate(50%, -50%); // Center the button on the boundary
+			
+			&:hover {
+				transform: translate(50%, -50%) scale(1.1);
+			}
 		}
 		
 		// Mobile responsive arrows
@@ -59,21 +67,41 @@
 			// Keep arrows at edges for mobile due to smaller screen
 			.slick-prev {
 				left: 10px;
+				transform: translateY(-50%);
+				
+				&:hover {
+					transform: translateY(-50%) scale(1.1);
+				}
 			}
 			
 			.slick-next {
 				right: 10px;
+				transform: translateY(-50%);
+				
+				&:hover {
+					transform: translateY(-50%) scale(1.1);
+				}
 			}
 		}
 		
 		// Tablet responsive
 		@include media-breakpoint-between(md, lg) {
 			.slick-prev {
-				left: 15%; // Adjust for tablet centerPadding of 20%
+				left: 20%; // Adjust for tablet centerPadding of 20%
+				transform: translate(-50%, -50%);
+				
+				&:hover {
+					transform: translate(-50%, -50%) scale(1.1);
+				}
 			}
 			
 			.slick-next {
-				right: 15%;
+				right: 20%;
+				transform: translate(50%, -50%);
+				
+				&:hover {
+					transform: translate(50%, -50%) scale(1.1);
+				}
 			}
 		}
 	}
@@ -85,6 +113,7 @@
 		a {
 			display: block;
 			position: relative;
+			overflow: hidden;
 			
 			img {
 				width: 100%;
@@ -103,13 +132,13 @@
 		}
 	}
 	
-	// Semi-transparent overlay for non-center slides
+	// Semi-transparent overlay for non-center slides - positioned to cover full image
 	.slider-wrapper .slick-slide:not(.slick-center) .slider-item a::after {
 		content: '';
 		position: absolute;
 		top: 0;
-		left: 8px;
-		right: 8px;
+		left: 0;
+		right: 0;
 		bottom: 0;
 		background-color: rgba(255, 255, 255, 0.6) !important;
 		border-radius: 8px;
@@ -118,8 +147,6 @@
 		z-index: 2;
 		
 		@include media-breakpoint-down(lg) {
-			left: 5px;
-			right: 5px;
 			border-radius: 4px;
 		}
 	}

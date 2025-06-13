@@ -10,7 +10,6 @@
 .top-slider-container .slider-wrapper .slick-next {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
   z-index: 10;
   width: 50px;
   height: 50px;
@@ -29,7 +28,12 @@
 .top-slider-container .slider-wrapper .slick-prev:hover,
 .top-slider-container .slider-wrapper .slick-next:hover {
   background-color: rgba(0, 0, 0, 0.9);
-  transform: translateY(-50%) scale(1.1);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Hover effect for next button */
+.top-slider-container .slider-wrapper .slick-next:hover {
+  transform: translate(50%, -50%) scale(1.1);
 }
 
 .top-slider-container .slider-wrapper .slick-prev:before,
@@ -45,11 +49,13 @@
 
 /* Position arrows between center and side images */
 .top-slider-container .slider-wrapper .slick-prev {
-  left: 18.75%; /* Adjust position to be between center and side */
+  left: 25%; /* Position between left side image and center image */
+  transform: translate(-50%, -50%); /* Center the button on the boundary */
 }
 
 .top-slider-container .slider-wrapper .slick-next {
-  right: 18.75%; /* Adjust position to be between center and side */
+  right: 25%; /* Position between center image and right side image */
+  transform: translate(50%, -50%); /* Center the button on the boundary */
 }
 
 /* Slider item base styles */
@@ -61,6 +67,7 @@
 .top-slider-container .slider-item a {
   display: block;
   position: relative;
+  overflow: hidden;
 }
 
 .top-slider-container .slider-item a img {
@@ -70,13 +77,13 @@
   transition: transform 0.3s ease;
 }
 
-/* Semi-transparent overlay for non-center slides */
+/* Semi-transparent overlay for non-center slides - positioned to cover full image */
 .top-slider-container .slider-wrapper .slick-slide:not(.slick-center) .slider-item a::after {
   content: '';
   position: absolute;
   top: 0;
-  left: 8px;
-  right: 8px;
+  left: 0;
+  right: 0;
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.6) !important;
   border-radius: 8px;
@@ -128,10 +135,12 @@
   /* Keep arrows at edges for mobile due to smaller screen */
   .top-slider-container .slider-wrapper .slick-prev {
     left: 10px;
+    transform: translateY(-50%);
   }
   
   .top-slider-container .slider-wrapper .slick-next {
     right: 10px;
+    transform: translateY(-50%);
   }
   
   .top-slider-container .slider-item {
@@ -144,8 +153,6 @@
   
   /* Adjust overlay for mobile */
   .top-slider-container .slider-wrapper .slick-slide:not(.slick-center) .slider-item a::after {
-    left: 5px;
-    right: 5px;
     border-radius: 4px;
   }
 
@@ -158,11 +165,13 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   /* Position arrows between center and side images for tablet */
   .top-slider-container .slider-wrapper .slick-prev {
-    left: 15%; /* Adjust for tablet centerPadding of 20% */
+    left: 20%; /* Adjust for tablet centerPadding of 20% */
+    transform: translate(-50%, -50%);
   }
   
   .top-slider-container .slider-wrapper .slick-next {
-    right: 15%;
+    right: 20%;
+    transform: translate(50%, -50%);
   }
 }
 
