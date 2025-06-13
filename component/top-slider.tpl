@@ -58,7 +58,7 @@
 			slidesToShow: 1, //中央フォーカスのため1つ
 			slidesToScroll: 1, //一度にスクロールするスライド数
 			centerMode: true, //中央フォーカスモード
-			centerPadding: '25%', //左右に25%ずつ見せる（半分程度）
+			centerPadding: '12.5%', //左右に12.5%ずつ見せる（中央画像を大きく）
 			arrows: true, //矢印ボタンを表示
 			prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-chevron-left"></i></button>',
 			nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
@@ -78,7 +78,7 @@
 						slidesToShow: 1, //タブレットでも中央フォーカス
 						slidesToScroll: 1,
 						centerMode: true,
-						centerPadding: '20%'
+						centerPadding: '10%'
 					}
 				}
 			]

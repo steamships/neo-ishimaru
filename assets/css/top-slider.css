@@ -27,23 +27,23 @@
   pointer-events: none;
 }
 
-/* Left side overlay covering the left 25% of the slider */
+/* Left side overlay covering the left 12.5% of the slider */
 .overlay-left {
   position: absolute;
   top: 0;
   left: 0;
-  width: 25%;
+  width: 12.5%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.7);
   pointer-events: none;
 }
 
-/* Right side overlay covering the right 25% of the slider */
+/* Right side overlay covering the right 12.5% of the slider */
 .overlay-right {
   position: absolute;
   top: 0;
   right: 0;
-  width: 25%;
+  width: 12.5%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.7);
   pointer-events: none;
@@ -94,12 +94,12 @@
 
 /* Position arrows between center and side images */
 #slider-wrap .slider-wrapper .slick-prev {
-  left: 25%; /* Position between left side image and center image */
+  left: 12.5%; /* Position between left side image and center image */
   transform: translate(-50%, -50%); /* Center the button on the boundary */
 }
 
 #slider-wrap .slider-wrapper .slick-next {
-  right: 25%; /* Position between center image and right side image */
+  right: 12.5%; /* Position between center image and right side image */
   transform: translate(50%, -50%); /* Center the button on the boundary */
 }
 
@@ -181,19 +181,19 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   /* Position arrows between center and side images for tablet */
   #slider-wrap .slider-wrapper .slick-prev {
-    left: 20%; /* Adjust for tablet centerPadding of 20% */
+    left: 10%; /* Adjust for tablet centerPadding of 10% */
     transform: translate(-50%, -50%);
   }
   
   #slider-wrap .slider-wrapper .slick-next {
-    right: 20%;
+    right: 10%;
     transform: translate(50%, -50%);
   }
   
-  /* Tablet overlay adjustments - considering centerPadding of 20% */
+  /* Tablet overlay adjustments - considering centerPadding of 10% */
   .overlay-left,
   .overlay-right {
-    width: 20%;
+    width: 10%;
   }
 }
 
