@@ -46,8 +46,8 @@
 			// Remove all existing overlays
 			$('.slider-overlay').remove();
 			
-			// Add overlays to non-center slides
-			$('.slider-wrapper .slick-slide:not(.slick-center) .slider-item').each(function() {
+			// Add overlays to non-center slides - add to the 'a' element (same parent as img)
+			$('.slider-wrapper .slick-slide:not(.slick-center) .slider-item a').each(function() {
 				$(this).append('<div class="slider-overlay"></div>');
 			});
 		}
