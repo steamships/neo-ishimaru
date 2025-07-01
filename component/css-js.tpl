@@ -8,7 +8,6 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 <link rel="stylesheet" href="<{$assets}>/css/starter.css?ver=<{$smarty.now}>" type="text/css">
-<link rel="stylesheet" href="<{$assets}>/css/top-slider.css?ver=<{$smarty.now}>" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <script>
 	(function (d) {
