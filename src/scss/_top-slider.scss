@@ -1,0 +1,276 @@
+// Top page horizontal slider styles
+.top-slider-container {
+	position: relative;
+	padding: 0;
+
+	.slider-wrapper {
+		position: relative; // Needed for overlay positioning
+
+		// Override slick theme styles
+		.slick-prev,
+		.slick-next {
+			position: absolute;
+			top: 50%;
+			z-index: 10;
+			width: 50px;
+			height: 50px;
+			border: none;
+			border-radius: 50%;
+			background-color: rgba(255, 255, 255, 0.7);
+			color: #333;
+			font-size: 20px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+			&:hover {
+				background-color: rgba(255, 255, 255, 0.9);
+			}
+
+			&:before {
+				display: none; // Hide default slick arrows
+			}
+
+			i {
+				font-size: 24px;
+				color: #333;
+			}
+		}
+
+		// Position arrows between center and side images
+		.slick-prev {
+			left: 12.5%; // Position between left side image and center image
+			transform: translate(-50%, -50%); // Center the button on the boundary
+
+			&:hover {
+				transform: translate(-50%, -50%) scale(1.1);
+			}
+		}
+
+		.slick-next {
+			right: 12.5%; // Position between center image and right side image
+			transform: translate(50%, -50%); // Center the button on the boundary
+
+			&:hover {
+				transform: translate(50%, -50%) scale(1.1);
+			}
+		}
+
+		// Mobile responsive - hide arrows since we use fade transition
+		@include media-breakpoint-down(md) {
+			.slick-prev,
+			.slick-next {
+				display: none !important;
+			}
+		}
+
+		// Tablet responsive arrows
+		@include media-breakpoint-between(md, lg) {
+			.slick-prev,
+			.slick-next {
+				width: 40px;
+				height: 40px;
+
+				i {
+					font-size: 18px;
+				}
+			}
+
+			// Keep arrows at edges for tablet due to smaller screen
+			.slick-prev {
+				left: 10px;
+				transform: translateY(-50%);
+
+				&:hover {
+					transform: translateY(-50%) scale(1.1);
+				}
+			}
+
+			.slick-next {
+				right: 10px;
+				transform: translateY(-50%);
+
+				&:hover {
+					transform: translateY(-50%) scale(1.1);
+				}
+			}
+		}
+
+		// Tablet responsive
+		@include media-breakpoint-between(md, lg) {
+			.slick-prev {
+				left: 10%; // Adjust for tablet centerPadding of 10%
+				transform: translate(-50%, -50%);
+
+				&:hover {
+					transform: translate(-50%, -50%) scale(1.1);
+				}
+			}
+
+			.slick-next {
+				right: 10%;
+				transform: translate(50%, -50%);
+
+				&:hover {
+					transform: translate(50%, -50%) scale(1.1);
+				}
+			}
+		}
+	}
+
+	// Fixed overlay container covering the entire slider
+	.slider-fixed-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 5;
+		pointer-events: none;
+
+		// Hide overlay on mobile since we're using fade
+		@include media-breakpoint-down(md) {
+			display: none;
+		}
+
+		// Left side overlay covering the left 12.5% of the slider
+		.overlay-left {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 12.5%;
+			height: 100%;
+			background-color: rgba(255, 255, 255, 0.7);
+			pointer-events: none;
+
+			// Tablet overlay adjustments - considering centerPadding of 10%
+			@include media-breakpoint-between(md, lg) {
+				width: 10%;
+			}
+		}
+
+		// Right side overlay covering the right 12.5% of the slider
+		.overlay-right {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 12.5%;
+			height: 100%;
+			background-color: rgba(255, 255, 255, 0.7);
+			pointer-events: none;
+
+			// Tablet overlay adjustments - considering centerPadding of 10%
+			@include media-breakpoint-between(md, lg) {
+				width: 10%;
+			}
+		}
+	}
+
+	.slider-item {
+		padding: 0 8px; // Gap between slides
+		position: relative;
+
+		a {
+			display: block;
+			position: relative;
+			overflow: hidden;
+			z-index: 1;
+
+			img {
+				width: 100%;
+				height: auto;
+				border-radius: 8px; // Rounded corners for modern look
+				transition: transform 0.3s ease;
+				position: relative;
+				z-index: 1;
+			}
+		}
+
+		// Mobile responsive - remove padding and smaller border radius
+		@include media-breakpoint-down(md) {
+			padding: 0;
+
+			a img {
+				border-radius: 4px;
+			}
+		}
+
+		@include media-breakpoint-down(lg) {
+			padding: 0 5px;
+
+			a img {
+				border-radius: 4px;
+			}
+		}
+	}
+
+	// Center slide can have hover effect
+	.slick-center .slider-item a:hover img {
+		transform: scale(1.02);
+	}
+
+	// Hide slick dots on desktop and tablet, but show on mobile
+	.slick-dots {
+		display: none !important;
+
+		// Show dots on mobile when using mobile-dots class
+		&.mobile-dots {
+			@include media-breakpoint-down(md) {
+				display: flex !important;
+				justify-content: center;
+				align-items: center;
+				list-style: none;
+				padding: 0;
+				margin: 0; // Remove margin since we're using absolute positioning
+				gap: 12px;
+				// Override Slick theme's default positioning
+				position: absolute;
+				bottom: -40px; // Increased spacing from slider
+				left: 0;
+				right: 0;
+
+				li {
+					margin: 0;
+
+					button {
+						width: 44px; // Touch target size for accessibility
+						height: 44px;
+						border: none;
+						background: transparent; // Remove button background
+						cursor: pointer;
+						font-size: 0;
+						padding: 0;
+						transition: all 0.3s ease;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+
+						&:before {
+							content: '';
+							width: 16px;
+							height: 16px;
+							border-radius: 50%;
+							background-color: rgba(0, 0, 0, 0.3);
+							display: block;
+							transition: all 0.3s ease;
+						}
+					}
+
+					&.slick-active button:before {
+						background-color: #333;
+						transform: scale(1.2);
+					}
+				}
+			}
+		}
+	}
+}
+
+// Adjust margins for spacing
+#top-slider {
+	margin-bottom: 2rem;
+
+	@include media-breakpoint-down(md) {
+		margin-bottom: 1rem;
+	}
+}
