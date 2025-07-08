@@ -128,8 +128,10 @@
 					text-align: center;
 					cursor: pointer;
 					span {
-						font-size: .7em;
-						transition: .3s;
+						.small-header{
+							font-size: .7em;
+							transition: .3s;
+						}
 					}
 					&.colorChange {
 						@include media-breakpoint-down(lg) {
@@ -156,10 +158,13 @@
 						text-align: start;
 						font-weight: bold;
 						span{
-							color: $primary;
-							font-size: .75em;
-							margin-left: .8em;
-							line-height: $fs*3;
+							.small-header{
+								// color: $primary;
+								// font-size: .75em;
+								// margin-left: .8em;
+								// line-height: $fs*3;
+								font-size: 1em;
+							}
 						}
 						&::after {
 							@include bsicon('chevron-right');

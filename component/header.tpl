@@ -24,14 +24,14 @@
 			<ul id="header-nav-main" class="collapse navbar-collapse navbar-nav main-nav col-lg-auto">
 				<li class="nav-item">
 					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=f1">
-						ABOUT
-						<span class="d-lg-block NotoSerifL">ISHIMARUのこと</span>
+						<span class="d-lg-block big-header">ABOUT</span>
+						<span class="NotoSerifL small-header">ISHIMARUのこと</span>
 					</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2483504">
-						WINTER GIFT
-						<span class="d-lg-block NotoSerifL">お歳暮</span>
+						<span class="d-lg-block big-header">WINTER GIFT</span>
+						<span class="NotoSerifL small-header">お歳暮</span>
 					</a>
 				</li>
 				<!--<li class="nav-item">
@@ -42,14 +42,14 @@
 				</li>-->
 				<li class="nav-item d-block d-lg-none">
 					<a class="nav-link TrajanSB" href="https://www.saga-ishimaru.co.jp/?mode=f5">
-						HOW TO COOK
-						<span class="d-lg-block NotoSerifL">ハンバーグの焼き方</span>
+						<span class="d-lg-block big-header">HOW TO COOK</span>
+						<span class="NotoSerifL small-header">ハンバーグの焼き方</span>
 					</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link TrajanSB">
-						BRAND
-						<span class="d-lg-block NotoSerifL">ブランド牛で選ぶ</span>
+						<span class="d-lg-block big-header">BRAND</span>
+						<span class="NotoSerifL small-header">ブランド牛で選ぶ</span>
 					</a>
 					<!-- カテゴリーリスト -->
 					<{section name=num loop=$category}>
@@ -75,7 +75,7 @@
 					<!-- // カテゴリーリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB">DISH<span class="d-lg-block NotoSerifL">料理で選ぶ</span></a>
+					<a class="nav-link TrajanSB"><span class="d-lg-block big-header">DISH</span><span class="NotoSerifL small-header">料理で選ぶ</span></a>
 					<!-- 料理で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
@@ -97,7 +97,7 @@
 					<!-- // 料理で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB">BUDGET<span class="d-lg-block NotoSerifL">部位で選ぶ</span></a>
+					<a class="nav-link TrajanSB"><span class="d-lg-block big-header">BUDGET</span><span class="NotoSerifL small-header">部位で選ぶ</span></a>
 					<!-- 部位で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
@@ -119,7 +119,7 @@
 					<!-- // 部位で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB">PRICE<span class="d-lg-block NotoSerifL">価格帯で選ぶ</span></a>
+					<a class="nav-link TrajanSB"><span class="d-lg-block big-header">PRICE</span><span class="NotoSerifL small-header">価格帯で選ぶ</span></a>
 					<!-- 価格帯で選ぶグループリスト -->
 					<{section name=num loop=$group}>
 						<{if $smarty.section.num.first }>
@@ -141,7 +141,7 @@
 					<!-- // 価格帯で選ぶグループリスト -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB">GIFT<span class="d-lg-block NotoSerifL">ギフト</span></a>
+					<a class="nav-link TrajanSB"><span class="d-lg-block big-header">GIFT</span><span class="NotoSerifL small-header">ギフト</span></a>
 					<!-- ギフト券 -->
 						<ul class="g-sub-nav gift-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-start  TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 							<li class="g-sub-nav-blists mx-lg-2 text-center">
@@ -160,7 +160,7 @@
 					<!-- // ギフト券 -->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link TrajanSB">FURUSATO TAX<span class="d-lg-block NotoSerifL">ふるさと納税</span></a>
+					<a class="nav-link TrajanSB"><span class="d-lg-block big-header">FURUSATO TAX</span><span class="NotoSerifL small-header">ふるさと納税</span></a>
 					<!-- ふるさと納税リスト -->
 						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-evenly TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 							<li class="g-sub-nav-blists mx-lg-2 text-center">
@@ -181,7 +181,7 @@
 
 
 				<li class="nav-item">
-					<a class="nav-link TrajanSB">SERVICE<span class="d-lg-block NotoSerifL">サービス</span></a>
+					<a class="nav-link TrajanSB"><span class="d-lg-block big-header">SERVICE</span><span class="NotoSerifL small-header">サービス</span></a>
 					<!-- サービスグループリスト -->
 						<ul class="g-sub-nav price-group sub-nav d-flex flex-wrap list-unstyled justify-content-lg-center justify-content-start TrajanSB w-100 py-1 pt-lg-3 pb-lg-10 my-1">
 							<!-- <li class="g-sub-nav-blists mx-0 mx-lg-2">
