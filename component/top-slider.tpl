@@ -61,6 +61,12 @@
 			</div>-->
 			<div class="carousel-item active" data-bs-interval="3000">
 				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">
+					<img src="<{$assets}>/img/smgift2025_cp2_pc.webp" class="d-none d-lg-block w-100" alt="カタログギフト">
+					<img src="<{$assets}>/img/smgift2025_cp2_sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
+				</a>
+			</div>
+			<div class="carousel-item" data-bs-interval="3000">
+				<a href="https://www.saga-ishimaru.co.jp/?mode=grp&gid=2750355">
 					<img src="<{$assets}>/img/neo-slide-8-pc.webp" class="d-none d-lg-block w-100" alt="カタログギフト">
 					<img src="<{$assets}>/img/neo-slide-8-sp.webp" class="d-lg-none d-block w-100" alt="カタログギフト">
 				</a>
