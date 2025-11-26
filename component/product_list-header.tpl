@@ -75,11 +75,15 @@
 			<{elseif $smarty.get.gid == "2750355"}>
 				<div class="catalog-summary-body">
 					<div class="catalog-summary-inner">
-						<div class="catalog-summary-header">
-							<img src="<{$assets}>/img/cataloggift-detail-top-header-pc.png" alt="選べる佐賀牛カタログギフト 5000円 7000円 10000円 14000円">
+						<div>
+							<img src="<{$assets}>/img/about_catalog_pc_image1.webp" alt="選べる佐賀牛カタログギフト"><br>
+							<img src="<{$assets}>/img/about_catalog_pc_image2.webp" alt="選べる佐賀牛カタログギフト">
 						</div>
+						<!--<div class="catalog-summary-header">
+							<img src="<{$assets}>/img/cataloggift-detail-top-header-pc.png" alt="選べる佐賀牛カタログギフト 5000円 7000円 10000円 14000円">
+						</div>-->
 						<!-- SP -->
-						<div class="catalog-summary-catch-sp text-center">
+						<!--<div class="catalog-summary-catch-sp text-center">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-sp-catch.webp" alt="カタログギフトキャッチ画像">
 						</div>
 						<div class="catalog-summary-cooking-images-sp NotoSerifSB">
@@ -99,11 +103,11 @@
 								<span class="d-inline-block">※</span>
 								<span class="d-inline-block">受取主様が費用を負担いただくことはございません。</span>
 							</p>
-						</div>
+						</div>-->
 						<!-- //SP -->
 
 						<!-- PC -->
-						<div class="catalog-summary-cooking-images px-3 mb-1 d-flex flex-wrap justify-content-between">
+						<!--<div class="catalog-summary-cooking-images px-3 mb-1 d-flex flex-wrap justify-content-between">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-02.webp" alt="焼肉調理イメージ画像">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-03.webp" alt="ステーキ調理イメージ画像">
 							<img src="<{$assets}>/img/neo-catalog-cooking-img-pc-04.webp" alt="すき焼き調理イメージ画像">
@@ -177,7 +181,7 @@
 									<p class="">商品の受け取り。</p>
 								</div>
 							</div>
-						</div>
+						</div>-->
 						<!-- //PC -->
 					</div>
 				</div>
